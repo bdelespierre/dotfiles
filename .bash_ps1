@@ -1,0 +1,67 @@
+
+C_RESET='\e[0m'
+C_GREY='\e[90m'
+C_BLUE='\e[94m'
+C_GREEN='\e[92m'
+C_RED='\e[91m'
+C_ORANGE='\e[33m'
+C_BLINK='\e[5m'
+C_BOLD='\e[1m'
+
+function __enc #(string, prefix)
+{
+    echo "${C_GREY}[${2:-""}${C_RESET}$1${C_GREY}]${C_RESET}"
+}
+
+function __exit_status #(time, exit_status)
+{
+    local color
+    [[ 0 == "$2" || 130 == "$2" ]] && color=$C_GREEN || color=$C_RED
+    echo "$color${1:-'0'}s$C_RESET"
+}
+
+function __git_branch
+{
+    local color
+    local branch=$(git rev-parse --abbrev-ref HEAD 2>/dev/null)
+    `git diff --exit-code >/dev/null 2>&1` && color=$C_GREEN || color=$C_RED
+    [ -z $branch ] && color=$C_GREY
+    echo "${color}${branch:-"none"}${C_RESET}"
+}
+
+function __jobs_count {
+  local stopped=$(jobs -sp | wc -l)
+  local running=$(jobs -rp | wc -l)
+  ((running+stopped)) && echo $(__enc "${C_GREEN}${running}${C_GREY}-${C_ORANGE}${stopped}")
+}
+
+function __prompt_left
+{
+    [ "$(id -u)" = "0" ] && echo -n "$(__enc "${C_RED}${C_BLINK}root${C_RESET}") "
+    echo $(__enc "${C_BLUE}\u${C_GREY}@${C_BLUE}\h") $(__enc "${C_GREEN}\\t") $(__enc "${C_ORANGE}\w") $(__jobs_count)
+}
+
+function __prompt_right #(time, exit_status)
+{
+    echo $(__enc $(__git_branch) "git: ") $(__enc $(__exit_status $@) "took: ")
+}
+
+function prompt
+{
+    echo # new line
+    PS1=$(printf "%*s\r%s\n${C_GREY}>_${C_RESET}" "$(($(tput cols)+66))" "$(__prompt_right $@)" "$(__prompt_left)")
+}
+
+function __timer_start
+{
+    timer=${timer:-$SECONDS}
+}
+
+function __timer_stop
+{
+    prompt $(($SECONDS - $timer)) $?
+    unset timer
+}
+
+trap '__timer_start' DEBUG
+PROMPT_COMMAND=__timer_stop
