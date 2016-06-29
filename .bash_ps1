@@ -1,12 +1,16 @@
+#!/bin/bash
 
-C_RESET='\e[0m'
-C_GREY='\e[90m'
-C_BLUE='\e[94m'
-C_GREEN='\e[92m'
-C_RED='\e[91m'
-C_ORANGE='\e[33m'
-C_BLINK='\e[5m'
-C_BOLD='\e[1m'
+# get bash colors and styles here: http://misc.flogisoft.com/bash/tip_colors_and_formatting
+# get PS1 variables here: http://ss64.com/bash/syntax-prompt.html
+
+C_RESET='\[\e[0m\]'
+C_GREY='\[\e[37m\]'
+C_BLUE='\[\e[94m\]'
+C_GREEN='\[\e[92m\]'
+C_RED='\[\e[91m\]'
+C_ORANGE='\[\e[33m\]'
+C_BLINK='\[\e[5m\]'
+C_BOLD='\[\e[1m\]'
 
 function __enc #(string, prefix)
 {
@@ -29,7 +33,8 @@ function __git_branch
     echo "${color}${branch:-"none"}${C_RESET}"
 }
 
-function __jobs_count {
+function __jobs_count
+{
   local stopped=$(jobs -sp | wc -l)
   local running=$(jobs -rp | wc -l)
   ((running+stopped)) && echo $(__enc "${C_GREEN}${running}${C_GREY}-${C_ORANGE}${stopped}")
@@ -38,18 +43,26 @@ function __jobs_count {
 function __prompt_left
 {
     [ "$(id -u)" = "0" ] && echo -n "$(__enc "${C_RED}${C_BLINK}root${C_RESET}") "
-    echo $(__enc "${C_BLUE}\u${C_GREY}@${C_BLUE}\h") $(__enc "${C_GREEN}\\t") $(__enc "${C_ORANGE}\w") $(__jobs_count)
+    echo \
+        $(__enc "${C_BLUE}\u${C_GREY}@${C_BOLD}${C_BLUE}\h${C_RESET}") \
+        $(__enc "${C_ORANGE}\\l" "\\s: ") \
+        $(__enc "${C_GREY}\\d ${C_BOLD}${C_GREEN}\\t${C_RESET}") \
+        $(__enc "${C_ORANGE}\w") \
+        $(__jobs_count)
 }
 
 function __prompt_right #(time, exit_status)
 {
-    echo $(__enc $(__git_branch) "git: ") $(__enc $(__exit_status $@) "took: ")
+    echo \
+        $(__enc $(__git_branch) "git: ") \
+        $(__enc "${C_GREY}\\#/${C_ORANGE}\\!") \
+        $(__enc $(__exit_status $@) "took: ")
 }
 
 function prompt
 {
-    echo # new line
-    PS1=$(printf "%*s\r%s\n${C_GREY}>_${C_RESET}" "$(($(tput cols)+66))" "$(__prompt_right $@)" "$(__prompt_left)")
+    echo # newline (does not appear after clear)
+    PS1=$(printf "%*s\r%s\n${C_GREY}>_${C_RESET}" "$(($(tput cols)+171))" "$(__prompt_right $@)" "$(__prompt_left)")
 }
 
 function __timer_start
