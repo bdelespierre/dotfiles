@@ -11,7 +11,7 @@ esac
 # -----------------------------------------------------------------------------
 # OPTIONS
 # -----------------------------------------------------------------------------
-
+#
 # append to the history file, don't overwrite it
 shopt -s histappend
 
@@ -21,12 +21,12 @@ shopt -s checkwinsize
 
 # If set, the pattern "**" used in a pathname expansion context will
 # match all files and zero or more directories and subdirectories.
-#shopt -s globstar
+shopt -s globstar
 
 # -----------------------------------------------------------------------------
 # ENVIRONMENT VARIABLES
 # -----------------------------------------------------------------------------
-
+#
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
@@ -39,7 +39,7 @@ export MRD_CPUS="4"
 # -----------------------------------------------------------------------------
 # HISTORY
 # -----------------------------------------------------------------------------
-
+#
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
@@ -51,7 +51,7 @@ HISTFILESIZE=2000
 # -----------------------------------------------------------------------------
 # PS1
 # -----------------------------------------------------------------------------
-
+#
 PS1='\u@\h:\w\$ '
 
 if [ -f "$HOME/.bash_ps1" ]; then
@@ -61,7 +61,7 @@ fi
 # -----------------------------------------------------------------------------
 # COMPLETION
 # -----------------------------------------------------------------------------
-
+#
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
@@ -82,7 +82,7 @@ fi
 # -----------------------------------------------------------------------------
 # APPARIX
 # -----------------------------------------------------------------------------
-
+#
 if [ -f ~/.bash_apparix ]; then
     . ~/.bash_apparix
 fi
@@ -90,7 +90,7 @@ fi
 # -----------------------------------------------------------------------------
 # ALIASES
 # -----------------------------------------------------------------------------
-
+#
 if [ -f $HOME/.bash_aliases ]; then
     . $HOME/.bash_aliases
 fi
@@ -98,14 +98,14 @@ fi
 # -----------------------------------------------------------------------------
 # RANDOM STUFF
 # -----------------------------------------------------------------------------
-
+#
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 # -----------------------------------------------------------------------------
 # WELCOME
 # -----------------------------------------------------------------------------
-
+#
 function __is_available {
     type "$1" &> /dev/null
 }
@@ -113,3 +113,6 @@ function __is_available {
 if __is_available fortune && __is_available cowsay; then
     fortune | cowsay
 fi
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

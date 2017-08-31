@@ -1,7 +1,7 @@
 [core]
 	editor = vim
-	pager = less -RFXS -x4
-	
+	pager = diff-so-fancy | less --tabs=4 -RFX
+
 [user]
 	email = benjamin.delespierre@gmail.com
 	name = Benjamin Delespierre
@@ -50,3 +50,4 @@
 	update-master = "!sh -c 'currentBranch="$(git rev-parse --abbrev-ref HEAD)" && git checkout master && git pull && git checkout $currentBranch'" -
 	g = grep -C2 -p
 	manifest = "!sh -c 'git log --name-only --format=format: --diff-filter=A | sort -u | tail -n +2'" -
+	oops = "!sh -c 'git status --short && git add -A && git commit --amend --no-edit --no-verify && git push --force --no-verify'" -

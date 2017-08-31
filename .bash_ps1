@@ -40,6 +40,11 @@ function __jobs_count
   ((running+stopped)) && echo $(__enc "${C_GREEN}${running}${C_GREY}-${C_ORANGE}${stopped}")
 }
 
+function __history_num
+{
+    echo "${C_ORANGE}$(($(fc -l | tail -n 1 | awk '{print $1;}')+1))"
+}
+
 function __prompt_left
 {
     [ "$(id -u)" = "0" ] && echo -n "$(__enc "${C_RED}${C_BLINK}root${C_RESET}") "
@@ -55,25 +60,28 @@ function __prompt_right #(time, exit_status)
 {
     echo \
         $(__enc $(__git_branch) "git: ") \
-        $(__enc "${C_GREY}\\#/${C_ORANGE}\\!") \
+        $(__enc $(__history_num) "${PROMPT_NUM}/") \
         $(__enc $(__exit_status $@) "took: ")
 }
 
 function prompt
 {
+    [[ -z "${PROMPT_FIRST}" ]] && PROMPT_NUM="1" && PROMPT_FIRST="1"
+
     echo # newline (does not appear after clear)
-    PS1=$(printf "%*s\r%s\n${C_GREY}>_${C_RESET}" "$(($(tput cols)+171))" "$(__prompt_right $@)" "$(__prompt_left)")
+    PS1=$(printf "%*s\r%s\n${C_GREY}>_${C_RESET}" "$(($(tput cols)+162))" "$(__prompt_right $@)" "$(__prompt_left)")
 }
 
 function __timer_start
 {
-    timer=${timer:-$SECONDS}
+    PROMPT_TIMER=${PROMPT_TIMER:-$SECONDS}
+    [[ "$BASH_COMMAND" != "__timer_stop" ]] && ((PROMPT_NUM++))
 }
 
 function __timer_stop
 {
-    prompt $(($SECONDS - $timer)) $?
-    unset timer
+    prompt $(($SECONDS - $PROMPT_TIMER)) $?
+    unset PROMPT_TIMER
 }
 
 trap '__timer_start' DEBUG
