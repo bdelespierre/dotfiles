@@ -34,3 +34,5 @@ fi
 if [ -d "$HOME/.rvm/bin" ]; then
     PATH="$PATH:$HOME/.rvm/bin"
 fi
+
+export PATH="/usr/local/heroku/bin:$PATH"

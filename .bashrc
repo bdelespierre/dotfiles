@@ -114,5 +114,3 @@ if __is_available fortune && __is_available cowsay; then
     fortune | cowsay
 fi
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
