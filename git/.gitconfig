@@ -18,7 +18,7 @@
 	ci = commit
 	rb = rebase
 	rbi = rebase -i
-	crb = rebase --continue
+	rbc = rebase --continue
 	ru = remote update
 	br = branch -vv
 	b = rev-parse --abbrev-ref HEAD
