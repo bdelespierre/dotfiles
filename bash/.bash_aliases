@@ -3,7 +3,6 @@
 # ONE CHAR
 # -----------------------------------------------------------------------------
 #
-alias b='bower'
 alias c='composer'
 alias e='echo -e'
 alias g='git'
@@ -14,6 +13,7 @@ alias m='mysql -h localhost -p'
 alias n='node'
 alias p='/usr/bin/env php'
 alias t='tmux'
+alisa y='yokadi --'
 alias v='vim'
 
 # -----------------------------------------------------------------------------
@@ -47,6 +47,7 @@ alias gru='git remote update && git reset --hard upstream/`git-current-branch`'
 alias ta='tmux a -t'
 alias tn='tmux new -s'
 alias tls='tmux ls'
+alias tequila='tmux ls | grep : | cut -d: -f1 | xargs tmux kill-session -t'
 
 # -----------------------------------------------------------------------------
 # PHP
@@ -54,6 +55,7 @@ alias tls='tmux ls'
 #
 alias lint='find . -name "*.php" -print0 | xargs -0 -n1 -P8  php -l | grep -v "No syntax errors detected"'
 alias pa='php artisan'
+alias tinker='php artisan tinker'
 
 # -----------------------------------------------------------------------------
 # VAGRANT
@@ -92,3 +94,4 @@ alias serve='python -m SimpleHTTPServer'
 alias wclone='wget --random-wait -r -p -b -S -k -e robots=off -U mozilla -a /tmp/wclone.log --limit-rate=100k'
 alias clock='while sleep 0.5;do tput sc;tput cup 0 $(($(tput cols)-10)); tput setaf 7; date +"[%T]";tput rc;done &'
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias clipboard='xsel --clipboard'

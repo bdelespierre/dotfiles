@@ -17,15 +17,11 @@ fi
 PATH="$PATH:./"
 
 # set PATH so it includes user's private bin if it exists
-if [ -d "$HOME/bin" ] ; then
-    PATH="$PATH:$HOME/bin"
+if [ -d "$HOME/.bin" ] ; then
+    PATH="$PATH:$HOME/.bin"
 fi
 
 # set PATH so it includes composer's global binaries if it exists
-if [ -d "$HOME/.config/composer/vendor/bin" ] ; then
-    PATH="$PATH:$HOME/.config/composer/vendor/bin"
-fi
-
 if [ -d "$HOME/.composer/vendor/bin" ] ; then
     PATH="$PATH:$HOME/.composer/vendor/bin"
 fi
@@ -35,4 +31,4 @@ if [ -d "$HOME/.rvm/bin" ]; then
     PATH="$PATH:$HOME/.rvm/bin"
 fi
 
-export PATH="/usr/local/heroku/bin:$PATH"
+export PATH
