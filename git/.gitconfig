@@ -41,14 +41,14 @@
 	dfc = diff --cached
 	dfw = diff -w
 	ada = add -A
-	adaci = !git add -A && git commit'
-	adame = !git add -A && git commit --amend'
-	addw = !git diff -w --no-color \"$@\" | git apply --cached --ignore-whitespace'
-	fclean = !git clean -df && git submodule update --recursive'
+	adaci = !git add -A && git commit
+	adame = !git add -A && git commit --amend
+	addw = !git diff -w --no-color \"$@\" | git apply --cached --ignore-whitespace
+	fclean = !git clean -df && git submodule update --recursive
 	hreset = reset --hard
 	merge-master = "!sh -c 'ultra-merge origin master'"
 	update-master = !git checkout master && git pull && git checkout -
 	g = grep -C2 -p
-	manifest = !git log --name-only --format=format: --diff-filter=A | sort -u | tail -n +2'
-	oops = !git status --short && git add -A && git commit --amend --no-edit --no-verify && git push --force --no-verify'
-	wip = !git add -A && git commit -m "wip" && git push'
+	manifest = !git log --name-only --format=format: --diff-filter=A | sort -u | tail -n +2
+	oops = !git status --short && git add -A && git commit --amend --no-edit --no-verify && git push --force --no-verify
+	wip = !git ada && git commit -m "wip" && git push
