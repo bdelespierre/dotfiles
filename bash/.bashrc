@@ -110,7 +110,7 @@ function __is_available {
     type "$1" &> /dev/null
 }
 
-if __is_available fortune && __is_available cowsay; then
-    fortune | cowsay
+if __is_available fortune && __is_available cowsay && __is_available lolcat; then
+    fortune | cowsay -f unipony-smaller | lolcat
 fi
 
