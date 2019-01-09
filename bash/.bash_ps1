@@ -2,25 +2,47 @@
 
 # get bash colors and styles here: http://misc.flogisoft.com/bash/tip_colors_and_formatting
 # get PS1 variables here: http://ss64.com/bash/syntax-prompt.html
-
 C_RESET='\[\e[0m\]'
-C_GREY='\[\e[37m\]'
-C_BLUE='\[\e[94m\]'
-C_GREEN='\[\e[92m\]'
-C_RED='\[\e[91m\]'
-C_ORANGE='\[\e[33m\]'
 C_BLINK='\[\e[5m\]'
 C_BOLD='\[\e[1m\]'
+C_BLACK='\[\e[30m\]'
+C_RED='\[\e[31m\]'
+C_GREEN='\[\e[32m\]'
+C_YELLOW='\[\e[33m\]'
+C_BLUE='\[\e[34m\]'
+C_MAGENTA='\[\e[35m\]'
+C_CYAN='\[\e[36m\]'
+C_LIGHT_GRAY='\[\e[37m\]'
+C_DEFAULT='\[\e[39m\]'
+C_DARK_GRAY='\[\e[90m\]'
+C_LIGHT_RED='\[\e[91m\]'
+C_LIGHT_GREEN='\[\e[92m\]'
+C_LIGHT_YELLOW='\[\e[93m\]'
+C_LIGHT_BLUE='\[\e[94m\]'
+C_LIGHT_MAGENTA='\[\e[95m\]'
+C_LIGHT_CYAN='\[\e[96m\]'
+C_WHITE='\[\e[97m\]'
+
+# generate a random color: https://www.commandlinefu.com/commands/view/12548/generate-a-random-text-color-in-bash
+# C_PRIMARY="\[\e[3$(( $RANDOM * 6 / 32767 + 1 ))m\]"
+# C_SECONDARY="\[\e[3$(( $RANDOM * 6 / 32767 + 1 ))m\]"
+
+# palette
+C_PRIMARY="${C_YELLOW}"
+C_SECONDARY="${C_LIGHT_BLUE}"
+C_MUTED="${C_BLACK}"
+C_OK="${C_GREEN}"
+C_NOK="${C_RED}"
 
 function __enc #(string, prefix)
 {
-    echo "${C_GREY}[${2:-""}${C_RESET}$1${C_GREY}]${C_RESET}"
+    echo "${C_MUTED}[${2:-""}${C_RESET}$1${C_MUTED}]${C_RESET}"
 }
 
 function __exit_status #(time, exit_status)
 {
     local color
-    [[ 0 == "$2" || 130 == "$2" ]] && color=$C_GREEN || color=$C_RED
+    [[ 0 == "$2" || 130 == "$2" ]] && color=$C_OK || color=$C_NOK
     echo "$color${1:-'0'}s$C_RESET"
 }
 
@@ -28,8 +50,8 @@ function __git_branch
 {
     local color
     local branch=$(git rev-parse --abbrev-ref HEAD 2>/dev/null)
-    `git diff --exit-code >/dev/null 2>&1` && color=$C_GREEN || color=$C_RED
-    [ -z $branch ] && color=$C_GREY
+    `git diff --exit-code >/dev/null 2>&1` && color=$C_OK || color=$C_NOK
+    [ -z $branch ] && color=$C_MUTED
     echo "${color}${branch:-"none"}${C_RESET}"
 }
 
@@ -37,22 +59,23 @@ function __jobs_count
 {
   local stopped=$(jobs -sp | wc -l)
   local running=$(jobs -rp | wc -l)
-  ((running+stopped)) && echo $(__enc "${C_GREEN}${running}${C_GREY}-${C_ORANGE}${stopped}")
+  ((running+stopped)) && echo $(__enc "${C_OK}${running}${C_MUTED}-${C_SECONDARY}${stopped}")
 }
 
 function __history_num
 {
-    echo "${C_ORANGE}$(($(fc -l | tail -n 1 | awk '{print $1;}')+1))"
+    echo "${C_PRIMARY}$(($(fc -l | tail -n 1 | awk '{print $1;}')+1))"
 }
 
 function __prompt_left
 {
-    [ "$(id -u)" = "0" ] && echo -n "$(__enc "${C_RED}${C_BLINK}root${C_RESET}") "
+    local shells=$(($(ls /dev/pts | wc -l) - 2))
+    [ "$(id -u)" = "0" ] && echo -n "$(__enc "${C_NOK}${C_BLINK}root${C_RESET}") "
     echo \
-        $(__enc "${C_BLUE}\u${C_GREY}@${C_BOLD}${C_BLUE}\h${C_RESET}") \
-        $(__enc "${C_ORANGE}\\l" "\\s: ") \
-        $(__enc "${C_GREY}\\d ${C_BOLD}${C_GREEN}\\t${C_RESET}") \
-        $(__enc "${C_ORANGE}\w") \
+        $(__enc "${C_SECONDARY}\u${C_MUTED}@${C_BOLD}${C_SECONDARY}\h${C_RESET}") \
+        $(__enc "${C_PRIMARY}\\l${C_MUTED}/${shells}" "\\s: ") \
+        $(__enc "${C_MUTED}\\d ${C_BOLD}${C_SECONDARY}\\t${C_RESET}") \
+        $(__enc "${C_PRIMARY}\w") \
         $(__jobs_count)
 }
 
@@ -69,7 +92,7 @@ function prompt
     [[ -z "${PROMPT_FIRST}" ]] && PROMPT_NUM="1" && PROMPT_FIRST="1"
 
     echo # newline (does not appear after clear)
-    PS1=$(printf "%*s\r%s\n${C_GREY}>_${C_RESET}" "$(($(tput cols)+162))" "$(__prompt_right $@)" "$(__prompt_left)")
+    PS1=$(printf "%*s\r%s\n${C_MUTED}>_${C_RESET}" "$(($(tput cols)+162))" "$(__prompt_right $@)" "$(__prompt_left)")
 }
 
 function __timer_start

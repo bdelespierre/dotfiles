@@ -58,6 +58,8 @@ alias tequila='tmux ls | grep : | cut -d: -f1 | xargs tmux kill-session -t'
 alias lint='find . -name "*.php" -print0 | xargs -0 -n1 -P8  php -l | grep -v "No syntax errors detected"'
 alias pa='php artisan'
 alias tinker='php artisan tinker'
+alias serve='php artisan serve >/dev/null 2>&1 &'
+alias logs='tail -F storage/logs/laravel.log'
 
 # -----------------------------------------------------------------------------
 # VAGRANT
@@ -102,7 +104,7 @@ alias -- -='cd -'
 alias less='less -R'
 alias path='echo $PATH | sed -e "s/:/\n/g" -e "s|${HOME}|~|g"'
 alias lurk-more='history -c && clear && printf "\e[3J"'
-alias serve='python -m SimpleHTTPServer' # e.g. 'serve 8080'
+alias python-server='python -m SimpleHTTPServer 8080'
 alias wclone='wget --random-wait -r -p -b -S -k -e robots=off -U mozilla -a /tmp/wclone.log --limit-rate=100k'
 alias clock='while sleep 0.5;do tput sc;tput cup 0 $(($(tput cols)-10)); tput setaf 7; date +"[%T]";tput rc;done &'
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
