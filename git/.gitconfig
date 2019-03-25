@@ -48,6 +48,7 @@
 	hreset = reset --hard
 	merge-master = "!sh -c 'ultra-merge origin master'"
 	update-master = !git checkout master && git pull && git checkout -
+	update-develop = !git checkout develop && git pull && git checkout -
 	g = grep -C2 -p
 	manifest = !git log --name-only --format=format: --diff-filter=A | sort -u | tail -n +2
 	oops = !git status --short && git add -A && git commit --amend --no-edit --no-verify && git push --force --no-verify

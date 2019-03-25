@@ -23,14 +23,11 @@ C_LIGHT_MAGENTA='\[\e[95m\]'
 C_LIGHT_CYAN='\[\e[96m\]'
 C_WHITE='\[\e[97m\]'
 
-# generate a random color: https://www.commandlinefu.com/commands/view/12548/generate-a-random-text-color-in-bash
-# C_PRIMARY="\[\e[3$(( $RANDOM * 6 / 32767 + 1 ))m\]"
-# C_SECONDARY="\[\e[3$(( $RANDOM * 6 / 32767 + 1 ))m\]"
-
 # palette
-C_PRIMARY="${C_YELLOW}"
-C_SECONDARY="${C_LIGHT_BLUE}"
-C_MUTED="${C_BLACK}"
+C_COLORS=(${C_RED} ${C_GREEN} ${C_YELLOW} ${C_BLUE} ${C_MAGENTA} ${C_CYAN} ${C_WHITE} ${C_DARK_GRAY})
+C_PRIMARY=${C_COLORS[$RANDOM % ${#C_COLORS[@]} ]}
+C_SECONDARY=${C_COLORS[$RANDOM % ${#C_COLORS[@]} ]}
+C_MUTED="${C_LIGHT_GRAY}"
 C_OK="${C_GREEN}"
 C_NOK="${C_RED}"
 
