@@ -30,12 +30,6 @@ shopt -s globstar
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
-# for Vagrant
-export MRD_NFS=true
-export MRD_MEMORY="8192"
-export MRD_EXEC_CAP="100"
-export MRD_CPUS="4"
-
 # -----------------------------------------------------------------------------
 # HISTORY
 # -----------------------------------------------------------------------------
@@ -114,3 +108,7 @@ if __is_available fortune && __is_available cowsay && __is_available lolcat; the
     fortune | cowsay -f unipony-smaller | lolcat
 fi
 
+# silently update the dotfiles in background
+if __is_available git && [ -d $HOME/.dotfiles ]; then
+    (cd $HOME/.dotfiles && git pull >/dev/null 2>&1 &)
+fi

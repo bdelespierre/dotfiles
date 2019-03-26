@@ -62,13 +62,6 @@ alias serve='php artisan serve >/dev/null 2>&1 &'
 alias logs='tail -F storage/logs/laravel.log'
 
 # -----------------------------------------------------------------------------
-# VAGRANT
-# -----------------------------------------------------------------------------
-#
-alias vagrant-restart='cd ~/Workspace/puppetmaster-mrd && vagrant halt && vagrant up && cd -'
-alias vagrant-fpm-restart='ssh ma-residence.dev sudo service php5-fpm restart'
-
-# -----------------------------------------------------------------------------
 # DOCKER
 # -----------------------------------------------------------------------------
 #
