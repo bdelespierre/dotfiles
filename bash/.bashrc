@@ -109,6 +109,6 @@ if __is_available fortune && __is_available cowsay && __is_available lolcat; the
 fi
 
 # silently update the dotfiles in background
-if __is_available git && [ -d $HOME/.dotfiles ]; then
+if __is_available git && [ -d $HOME/.dotfiles ] && [[ $- == *i* ]]; then
     (cd $HOME/.dotfiles && git pull >/dev/null 2>&1 &)
 fi

@@ -55,8 +55,9 @@ alias tequila='tmux ls | grep : | cut -d: -f1 | xargs tmux kill-session -t'
 # PHP
 # -----------------------------------------------------------------------------
 #
-alias lint='find . -name "*.php" -print0 | xargs -0 -n1 -P8  php -l | grep -v "No syntax errors detected"'
+alias lint='find . -path ./vendor -prune -o -name '*.php' -print0 | xargs -0 -n1 -P8  php -l > /dev/null'
 alias pa='php artisan'
+alias pu='vendor/bin/phpunit --stop-on-error --stop-on-failure'
 alias tinker='php artisan tinker'
 alias serve='php artisan serve >/dev/null 2>&1 &'
 alias logs='tail -F storage/logs/laravel.log'

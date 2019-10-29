@@ -13,8 +13,8 @@ if [ -n "$BASH_VERSION" ] && [ -f "$HOME/.bashrc" ]; then
     source "$HOME/.bashrc"
 fi
 
-# set PATH so it includes current directory
-PATH="$PATH:./"
+# set PATH so it includes current directory and vendor/bin (for PHP projects)
+PATH="$PATH:./:vendor/bin"
 
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/.bin" ] ; then
