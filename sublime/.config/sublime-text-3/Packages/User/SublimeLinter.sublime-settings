@@ -1,0 +1,9 @@
+// SublimeLinter Settings - User
+{
+    "linters": {
+        "phpcs": {
+            "excludes": "*.blade.php",
+            "args": "--standard=PSR2"
+        }
+    }
+}
