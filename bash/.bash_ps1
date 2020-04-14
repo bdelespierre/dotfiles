@@ -45,11 +45,20 @@ function __exit_status #(time, exit_status)
 
 function __git_branch
 {
-    local color
+    local color adddd removed
+    local acolor=$C_MUTED
+    local rcolor=$C_MUTED
     local branch=$(git rev-parse --abbrev-ref HEAD 2>/dev/null)
     `git diff --exit-code >/dev/null 2>&1` && color=$C_OK || color=$C_NOK
-    [ -z $branch ] && color=$C_MUTED
-    echo "${color}${branch:-"none"}${C_RESET}"
+    if [ -z $branch ]; then
+        color=$C_MUTED
+    else
+        added=$(git diff --numstat | awk '{print $1}' | paste -sd+ | bc)
+        [[ $added -gt 0 ]] && acolor=$C_GREEN
+        removed=$(git diff --numstat | awk '{print $2}' | paste -sd+ | bc)
+        [[ $removed -gt 0 ]] && rcolor=$C_RED
+    fi
+    echo "${color}${branch:-"none"}${C_MUTED}:${acolor}+${added:-0}${C_MUTED}:${rcolor}-${removed:-0}${C_RESET}"
 }
 
 function __jobs_count
@@ -89,7 +98,7 @@ function prompt
     [[ -z "${PROMPT_FIRST}" ]] && PROMPT_NUM="1" && PROMPT_FIRST="1"
 
     echo # newline (does not appear after clear)
-    PS1=$(printf "%*s\r%s\n${C_MUTED}>_${C_RESET}" "$(($(tput cols)+162))" "$(__prompt_right $@)" "$(__prompt_left)")
+    PS1=$(printf "%*s\r%s\n${C_MUTED}>_${C_RESET}" "$(($(tput cols)+202))" "$(__prompt_right $@)" "$(__prompt_left)")
 }
 
 function __timer_start
