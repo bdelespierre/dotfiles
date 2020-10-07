@@ -1,2 +1,2 @@
 #!/bin/bash
-$1 && paplay "$(dirname $0)/success.wav" || paplay "$(dirname $0)/fail.wav"
+$@ && paplay "$(dirname $0)/success.wav" || paplay "$(dirname $0)/fail.wav"

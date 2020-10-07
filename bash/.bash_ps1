@@ -31,9 +31,15 @@ C_MUTED="${C_DARK_GRAY}"
 C_OK="${C_GREEN}"
 C_NOK="${C_RED}"
 
+# other
+ENC_SEPARATOR='·'
+ENC_OPEN=''
+ENC_CLOSE=''
+ENC_ADJUST=165
+
 function __enc #(string, prefix)
 {
-    echo "${C_MUTED}[${2:-""}${C_RESET}$1${C_MUTED}]${C_RESET}"
+    echo "${C_MUTED}${ENC_OPEN}${2:-""}${C_RESET}$1${C_MUTED}${ENC_CLOSE}${C_RESET}"
 }
 
 function __exit_status #(time, exit_status)
@@ -52,13 +58,8 @@ function __git_branch
     `git diff --exit-code >/dev/null 2>&1` && color=$C_OK || color=$C_NOK
     if [ -z $branch ]; then
         color=$C_MUTED
-    else
-        added=$(git diff --numstat | awk '{print $1}' | paste -sd+ | bc)
-        [[ $added -gt 0 ]] && acolor=$C_GREEN
-        removed=$(git diff --numstat | awk '{print $2}' | paste -sd+ | bc)
-        [[ $removed -gt 0 ]] && rcolor=$C_RED
     fi
-    echo "${color}${branch:-"none"}${C_MUTED}:${acolor}+${added:-0}${C_MUTED}:${rcolor}-${removed:-0}${C_RESET}"
+    echo "${color}${branch:-"none"}${C_RESET}"
 }
 
 function __jobs_count
@@ -79,7 +80,7 @@ function __prompt_left
     [ "$(id -u)" = "0" ] && echo -n "$(__enc "${C_NOK}${C_BLINK}root${C_RESET}") "
     echo \
         $(__enc "${C_SECONDARY}\u${C_MUTED}@${C_BOLD}${C_SECONDARY}\h${C_RESET}") \
-        $(__enc "${C_PRIMARY}\\l${C_MUTED}/${shells}" "\\s: ") \
+        $(__enc "${C_PRIMARY}\\l${C_MUTED}/${shells}" "\\s${ENC_SEPARATOR}") \
         $(__enc "${C_MUTED}\\d ${C_BOLD}${C_SECONDARY}\\t${C_RESET}") \
         $(__enc "${C_PRIMARY}\w") \
         $(__jobs_count)
@@ -88,9 +89,9 @@ function __prompt_left
 function __prompt_right #(time, exit_status)
 {
     echo \
-        $(__enc $(__git_branch) "git: ") \
-        $(__enc $(__history_num) "${PROMPT_NUM}/") \
-        $(__enc $(__exit_status $@) "took: ")
+        $(__enc $(__git_branch) "git${ENC_SEPARATOR}") \
+        $(__enc $(__history_num) "hist${ENC_SEPARATOR}${PROMPT_NUM}/") \
+        $(__enc $(__exit_status $@) "took${ENC_SEPARATOR}")
 }
 
 function prompt
@@ -98,7 +99,7 @@ function prompt
     [[ -z "${PROMPT_FIRST}" ]] && PROMPT_NUM="1" && PROMPT_FIRST="1"
 
     echo # newline (does not appear after clear)
-    PS1=$(printf "%*s\r%s\n${C_MUTED}>_${C_RESET}" "$(($(tput cols)+202))" "$(__prompt_right $@)" "$(__prompt_left)")
+    PS1=$(printf "%*s\r%s\n${C_MUTED}>_${C_RESET}" "$(($(tput cols)+${ENC_ADJUST}))" "$(__prompt_right $@)" "$(__prompt_left)")
 }
 
 function __timer_start
