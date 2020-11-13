@@ -31,17 +31,6 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
 # -----------------------------------------------------------------------------
-# GIT
-# -----------------------------------------------------------------------------
-
-alias git-current-branch='git rev-parse --abbrev-ref HEAD'
-alias gcb='git-current-branch'
-alias gpu='git pull upstream `git-current-branch`'
-alias gru='git remote update && git reset --hard upstream/`git-current-branch`'
-alias gpo='git pull origin `git-current-branch`'
-alias gro='git remote update && git reset --hard origin/`git-current-branch`'
-
-# -----------------------------------------------------------------------------
 # TMUX
 # -----------------------------------------------------------------------------
 #
@@ -83,11 +72,11 @@ alias hbuild='heroky buildpacks'
 # AWK
 # -----------------------------------------------------------------------------
 #
-alias col1='awk '"'"'{print $1}'"'"''
-alias col2='awk '"'"'{print $2}'"'"''
-alias col3='awk '"'"'{print $3}'"'"''
-alias col4='awk '"'"'{print $4}'"'"''
-alias col5='awk '"'"'{print $5}'"'"''
+alias col1="awk '{print \$1}'"
+alias col2="awk '{print \$2}'"
+alias col3="awk '{print \$3}'"
+alias col4="awk '{print \$4}'"
+alias col5="awk '{print \$5}'"
 
 # -----------------------------------------------------------------------------
 # MISC
@@ -95,7 +84,7 @@ alias col5='awk '"'"'{print $5}'"'"''
 #
 alias ..='cd ..'
 alias -- -='cd -'
-alias less='less -R'
+alias less='less -r'
 alias path='echo $PATH | sed -e "s/:/\n/g" -e "s|${HOME}|~|g"'
 alias lurk-more='history -c && clear && printf "\e[3J"'
 alias python-server='python -m SimpleHTTPServer 8080'
