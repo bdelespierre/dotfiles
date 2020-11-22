@@ -1,0 +1,432 @@
+ Dungeon Crawl Stone Soup version 0.24.0 (tiles) character file.
+
+Game seed: 12141535816408477290, levelgen mode: deterministic
+
+2515 Arcades the Fighter (level 9, -1/82 HPs)
+             Began as a Minotaur Berserker on Nov 15, 2020.
+             Was an Elder of Trog.
+             Slain by a wolf (5 damage)
+             ... on level 8 of the Dungeon.
+             The game lasted 00:16:02 (7701 turns).
+
+Arcades the Fighter (Minotaur Berserker)            Turns: 7701, Time: 00:16:02
+
+Health: -1/82      AC: 10    Str: 25    XL:     9   Next: 29%
+Magic:  8/8        EV: 11    Int:  4    God:    Trog [****..]
+Gold:   275        SH:  0    Dex: 10    Spells: 8/8 levels left
+
+rFire    . . .     SeeInvis .   x - +1 mace (crush)
+rCold    . . .     Gourm    .   (no shield)
+rNeg     . . .     Faith    .   H - +0 chain mail (curse)
+rPois    .         Spirit   .   (helmet restricted)
+rElec    .         Reflect  .   (no cloak)
+rCorr    .         Harm     .   (no gloves)
+MR       .....                  (no boots)
+Stlth    ..........             (no amulet)
+HPRegen  0.23/turn              (no ring)
+MPRegen  0.11/turn              (no ring)
+
+@: berserk cooldown, slowed, very slow
+A: retaliatory headbutt, horns 2
+a: Berserk, Trog's Hand, Brothers in Arms, Renounce Religion
+
+
+You were on level 8 of the Dungeon.
+You worshipped Trog.
+Trog was greatly pleased with you.
+You were very hungry.
+
+You visited 1 branch of the dungeon, and saw 8 of its levels.
+
+You collected 275 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ a - a +0 hand axe
+ x - a +1 mace of crushing (weapon)
+   (You took it off an orc on level 3 of the Dungeon)
+ C - a +2 shortbow of flaming
+   (You took it off a centaur on level 5 of the Dungeon)
+Missiles
+ o - 226 stones
+ r - 17 poisoned darts (quivered)
+ w - 5 silver javelins
+ D - 99 arrows
+ G - 4 boomerangs
+Armour
+ b - a +0 animal skin
+ s - a +0 scale mail
+   (You found it on level 2 of the Dungeon)
+ B - a +0 ring mail of magic resistance
+   (You found it on level 5 of the Dungeon)
+ H - a cursed +0 chain mail (worn)
+   (You found it on level 6 of the Dungeon)
+Jewellery
+ m - an uncursed ring of ice {unknown}
+   (You found it on level 1 of the Dungeon)
+Wands
+ t - a wand of polymorph (18)
+   (You found it on level 3 of the Dungeon)
+ z - a wand of disintegration (11)
+   (You found it on level 5 of the Dungeon)
+ J - a wand of paralysis (8)
+   (You found it on level 7 of the Dungeon)
+Scrolls
+ g - 12 scrolls of remove curse {unknown}
+ h - a scroll of enchant weapon {unknown}
+ i - 5 scrolls of identify {unknown}
+ k - 3 scrolls of teleportation {unknown}
+ q - a scroll of enchant armour {unknown}
+ u - a scroll of random uselessness {unknown}
+ y - a scroll of immolation {unknown}
+ A - a scroll of fog {unknown}
+ I - a scroll of acquirement {unknown}
+Potions
+ d - 4 potions of curing {unknown}
+ e - a potion of berserk rage {unknown}
+ f - 6 potions of heal wounds {unknown}
+ j - 2 potions of mutation {unknown}
+ l - 4 potions of agility {unknown}
+ n - 3 potions of ambrosia {unknown}
+ p - a potion of flight {unknown}
+ v - 4 potions of degeneration {unknown}
+ E - 2 potions of cancellation {unknown}
+ F - 3 potions of brilliance {unknown}
+Comestibles
+ c - 7 rations
+
+
+   Skills:
+ + Level 8.4 Fighting
+ + Level 8.3 Axes
+ + Level 7.9 Armour
+ + Level 7.2 Dodging
+
+
+You had 8 spell levels left.
+You didn't know any spells.
+Your spell library was empty.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (8/15)             Temple (0/1) D:4         
+  Lair: D:8-11      
+
+Altars:
+Dithmenos
+Okawaru
+Qazlal
+Yredelemnul
+
+Shops:
+D:7 }
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+You hit the hound.
+The sky beast hits you but does no damage.
+The hound stops to sniff the ground.
+The hound misses you. You furiously retaliate! You headbutt the hound!
+You kill the hound!
+Trog accepts your kill.
+The hound barely misses you.
+The sky beast flickers out of sight!
+Deactivating autopickup; reactivate with Ctrl-A.
+Something hits you. Something shocks you.
+* * * LOW HITPOINT WARNING * * *
+The hound pauses to sniff the ground.
+The hound closely misses you.
+You take 8 damage, and have 24/82 hp.
+The hound bites you but does no damage. Something hits you.
+* * * LOW HITPOINT WARNING * * *
+Something shocks you.
+* * * LOW HITPOINT WARNING * * *
+The hound bites you.
+* * * LOW HITPOINT WARNING * * *
+You take 9 damage, and have 15/82 hp.
+You miss something. You headbutt something!
+A hound comes into view.
+The hound misses you. A sky beast appears from thin air!
+Reactivating autopickup.
+The sky beast hits you but does no damage.
+The electric eel shoots out a bolt of lightning at you!
+The bolt of electricity hits you!
+* * * LOW HITPOINT WARNING * * *
+The sky beast closely misses you. You furiously retaliate!
+You headbutt the sky beast, but do no damage.
+The hound bites you but does no damage.
+The hound barks!
+You hit the sky beast. Your headbutt misses the sky beast. The hound barely
+misses you.
+The sky beast hits you but does no damage.
+You take 7 damage, and have 8/82 hp.
+The hound misses you.
+The sky beast hits you but does no damage.
+The hound bites you.
+* * * LOW HITPOINT WARNING * * *
+You take 2 damage, and have 6/82 hp.
+The hound barely misses you. The sky beast closely misses you.
+You barely miss the hound. The hound misses you. You furiously retaliate! You
+headbutt the hound!
+You kill the hound!
+Trog accepts your kill.
+The hound bites you.
+* * * LOW HITPOINT WARNING * * *
+The sky beast barely misses you.
+You take 1 damage, and have 5/82 hp.
+A red film seems to cover your vision as you go berserk!
+You feel yourself moving faster! You feel mighty!
+You are feeling very hungry.
+The hound bites you but does no damage. The sky beast hits you.
+* * * LOW HITPOINT WARNING * * *
+The sky beast shocks you.
+* * * LOW HITPOINT WARNING * * *
+You now have 1/123 hp.
+You sock the hound!
+You kill the hound!
+Trog accepts your kill.
+The sky beast flickers out of sight!
+Deactivating autopickup; reactivate with Ctrl-A.
+Something hits you but does no damage.
+You miss something. You headbutt something!
+You feel the power of Trog in you as your rage grows.
+Trog accepts your kill.
+Reactivating autopickup.
+You feel a bit more experienced.
+You feel a strong urge to attack something.
+You feel your anger nearly subside.
+Your blood rage is quickly leaving you. You are no longer berserk.
+You are exhausted.
+You feel yourself slow down.
+You now have 1/82 hp.
+You start resting.
+A wolf comes into view.
+You regained 9 hp, and now have 10/82 hp.
+Throwing (i - inventory. (/) - cycle) r - 19 poisoned darts (quivered)
+Aim: a wolf (hasn't noticed you)
+You throw a poisoned dart.
+The poisoned dart closely misses the wolf.
+The wolf howls!
+Throwing (i - inventory. (/) - cycle) r - 18 poisoned darts (quivered)
+Aim: a wolf
+You throw a poisoned dart.
+The poisoned dart closely misses the wolf.
+The wolf bites you but does no damage.
+Throwing (i - inventory. (/) - cycle) r - 17 poisoned darts (quivered)
+Aim: a wolf
+Okay, then.
+Okay, then.
+You hit the wolf. The wolf closely misses you. The wolf bites you.
+* * * LOW HITPOINT WARNING * * *
+The wolf bites you but does no damage.
+You take 4 damage, and have 6/82 hp.
+You thump the wolf! The wolf bites you but does no damage. x2; The wolf bites
+you.
+* * * LOW HITPOINT WARNING * * *
+You take 3 damage, and have 3/82 hp.
+You barely miss the wolf. The wolf closely misses you. You furiously retaliate!
+You headbutt the wolf. The wolf bites you.
+You die...
+
+   #...#†######.....##
+   #.....# #....<...+
+   #.....# #.##†....#
+   #.....###+#.....##
+   ##....##.....####
+    #....##...>.+
+  ###....##.....#
+###......(......#
+#....##...(.....#
+#....##.........#
+#.........#......
+#.........#.......
+#...h†.......≈.≈
+#..@.†...((..$≈≈
+#.........(...≈≈
+#....#####.(..≈≈
+##...#    ..(;≈≈
+ #...#     ..((≈
+ #...#     .....
+ #...#      ..;≈
+ #...#      ....
+ #####
+
+
+You could see a wolf.
+
+Vanquished Creatures
+  A troll (D:8)
+  The ghost of Vouh the Chopper, an amateur MiBe of Trog (D:4)
+  A wyvern (D:7)
+  3 ice beasts
+  2 sky beasts
+  2 phantoms
+  An ogre (D:5)
+  3 centaurs
+  A bullfrog (D:6)
+  A scorpion (D:4)
+  2 crimson imps
+  A bullfrog zombie (D:6)
+  A gnoll shaman (D:4)
+  2 centaur skeletons
+  7 hounds
+  2 orc priests (D:6)
+  A bullfrog skeleton (D:4)
+  An iguana (D:6)
+  4 orc wizards
+  A worker ant (D:4)
+  10 gnolls
+  12 adders
+  An ooze (D:4)
+  An adder zombie (D:5)
+  5 worms
+  3 dart slugs
+  3 leopard geckos
+  16 orcs
+  4 giant cockroaches
+  4 goblins
+  5 hobgoblins
+  12 jackals
+  4 quokkas
+  A ball python (D:2)
+  7 bats
+  2 jackal skeletons
+  8 kobolds
+  12 rats
+148 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Arcades the Minotaur Berserker began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   125 | D:1      | Reached XP level 2. HP: 22/27 MP: 1/1
+   436 | D:1      | Reached ** piety under Trog
+   436 | D:1      | Reached skill level 4 in Fighting
+   436 | D:1      | Reached skill level 4 in Axes
+   449 | D:1      | Reached skill level 3 in Armour
+   496 | D:1      | Reached XP level 3. HP: 30/33 MP: 2/2
+  1195 | D:2      | Reached skill level 3 in Dodging
+  1195 | D:2      | Reached XP level 4. HP: 34/41 MP: 3/3
+  2042 | D:3      | Reached XP level 5. HP: 47/47 MP: 4/4
+  2250 | D:3      | Reached skill level 4 in Armour
+  2262 | D:3      | Reached *** piety under Trog
+  2583 | D:3      | Reached skill level 5 in Fighting
+  2764 | D:3      | Reached skill level 5 in Axes
+  3323 | D:4      | Found a transporter.
+  3323 | D:4      | Noticed Vouh's ghost (amateur MiBe)
+  3428 | D:4      | Reached skill level 4 in Dodging
+  3428 | D:4      | Reached XP level 6. HP: 46/56 MP: 5/5
+  3785 | D:4      | Found a staircase to the Ecumenical Temple.
+  3786 | D:4      | Found a transporter.
+  4085 | D:4      | Reached skill level 5 in Armour
+  4093 | D:4      | HP: 20/85 [Vouh's ghost (9)]
+  4097 | D:4      | Killed Vouh's ghost
+  4097 | D:4      | Reached skill level 6 in Fighting
+  4097 | D:4      | Reached XP level 7. HP: 19/63 MP: 6/6
+  4396 | D:5      | Entered Level 5 of the Dungeon
+  4406 | D:5      | Reached skill level 6 in Axes
+  4447 | D:5      | Reached skill level 5 in Dodging
+  4727 | D:5      | Found a stormy altar of Qazlal.
+  4799 | D:5      | Reached XP level 8. HP: 21/71 MP: 7/7
+  5044 | D:5      | Found an iron altar of Okawaru.
+  5061 | D:5      | Found a basalt altar of Yredelemnul.
+  5142 | D:5      | Reached skill level 6 in Armour
+  5458 | D:6      | Reached skill level 7 in Fighting
+  5458 | D:6      | Reached skill level 7 in Axes
+  5802 | D:6      | Reached skill level 6 in Dodging
+  5809 | D:6      | Reached **** piety under Trog
+  6513 | D:6      | Found a shadowy altar of Dithmenos.
+  6569 | D:6      | Reached skill level 7 in Armour
+  7024 | D:7      | Found Ziusyll's Gadget Emporium.
+  7598 | D:8      | Reached skill level 8 in Fighting
+  7598 | D:8      | Reached XP level 9. HP: 64/81 MP: 8/8
+  7605 | D:8      | Reached skill level 8 in Axes
+  7632 | D:8      | Noticed a troll
+  7641 | D:8      | Killed a troll
+  7641 | D:8      | Reached skill level 7 in Dodging
+  7658 | D:8      | HP: 16/82 [something (6)]
+  7659 | D:8      | HP: 7/82 [electric eel/bolt of electricity (8)]
+  7664 | D:8      | HP: 6/123 [sky beast (3)]
+  7664 | D:8      | HP: 1/123 [sky beast (5)]
+  7699 | D:8      | HP: 6/82 [wolf (5)]
+  7701 | D:8      | Slain by a wolf
+
+Levels and vault maps discovered:
+D:1:      onia_arrival_larder, layout_basic, chequers_arboretum, moated_statue,
+          hangedman_decor_points
+D:2:      layout_loops_ring
+D:3:      layout_loops_corners, serial_bayou_pond_e, st_stairs_5,
+          kennysheep_nondescript
+D:4:      layout_loops_cross, temple_pool_b, gammafunk_ghost_mausoleum,
+          grunt_decor_cap
+D:5:      layout_basic, okawaru_metal_pillars_1_2, lemuel_crystal_altar,
+          kennysheep_mini_moat, first_ration
+D:6:      layout_basic, kennysheep_mini
+D:7:      layout_basic, serial_shops, shop
+D:8:      layout_basic, fedhas_altar_2, cheibriados_altar_1, erik_lair_island,
+          hellmonk_ghost_happy_afterlife
+
+Levels and vault maps discovered:
+D:1:      onia_arrival_larder, layout_basic, chequers_arboretum, moated_statue,
+          hangedman_decor_points
+D:2:      layout_loops_ring
+D:3:      layout_loops_corners, serial_bayou_pond_e, st_stairs_5,
+          kennysheep_nondescript
+D:4:      layout_loops_cross, temple_pool_b, gammafunk_ghost_mausoleum,
+          grunt_decor_cap
+D:5:      layout_basic, okawaru_metal_pillars_1_2, lemuel_crystal_altar,
+          kennysheep_mini_moat, first_ration
+D:6:      layout_basic, kennysheep_mini
+D:7:      layout_basic, serial_shops, shop
+D:8:      layout_basic, fedhas_altar_2, cheibriados_altar_1, erik_lair_island,
+          hellmonk_ghost_happy_afterlife
+
+Table legend:
+ A = Turns spent in this place as a percentage of turns spent in the
+     entire game.
+ B = Non-inter-level travel turns spent in this place as a percentage of
+     non-inter-level travel turns spent in the entire game.
+ C = Inter-level travel turns spent in this place as a percentage of
+     turns spent in this place.
+ D = Turns resting spent in this place as a percentage of non-inter-level
+     travel turns spent in this place.
+ E = Turns spent auto-exploring this place as a percentage of
+     non-inter-level travel turns spent in this place.
+ F = Non-inter-level travel turns spent in this place divided by the
+     number of levels of this place that you've seen.
+
+                   A       B       C       D       E               F
+               +-------+-------+-------+-------+-------+----------------------
+         Total | 100.0 | 100.0 |   4.8 |  25.5 |  59.2 |         916.4
+       Dungeon | 100.0 | 100.0 |   4.8 |  25.5 |  59.2 |         916.4
+               +-------+-------+-------+-------+-------+----------------------
+
+Table legend:
+ A = Kills in this place as a percentage of kills in entire the game.
+ B = Kills by you in this place as a percentage of kills by you in
+     the entire game.
+ C = Kills by friends in this place as a percentage of kills by
+     friends in the entire game.
+ D = Other kills in this place as a percentage of other kills in the
+     entire game.
+ E = Experience gained in this place as a percentage of experience
+     gained in the entire game.
+ F = Experience gained in this place divided by the number of levels of
+     this place that you have seen.
+
+                   A       B       C       D       E               F
+               +-------+-------+-------+-------+-------+----------------------
+         Total | 100.0 | 100.0 |  N/A  |  N/A  | 100.0 |         449.1
+       Dungeon | 100.0 | 100.0 |  N/A  |  N/A  | 100.0 |         449.1
+               +-------+-------+-------+-------+-------+----------------------
+

@@ -1,0 +1,117 @@
+ Dungeon Crawl Stone Soup version 0.24.0 (tiles) character file.
+
+Game seed: 16024472241756842341, levelgen mode: deterministic
+
+Arcades the Chopper (Minotaur Berserker)               Turns: 0, Time: 00:00:05
+
+Health: 19/19      AC:  2    Str: 21    XL:     1   Next: 0%
+Magic:  0/0        EV: 12    Int:  4    God:    Trog [*.....]
+Gold:   0          SH:  0    Dex:  9    Spells: 0/0 levels left
+
+rFire    . . .     SeeInvis .   a - +0 hand axe
+rCold    . . .     Gourm    .   (no shield)
+rNeg     . . .     Faith    .   b - +0 animal skin
+rPois    .         Spirit   .   (helmet restricted)
+rElec    .         Reflect  .   (no cloak)
+rCorr    .         Harm     .   (no gloves)
+MR       .....                  (no boots)
+Stlth    +.........             (no amulet)
+HPRegen  0.06/turn              (no ring)
+MPRegen  0.07/turn              (no ring)
+
+@: no status effects
+A: retaliatory headbutt, horns 2
+a: Berserk, Renounce Religion
+
+
+You are on level 1 of the Dungeon.
+You worship Trog.
+Trog is aware of your devotion.
+You are not hungry.
+
+You have visited 1 branch of the dungeon, and seen 1 of its levels.
+
+Inventory:
+
+Hand Weapons
+ a - a +0 hand axe (weapon)
+Armour
+ b - a +0 animal skin (worn)
+Comestibles
+ c - a ration
+
+
+   Skills:
+ + Level 3.6 Fighting
+ + Level 3.6 Axes
+ + Level 2.4 Armour
+ + Level 2.1 Dodging
+
+
+You cannot memorise any spells.
+You don't know any spells.
+Your spell library is empty.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (1/15)            
+
+Altars:
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+Welcome, Arcades the Minotaur Berserker.
+Will you prevail where others failed? Will you find the Orb of Zot?
+Trog says: Kill them all!
+No target in view!
+Unknown command.
+Saving game... please wait.
+
+#####
+!.....
+8.⌠.8.#
+.......##
+≈≈≈≈≈≈.@#
+.......##
+8.⌠.8.#
+......
+#####
+
+
+There are no monsters in sight!
+
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Arcades the Minotaur Berserker began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+
+Table legend:
+ A = Turns spent in this place as a percentage of turns spent in the
+     entire game.
+ B = Non-inter-level travel turns spent in this place as a percentage of
+     non-inter-level travel turns spent in the entire game.
+ C = Inter-level travel turns spent in this place as a percentage of
+     turns spent in this place.
+ D = Turns resting spent in this place as a percentage of non-inter-level
+     travel turns spent in this place.
+ E = Turns spent auto-exploring this place as a percentage of
+     non-inter-level travel turns spent in this place.
+ F = Non-inter-level travel turns spent in this place divided by the
+     number of levels of this place that you've seen.
+
+                   A       B       C       D       E               F
+               +-------+-------+-------+-------+-------+----------------------
+         Total |  N/A  |  N/A  |  N/A  |  N/A  |  N/A  |           0.0
+       Dungeon |  N/A  |  N/A  |  N/A  |  N/A  |  N/A  |           0.0
+               +-------+-------+-------+-------+-------+----------------------
+

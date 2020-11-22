@@ -1,2 +1,2 @@
 #!/bin/sh
-sudo apt-get install -y yokadi apparix stow xsel tmux
+sudo apt-get install -y apparix stow

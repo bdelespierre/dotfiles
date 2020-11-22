@@ -1,0 +1,54 @@
+#
+# Hilarious Death Artist
+# ======================
+#
+# To initialise:
+#
+# - mkdir -p ~/.crawl/conf.d/HilariousDeathArtist/DCSSConfigFile
+# - cd !$
+# - git clone git@github.com:HilariousDeathArtist/DCSSConfigFile.git .
+# - find . -name '*.txt' -exec sh -c 'cp "$1" "${1%.txt}.rc"' _ {} \;
+# - cd -
+#
+# To use HDA auto-travel you need to create a macro:
+#
+# - CTRL+D then (m) to create a new macro
+# - Input macro trigger key: o
+# - Input macro action: ===HDAtravel
+#
+# Or create a ~/.crawl/macro.txt with the following:
+#
+# - M:O
+# - A:===HDAtravel
+#
+include += ./.crawl/conf.d/HilariousDeathArtist/DCSSConfigFile/HilariousDeathArtist.rc
+
+#
+# My Config
+# =========
+#
+# Food & Hunger
+#auto_butcher=true
+#confirm_butcher=never
+#auto_eat_chunks=true
+#easy_eat_chunks=true
+
+# Training
+#default_manual_training=true
+
+# Travel
+show_travel_trail = true
+travel_delay = 1
+explore_stop -= stairs
+
+# Ignore most food interruptions
+interrupt_travel -= hungry
+interrupt_rest -= interrupt_run
+interrupt_rest += hp_loss, monster_attack, monster, mimic, teleport, stat, hit_monster, sense_monster
+runrest_stop_message += starving
+
+# Misc
+allow_self_target = no
+#show_more=false
+tile_display_mode=hybrid
+#tile_display_mode=glyphs

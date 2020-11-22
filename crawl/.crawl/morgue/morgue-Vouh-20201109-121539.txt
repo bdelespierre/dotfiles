@@ -1,0 +1,287 @@
+ Dungeon Crawl Stone Soup version 0.24.0 (tiles) character file.
+
+Game seed: 13678585385787511721, levelgen mode: deterministic
+
+2627 Vouh the Fighter (level 9, -4/82 HPs)
+             Began as a Minotaur Berserker on Nov 9, 2020.
+             Was a High Priest of Trog.
+             Slain by a hornet (9 damage)
+             ... on level 8 of the Dungeon.
+             The game lasted 00:23:21 (6944 turns).
+
+Vouh the Fighter (Minotaur Berserker)               Turns: 6944, Time: 00:23:21
+
+Health: -4/82      AC: 11    Str: 24    XL:     9   Next: 35%
+Magic:  8/8        EV: 13    Int:  4    God:    Trog [*****.]
+Gold:   436        SH:  3    Dex: 11    Spells: 8/8 levels left
+
+rFire    . . .     SeeInvis .   a - +0 war axe
+rCold    + . .     Gourm    .   F - +0 buckler {rC+}
+rNeg     . . .     Faith    .   G - +3 scale mail
+rPois    .         Spirit   .   (helmet restricted)
+rElec    .         Reflect  .   (no cloak)
+rCorr    .         Harm     .   (no gloves)
+MR       .....                  (no boots)
+Stlth    ..........             (no amulet)
+HPRegen  0.23/turn              l - +2 ring of slaying
+MPRegen  0.11/turn              (no ring)
+
+@: lethally poisoned (-4 -> -8), slowed, very slow
+A: retaliatory headbutt, horns 2
+a: Berserk, Trog's Hand, Brothers in Arms, Renounce Religion
+
+
+You were on level 8 of the Dungeon.
+You worshipped Trog.
+Trog was extremely pleased with you.
+You were not hungry.
+
+You visited 1 branch of the dungeon, and saw 8 of its levels.
+
+You collected 436 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ a - a +0 war axe (weapon)
+ s - a +0 hunting sling
+Missiles
+ m - a javelin (quivered)
+ n - 42 sling bullets
+ E - 34 poisoned darts
+Armour
+ F - a +0 buckler of cold resistance (worn)
+ G - a +3 scale mail (worn)
+Jewellery
+ l - a +2 ring of slaying (left hand)
+ q - a cursed ring of attention {unknown}
+ r - an uncursed ring of positive energy {unknown}
+ y - an uncursed ring of resist corrosion {unknown}
+ A - an uncursed ring of flight {unknown}
+ C - a cursed ring of teleportation {unknown}
+Wands
+ z - a wand of iceblast (8)
+ D - a wand of paralysis (8)
+Scrolls
+ b - a scroll of magic mapping
+ e - 3 scrolls of amnesia
+ f - 5 scrolls of remove curse
+ g - 3 scrolls of identify
+ o - 2 scrolls of blinking
+ v - 2 scrolls of random uselessness
+ w - a scroll of immolation
+ x - 3 scrolls of teleportation
+Potions
+ d - 2 potions of agility {unknown}
+ h - 2 potions of haste {unknown}
+ i - a potion of berserk rage {unknown}
+ j - 2 potions of flight {unknown}
+ k - a potion of might {unknown}
+ t - a potion of heal wounds {unknown}
+ u - 2 potions of degeneration {unknown}
+ B - 4 potions of curing {unknown}
+Comestibles
+ c - 19 rations
+ p - a chunk of flesh
+
+
+   Skills:
+ + Level 8.6 Fighting
+ + Level 8.1 Axes
+ + Level 8.1 Armour
+ + Level 7.4 Dodging
+
+
+You had 8 spell levels left.
+You didn't know any spells.
+Your spell library was empty.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (8/15)             Temple (0/1) D:4         
+  Lair: D:8-11      
+
+Altars:
+Ashenzari
+Dithmenos
+Nemelex Xobeh
+Okawaru
+Ru
+Uskayaw
+Xom
+
+Shops:
+D:4 [
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+You feel as though you will be slow longer.
+You block the hornet's attack. The hornet closely misses you.
+Really read the scroll of immolation? 
+Okay, then.
+Aiming: Iceblast
+Press: ? - help, Shift-Dir - straight line, f - hornet
+Aim: a hornet (moderately wounded)
+That beam is likely to hit you. Continue anyway? 
+Uppercase [Y]es or [N]o only, please.
+That beam is likely to hit you. Continue anyway? 
+Uppercase [Y]es or [N]o only, please.
+That beam is likely to hit you. Continue anyway? 
+The mass of ice explodes! The iceblast engulfs the hornet!
+The hornet is heavily wounded.
+The iceblast engulfs the hornet!
+The hornet is moderately wounded.
+The iceblast engulfs you. You partially resist.
+* * * LOW HITPOINT WARNING * * * x2
+You feel sick. The hornet stings you!
+You die...
+
+              #............###....
+              ##.................#
+              #..................#
+           ## ###................#
+          ##..#.................##
+          .........###..........#
+          ...###....##..##......###
+          .#  ##....####..........#
+              #.....#  #..........#
+             ##.....#  #.........###
+             #.....##  ##..........####
+             ###...##   #....#.#......######
+        ...   #....#y# ####..#.#...........#
+        ...#  ##.####y#.##...##............#
+         ...#  #..(#.#@##.................##
+          #..###...##.#.###............<...##
+         ##........##.###..........>........###
+      ## #.....##...............##.............
+      #.###.#...÷.#.............#...###........
+     ##.....#.....##.|.........##.#.# ##....#..
+     #......................##....#.###........
+     #............#.#........##..##..###.....).
+      ##.........#####...........##...#.......†
+      ##..........####...........###....##..##.
+      #..........##..............# #........##.
+      #..........##..............# ###.[.#.####
+     ##..#####...................#####......# #
+######....# #...........##.##....#.##...##..# #
+#.......######.#...##......####.......##...## #
+
+
+You could see 2 hornets.
+
+Vanquished Creatures
+  A black bear (D:8)
+  5 ice beasts
+  A sky beast (D:8)
+  5 ogres
+  A phantom (D:4)
+  2 centaurs
+  A bullfrog (D:7)
+  A gnoll sergeant (D:7)
+  2 scorpions
+  2 howler monkeys (D:4)
+  3 crimson imps
+  A bullfrog zombie (D:7)
+  3 hounds
+  2 bullfrog skeletons
+  4 orc priests
+  2 iguanas
+  A centaur skeleton (D:7)
+  3 orc wizards
+  7 worker ants
+  A hound zombie (D:6)
+  A hound skeleton (D:5)
+  Robin (D:2)
+  A worker ant zombie (D:8)
+  4 gnolls (D:7)
+  8 adders
+  A shadow imp (D:7)
+  An ooze (D:1)
+  An adder zombie (D:5)
+  An adder skeleton (D:6)
+  2 worms (D:2)
+  2 dart slugs (D:2)
+  8 leopard geckos
+  10 orcs
+  8 bats
+  7 giant cockroaches
+  12 hobgoblins
+  9 jackals
+  3 quokkas
+  4 ball pythons
+  7 frilled lizards
+  15 goblins
+  8 kobolds
+  A quokka skeleton (D:5)
+  10 rats
+173 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Vouh the Minotaur Berserker began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   295 | D:1      | Reached XP level 2. HP: 22/27 MP: 1/1
+   683 | D:1      | Reached XP level 3. HP: 33/33 MP: 2/2
+   762 | D:2      | Reached ** piety under Trog
+   788 | D:2      | Found an iron altar of Okawaru.
+  1063 | D:2      | Reached XP level 4. HP: 36/41 MP: 3/3
+  1175 | D:2      | Noticed Robin
+  1179 | D:2      | Killed Robin
+  1198 | D:2      | Reached *** piety under Trog
+  1959 | D:3      | Reached XP level 5. HP: 47/47 MP: 4/4
+  2072 | D:3      | Found an iron altar of Okawaru.
+  2607 | D:4      | Reached skill level 5 in Fighting
+  2618 | D:4      | Found a staircase to the Ecumenical Temple.
+  2641 | D:4      | Reached XP level 6. HP: 41/56 MP: 5/5
+  2879 | D:4      | Found a sparkling altar of Nemelex Xobeh.
+  2908 | D:4      | Found Rekhleg's Armour Boutique.
+  2915 | D:4      | Reached skill level 5 in Axes
+  2915 | D:4      | Reached skill level 5 in Armour
+  2979 | D:4      | Reached XP level 7. HP: 49/63 MP: 6/6
+  3128 | D:4      | Found a shadowy altar of Dithmenos.
+  3265 | D:5      | Entered Level 5 of the Dungeon
+  3273 | D:5      | Reached skill level 5 in Dodging
+  3657 | D:5      | Reached **** piety under Trog
+  4111 | D:6      | Found a sacrificial altar of Ru.
+  4155 | D:6      | Found a shimmering altar of Xom.
+  4156 | D:6      | Found a shimmering altar of Xom.
+  4156 | D:6      | Found a shimmering altar of Xom.
+  4156 | D:6      | Found a shimmering altar of Xom.
+  4157 | D:6      | Found a shimmering altar of Xom.
+  4170 | D:6      | Found a shimmering altar of Xom.
+  4170 | D:6      | Found a shimmering altar of Xom.
+  4253 | D:6      | You fall into a shaft and drop 1 floor!
+  4302 | D:7      | Reached XP level 8. HP: 47/71 MP: 7/7
+  5498 | D:7      | Noticed a +0 hand axe
+  5500 | D:7      | Noticed a +0 hand axe
+  5503 | D:7      | Found a hide-covered altar of Uskayaw.
+  6088 | D:8      | Reached XP level 9. HP: 81/81 MP: 8/8
+  6307 | D:8      | Reached ***** piety under Trog
+  6710 | D:8      | Found a shattered altar of Ashenzari.
+  6935 | D:8      | Paralysed by a hornet for 1 turns
+  6944 | D:8      | Slain by a hornet
+
+Levels and vault maps discovered:
+D:1:      eino_arrival_druids_welcome, layout_rooms
+D:2:      layout_basic, lemuel_crystal_altar, fountainhead,
+          minmay_randomly_rotated_circles, uniq_robin
+D:3:      layout_rooms, grunt_decor_fettered, okawaru_ov_weapons_minmay
+D:4:      layout_loops_cross, lemuel_crystal_altar,
+          nemelex_xobeh_ov_fountains_minmay, minmay_temple_entry_ruins,
+          serial_shops, nicolae_shop_trees, first_ration,
+          minmay_misc_feat_roman, minmay_misc_feat_room, saegor_snake_ambush
+D:5:      layout_loops_ring
+D:6:      layout_rooms, nicolae_xom_altar_mimics, old_standard_altar
+D:7:      layout_loops_ring, dancing_weapons_uskayaw
+D:8:      layout_cave_pools, lemuel_doored_altar, david_lair_shrubbed,
+          hangedman_pestilent_swarm
+

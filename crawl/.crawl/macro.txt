@@ -1,0 +1,8 @@
+# Dungeon Crawl Stone Soup 0.24.0 macro file
+# WARNING: This file is entirely auto-generated.
+
+# Key Mappings:
+# Command Macros:
+M:o
+A:===HDAtravel
+

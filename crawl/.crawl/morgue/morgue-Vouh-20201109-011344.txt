@@ -1,0 +1,145 @@
+ Dungeon Crawl Stone Soup version 0.24.0 (tiles) character file.
+
+Game seed: 757141079358117255, levelgen mode: deterministic
+
+4 Vouh the Skirmisher (level 1, -7/20 HPs)
+             Began as a Minotaur Berserker on Nov 9, 2020.
+             Was a Follower of Trog.
+             Mangled by a gnoll
+             ... wielding a +0 flail
+              (13 damage)
+             ... on level 1 of the Dungeon.
+             The game lasted 00:01:06 (244 turns).
+
+Vouh the Skirmisher (Minotaur Berserker)             Turns: 244, Time: 00:01:07
+
+Health: -7/20      AC:  2    Str: 21    XL:     1   Next: 58%
+Magic:  0/0        EV: 12    Int:  4    God:    Trog [*.....]
+Gold:   11         SH:  0    Dex:  9    Spells: 0/0 levels left
+
+rFire    . . .     SeeInvis .   a - +0 hand axe
+rCold    . . .     Gourm    .   (no shield)
+rNeg     . . .     Faith    .   b - +0 animal skin
+rPois    .         Spirit   .   (helmet restricted)
+rElec    .         Reflect  .   (no cloak)
+rCorr    .         Harm     .   (no gloves)
+MR       .....                  (no boots)
+Stlth    +.........             (no amulet)
+HPRegen  0.06/turn              (no ring)
+MPRegen  0.07/turn              (no ring)
+
+@: no status effects
+A: retaliatory headbutt, horns 2
+a: Berserk, Renounce Religion
+
+
+You were on level 1 of the Dungeon.
+You worshipped Trog.
+Trog was aware of your devotion.
+You were not hungry.
+
+You visited 1 branch of the dungeon, and saw 1 of its levels.
+
+You collected 11 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ a - a +0 hand axe (weapon)
+Missiles
+ d - 17 stones (quivered)
+Armour
+ b - a +0 animal skin (worn)
+Comestibles
+ c - 2 rations
+ f - 3 chunks of flesh
+
+
+   Skills:
+ + Level 3.9 Fighting
+ + Level 3.7 Axes
+ + Level 2.4 Armour
+ + Level 2.2 Dodging
+
+
+You couldn't memorise any spells.
+You didn't know any spells.
+Your spell library was empty.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (1/15)            
+
+Altars:
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+The gnoll is lightly wounded.
+Throwing (i - inventory) d - 19 stones (quivered)
+Press: ? - help, Shift-Dir - straight line, f/p - gnoll
+Aim: a gnoll, wielding a +0 flail (lightly wounded)
+You throw a stone. The stone closely misses the gnoll.
+Throwing (i - inventory) d - 18 stones (quivered)
+Press: ? - help, Shift-Dir - straight line, f/p - gnoll
+Aim: a gnoll, wielding a +0 flail
+You throw a stone.
+The stone hits the gnoll but does no damage.
+You hit the gnoll.
+The gnoll is moderately wounded.
+The gnoll hits you with a +0 flail!
+Ouch! That really hurt!
+* * * LOW HITPOINT WARNING * * *
+You hit the gnoll.
+The gnoll is heavily wounded.
+The gnoll hits you with a +0 flail!
+Ouch! That really hurt!
+You die...
+
+    #####
+  ###...##
+ ##...#..###
+##...##....####
+#....###......##
+#...## #.......##
+#...#  #......<.#
+#.#.#  ##.......#
+###.#   #...#..##
+  #@#   ##.†.#..#
+  #g.#   #.÷.##.#
+  .(##   ##..####
+ #(##     #...##
+ #(       ##÷..##
+ (.        #....#
+ .#        #...##
+.(         ##..##
+            #...#
+            ##..#
+             ####
+
+
+You could see a gnoll.
+
+Vanquished Creatures
+  2 goblins (D:1)
+  A kobold (D:1)
+  A rat (D:1)
+4 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Vouh the Minotaur Berserker began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   244 | D:1      | Mangled by a gnoll
+
+Levels and vault maps discovered:
+D:1:      dpeg_arrival_arbitrary_a, layout_rooms
+

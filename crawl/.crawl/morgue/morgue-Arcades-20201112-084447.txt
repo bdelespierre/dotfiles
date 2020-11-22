@@ -1,0 +1,563 @@
+ Seeded DCSS version 0.24.0 (tiles) character file.
+
+Game seed: 20201111, levelgen mode: deterministic
+
+101852 Arcades the Severer (level 15, -1/145 HPs)
+             Began as a Minotaur Berserker on Nov 11, 2020.
+             Was the Champion of Trog.
+             Killed by angry trees
+             ... awakened by a spriggan druid
+              (3 damage)
+             ... on level 4 of the Swamp on Nov 12, 2020.
+             The game lasted 01:22:37 (23356 turns).
+
+Arcades the Severer (Minotaur Berserker)           Turns: 23356, Time: 01:22:38
+
+Health: -1/145     AC: 32    Str: 34    XL:     15   Next: 84%
+Magic:  0/4        EV: 21    Int:  1    God:    Trog [******]
+Gold:   2233       SH:  0    Dex: 15    Spells: 14/14 levels left
+
+rFire    . . .     SeeInvis .   Q - +5 battleaxe (antimagic)
+rCold    . . .     Gourm    .   (shield currently unavailable)
+rNeg     + . .     Faith    .   K - +9 plate armour "Mehenogg" {rCorr Int-4 Dex+4}
+rPois    +         Spirit   +   (helmet restricted)
+rElec    .         Reflect  .   m - scarf {Spirit}
+rCorr    +         Harm     .   D - +2 pair of gloves {Str+3}
+MR       +++..                  B - +0 pair of boots
+Stlth    ..........             g - macabre finger necklace {rN+}
+HPRegen  1.34/turn              i - ring of poison resistance
+MPRegen  0.09/turn              A - +3 ring of evasion
+                                V - +5 ring of strength
+
+@: berserk cooldown, very slightly contaminated, regenerating, slowed, very slow
+A: retaliatory headbutt, horns 2
+a: Berserk, Trog's Hand, Brothers in Arms, Renounce Religion
+
+
+You were on level 4 of the Swamp.
+You worshipped Trog.
+Trog was exalted by your worship.
+You were near starving.
+
+You visited 5 branches of the dungeon, and saw 25 of its levels.
+You also visited: Bailey.
+
+You collected 2233 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ b - a +3 executioner's axe of freezing
+ r - the +1 great mace of Defence {protect, rC- Int+8}
+   (Trog gifted it to you on level 1 of the Swamp)   
+   
+   It grants its wielder temporary protection when it strikes (+7 to AC).
+   
+   It affects your intelligence (+8).
+   It makes you vulnerable to cold.
+ u - a +3 dire flail of draining
+ Q - a +5 antimagic battleaxe (weapon)
+Armour
+ m - a scarf of spirit shield (worn)
+ B - a +0 pair of boots (worn)
+ D - a +2 pair of gloves of strength (worn)
+ K - the +9 plate armour "Mehenogg" (worn) {rCorr Int-4 Dex+4}
+   (You took it off an orc warrior on level 9 of the Dungeon)   
+   
+   It affects your intelligence (-4).
+   It affects your dexterity (+4).
+   It provides partial protection from all sources of acid and corrosion.
+Jewellery
+ a - an uncursed ring of resist corrosion
+ g - the macabre finger necklace (around neck) {rN+}
+   (You found it on level 1 of the Swamp)   
+   
+   [amulet of nothing]
+   
+   It protects you from negative energy.
+ i - a ring of poison resistance (left hand)
+ o - an uncursed amulet of magic regeneration
+ p - an uncursed ring of poison resistance
+ A - a +3 ring of evasion (right hand)
+ J - an uncursed ring of attention
+ L - an uncursed amulet of rage {unknown}
+ V - a +5 ring of strength (on amulet)
+Scrolls
+ d - 14 scrolls of teleportation
+ f - a scroll of torment {unknown}
+ j - 2 scrolls of acquirement
+ k - a scroll of magic mapping {unknown}
+ l - 6 scrolls of remove curse
+ s - a scroll of brand weapon
+ x - 5 scrolls of enchant weapon
+ y - 3 scrolls of enchant armour
+ E - 3 scrolls of blinking
+ G - a scroll of vulnerability {unknown}
+ O - 2 scrolls of fog
+ R - 2 scrolls of fear
+Potions
+ e - 4 potions of flight
+ h - 2 potions of mutation
+ n - 2 potions of agility
+ q - 8 potions of haste
+ t - 10 potions of curing
+ v - a potion of cancellation
+ w - 6 potions of might
+ z - 2 potions of invisibility
+ C - 2 potions of resistance {unknown}
+ P - 3 potions of brilliance
+ S - a potion of berserk rage
+ Z - a potion of ambrosia {unknown}
+Miscellaneous
+ I - a phantom mirror
+Comestibles
+ c - 42 rations
+ F - 4 chunks of flesh
+
+
+   Skills:
+ + Level 16.7 Fighting
+ + Level 16.7 Axes
+ + Level 16.5 Armour
+ + Level 15.4 Dodging
+
+
+You had 14 spell levels left.
+You didn't know any spells.
+Your spell library was empty.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (12/15)            Temple (1/1) D:6            Lair (6/6) D:11
+  Swamp (4/4) Lair:4       Spider (0/4) Lair:2        Slime (0/5) Lair:6
+    Orc (2/2) D:12            Elf (0/3) Orc:2        Bailey (visited)
+
+Altars:
+Ashenzari
+Cheibriados
+Dithmenos
+Elyvilon
+Fedhas
+Gozag
+Hepliaklqana
+Kikubaaqudgha
+Makhleb
+Nemelex Xobeh
+Okawaru
+Qazlal
+Ru
+Sif Muna
+Trog
+Uskayaw
+Vehumet
+Wu Jian
+Xom
+Yredelemnul
+Zin
+The Shining One
+Beogh
+
+Shops:
+D:8 =(!*(*   Orc:2 (*[:
+
+Annotations:
+Swamp:3 Mara
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+Trog accepts your kill.
+Something appears at your feet!
+Trog grants you ammunition!
+You miss the spriggan druid.
+You are near starving!
+You are hit by a branch.
+* * * LOW HITPOINT WARNING * * *
+The spriggan druid hits you but does no damage.
+Okay, then.
+Press: ? - help, v - describe, . - travel
+Here: a spriggan druid, wielding a +0 quarterstaff and wearing a +0 robe
+(moderately wounded)
+The floor.
+Okay, then.
+You barely miss the spriggan druid.
+Your headbutt misses the spriggan druid.
+The spriggan druid is moderately wounded.
+A tree reaches out and hits you!
+* * * LOW HITPOINT WARNING * * *
+A tree reaches out and hits you.
+You die...
+
+  ♣♣♣♣♣♣♣♣
+  #≈≈≈..≈♣♣♣
+ ♣#≈≈≈≈≈≈≈≈♣♣
+ #≈≈≈≈≈≈≈≈..♣
+ #.≈≈≈≈≈≈(≈♣♣≈≈
+  #.≈≈≈≈≈...♣..
+ ♣#..§≈≈≈≈...♣
+ #@...≈≈≈≈≈≈.♣
+ #.i...§≈≈≈≈.♣
+ ♣#♣♣≈†≈≈≈≈≈≈♣♣♣♣
+ ♣#♣%≈≈≈≈≈≈......
+ #≈.≈≈≈≈≈≈≈≈.≈≈≈≈
+ #.≈≈≈≈..≈≈≈.≈≈≈≈
+ ♣#≈≈≈≈%.≈≈≈♣≈≈
+  #≈≈≈≈≈≈≈♣♣♣ .
+  ♣≈≈≈≈.♣♣♣
+ ♣..≈.≈♣♣
+≈≈≈/≈{♣♣
+#≈≈...
+≈.≈...
+ ≈...
+
+
+You could see a spriggan druid.
+
+Vanquished Creatures
+  Kirke (D:12)
+  Donald (Orc:1)
+  2 orc warlords (Orc:1)
+  Harold (D:8)
+  3 ghost crabs
+  11 hydras
+  2 shambling mangroves
+  11 death yaks
+  A two-headed ogre (D:11)
+  9 alligators
+  3 orc high priests
+  Sonja (Orc:2)
+  A flayed ghost (D:9)
+  2 lindwurms (Lair:6)
+  The ghost of Eyebeam the Poker, a novice NaBe of Trog (D:6)
+  A swamp dragon (Swamp:1)
+  4 orc knights
+  An ugly thing (D:12)
+  7 orc sorcerers
+  A cyclops (Orc:2)
+  A manticore (D:12)
+  An orb spider (Lair:2)
+  An oklob plant (D:11)
+  14 elephants
+  9 black mambas
+  2 torpor snails
+  An ice statue (Swamp:1)
+  11 spiny frogs
+  A spiny frog (shapeshifter) (D:9)
+  5 rime drakes
+  8 komodo dragons
+  7 hornets
+  6 bog bodies
+  10 trolls
+  3 tyrant leeches
+  12 polar bears
+  17 blink frogs
+  7 hippogriffs
+  16 slime creatures
+  3 raiju (Lair:6)
+  12 dream sheep
+  Sigmund (D:2)
+  2 spriggans
+  2 hogs (D:12)
+  5 wyverns
+  Eustachio (D:6)
+  2 shadows
+  15 yaks
+  2 basilisks (Lair:6)
+  A hungry ghost (D:8)
+  15 vampire mosquitoes
+  Edmund (D:4)
+  A steam dragon (D:12)
+  12 wargs
+  11 swamp worms
+  12 hell hounds (Lair:6)
+  6 insubstantial wisps (Lair:4)
+  18 water moccasins
+  14 black bears
+  5 porcupines
+  3 sky beasts
+  4 swamp drakes
+  30 orc warriors
+  3 phantoms
+  5 ice beasts
+  11 ogres
+  20 wolves
+  6 centaurs
+  16 crocodiles
+  2 big kobolds (D:7)
+  16 bullfrogs
+  A water moccasin zombie (D:10)
+  A wyvern skeleton (D:7)
+  2 scorpions
+  2 howler monkeys
+  An electric eel (Bailey)
+  A spectral bullfrog (D:6)
+  5 crimson imps
+  A centaur zombie (D:11)
+  6 hounds
+  2 quasits
+  4 bullfrog skeletons
+  7 jellies
+  2 bullfrog zombies
+  19 orc priests
+  A centaur skeleton (D:5)
+  Terence (D:2)
+  4 iguanas
+  11 worker ants
+  28 orc wizards
+  A killer bee zombie (D:9)
+  A spectral worker ant (D:6)
+  A worker ant zombie (D:5)
+  15 adders
+  3 shadow imps
+  A white imp (D:6)
+  2 oozes
+  2 adder skeletons
+  2 adder zombies
+  2 worms
+  A dart slug (D:4)
+  6 leopard geckos
+  84 orcs
+  12 bats
+  7 giant cockroaches
+  11 goblins
+  11 hobgoblins
+  7 jackals
+  2 quokkas
+  9 frilled lizards
+  16 kobolds
+  A quokka zombie (D:3)
+  8 rats
+  3 fungi
+  5 plants
+765 creatures vanquished.
+
+Vanquished Creatures (collateral kills)
+  The ghost of Beibim the Covert, a novice VSAs of Uskayaw (D:9)
+  A warg (D:9)
+  2 orc warriors (D:9)
+  An orc priest (D:9)
+  4 orcs (D:9)
+9 creatures vanquished.
+
+Vanquished Creatures (others)
+  3 fungi
+  10 plants
+13 creatures vanquished.
+
+Grand Total: 787 creatures vanquished
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Arcades the Minotaur Berserker began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   191 | D:1      | Reached XP level 2. HP: 19/27 MP: 1/1
+   443 | D:1      | HP: 1/27 [leopard gecko (3)]
+   928 | D:1      | Reached XP level 3. HP: 33/33 MP: 2/2
+  1173 | D:1      | Reached ** piety under Trog
+  1594 | D:2      | Noticed Terence
+  1604 | D:2      | Killed Terence
+  1729 | D:2      | Reached XP level 4. HP: 40/41 MP: 3/3
+  2010 | D:2      | Noticed Sigmund
+  2020 | D:2      | Killed Sigmund
+  2020 | D:2      | Reached skill level 5 in Fighting
+  2020 | D:2      | Reached skill level 5 in Axes
+  2020 | D:2      | Reached XP level 5. HP: 48/48 MP: 4/4
+  2203 | D:2      | Found an ornate altar of the Wu Jian Council.
+  2246 | D:3      | Reached XP level 6. HP: 54/56 MP: 5/5
+  2475 | D:3      | Found a sparkling altar of Nemelex Xobeh.
+  2714 | D:3      | Reached *** piety under Trog
+  2844 | D:3      | Found a burning altar of Makhleb.
+  3085 | D:4      | Reached XP level 7. HP: 41/62 MP: 2/6
+  3087 | D:4      | Reached skill level 5 in Armour
+  3343 | D:4      | Noticed Edmund
+  3364 | D:4      | Killed Edmund
+  3364 | D:4      | Reached skill level 5 in Dodging
+  3394 | D:4      | Found a snail-covered altar of Cheibriados.
+  3589 | D:5      | Entered Level 5 of the Dungeon
+  3674 | D:5      | Noticed a +0 dagger
+  3675 | D:5      | Noticed a +0 dagger
+  3676 | D:5      | Found a hide-covered altar of Uskayaw.
+  3680 | D:5      | Reached XP level 8. HP: 60/71 MP: 5/7
+  3749 | D:5      | You fall into a shaft and drop 3 floors!
+  3812 | D:7      | Reached **** piety under Trog
+  4217 | D:6      | Noticed Eustachio
+  4244 | D:6      | Killed Eustachio
+  4261 | D:6      | Reached XP level 9. HP: 56/81 MP: 4/8
+  4431 | D:5      | Found a white marble altar of Elyvilon.
+  4948 | D:6      | Found a staircase to the Ecumenical Temple.
+  4991 | Temple   | Entered the Ecumenical Temple
+  5453 | D:6      | Found a runed translucent gate.
+  5453 | D:6      | Found a runed translucent gate.
+  5453 | D:6      | Found a runed translucent gate.
+  5454 | D:6      | Noticed Eyebeam's ghost (novice NaBe)
+  5470 | D:6      | Killed Eyebeam's ghost
+  5490 | D:6      | Found a shadowy altar of Dithmenos.
+  5700 | D:7      | Reached XP level 10. HP: 72/91 MP: 7/9
+  5847 | D:7      | Received a gift from Trog
+  6014 | D:7      | Found an opulent altar of Gozag.
+  6052 | D:7      | Found a glowing silver altar of Zin.
+  6210 | D:8      | Found Utuisarch's General Store.
+  6212 | D:8      | Found Usac's Jewellery Shop.
+  6223 | D:8      | Found Ushups's Weapon Boutique.
+  6245 | D:8      | Reached ***** piety under Trog
+  6264 | D:8      | Found a hide-covered altar of Uskayaw.
+  6288 | D:8      | Found Woolit's Changing Room.
+  6309 | D:8      | Found Hovadgha's Antique Weapon Emporium.
+  6375 | D:8      | Paralysed by fainting for 12 turns
+  6424 | D:8      | Noticed Harold
+  6438 | D:8      | Killed Harold
+  6438 | D:8      | Reached skill level 10 in Fighting
+  6438 | D:8      | Reached skill level 10 in Axes
+  6458 | D:8      | Found a hazy altar of Hepliaklqana.
+  6662 | D:8      | Found Seppas's Distillery.
+  6907 | D:9      | Found a runed translucent gate.
+  6907 | D:9      | Noticed Beibim's ghost (novice VSAs)
+  6908 | D:9      | Identified the +9 plate armour "Mehenogg" {rCorr Int-4
+                  | Dex+4}
+  6909 | D:9      | Found a runed translucent gate.
+  6910 | D:9      | Found a runed translucent gate.
+  6916 | D:9      | Found a roughly hewn altar of Beogh.
+  6974 | D:9      | Found a large runed translucent door.
+  6983 | D:9      | Found a large runed translucent door.
+  7061 | D:9      | Reached skill level 10 in Armour
+  7364 | D:9      | Found a stormy altar of Qazlal.
+  7364 | D:9      | Noticed a flayed ghost
+  7379 | D:9      | Killed a flayed ghost
+  7388 | D:9      | Found a hazy altar of Hepliaklqana.
+  7388 | D:9      | Noticed a spiny frog
+  7403 | D:9      | Killed a spiny frog
+  7799 | D:9      | Killed Beibim's ghost
+  7799 | D:9      | Reached XP level 11. HP: 95/101 MP: 10/10
+  7955 | D:9      | Got a pitted leather armour
+  7962 | D:10     | Entered Level 10 of the Dungeon
+  8062 | D:10     | Received a gift from Trog
+  8182 | D:10     | Received a gift from Trog
+  8439 | D:10     | Reached skill level 10 in Dodging
+  8581 | D:11     | Found a flagged portal.
+  8584 | D:11     | Noticed a two-headed ogre
+  8589 | D:11     | Killed a two-headed ogre
+  8593 | Bailey   | Entered a bailey
+  8749 | D:11     | Found a blossoming altar of Fedhas.
+  9019 | D:11     | Found a staircase to the Lair.
+  9026 | D:11     | Noticed an oklob plant
+  9032 | D:11     | Killed an oklob plant
+  9483 | Lair:1   | Entered Level 1 of the Lair of Beasts
+ 10174 | Lair:1   | Reached XP level 12. HP: 49/112 MP: 8/11
+ 10575 | Lair:2   | Noticed a death yak
+ 10576 | Lair:2   | Noticed a death yak
+ 10576 | Lair:2   | Noticed a death yak
+ 10595 | Lair:1   | Killed a death yak
+ 10604 | Lair:1   | Killed a death yak
+ 10604 | Lair:1   | Received a gift from Trog
+ 10617 | Lair:2   | Killed a death yak
+ 10653 | Lair:2   | Noticed a seven-headed hydra
+ 10661 | Lair:2   | Killed a ten-headed hydra
+ 11129 | Lair:2   | Found a hole to the Spider Nest.
+ 11839 | Lair:3   | Noticed a six-headed hydra
+ 11847 | Lair:3   | Killed a six-headed hydra
+ 12466 | Lair:4   | Noticed a death yak
+ 12466 | Lair:4   | Noticed a death yak
+ 12466 | Lair:4   | Noticed a death yak
+ 12467 | Lair:4   | Noticed a death yak
+ 12467 | Lair:4   | Noticed a death yak
+ 12473 | Lair:4   | Killed a death yak
+ 12475 | Lair:4   | Killed a death yak
+ 12477 | Lair:4   | Killed a death yak
+ 12477 | Lair:4   | Reached XP level 13. HP: 81/122 MP: 4/12
+ 12965 | Lair:4   | Found a staircase to the Swamp.
+ 13092 | Lair:4   | Received a gift from Trog
+ 14337 | Lair:6   | Entered Level 6 of the Lair of Beasts
+ 14485 | Lair:6   | Found a staircase to the Slime Pits.
+ 14675 | Lair:6   | Reached XP level 14. HP: 123/133 MP: 4/13
+ 15329 | Lair:6   | Reached skill level 15 in Axes
+ 15534 | Lair:6   | Reached skill level 15 in Fighting
+ 15588 | Lair:6   | Reached ****** piety under Trog
+ 15624 | Lair:6   | Received a gift from Trog
+ 15678 | Lair:6   | Reached skill level 15 in Armour
+ 16086 | D:12     | Noticed Kirke
+ 16506 | D:12     | Killed Kirke
+ 16736 | D:12     | Found a staircase to the Orcish Mines.
+ 16863 | D:12     | Identified a scroll of acquirement
+ 16896 | Orc:1    | Entered Level 1 of the Orcish Mines
+ 17291 | Orc:1    | Received a gift from Trog
+ 17392 | Orc:1    | Found a bloodstained altar of Trog.
+ 17409 | Orc:1    | Paralysed by an orc sorcerer for 4 turns
+ 17739 | Orc:2    | Entered Level 2 of the Orcish Mines
+ 17855 | Orc:2    | Noticed Donald
+ 17889 | Orc:1    | Killed Donald
+ 18239 | Orc:2    | Noticed an orc warlord
+ 18656 | Orc:1    | Noticed an orc warlord
+ 18668 | Orc:1    | Reached XP level 15. HP: 140/143 MP: 4/14
+ 18681 | Orc:1    | Killed an orc warlord
+ 18681 | Orc:1    | Received a gift from Trog
+ 18914 | Orc:2    | Found a staircase to the Elven Halls.
+ 19076 | Orc:2    | Noticed Sonja
+ 19132 | Orc:1    | Killed an orc warlord
+ 19280 | Orc:2    | Killed Sonja
+ 19295 | Orc:2    | Found a roughly hewn altar of Beogh.
+ 19545 | Orc:2    | Found Macos's Antique Weapon Shoppe.
+ 19590 | Orc:2    | Found Goacwe's Antique Armour Shoppe.
+ 19676 | Orc:2    | Found Odimnep's Book Shoppe.
+ 19703 | Orc:2    | Found Qitimp's General Store.
+ 20242 | Swamp:1  | Entered Level 1 of the Swamp
+ 20448 | Swamp:1  | Found the macabre finger necklace {rN+}
+ 20721 | Swamp:1  | Received a gift from Trog
+ 20722 | Swamp:1  | Got a jewelled great mace {god gift}
+ 20723 | Swamp:1  | Identified the +1 great mace of Defence {protect, rC-
+                  | Int+8} (Trog gifted it to you on level 1 of the Swamp)
+ 21570 | Swamp:2  | Reached skill level 15 in Dodging
+ 23297 | Swamp:3  | Noticed Mara
+ 23303 | Swamp:4  | Entered Level 4 of the Swamp
+ 23350 | Swamp:3  | Noticed Arcades's illusion
+ 23355 | Swamp:4  | Received a gift from Trog
+ 23356 | Swamp:4  | HP: 2/145 [spriggan druid/angry trees (7)]
+ 23356 | Swamp:4  | Killed from afar by a spriggan druid
+
+Levels and vault maps discovered:
+D:1:      kilobyte_arrival_exit_the_forest, layout_basic,
+          minmay_tree_intersection, minmay_tiny_reverse_x
+D:2:      minmay_wonky_spiral, layout_loops_ring, lemuel_coloured_pillars_altar,
+          uniq_sigmund, uniq_terence
+D:3:      layout_loops_ring, marbit_many_paths, nicolae_overflow_hidden_temple,
+          guppyfry_early_orc_mine
+D:4:      layout_basic, first_ration, kennysheep_slug_shrine, uniq_edmund
+D:5:      layout_basic, dancing_weapons_uskayaw, elyvilon_altar_1
+D:6:      layout_basic, grunt_dithmenos_shadows, minmay_temple_entry_arrows,
+          gammafunk_ghost_necromancy, minmay_fire_ice_demons, uniq_eustachio
+D:7:      layout_gridville, kennysheep_mini, zin_academy, the_bakery,
+          hex_medium, hangedman_glass_teeth
+D:8:      layout_basic, lemuel_doored_altar, basic_altar, serial_shops, shop,
+          shop, shop, shop, shop_fountains, nicolae_transmutations_shop,
+          uniq_harold
+D:9:      layout_rooms, biasface_ghost_orc_armoury, jmf_multi_god_temple2
+D:10:     layout_roguey
+D:11:     layout_small_grid, dpeg_oklobed_lair, basic_altar, enter_bailey_6,
+          nrook_uturn
+D:12:     layout_rooms, uniq_kirke
+Temple:   nicolae_temple_figure_eight
+Lair:1:   layout_gridlike, infiniplex_staircase_pool_2
+Lair:2:   layout_regular_city, nicolae_spider_entry_orb_guardian,
+          hangedman_lair_generics_rect
+Lair:3:   layout_regular_city, grunt_forest_small_clearings, st_stairs_12
+Lair:4:   layout_cave_pods, minmay_swamp_entry_wisps
+Lair:5:   layout_loops_ring, lemuel_fruit_tree
+Lair:6:   hangedman_lair_in_review, layout_regular_city,
+          hangedman_lair_caniforms_friends, minmay_slime_entry_pillars,
+          st_stairs_4, bh_autumn_forest_stairs
+Swamp:1:  layout_basic_swamp, portal_ice_cave_entry_ice_statue_one,
+          hangedman_swamp_lotus, swamp_pool2
+Swamp:2:  layout_basic_swamp, nicolae_swamp_fairy_circle
+Swamp:3:  layout_falls_marsh, nicolae_swamp_rocky_clearing, uniq_mara
+Swamp:4:  swamp_vile, layout_basic_swamp
+Orc:1:    layout_caves, basic_altar
+Orc:2:    grunt_orc_cross, layout_caves, nicolae_orc_lava_tube, uniq_donald,
+          uniq_sonja
+

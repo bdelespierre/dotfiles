@@ -1,0 +1,206 @@
+ Dungeon Crawl Stone Soup version 0.24.0 (tiles) character file.
+
+Game seed: 8333320436325949801, levelgen mode: deterministic
+
+2 Arcades the Chopper (level 1, 0/20 HPs)
+             Began as a Minotaur Berserker on Nov 15, 2020.
+             Was a Follower of Trog.
+             Slain by a kobold (3 damage)
+             ... on level 1 of the Dungeon.
+             The game lasted 00:00:13 (58 turns).
+
+Arcades the Chopper (Minotaur Berserker)              Turns: 58, Time: 00:00:13
+
+Health: 0/20       AC:  2    Str: 21    XL:     1   Next: 25%
+Magic:  0/0        EV: 12    Int:  4    God:    Trog [*.....]
+Gold:   0          SH:  0    Dex:  9    Spells: 0/0 levels left
+
+rFire    . . .     SeeInvis .   a - +0 hand axe
+rCold    . . .     Gourm    .   (no shield)
+rNeg     . . .     Faith    .   b - +0 animal skin
+rPois    .         Spirit   .   (helmet restricted)
+rElec    .         Reflect  .   (no cloak)
+rCorr    .         Harm     .   (no gloves)
+MR       .....                  (no boots)
+Stlth    +.........             (no amulet)
+HPRegen  0.06/turn              (no ring)
+MPRegen  0.07/turn              (no ring)
+
+@: no status effects
+A: retaliatory headbutt, horns 2
+a: Berserk, Renounce Religion
+
+
+You were on level 1 of the Dungeon.
+You worshipped Trog.
+Trog was aware of your devotion.
+You were not hungry.
+
+You visited 1 branch of the dungeon, and saw 1 of its levels.
+
+Inventory:
+
+Hand Weapons
+ a - a +0 hand axe (weapon)
+Armour
+ b - a +0 animal skin (worn)
+Comestibles
+ c - a ration
+
+
+   Skills:
+ + Level 3.6 Fighting
+ + Level 3.6 Axes
+ + Level 2.4 Armour
+ + Level 2.2 Dodging
+
+
+You couldn't memorise any spells.
+You didn't know any spells.
+Your spell library was empty.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (1/15)            
+
+Altars:
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+Welcome, Arcades the Minotaur Berserker.
+It is said that the Orb of Zot exists deep within this dungeon.
+Trog says: Kill them all!
+A kobold comes into view.
+The kobold shouts!
+You barely miss the kobold. The kobold barely misses you.
+You closely miss the kobold. The kobold hits you.
+You take 3 damage, and have 16/19 hp.
+You barely miss the kobold. You headbutt the kobold.
+You kill the kobold!
+Trog accepts your kill.
+You see here a kobold corpse.
+You see here a chain mail.
+A kobold comes into view.
+The kobold shouts!
+The kobold throws a stone. The stone closely misses you.
+You see here a stone.
+A rat comes into view.
+The kobold throws a stone. The stone hits you.
+You see here a stone.
+You take 2 damage, and have 15/20 hp.
+The kobold hits you. The rat bites you but does no damage.
+You take 3 damage, and have 12/20 hp.
+You are too injured to fight recklessly!
+You are too injured to fight recklessly!
+You are too injured to fight recklessly!
+You are too injured to fight recklessly!
+You are too injured to fight recklessly!
+You are too injured to fight recklessly!
+You hit the kobold but do no damage. You barely miss the rat. The kobold hits
+you. The rat bites you.
+* * * LOW HITPOINT WARNING * * *
+You take 6 damage, and have 6/20 hp.
+MASSIVE DAMAGE!!
+You barely miss the kobold. You hit the rat.
+You kill the rat!
+Trog accepts your kill.
+The kobold closely misses you.
+You barely miss the kobold. Your headbutt misses the kobold. The kobold hits
+you.
+* * * LOW HITPOINT WARNING * * *
+You take 3 damage, and have 3/20 hp.
+You hit the kobold. The kobold barely misses you.
+You closely miss the kobold. The kobold barely misses you.
+You closely miss the kobold. The kobold hits you.
+You die...
+
+            #....#.##.#
+            ###.##.#..#
+            #...#..#.##
+            #.###.##..#
+            #†.########
+           ##..#
+           #..##
+          ##.##
+          #..#
+.##########.##
+............#
+........##############
+........####.$........
+######..[.((..@†......
+     #.........K..)...
+     #...^.........###
+     #....[...####.#
+     #....>...#    #
+     #..........
+     ###########.
+
+
+You could see a kobold.
+
+Vanquished Creatures
+  A kobold (D:1)
+  A rat (D:1)
+2 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Arcades the Minotaur Berserker began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+    55 | D:1      | HP: 3/20 [kobold (3)]
+    58 | D:1      | Slain by a kobold
+
+Levels and vault maps discovered:
+D:1:      psy_arrival_radial01, layout_basic
+
+Levels and vault maps discovered:
+D:1:      psy_arrival_radial01, layout_basic
+
+Table legend:
+ A = Turns spent in this place as a percentage of turns spent in the
+     entire game.
+ B = Non-inter-level travel turns spent in this place as a percentage of
+     non-inter-level travel turns spent in the entire game.
+ C = Inter-level travel turns spent in this place as a percentage of
+     turns spent in this place.
+ D = Turns resting spent in this place as a percentage of non-inter-level
+     travel turns spent in this place.
+ E = Turns spent auto-exploring this place as a percentage of
+     non-inter-level travel turns spent in this place.
+ F = Non-inter-level travel turns spent in this place divided by the
+     number of levels of this place that you've seen.
+
+                   A       B       C       D       E               F
+               +-------+-------+-------+-------+-------+----------------------
+         Total | 100.0 | 100.0 |   0.0 |   0.0 |  74.1 |          58.0
+       Dungeon | 100.0 | 100.0 |   0.0 |   0.0 |  74.1 |          58.0
+               +-------+-------+-------+-------+-------+----------------------
+
+Table legend:
+ A = Kills in this place as a percentage of kills in entire the game.
+ B = Kills by you in this place as a percentage of kills by you in
+     the entire game.
+ C = Kills by friends in this place as a percentage of kills by
+     friends in the entire game.
+ D = Other kills in this place as a percentage of other kills in the
+     entire game.
+ E = Experience gained in this place as a percentage of experience
+     gained in the entire game.
+ F = Experience gained in this place divided by the number of levels of
+     this place that you have seen.
+
+                   A       B       C       D       E               F
+               +-------+-------+-------+-------+-------+----------------------
+         Total | 100.0 | 100.0 |  N/A  |  N/A  | 100.0 |           3.0
+       Dungeon | 100.0 | 100.0 |  N/A  |  N/A  | 100.0 |           3.0
+               +-------+-------+-------+-------+-------+----------------------
+

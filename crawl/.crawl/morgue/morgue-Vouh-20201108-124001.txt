@@ -1,0 +1,202 @@
+ Dungeon Crawl Stone Soup version 0.24.0 (tiles) character file.
+
+Game seed: 14393874524822085225, levelgen mode: deterministic
+
+158 Vouh the Chopper (level 5, -9/47 HPs)
+             Began as a Minotaur Berserker on Nov 8, 2020.
+             Was a Priest of Trog.
+             Mangled by Menkaure (23 damage)
+             ... on level 4 of the Dungeon.
+             The game lasted 00:05:05 (3019 turns).
+
+Vouh the Chopper (Minotaur Berserker)               Turns: 3019, Time: 00:05:06
+
+Health: -9/47      AC:  2    Str: 22    XL:     5   Next: 16%
+Magic:  4/4        EV: 13    Int:  4    God:    Trog [***...]
+Gold:   148        SH:  0    Dex: 10    Spells: 4/4 levels left
+
+rFire    . . .     SeeInvis .   a - +0 hand axe
+rCold    . . .     Gourm    .   (no shield)
+rNeg     . . .     Faith    .   b - +0 animal skin
+rPois    .         Spirit   .   (helmet restricted)
+rElec    .         Reflect  .   (no cloak)
+rCorr    .         Harm     .   (no gloves)
+MR       .....                  (no boots)
+Stlth    +.........             (no amulet)
+HPRegen  0.15/turn              (no ring)
+MPRegen  0.09/turn              (no ring)
+
+@: no status effects
+A: retaliatory headbutt, horns 2
+a: Berserk, Trog's Hand, Renounce Religion
+
+
+You were on level 4 of the Dungeon.
+You worshipped Trog.
+Trog was most pleased with you.
+You were not hungry.
+
+You visited 1 branch of the dungeon, and saw 4 of its levels.
+
+You collected 148 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ a - a +0 hand axe (weapon)
+Missiles
+ h - 15 poisoned darts (quivered)
+Armour
+ b - a +0 animal skin (worn)
+Scrolls
+ d - 2 scrolls of remove curse {unknown}
+ e - a scroll of magic mapping {unknown}
+ f - 7 scrolls of identify {unknown}
+ i - 2 scrolls of teleportation {unknown}
+Potions
+ g - a potion of cancellation {unknown}
+ j - 2 potions of heal wounds {unknown}
+ k - a potion of mutation {unknown}
+ l - 2 potions of curing {unknown}
+ m - a potion of magic {unknown}
+ n - a potion of ambrosia {unknown}
+Comestibles
+ c - 6 rations
+ o - a chunk of flesh
+
+
+   Skills:
+ + Level 4.8 Fighting
+ + Level 5.5 Axes
+ + Level 2.5 Armour
+ + Level 3.3 Dodging
+ + Level 0.2 Stealth
+
+
+You had 4 spell levels left.
+You didn't know any spells.
+Your spell library was empty.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (4/15)            
+Temple: D:4-7       
+
+Altars:
+Ashenzari
+
+Shops:
+D:4 *
+
+Annotations:
+D:4 Menkaure
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+Found a stone staircase leading up.
+Menkaure barely misses you.
+You hit Menkaure but do no damage.
+Menkaure calls on the powers of darkness!
+Your body is wracked with pain!
+* * * LOW HITPOINT WARNING * * *
+You are too injured to fight recklessly!
+You are too injured to fight recklessly!
+You are too injured to fight recklessly!
+You are too injured to fight recklessly!
+You are too injured to fight recklessly!
+You are too injured to fight recklessly!
+You hit Menkaure but do no damage. Menkaure hits you but does no damage.
+You hit Menkaure but do no damage.
+Menkaure mumbles some strange words.
+Menkaure seems to speed up.
+You hit Menkaure.
+Menkaure is lightly damaged.
+Menkaure hits you!!
+You die...
+
+                ##.#
+                 ..##
+                 ....
+                 ...#
+                 #..###
+                 #....####
+           #######M.......
+           #...<..@.#
+           #.#####.##
+         . .......?.#
+######   ...####.#..#####.
+#....#    #.   #....#.....
+#....#   ##..###..#.......
+#....####............#####
+#...<.....##...##<.#.#
+#....########.....##...
+#....#      #...#.# ###..
+####.########.###.#     ..
+   #..........# #.#      ∩
+   #####..##### #.#
+     #..^...#####.######
+     ####................
+
+
+You could see Menkaure.
+
+Vanquished Creatures
+  6 adders
+  4 oozes
+  An adder skeleton (D:4)
+  A worm (D:2)
+  4 dart slugs
+  2 leopard geckos
+  2 giant cockroaches (D:3)
+  10 hobgoblins
+  4 jackals (D:1)
+  2 ball pythons (D:2)
+  10 bats
+  11 frilled lizards
+  5 goblins
+  9 kobolds
+  6 rats
+77 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Vouh the Minotaur Berserker began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+    44 | D:1      | Reached XP level 2. HP: 18/27 MP: 1/1
+   193 | D:1      | Reached skill level 4 in Axes
+   300 | D:1      | Reached XP level 3. HP: 28/33 MP: 2/2
+   350 | D:1      | Reached ** piety under Trog
+   665 | D:1      | You fall into a shaft and drop 1 floor!
+   845 | D:2      | Reached XP level 4. HP: 30/41 MP: 3/3
+   860 | D:2      | Found a shattered altar of Ashenzari.
+  1276 | D:2      | Found a faded altar of an unknown god.
+  1280 | D:2      | Reached skill level 5 in Axes
+  2110 | D:3      | Reached XP level 5. HP: 30/47 MP: 4/4
+  2316 | D:3      | Reached *** piety under Trog
+  3006 | D:4      | Found Autroitz's Alliterative Accessories.
+  3011 | D:4      | Noticed Menkaure
+  3019 | D:4      | Mangled by Menkaure
+
+Levels and vault maps discovered:
+D:1:      onia_arrival_handbag, layout_basic, serial_co_window_serial,
+          co_window_paths_a, co_window_paths_a, co_window_paths_a,
+          co_window_paths_a, co_window_corner_a, co_window_2corner,
+          co_window_corner_b, co_window_of_opportunity_b, co_window_corner_cb,
+          co_window_corner_ca, glass_columns_b
+D:2:      layout_loops_corners, chequers_ecumenical_altar_lobes, serial_rivers,
+          chequers_serial_rivers_micro_e, chequers_serial_rivers_small_b,
+          chequers_serial_rivers_small_b, chequers_serial_rivers_micro_e,
+          ashenzari_altar_1
+D:3:      layout_loops_corners, first_ration, minmay_misc_feat_rows
+D:4:      layout_rooms, nicolae_alphabet_shops, minmay_goblin_outpost,
+          uniq_menkaure
+

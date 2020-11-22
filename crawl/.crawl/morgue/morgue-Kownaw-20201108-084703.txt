@@ -1,0 +1,398 @@
+ Dungeon Crawl Stone Soup version 0.24.0 (tiles) character file.
+
+Game seed: 9716013623024073719, levelgen mode: deterministic
+
+12023 Kownaw the Cleaver (level 11, -5/101 HPs)
+             Began as a Minotaur Berserker on Nov 8, 2020.
+             Was a High Priest of Trog.
+             Slain by an orc warrior
+             ... wielding a +0 glaive
+              (23 damage)
+             ... on level 2 of the Orcish Mines.
+             The game lasted 00:40:47 (9536 turns).
+
+Kownaw the Cleaver (Minotaur Berserker)             Turns: 9536, Time: 00:40:48
+
+Health: -5/101     AC: 20    Str: 27    XL:     11   Next: 57%
+Magic:  1/1        EV: 10    Int:  4    God:    Trog [*****.]
+Gold:   919        SH:  3    Dex: 10    Spells: 10/10 levels left
+
+rFire    + + .     SeeInvis .   d - +10 hand axe {drain, rC+ rN+ MP-9 Str+2}
+rCold    + . .     Gourm    .   A - +0 buckler
+rNeg     + . .     Faith    .   s - +1 plate armour
+rPois    .         Spirit   .   (helmet restricted)
+rElec    .         Reflect  .   z - +0 cloak
+rCorr    +         Harm     .   (no gloves)
+MR       .....                  n - +0 pair of boots
+Stlth    ..........             (no amulet)
+HPRegen  0.26/turn              y - ring of protection from fire
+MPRegen  0.07/turn              o - ring of resist corrosion
+
+@: berserk cooldown, very slightly contaminated
+A: retaliatory headbutt, horns 2, slimy green scales 1, fire resistance 1,
+mutation resistance 1
+a: Berserk, Trog's Hand, Brothers in Arms, Renounce Religion
+
+
+You were on level 2 of the Orcish Mines.
+You worshipped Trog.
+Trog was extremely pleased with you.
+You were near starving.
+
+You visited 2 branches of the dungeon, and saw 13 of its levels.
+
+You collected 1069 gold pieces.
+You spent 150 gold pieces at shops.
+
+Inventory:
+
+Hand Weapons
+ d - the +10 hand axe of Sacuoq (weapon) {drain, rC+ rN+ MP-9 Str+2}
+   (You found it on level 4 of the Dungeon)   
+   
+   A truly terrible weapon, it drains the life of those it strikes.
+   
+   It affects your strength (+2).
+   It protects you from cold.
+   It protects you from negative energy.
+   It affects your magic capacity (-9).
+ D - a +2 executioner's axe of chopping
+Missiles
+ q - 4 boomerangs (quivered)
+Armour
+ n - a +0 pair of boots (worn)
+ s - a +1 plate armour (worn)
+ z - a +0 cloak (worn)
+ A - a +0 buckler (worn)
+Jewellery
+ o - a ring of resist corrosion (right hand)
+ y - a ring of protection from fire (left hand)
+Wands
+ i - a wand of random effects (25)
+ k - a wand of flame (25)
+Scrolls
+ b - 3 scrolls of teleportation
+ e - 10 scrolls of identify
+ f - 4 scrolls of remove curse
+ h - a scroll of fog {unknown}
+ j - 5 scrolls of amnesia
+ p - 3 scrolls of magic mapping
+ x - 4 scrolls of random uselessness {unknown}
+Potions
+ a - 2 potions of flight
+ g - a potion of resistance {unknown}
+ l - 2 potions of magic
+ r - a potion of lignification
+ t - 2 potions of curing
+ u - a potion of haste
+ v - 5 potions of heal wounds
+ C - a potion of might
+Comestibles
+ c - 19 rations
+ B - 6 chunks of flesh
+
+
+   Skills:
+ + Level 10.7 Fighting
+ * Level 13.9 Axes
+ + Level 10.2 Armour
+ + Level 9.4 Dodging
+
+
+You had 10 spell levels left.
+You didn't know any spells.
+Your spell library contained the following spells:
+
+ Spells                   Type           Power        Failure   Level  Hunger
+ Magic Dart               Conj           #...         100%        1    ##.....
+ Blink                    Tloc           N/A          100%        2    ###....
+ Call Imp                 Summ           #.......     100%        2    ###....
+ Slow                     Hex            #.......     100%        2    ###....
+ Conjure Flame            Conj/Fire      #.......     100%        3    ####...
+ Mephitic Cloud           Conj/Pois/Air  #.......     100%        3    ####...
+
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (11/15)            Temple (0/1) D:7             Orc (2/2) D:11
+  Lair: D:8-11         Elf: Orc:2       
+
+Altars:
+Ashenzari
+Cheibriados
+Elyvilon
+Fedhas
+Qazlal
+Sif Muna
+Xom
+Yredelemnul
+Beogh
+
+Shops:
+D:4 }:   D:5 :   D:7 [
+
+Portals:
+Ossuary: D:8
+
+Annotations:
+D:10 exclusion: ice statue
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+You are partially covered in slimy green scales. (AC +2)
+Your flesh is heat resistant. (rF+)
+You are somewhat resistant to further mutation.
+
+
+Message History
+
+* * * LOW HITPOINT WARNING * * *
+The orc warrior hits you but does no damage.
+Found 25 gold pieces.
+The warg bites you but does no damage.
+The warg bites you but does no damage.
+The warg bites you!
+* * * LOW HITPOINT WARNING * * *
+The warg bites you but does no damage.
+The warg bites you but does no damage.
+You feel yourself speed up.
+The warg closely misses you.
+The warg barely misses you.
+You flicker for a moment.
+The warg barely misses you.
+You flicker back into view.
+The orc warlord roars a battlecry!
+The orcs go into a battle-frenzy!
+The warg bites you but does no damage.
+The orc warrior hits you from afar with a +0 glaive!!
+You die...
+
+                  ###
+          ###    ##.####
+          #.##  ##..^..### ##
+      #####..## #........##.##
+     ##.......# ##.#.........#   .
+    ##........#####.........#####.
+ ####...........##..........##....
+##.#..........<###...........#....
+#...##...........#...##...........
+##.#.................#............
+ ###......##.........##........# .
+ #.......###.........#####.....##
+ #.......##...........###...)...##
+ ###.....<.....o...........o...h..
+  #.#....@...ooO......##...###...o
+  ###.....ho.o..o...........#..o.o
+    #........o..###T..o..#o.oo..÷.
+    ###......#.## #......##.......
+      #.#..#####  #..#...###.##...
+      ######      ##.#...# ###....
+                   $...###   ##.#.
+                  ##.###     #...#
+                   ###       ##.##
+                              ###
+
+
+You could see an orc warlord, a warg, 3 orc warriors, an ogre, an orc priest and
+2 orcs.
+
+Vanquished Creatures
+  A stone giant (Orc:1)
+  A two-headed ogre (D:10)
+  An orc knight (Orc:1)
+  An orc sorcerer (Orc:2)
+  An ugly thing (D:11)
+  A gargoyle (D:10)
+  4 trolls
+  2 hippogriffs
+  A spriggan (D:9)
+  A wyvern (D:9)
+  10 yaks
+  A hungry ghost (D:10)
+  2 water moccasins
+  8 orc warriors
+  3 ice beasts
+  3 sky beasts
+  10 ogres
+  2 phantoms
+  4 centaurs
+  3 bullfrogs
+  A big kobold (D:9)
+  2 jellies
+  5 scorpions
+  11 killer bees (D:10)
+  5 howler monkeys
+  4 crimson imps
+  A bullfrog skeleton (D:8)
+  7 hounds
+  13 orc priests
+  8 orc wizards
+  2 iguanas (D:9)
+  9 worker ants
+  A killer bee zombie (D:5)
+  A hound zombie (D:8)
+  A hound skeleton (D:6)
+  A worker ant zombie (D:8)
+  11 gnolls
+  12 adders
+  2 shadow imps (D:9)
+  4 oozes
+  An adder zombie (D:9)
+  An adder skeleton (D:9)
+  7 worms
+  A dart slug (D:2)
+  5 leopard geckos
+  49 orcs
+  3 ball pythons
+  7 giant cockroaches
+  8 goblins
+  6 hobgoblins
+  6 jackals
+  4 quokkas
+  A ball python zombie (D:5)
+  4 bats
+  10 frilled lizards
+  A jackal zombie (D:6)
+  14 kobolds
+  A leopard gecko skeleton (D:4)
+  A leopard gecko zombie (D:6)
+  A quokka skeleton (D:8)
+  A quokka zombie (D:6)
+  4 rats
+297 creatures vanquished.
+
+Vanquished Creatures (collateral kills)
+  An ogre (Orc:2)
+  An orc (Orc:2)
+2 creatures vanquished.
+
+Vanquished Creatures (others)
+  An orc wizard (Orc:2)
+  A fungus (D:7)
+2 creatures vanquished.
+
+Grand Total: 301 creatures vanquished
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Kownaw the Minotaur Berserker began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+    37 | D:1      | Reached XP level 2. HP: 26/27 MP: 1/1
+  1094 | D:2      | Reached skill level 4 in Axes
+  1094 | D:2      | Reached XP level 3. HP: 30/34 MP: 2/2
+  1199 | D:2      | Reached XP level 4. HP: 13/41 MP: 3/3
+  1531 | D:2      | Reached ** piety under Trog
+  1602 | D:2      | Found a snail-covered altar of Cheibriados.
+  2216 | D:3      | Reached skill level 5 in Axes
+  2216 | D:3      | Reached XP level 5. HP: 39/47 MP: 4/4
+  2335 | D:3      | Reached skill level 5 in Fighting
+  2610 | D:3      | Reached XP level 6. HP: 56/56 MP: 5/5
+  2667 | D:3      | Reached *** piety under Trog
+  2723 | D:4      | Found a white marble altar of Elyvilon.
+  2763 | D:4      | Reached skill level 6 in Axes
+  2902 | D:4      | Found Ihecsa's Book Shoppe.
+  3001 | D:4      | Reached XP level 7. HP: 33/61 MP: 6/6
+  3361 | D:4      | Got a jewelled hand axe
+  3362 | D:4      | Identified the +10 hand axe of Sacuoq {drain, rC+ rN+ MP-9
+                  | Str+2} (You found it on level 4 of the Dungeon)
+  3446 | D:4      | Found Pipelek's Gadget Shoppe.
+  3454 | D:4      | Bought a wand of flame (23) for 150 gold pieces
+  3518 | D:4      | Reached skill level 7 in Axes
+  3775 | D:5      | Entered Level 5 of the Dungeon
+  3793 | D:5      | Found Uhuomaog's Book Shop.
+  3819 | D:5      | Reached skill level 5 in Armour
+  4004 | D:5      | Reached XP level 8. HP: 67/71 MP: 7/7
+  4007 | D:5      | Reached skill level 5 in Dodging
+  4019 | D:5      | Reached skill level 8 in Axes
+  4486 | D:6      | Reached **** piety under Trog
+  5308 | D:7      | Noticed a hippogriff
+  5320 | D:7      | Killed a hippogriff
+  5343 | D:7      | Reached skill level 9 in Axes
+  5435 | D:7      | Gained mutation: You are somewhat resistant to further
+                  | mutation. [potion of mutation]
+  5435 | D:7      | Gained mutation: You are partially covered in slimy green
+                  | scales. (AC +2) [potion of mutation]
+  5435 | D:7      | Gained mutation: Your flesh is heat resistant. (rF+)
+                  | [potion of mutation]
+  5444 | D:7      | Found a staircase to the Ecumenical Temple.
+  5485 | D:7      | Reached XP level 9. HP: 79/79 MP: 8/8
+  5519 | D:7      | Found Rilusotwa's Armour Shop.
+  5634 | D:7      | Found a shimmering blue altar of Sif Muna.
+  5634 | D:7      | Found a basalt altar of Yredelemnul.
+  5634 | D:7      | Found a blossoming altar of Fedhas.
+  5696 | D:7      | Found a shattered altar of Ashenzari.
+  5700 | D:7      | Saw a vision of the Swamp and the Spider Nest.
+  5700 | D:7      | Noticed an alligator
+  5700 | D:7      | Noticed an alligator
+  5700 | D:7      | Noticed a wolf spider
+  5700 | D:7      | Noticed a wolf spider
+  6140 | D:8      | Reached skill level 10 in Axes
+  6172 | D:8      | Found a sand-covered staircase.
+  6309 | D:8      | Reached ***** piety under Trog
+  7046 | D:9      | Reached skill level 11 in Axes
+  7090 | D:9      | Found a shimmering altar of Xom.
+  7090 | D:9      | Found a shimmering altar of Xom.
+  7092 | D:9      | Found a shimmering altar of Xom.
+  7092 | D:9      | Found a shimmering altar of Xom.
+  7151 | D:9      | Reached XP level 10. HP: 90/90 MP: 0/9
+  7322 | D:9      | Received a gift from Trog
+  7453 | D:9      | Found a stormy altar of Qazlal.
+  7770 | D:10     | Entered Level 10 of the Dungeon
+  7847 | D:10     | Reached skill level 12 in Axes
+  7948 | D:10     | Noticed a two-headed ogre
+  7953 | D:10     | Killed a two-headed ogre
+  8005 | D:10     | Noticed a two-headed ogre
+  8022 | D:10     | Noticed an ice statue
+  8027 | D:10     | Found the +8 arc blade {discharge, rElec}
+  8262 | D:10     | Noticed a gargoyle
+  8268 | D:10     | Killed a gargoyle
+  8268 | D:10     | Reached XP level 11. HP: 78/99 MP: 1/10
+  8289 | D:10     | Reached skill level 10 in Fighting
+  8797 | D:11     | Reached skill level 13 in Axes
+  8809 | D:11     | Found a staircase to the Orcish Mines.
+  8814 | D:11     | Noticed a brown ugly thing
+  8822 | D:11     | Killed a brown ugly thing
+  8830 | Orc:1    | Entered Level 1 of the Orcish Mines
+  8875 | Orc:1    | Noticed an orc knight
+  8885 | Orc:1    | Noticed a stone giant
+  8893 | Orc:1    | Killed an orc knight
+  8899 | Orc:1    | Killed a stone giant
+  8899 | Orc:1    | Reached skill level 10 in Armour
+  8911 | Orc:1    | Received a gift from Trog
+  8943 | Orc:1    | Paralysed by fainting for 8 turns
+  8972 | Orc:1    | Paralysed by fainting for 7 turns
+  9148 | Orc:1    | Found a roughly hewn altar of Beogh.
+  9319 | Orc:2    | Entered Level 2 of the Orcish Mines
+  9319 | Orc:2    | Noticed an orc warlord
+  9319 | Orc:2    | Noticed an orc sorcerer
+  9490 | Orc:2    | Killed an orc sorcerer
+  9536 | Orc:2    | Slain by an orc warrior
+
+Levels and vault maps discovered:
+D:1:      wander_arrival_lonely_grave, layout_loops_cross
+D:2:      layout_loops_ring, kennysheep_slug_shrine, first_ration
+D:3:      layout_basic
+D:4:      layout_loops_cross, elyvilon_altar_5, serial_shops, shop, shop,
+          serial_glass, glass_columns_b, glass_columns_b
+D:5:      layout_rooms, serial_shops, nicolae_shop_waterfront,
+          minmay_misc_feat_encased
+D:6:      layout_gridville
+D:7:      layout_gridville, chequers_temple_overflow_statue_of_worship,
+          minmay_temple_entry_sparse_star, serial_shops, shop,
+          grunt_ashenzari_visionary [grunt_ashenzari_visionary_swamp,
+          grunt_ashenzari_visionary_spider]
+D:8:      layout_loops_ring, enter_ossuary_1
+D:9:      minmay_skewed_foursquare, layout_small_grid, xom_redecorated,
+          marbit_many_paths, grunt_pizzeria, minivault_24
+D:10:     layout_roguey, minivault_15
+D:11:     layout_small_grid, erik_lair_dragon, orc_0_dummy, serial_shops,
+          kennysheep_little_box
+Orc:1:    layout_caves, basic_altar
+Orc:2:    grunt_orc_tribal_feast, layout_diamond_mine,
+          portal_ice_cave_demonic_guard
+

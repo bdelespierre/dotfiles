@@ -1,0 +1,206 @@
+ Dungeon Crawl Stone Soup version 0.24.0 (tiles) character file.
+
+Game seed: 10722352947902318367, levelgen mode: deterministic
+
+128 Vouh the Skirmisher (level 4, -2/42 HPs)
+             Began as a Minotaur Berserker on Nov 9, 2020.
+             Was a Priest of Trog.
+             Succumbed to an adder's poison
+             ... on level 3 of the Dungeon.
+             The game lasted 00:05:11 (2140 turns).
+
+Vouh the Skirmisher (Minotaur Berserker)            Turns: 2140, Time: 00:05:12
+
+Health: -2/42      AC:  8    Str: 23    XL:     4   Next: 86%
+Magic:  3/3        EV: 11    Int:  4    God:    Trog [***...]
+Gold:   99         SH:  0    Dex:  9    Spells: 3/3 levels left
+
+rFire    . . .     SeeInvis .   m - +1 mace (crush)
+rCold    . . .     Gourm    .   (no shield)
+rNeg     . . .     Faith    .   q - +0 scale mail
+rPois    .         Spirit   .   (helmet restricted)
+rElec    .         Reflect  .   p - +0 cloak
+rCorr    .         Harm     .   (no gloves)
+MR       .....                  o - -1 pair of boots (curse)
+Stlth    ..........             (no amulet)
+HPRegen  0.14/turn              (no ring)
+MPRegen  0.08/turn              (no ring)
+
+@: lethally poisoned (-2 -> -19), slowed, very slow
+A: retaliatory headbutt, horns 2
+a: Berserk, Trog's Hand, Renounce Religion
+
+
+You were on level 3 of the Dungeon.
+You worshipped Trog.
+Trog was most pleased with you.
+You were not hungry.
+
+You visited 1 branch of the dungeon, and saw 3 of its levels.
+
+You collected 99 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ m - a +1 mace of crushing (weapon)
+Missiles
+ h - 11 poisoned darts (quivered)
+Armour
+ o - a cursed -1 pair of boots (worn)
+ p - a +0 cloak (worn)
+ q - a +0 scale mail (worn)
+Jewellery
+ f - an uncursed ring of positive energy {unknown}
+ u - an uncursed ring of resist corrosion {unknown}
+Scrolls
+ a - a scroll of identify {unknown}
+ d - 4 scrolls of remove curse {unknown}
+ e - a scroll of fear {unknown}
+ g - a scroll of enchant weapon {unknown}
+ k - 2 scrolls of magic mapping {unknown}
+ l - 2 scrolls of teleportation {unknown}
+ w - a scroll of blinking {unknown}
+ y - a scroll of fog {unknown}
+Potions
+ i - 2 potions of degeneration {unknown}
+ j - a potion of mutation {unknown}
+ n - 2 potions of flight {unknown}
+ r - a potion of ambrosia {unknown}
+ s - a potion of magic {unknown}
+ t - a potion of resistance {unknown}
+ v - a potion of curing {unknown}
+ x - a potion of heal wounds {unknown}
+Comestibles
+ b - a chunk of flesh
+ c - 5 rations
+
+
+   Skills:
+ + Level 5.1 Fighting
+   Level 4.2(4.4) Axes
+ + Level 1.8(3.3) Maces & Flails
+ + Level 3.0 Armour
+ + Level 3.0 Dodging
+ + Level 0.3 Stealth
+
+
+You had 3 spell levels left.
+You didn't know any spells.
+Your spell library was empty.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (3/15)            
+
+Altars:
+Gozag
+Sif Muna
+Xom
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+You hit the adder.
+The adder is almost dead.
+* * * LOW HITPOINT WARNING * * *
+You feel very sick.
+The adder closely misses you. The frilled lizard bites you.
+* * * LOW HITPOINT WARNING * * *
+The kobold misses you. You furiously retaliate! You headbutt the kobold. The
+adder barely misses you. The frilled lizard closely misses you. You furiously
+retaliate!
+You headbutt the frilled lizard.
+You kill the frilled lizard!
+Trog accepts your kill.
+The kobold closely misses you. You furiously retaliate!
+You headbutt the kobold, but do no damage.
+The adder bites you.
+* * * LOW HITPOINT WARNING * * *
+You are more poisoned.
+The adder poisons you!
+You sock the adder!
+You kill the adder!
+Trog accepts your kill.
+You die...
+
+########.....###..#   ....................
+#...[..'.....'.#..# #########.###########.
+#.######.....#.#.>. ......................
+#.#    #.....# ####  ######.######........
+#.#    #.....#            #.#    #........
+#.#    #.....#            #.######.......#
+#.#    #.....#   #######  #.#....#.......#
+#.#    #.....#.###.....####.#....#.......#
+#.#     ######......)..'....#....#.......#
+#.################.....######....#.......#
+#................'.....'.........'.......#
+##################.....###########.......#
+        .......  #.....#        #.÷.......
+        .......###.....#        #......###
+        ........(@.....#        #......# #
+        ........Kg.....#        #...(..# #
+        ...............#        #......# #
+        ..........##.....       #......# #
+        ..........' .....+      #......# #
+        ..........##.....#      #.[....# #
+        ..........# .....#      #......###
+        ..........#   #..       ##(......#
+                                 ##......#
+                                  #......#
+                                  #......#
+                                  ##'#####
+                                   #.#
+                                   ###
+
+
+You could see a goblin and a kobold.
+
+Vanquished Creatures
+  4 adders
+  A worm (D:2)
+  4 leopard geckos
+  A ball python (D:3)
+  10 bats
+  3 giant cockroaches
+  12 goblins
+  10 hobgoblins
+  4 jackals (D:3)
+  5 quokkas
+  3 frilled lizards
+  9 kobolds
+  10 rats
+76 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Vouh the Minotaur Berserker began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+    86 | D:1      | Reached XP level 2. HP: 27/27 MP: 1/1
+    89 | D:1      | Reached skill level 4 in Fighting
+   718 | D:1      | Reached ** piety under Trog
+   756 | D:1      | Reached XP level 3. HP: 33/33 MP: 2/2
+  1258 | D:2      | Found a shimmering altar of Xom.
+  1356 | D:2      | Reached XP level 4. HP: 38/41 MP: 3/3
+  1624 | D:3      | Reached skill level 5 in Fighting
+  1629 | D:3      | Reached *** piety under Trog
+  1629 | D:3      | Reached skill level 1 in Maces & Flails
+  1844 | D:3      | Found a shimmering blue altar of Sif Muna.
+  2068 | D:3      | Found an opulent altar of Gozag.
+  2139 | D:3      | HP: 2/42 [frilled lizard (2)]
+  2140 | D:3      | Succumbed to an adder's poison
+
+Levels and vault maps discovered:
+D:1:      minmay_arrival_three_doors, layout_basic
+D:2:      layout_basic, xom_redecorated, minmay_misc_feat_nine_boxes
+D:3:      layout_basic, nicolae_overflow_hidden_temple, grunt_gozag_breadcrumbs,
+          first_ration
+

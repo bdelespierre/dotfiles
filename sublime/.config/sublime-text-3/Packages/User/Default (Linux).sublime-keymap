@@ -7,4 +7,5 @@
     { "keys": ["shift+f12"], "command": "goto_definition_scope" },
     { "keys": ["f10"], "command": "toggle_side_bar" },
     { "keys": ["ctrl+shift+r"], "command": "reveal_in_side_bar" },
+    { "keys": ["ctrl+w"], "command": "close_file" }
 ]

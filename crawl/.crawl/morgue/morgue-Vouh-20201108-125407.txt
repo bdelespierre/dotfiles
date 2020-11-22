@@ -1,0 +1,223 @@
+ Dungeon Crawl Stone Soup version 0.24.0 (tiles) character file.
+
+Game seed: 17482641953018930050, levelgen mode: deterministic
+
+940 Vouh the Covered (level 7, 0/63 HPs)
+             Began as a Minotaur Berserker on Nov 8, 2020.
+             Was a Priest of Trog.
+             Slain by an orc
+             ... wielding a +0 war axe
+              (2 damage)
+             ... on level 6 of the Dungeon.
+             The game lasted 00:09:04 (2844 turns).
+
+Vouh the Covered (Minotaur Berserker)               Turns: 2844, Time: 00:09:05
+
+Health: 0/63       AC: 11    Str: 23    XL:     7   Next: 88%
+Magic:  6/6        EV:  9    Int:  4    God:    Trog [***...]
+Gold:   119        SH:  0    Dex: 10    Spells: 6/6 levels left
+
+rFire    + . .     SeeInvis .   n - +0 war axe
+rCold    . . .     Gourm    +   (no shield)
+rNeg     . . .     Faith    .   v - +0 chain mail
+rPois    .         Spirit   .   (helmet restricted)
+rElec    .         Reflect  .   (no cloak)
+rCorr    .         Harm     .   m - +0 pair of gloves
+MR       .....                  (no boots)
+Stlth    ..........             u - amulet of the gourmand
+HPRegen  0.20/turn              h - ring of protection from fire
+MPRegen  0.10/turn              (no ring)
+
+@: no status effects
+A: retaliatory headbutt, horns 2
+a: Berserk, Trog's Hand, Renounce Religion
+
+
+You were on level 6 of the Dungeon.
+You worshipped Trog.
+Trog was most pleased with you.
+You were very full.
+
+You visited 1 branch of the dungeon, and saw 4 of its levels.
+
+You collected 119 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ n - a +0 war axe (weapon)
+Missiles
+ d - 134 stones
+ x - 16 poisoned darts (quivered)
+Armour
+ m - a +0 pair of gloves (worn)
+ v - a +0 chain mail (worn)
+Jewellery
+ h - a ring of protection from fire (left hand)
+ u - an amulet of the gourmand (around neck)
+Wands
+ k - a wand of flame (15)
+ t - a wand of disintegration (17)
+Scrolls
+ b - 4 scrolls of identify {unknown}
+ e - 2 scrolls of teleportation {unknown}
+ g - a scroll of enchant armour {unknown}
+ i - 4 scrolls of remove curse {unknown}
+ p - a scroll of magic mapping {unknown}
+ q - a scroll of enchant weapon {unknown}
+ s - a scroll of random uselessness {unknown}
+Potions
+ a - a potion of brilliance {unknown}
+ f - 4 potions of degeneration {unknown}
+ j - a potion of lignification {unknown}
+ o - 2 potions of curing {unknown}
+ r - a potion of magic {unknown}
+ w - 2 potions of mutation {unknown}
+Comestibles
+ c - 7 rations
+
+
+   Skills:
+ + Level 6.1 Fighting
+ + Level 6.0(6.5) Axes
+   Level 3.7(5.4) Maces & Flails
+ + Level 1.1 Throwing
+ + Level 6.3 Armour
+ + Level 4.0 Dodging
+ + Level 0.1 Stealth
+
+
+You had 6 spell levels left.
+You didn't know any spells.
+Your spell library was empty.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (3/15)            
+
+Altars:
+Kikubaaqudgha
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+Trog accepts your kill.
+Your Axes skill increases to level 6!
+You closely miss the orc warrior. The orc warrior barely misses you.
+You closely miss the giant cockroach. You headbutt the giant cockroach.
+You kill the giant cockroach!
+Trog accepts your kill.
+You hit the orc warrior but do no damage.
+The orc warrior hits you with a +0 flail.
+The orc hits you.
+You slash the orc!
+You kill the orc!
+Trog accepts your kill.
+Your chain mail prevents you from hitting the orc warrior.
+The orc warrior hits you with a +0 flail!
+* * * LOW HITPOINT WARNING * * *
+You closely miss the orc. You headbutt the orc.
+The orc is moderately wounded.
+You hit the orc warrior but do no damage.
+The orc hits you with a +0 war axe.
+You die...
+
+                   #######
+  #################.......
+  ................#.......
+  ................#.......
+  ..............o@#.......
+#########'#######o#.......
+#.................(.s.....
+#.........................
+#....................o....
+#.................)...!...
+#.........................
+########......#########...
+ #.....#......#        ...
+ #.....#......#         ..
+ #.....#......#
+####'###...)..#
+#..........####
+#..........#
+#.........[#
+
+
+You could see an orc warrior and an orc.
+
+Vanquished Creatures
+  An ugly thing (D:6)
+  Grinder (D:3)
+  A jelly (D:6)
+  2 iguanas (D:6)
+  Natasha (twice) (D:3)
+  An orc wizard (D:2)
+  A worker ant (D:6)
+  Robin (D:2)
+  6 adders
+  3 oozes
+  2 worms (D:2)
+  4 dart slugs
+  2 leopard geckos
+  16 orcs
+  4 bats
+  4 giant cockroaches
+  12 goblins
+  5 hobgoblins (D:2)
+  6 kobolds
+  A frilled lizard (D:3)
+  4 rats
+79 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Vouh the Minotaur Berserker began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   122 | D:1      | Reached XP level 2. HP: 21/27 MP: 1/1
+   351 | D:1      | Reached XP level 3. HP: 30/33 MP: 2/2
+   570 | D:2      | Reached XP level 4. HP: 31/41 MP: 3/3
+   595 | D:2      | Reached ** piety under Trog
+   914 | D:2      | Noticed Robin
+   930 | D:2      | Reached skill level 1 in Maces & Flails
+   934 | D:2      | Killed Robin
+  1497 | D:3      | Reached XP level 5. HP: 44/47 MP: 4/4
+  1512 | D:3      | Noticed Grinder
+  1513 | D:3      | Paralysed by Grinder for 3 turns
+  1519 | D:3      | Paralysed by Grinder for 4 turns
+  1528 | D:3      | Paralysed by Grinder for 3 turns
+  1781 | D:3      | Paralysed by Grinder for 5 turns
+  1787 | D:3      | Paralysed by Grinder for 6 turns
+  1795 | D:3      | Killed Grinder
+  1795 | D:3      | Reached skill level 5 in Fighting
+  1795 | D:3      | Reached skill level 1 in Throwing
+  1795 | D:3      | Reached XP level 6. HP: 22/56 MP: 5/5
+  2169 | D:3      | Found an ancient bone altar of Kikubaaqudgha.
+  2267 | D:3      | Noticed Natasha
+  2272 | D:3      | Killed Natasha
+  2366 | D:3      | Noticed Natasha
+  2370 | D:3      | Killed Natasha
+  2619 | D:3      | You fall into a shaft and drop 3 floors!
+  2647 | D:6      | Reached skill level 5 in Armour
+  2671 | D:6      | Reached *** piety under Trog
+  2676 | D:6      | Reached XP level 7. HP: 41/61 MP: 6/6
+  2829 | D:6      | Noticed a red ugly thing
+  2840 | D:6      | Killed a red ugly thing
+  2840 | D:6      | Reached skill level 5 in Axes
+  2843 | D:6      | HP: 2/63 [orc warrior/+0 flail (17)]
+  2844 | D:6      | Slain by an orc
+
+Levels and vault maps discovered:
+D:1:      giann_bridges, layout_rooms, minmay_misc_feat_nine_boxes
+D:2:      layout_loops_corners, first_ration, uniq_robin
+D:3:      layout_basic, overflow_temple_1_default,
+          nicolae_overflow_crystal_walls, uniq_natasha, uniq_grinder
+D:6:      layout_gridville
+

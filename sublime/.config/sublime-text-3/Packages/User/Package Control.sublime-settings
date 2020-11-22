@@ -1,0 +1,32 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"AlignTab",
+		"All Autocomplete",
+		"Behat Features",
+		"DocBlockr",
+		"DotENV",
+		"FileIcons",
+		"INI",
+		"Laravel Blade Highlighter",
+		"LoremIpsum",
+		"Missing Palette Commands",
+		"Package Control",
+		"PHP Companion",
+		"Predawn",
+		"Sass",
+		"SublimeLinter",
+		"SublimeLinter-contrib-jslint",
+		"SublimeLinter-jsl",
+		"SublimeLinter-json",
+		"SublimeLinter-php",
+		"SublimeLinter-phpcs",
+		"TailwindCSSAutocomplete",
+		"Theme - Monokai Pro"
+	]
+}

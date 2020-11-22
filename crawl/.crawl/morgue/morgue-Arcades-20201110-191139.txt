@@ -1,0 +1,265 @@
+ Dungeon Crawl Stone Soup version 0.24.0 (tiles) character file.
+
+Game seed: 6725358329445938361, levelgen mode: deterministic
+
+1019 Arcades the Chopper (level 8, -19/71 HPs)
+             Began as a Minotaur Berserker on Nov 10, 2020.
+             Was a Priest of Trog.
+             Demolished by a large slime creature (26 damage)
+             ... on level 5 of the Dungeon.
+             The game lasted 00:08:01 (2951 turns).
+
+Arcades the Chopper (Minotaur Berserker)            Turns: 2951, Time: 00:08:01
+
+Health: -19/71     AC: 17    Str: 25    XL:     8   Next: 2%
+Magic:  7/7        EV: 12    Int:  4    God:    Trog [***...]
+Gold:   208        SH:  0    Dex:  9    Spells: 7/7 levels left
+
+rFire    . . .     SeeInvis .   I - +0 mace (protect)
+rCold    . . .     Gourm    .   (no shield)
+rNeg     . . .     Faith    .   t - +0 scale mail
+rPois    .         Spirit   .   (helmet restricted)
+rElec    .         Reflect  .   r - +0 cloak
+rCorr    .         Harm     .   C - +0 pair of gloves
+MR       ++...                  (no boots)
+Stlth    ..........             (no amulet)
+HPRegen  1.21/turn              (no ring)
+MPRegen  0.10/turn              (no ring)
+
+@: protection aura, starving, regenerating
+A: retaliatory headbutt, horns 2
+a: Berserk, Trog's Hand, Renounce Religion
+
+
+You were on level 5 of the Dungeon.
+You worshipped Trog.
+Trog was most pleased with you.
+You were starving.
+
+You visited 1 branch of the dungeon, and saw 5 of its levels.
+
+You collected 208 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ a - a +0 hand axe
+ x - a cursed -1 long sword
+ I - a +0 mace of protection (weapon)
+Missiles
+ l - 9 poisoned darts (quivered)
+Armour
+ b - a +0 animal skin
+ o - a +0 leather armour
+ r - a +0 cloak (worn)
+ t - a +0 scale mail (worn)
+ y - a +0 scale mail
+ C - a +0 pair of gloves (worn)
+Wands
+ d - a wand of acid (7)
+ F - a wand of iceblast (5)
+Scrolls
+ f - 2 scrolls of fear {unknown}
+ g - 2 scrolls of enchant armour {unknown}
+ i - 3 scrolls of identify {unknown}
+ j - 2 scrolls of random uselessness {unknown}
+ k - 5 scrolls of remove curse
+ m - a scroll of enchant weapon {unknown}
+ p - 2 scrolls of teleportation {unknown}
+ u - a scroll of amnesia {unknown}
+ v - a scroll of fog {unknown}
+ B - a scroll of immolation {unknown}
+ H - a scroll of magic mapping {unknown}
+Potions
+ e - a potion of heal wounds {unknown}
+ h - a potion of cancellation {unknown}
+ n - a potion of degeneration {unknown}
+ q - 2 potions of haste {unknown}
+ s - 3 potions of curing {unknown}
+ w - a potion of berserk rage {unknown}
+ z - a potion of magic {unknown}
+ A - a potion of resistance {unknown}
+ D - 2 potions of flight {unknown}
+ E - a potion of agility
+ G - a potion of brilliance {unknown}
+ J - 2 potions of invisibility {unknown}
+Comestibles
+ c - 11 rations
+
+
+   Skills:
+ + Level 6.6 Fighting
+ + Level 6.6 Axes
+ + Level 6.0 Armour
+ + Level 5.4 Dodging
+
+
+You had 7 spell levels left.
+You didn't know any spells.
+Your spell library was empty.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (5/15)            
+Temple: D:4-7       
+
+Altars:
+Ashenzari
+Fedhas
+Hepliaklqana
+Qazlal
+Sif Muna
+The Shining One
+
+Annotations:
+D:3 1 runed translucent door
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+The large slime creature closely misses you.
+The ooze barely misses you. The jelly closely misses you. The jelly hits the
+fungus. The fungus is splashed with acid!
+The fungus seems to be corroded for longer.
+The large slime creature hits you!! The ooze hits you but does no damage. The
+jelly hits you but does no damage.
+You hit the large slime creature. You headbutt the large slime creature.
+The large slime creature is lightly wounded.
+The jelly hits the fungus.
+The fungus is destroyed!
+The large slime creature misses you. The ooze closely misses you. The jelly
+closely misses you.
+You hit the large slime creature. You headbutt the large slime creature.
+The large slime creature is lightly wounded.
+You feel the effects of Trog's Hand fading.
+The large slime creature hits you!!
+* * * LOW HITPOINT WARNING * * *
+The jelly hits you but does no damage. The ooze hits you.
+* * * LOW HITPOINT WARNING * * *
+You thump the large slime creature! You headbutt the large slime creature.
+The large slime creature is moderately wounded.
+The large slime creature hits you!!
+You die...
+
+         ###+###########...###.........#.#  #
+         #.......^#  ###...# #.........#.#  #
+         #........####.....###.........#.####
+         #........'..+.............#...#.....
+      ####........####....########.##..######
+      #.........<.#  #######.......##..#
+      #.########'##        #.......# .>#
+      #.#      #.#    ######.......######
+      #.#      #.######.....####........#
+      #.#      #............'..'........#
+      #.#      ########.....####........#
+      #.#             #######  #........#
+      #.#            #######   #........#
+      #.#  ##########JJ....#   #........#
+ ######.####......##@JJJ÷.÷#   #........#
+.........##.....(.#.#JJ...÷#   ##########
+#######..'†.......#.#.P.PP.#
+      #(()(.......#.#....÷.#
+      ##.'......#'#)#...P..#
+       #.##.....#.#.#.÷....#
+       #####....#.#.#...P..#
+           #######.##...÷.)#
+                 ###
+
+
+You could see a large slime creature, 3 jellies and 3 oozes.
+
+Vanquished Creatures
+  Grinder (D:5)
+  The ghost of Vouh the Cutter, an amateur HuBe of Trog (D:3)
+  An ogre (D:4)
+  3 big kobolds (D:5)
+  A bullfrog (D:3)
+  2 jellies (D:5)
+  A crimson imp (D:5)
+  2 orc priests
+  3 worker ants
+  A howler monkey skeleton (D:4)
+  4 adders
+  A shadow imp (D:5)
+  3 oozes
+  3 worms
+  3 dart slugs
+  5 leopard geckos
+  6 orcs
+  7 bats
+  18 giant cockroaches
+  5 goblins
+  4 hobgoblins
+  4 jackals
+  2 quokkas (D:3)
+  4 frilled lizards
+  8 kobolds
+  A leopard gecko skeleton (D:4)
+  A quokka skeleton (D:4)
+  6 rats
+101 creatures vanquished.
+
+Vanquished Creatures (others)
+  A fungus (D:5)
+  8 toadstools (D:5)
+9 creatures vanquished.
+
+Grand Total: 110 creatures vanquished
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Arcades the Minotaur Berserker began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+    98 | D:1      | Reached XP level 2. HP: 27/27 MP: 1/1
+   121 | D:1      | You fall into a shaft and drop 1 floor!
+   374 | D:2      | Reached XP level 3. HP: 33/33 MP: 2/2
+   432 | D:2      | Reached ** piety under Trog
+   602 | D:2      | Found a hazy altar of Hepliaklqana.
+   689 | D:3      | Found a blossoming altar of Fedhas.
+   696 | D:3      | Found a runed translucent door.
+   696 | D:3      | Noticed a bullfrog
+   744 | D:3      | Reached XP level 4. HP: 35/40 MP: 3/3
+  1007 | D:3      | Found a runed translucent door.
+  1026 | D:3      | Noticed Vouh's ghost (amateur HuBe)
+  1414 | D:3      | Reached XP level 5. HP: 42/47 MP: 4/4
+  1547 | D:3      | Found a shimmering blue altar of Sif Muna.
+  1587 | D:3      | Reached *** piety under Trog
+  1588 | D:3      | Reached skill level 5 in Axes
+  1601 | D:3      | Killed Vouh's ghost
+  1601 | D:3      | Reached skill level 5 in Fighting
+  1601 | D:3      | Reached XP level 6. HP: 19/56 MP: 5/5
+  1880 | D:4      | Found a blossoming altar of Fedhas.
+  2211 | D:4      | Found a shattered altar of Ashenzari.
+  2312 | D:5      | Entered Level 5 of the Dungeon
+  2412 | D:5      | Reached XP level 7. HP: 62/62 MP: 6/6
+  2440 | D:5      | Reached skill level 5 in Armour
+  2469 | D:5      | Found a glowing golden altar of the Shining One.
+  2688 | D:5      | Found a stormy altar of Qazlal.
+  2692 | D:5      | Noticed Grinder
+  2712 | D:5      | Killed Grinder
+  2712 | D:5      | Reached skill level 5 in Dodging
+  2942 | D:5      | Noticed a slime creature
+  2942 | D:5      | Noticed a slime creature
+  2944 | D:5      | Reached XP level 8. HP: 65/71 MP: 7/7
+  2951 | D:5      | Demolished by a large slime creature
+
+Levels and vault maps discovered:
+D:1:      ncdulo_smallfort, layout_basic, serial_rivers,
+          chequers_serial_rivers_micro_b, chequers_serial_rivers_small_b,
+          chequers_serial_rivers_room_b, chequers_serial_rivers_marsh
+D:2:      layout_basic, old_standard_altar
+D:3:      minmay_roachtagon, layout_basic, lemuel_blue_sif_altar,
+          overflow_temple_1_default, ebering_ghost_sewer_f
+D:4:      layout_loops_ring, ashenzari_conservatory_becter, fedhas_altar_1
+D:5:      cheibrodos_fertilizer, layout_basic, tso_metal_star,
+          minmay_temple_entry_oklob, first_ration, grunt_qazlal_clouds,
+          uniq_grinder
+

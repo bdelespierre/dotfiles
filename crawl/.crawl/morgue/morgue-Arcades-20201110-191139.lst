@@ -1,0 +1,141 @@
+Arcades
+
+Level 1 of the Dungeon
+(0, 0, D:1)
+  a +0 dagger
+(6, -10, D:1)
+  a +0 club
+(7, -10, D:1)
+  a +0 dagger
+(7, -9, D:1)
+  a +0 club
+(16, -1, D:1)
+  a +0 mace
+
+Level 2 of the Dungeon
+(2, 15, D:2)
+  a +0 club
+(3, -16, D:2)
+  a +0 hunting sling
+(6, 6, D:2)
+  a +0 long sword
+(17, 20, D:2)
+  a +0 club
+(20, -9, D:2)
+  a +0 whip
+(40, -19, D:2)
+  20 stones
+
+Level 3 of the Dungeon
+(0, 0, D:3)
+  a +0 robe
+(3, -4, D:3)
+  18 stones
+(16, -24, D:3)
+  23 stones
+(19, -12, D:3)
+  a +0 dagger
+(21, -12, D:3)
+  a +0 club
+(22, -23, D:3)
+  a cursed -2 club
+(27, -11, D:3)
+  a +0 quarterstaff
+(30, 15, D:3)
+  a cursed +0 leather armour
+(32, -3, D:3)
+  a +0 falchion
+(33, -3, D:3)
+  a +0 short sword
+  a +0 leather armour
+(45, -18, D:3)
+  a +0 quarterstaff
+(51, -4, D:3)
+  a +0 club
+(52, -14, D:3)
+  a +0 hunting sling
+  a +0 dagger
+  17 sling bullets
+(52, -8, D:3)
+  a sling bullet
+
+Level 4 of the Dungeon
+(0, 0, D:4)
+  25 sling bullets
+(4, 3, D:4)
+  a +0 ring mail
+(13, -17, D:4)
+  a +0 trident
+(14, -20, D:4)
+  17 arrows
+(14, -7, D:4)
+  a +0 leather armour
+(16, -10, D:4)
+  25 arrows
+(16, 3, D:4)
+  23 arrows
+(18, -21, D:4)
+  a +0 mace
+(19, -24, D:4)
+  17 stones
+(23, -7, D:4)
+  a +0 quarterstaff
+  a +0 leather armour
+(28, -12, D:4)
+  5 boomerangs
+(32, 3, D:4)
+  26 bolts
+(35, 3, D:4)
+  a +0 ring mail
+(36, -26, D:4)
+  23 sling bullets
+(44, -16, D:4)
+  a +0 giant spiked club
+(51, -13, D:4)
+  a +2 hunting sling of velocity
+
+Level 5 of the Dungeon
+(10, -7, D:5)
+  25 stones
+(15, 25, D:5)
+  a stone
+(16, 25, D:5)
+  5 stones
+(17, 25, D:5)
+  a +0 club
+(18, 24, D:5)
+  a kobold corpse
+(18, 25, D:5)
+  2 stones
+  a +0 club
+  a kobold corpse
+(21, 1, D:5)
+  a +0 robe
+(21, 7, D:5)
+  the +1 robe "Parchy" {rN+++ rCorr Str-2 Dex-5}
+    It affects your strength (-2).
+    It affects your dexterity (-5).
+    It renders you almost immune to negative energy.
+    It provides partial protection from all sources of acid and corrosion.
+(24, 23, D:5)
+  17 stones
+(27, 26, D:5)
+  a +0 short sword
+(30, 27, D:5)
+  a rat skeleton
+(32, 22, D:5)
+  a bat skeleton
+(32, 29, D:5)
+  a rat skeleton
+(33, 25, D:5)
+  a hobgoblin skeleton
+(34, 22, D:5)
+  a hobgoblin skeleton
+(34, 23, D:5)
+  a goblin skeleton
+(34, 29, D:5)
+  a +0 trident
+  (unseen)
+(37, -10, D:5)
+  20 stones
+

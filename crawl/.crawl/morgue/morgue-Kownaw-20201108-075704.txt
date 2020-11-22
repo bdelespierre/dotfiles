@@ -1,0 +1,388 @@
+ Dungeon Crawl Stone Soup version 0.24.0 (tiles) character file.
+
+Game seed: 17162372215893058879, levelgen mode: deterministic
+
+6790 Kownaw the Basher (level 10, 0/91 HPs)
+             Began as a Minotaur Berserker on Nov 8, 2020.
+             Was a High Priest of Trog.
+             Succumbed to an orc wizard's poison
+             ... on level 11 of the Dungeon.
+             The game lasted 00:50:40 (11514 turns).
+
+Kownaw the Basher (Minotaur Berserker)             Turns: 11514, Time: 00:50:40
+
+Health: 0/91       AC: 17    Str: 25    XL:     10   Next: 76%
+Magic:  9/9        EV: 10    Int:  8    God:    Trog [*****.]
+Gold:   642        SH:  0    Dex:  8    Spells: 9/9 levels left
+
+rFire    + . .     SeeInvis .   D - +3 mace {flame, +Fly Int+4}
+rCold    . . .     Gourm    .   (no shield)
+rNeg     + . .     Faith    .   h - +1 plate armour
+rPois    .         Spirit   .   (helmet restricted)
+rElec    .         Reflect  .   L - scarf {cloud immunity}
+rCorr    .         Harm     .   m - +0 pair of gloves
+MR       ++...     Clarity  +   n - +0 pair of boots
+Stlth    ..........             x - amulet of magic regeneration
+HPRegen  1.25/turn              g - ring of positive energy
+MPRegen  0.36/turn              z - ring of protection from fire
+
+@: lethally poisoned (0 -> -1), about to teleport, berserk cooldown,
+regenerating, slowed, very slow
+A: retaliatory headbutt, horns 2, clarity, clumsy 1, sense surroundings 1
+a: Berserk, Trog's Hand, Brothers in Arms, Renounce Religion, Evoke Flight
+
+
+You were on level 11 of the Dungeon.
+You worshipped Trog.
+Trog was extremely pleased with you.
+You were hungry.
+
+You visited 1 branch of the dungeon, and saw 11 of its levels.
+
+You collected 758 gold pieces.
+You spent 116 gold pieces at shops.
+
+Inventory:
+
+Hand Weapons
+ D - the +3 mace of the Aged Princes (weapon) {flame, +Fly Int+4}
+   (You found it on level 7 of the Dungeon)   
+   
+   It has been specially enchanted to burn those struck by it, causing extra
+   injury to most foes and up to half again as much damage against particularly
+   susceptible opponents.
+   
+   It affects your intelligence (+4).
+   It lets you fly.
+ N - a +0 war axe
+Missiles
+ K - 19 arrows (quivered)
+Armour
+ h - a +1 plate armour (worn)
+ m - a +0 pair of gloves (worn)
+ n - a +0 pair of boots (worn)
+ L - a scarf of cloud immunity (worn)
+Jewellery
+ g - a ring of positive energy (left hand)
+ x - an amulet of magic regeneration (around neck)
+ z - a ring of protection from fire (right hand)
+Wands
+ a - a wand of iceblast (6)
+ b - a wand of digging (6)
+ i - a wand of clouds (3)
+ t - a wand of paralysis (9)
+ y - a wand of random effects (12)
+ F - a wand of acid (13)
+ J - a wand of disintegration (2)
+Scrolls
+ d - a scroll of noise
+ e - 10 scrolls of remove curse
+ k - a scroll of vulnerability {unknown}
+ o - a scroll of magic mapping
+ p - 4 scrolls of teleportation
+ q - a scroll of enchant weapon
+ s - 3 scrolls of identify
+ u - a scroll of random uselessness
+ A - a scroll of blinking
+ B - 3 scrolls of immolation
+Potions
+ f - a potion of magic
+ j - a potion of flight
+ l - 2 potions of haste
+ r - a potion of curing
+ v - a potion of ambrosia {unknown}
+ w - 2 potions of brilliance
+ E - a potion of berserk rage
+ G - a potion of mutation
+ I - 3 potions of agility
+Comestibles
+ c - 15 rations
+
+
+   Skills:
+ + Level 9.2 Fighting
+ * Level 9.0(11.1) Axes
+ * Level 10.5(11.8) Maces & Flails
+ + Level 8.6 Armour
+ + Level 8.1 Dodging
+ - Level 0.1 Stealth
+
+
+You had 9 spell levels left.
+You didn't know any spells.
+Your spell library contained the following spells:
+
+ Spells                   Type           Power        Failure   Level  Hunger
+ Shock                    Conj/Air       #...         99%         1    ##.....
+ Corpse Rot               Necr           N/A          100%        2    ###....
+ Sublimation of Blood     Necr           #.........   100%        2    ###....
+ Swiftness                Chrm/Air       #.......     100%        2    ###....
+ Static Discharge         Conj/Air       #.......     100%        3    ####...
+ Airstrike                Air            #.........   100%        4    #####..
+ Cause Fear               Hex            #.........   100%        4    #####..
+ Agony                    Necr           #.......     100%        5    ######.
+ Bolt of Draining         Conj/Necr      #.........   100%        5    ######.
+ Dispel Undead            Necr           #.......     100%        5    ######.
+ Excruciating Wounds      Chrm/Necr      #.........   100%        5    ######.
+ Lightning Bolt           Conj/Air       #.........   100%        5    ######.
+ Silence                  Hex/Air        #.........   100%        5    ######.
+ Yara's Violent Unravell  Hex/Tmut       #.........   100%        5    ######.
+ Deflect Missiles         Chrm/Air       #.........   100%        6    #######
+ Discord                  Hex            #.........   100%        8    #######
+
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (11/15)            Temple (0/1) D:6         
+  Lair: D:8-11         Orc: D:9-12      
+
+Altars:
+Fedhas
+Gozag
+Kikubaaqudgha
+Nemelex Xobeh
+Sif Muna
+Trog
+Xom
+Yredelemnul
+
+Shops:
+D:8 [   D:10 }
+
+Annotations:
+D:8 3 runed translucent doors, Uummannaq's ghost, novice HOFi
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+You possess an exceptional clarity of mind.
+You are clumsy. (Dex -2)
+You passively map a small area around you.
+
+
+Message History
+
+The orc warrior barely misses you.
+The orc warrior hits you with a +0 battleaxe!
+* * * LOW HITPOINT WARNING * * *
+You feel better.
+The orc wizard casts a spell at you.
+The puff of flame misses you. The puff of flame hits the orc warrior.
+The orc wizard hits you but does no damage.
+You are poisoned.
+The orc warrior hits you with a +0 war axe!!
+* * * LOW HITPOINT WARNING * * *
+The orc warrior hits you but does no damage.
+The orc wizard misses you.
+The orc warrior hits you with a +0 battleaxe!
+* * * LOW HITPOINT WARNING * * *
+The orc wizard hits you but does no damage.
+You are more poisoned.
+The orc wizard misses you.
+As you read the scroll of teleportation, it crumbles to dust.
+You feel strangely unstable.
+You die...
+
+  ... , ,
+##.# *
+...# #       *  ,
+..##.#
+..##.##..
+.........        ,     *
+...####     *    ,
+..##        *
+<.#
+÷.#                 ##*
+.##            * . ##8#
+.# ≈    ,        ..#...#
+.#  ≈        , ,,......)##
+.#               ......oo###########
+.##              ...o.oo@o..##.....##
+..# ≈            ..#...#o)..........##
+..#  **  8 *  *    ##. #.........>...#
+.###### **  *   ########.............#
+.##...#####    , ...#................#
+..#.#.....#   ** #.##................#
+#...##....#      #.##................#
+#.)###....#  #####..#................#
+..........####......................##
+............##..............##.....##
+######..................############
+     #....####..........#
+     #....#  #..........#
+     ######  ############
+
+
+You could see 4 orc warriors and 3 orc wizards.
+
+Vanquished Creatures
+  A two-headed ogre (D:9)
+  A centaur zombie (D:11)
+  2 trolls
+  A hippogriff (D:10)
+  A meliai zombie (D:11)
+  Sigmund (D:3)
+  3 hungry ghosts
+  Menkaure (D:5)
+  A water moccasin (D:9)
+  2 orc warriors
+  2 porcupines (D:11)
+  2 sky beasts
+  2 ice beasts
+  A black bear (D:11)
+  4 ogres
+  3 phantoms
+  A centaur (D:9)
+  A crocodile (D:10)
+  A big kobold (D:11)
+  3 bullfrogs (D:6)
+  A wyvern skeleton (D:9)
+  3 scorpions
+  3 killer bees (D:10)
+  6 wights
+  3 howler monkeys (D:8)
+  A bullfrog zombie (D:7)
+  6 crimson imps
+  A quasit (D:10)
+  5 hounds
+  4 bullfrog skeletons
+  4 jellies
+  3 orc priests (D:11)
+  4 centaur skeletons
+  5 iguanas
+  3 worker ants
+  Ijyb (D:3)
+  3 orc wizards
+  A hound skeleton (D:7)
+  A worker ant zombie (D:9)
+  A howler monkey skeleton (D:6)
+  7 gnolls
+  7 adders
+  A shadow imp (D:6)
+  2 oozes
+  An adder zombie (D:5)
+  2 worms (D:3)
+  3 dart slugs
+  7 leopard geckos
+  17 orcs
+  8 bats
+  7 giant cockroaches
+  3 goblins
+  8 hobgoblins
+  33 jackals
+  3 quokkas
+  2 ball pythons
+  6 frilled lizards
+  A jackal skeleton (D:7)
+  11 kobolds
+  A quokka skeleton (D:6)
+  A quokka zombie (D:8)
+  8 rats
+232 creatures vanquished.
+
+Vanquished Creatures (others)
+  2 bushes (D:11)
+  2 fungi (D:11)
+  14 plants (D:11)
+18 creatures vanquished.
+
+Grand Total: 250 creatures vanquished
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Kownaw the Minotaur Berserker began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   387 | D:1      | Reached XP level 2. HP: 26/27 MP: 1/1
+   632 | D:1      | Reached XP level 3. HP: 28/33 MP: 2/2
+   761 | D:1      | Reached ** piety under Trog
+  1719 | D:2      | Noticed an ice beast
+  1733 | D:2      | Killed an ice beast
+  1733 | D:2      | Reached skill level 5 in Axes
+  1733 | D:2      | Reached XP level 4. HP: 19/41 MP: 3/3
+  1912 | D:2      | Reached XP level 5. HP: 47/47 MP: 4/4
+  1921 | D:2      | Found an opulent altar of Gozag.
+  2328 | D:2      | You fall into a shaft and drop 2 floors!
+  2476 | D:3      | Noticed Sigmund
+  2489 | D:3      | Killed Sigmund
+  2489 | D:3      | Reached skill level 5 in Fighting
+  2489 | D:3      | Reached XP level 6. HP: 36/56 MP: 5/5
+  2879 | D:3      | Reached *** piety under Trog
+  2914 | D:3      | Reached skill level 1 in Maces & Flails
+  3684 | D:3      | Noticed Ijyb
+  3702 | D:3      | Killed Ijyb
+  4182 | D:4      | Reached skill level 2 in Maces & Flails
+  4182 | D:4      | Reached XP level 7. HP: 32/61 MP: 6/6
+  4677 | D:5      | Entered Level 5 of the Dungeon
+  4677 | D:5      | Found a sparkling altar of Nemelex Xobeh.
+  4731 | D:5      | Found a blossoming altar of Fedhas.
+  4742 | D:5      | Noticed Menkaure
+  4754 | D:5      | Killed Menkaure
+  4754 | D:5      | Reached skill level 3 in Maces & Flails
+  4754 | D:5      | Reached skill level 5 in Armour
+  5072 | D:5      | Reached skill level 4 in Maces & Flails
+  5334 | D:5      | Reached skill level 5 in Dodging
+  5591 | D:5      | Reached XP level 8. HP: 67/70 MP: 7/7
+  5761 | D:6      | Reached skill level 5 in Maces & Flails
+  5771 | D:6      | Found a staircase to the Ecumenical Temple.
+  5774 | D:6      | Reached **** piety under Trog
+  6083 | D:6      | Reached skill level 6 in Maces & Flails
+  6278 | D:6      | Found a bloodstained altar of Trog.
+  6648 | D:7      | Got a dazzling mace
+  6649 | D:7      | Identified the +3 mace of the Aged Princes {flame, +Fly
+                  | Int+4} (You found it on level 7 of the Dungeon)
+  6673 | D:7      | Reached skill level 7 in Maces & Flails
+  6679 | D:7      | Paralysed by fainting for 7 turns
+  6711 | D:7      | Found a shimmering blue altar of Sif Muna.
+  6793 | D:7      | Reached XP level 9. HP: 73/79 MP: 8/8
+  7946 | D:8      | Found Cegamp's Armour Boutique.
+  7962 | D:8      | Bought a +0 pair of gloves for 58 gold pieces
+  7962 | D:8      | Bought a +0 pair of boots for 58 gold pieces
+  7966 | D:8      | Found a runed translucent gate.
+  7966 | D:8      | Found a runed translucent gate.
+  7966 | D:8      | Found a runed translucent gate.
+  7991 | D:8      | Found an ancient bone altar of Kikubaaqudgha.
+  8089 | D:8      | Noticed Uummannaq's ghost (novice HOFi)
+  8286 | D:8      | Reached skill level 8 in Maces & Flails
+  8768 | D:9      | Noticed a troll
+  8781 | D:9      | Killed a troll
+  8974 | D:9      | Found a basalt altar of Yredelemnul.
+  9219 | D:9      | Reached ***** piety under Trog
+  9237 | D:9      | Noticed a two-headed ogre
+  9250 | D:9      | Killed a two-headed ogre
+  9250 | D:9      | Reached skill level 9 in Maces & Flails
+  9250 | D:9      | Reached XP level 10. HP: 30/90 MP: 9/9
+  9650 | D:9      | Found a shimmering altar of Xom.
+  9733 | D:10     | Entered Level 10 of the Dungeon
+ 10155 | D:10     | Found Maoshroef's Gadget Emporium.
+ 10235 | D:10     | Identified the cursed +1 flail "Naxuacet" {drain, Str+4}
+ 11222 | D:11     | Reached skill level 10 in Maces & Flails
+ 11348 | D:11     | Gained mutation: You are clumsy. (Dex -2) [potion of
+                  | mutation]
+ 11348 | D:11     | Gained mutation: You possess an exceptional clarity of
+                  | mind. [potion of mutation]
+ 11348 | D:11     | Gained mutation: You passively map a small area around you.
+                  | [potion of mutation]
+ 11513 | D:11     | HP: 1/91 [orc warrior/+0 battleaxe (10)]
+ 11514 | D:11     | Succumbed to an orc wizard's poison
+
+Levels and vault maps discovered:
+D:1:      wheals_arrival_linesprint, layout_basic
+D:2:      layout_basic, grunt_gozag_statues, kennysheep_small_spiral
+D:3:      layout_basic, first_ration, uniq_sigmund, uniq_ijyb
+D:4:      layout_basic
+D:5:      layout_basic, nemelex_xobeh_ov_fountains_minmay, basic_altar,
+          minmay_door_square, uniq_menkaure
+D:6:      layout_loops_ring, minmay_temple_entry_large_hall, trog_book
+D:7:      lemuel_ice_spiral_2, layout_basic, lemuel_doored_altar,
+          serial_corexii_hall, corexii_hall_statues_s, corexii_hall_statues_l
+D:8:      layout_gridville, kiku_gazebo_garden_becter, serial_shops, shop,
+          ebering_ghost_rock_garden
+D:9:      kennysheep_spiral_hall, layout_cross, lemuel_round_altar,
+          marbit_many_paths
+D:10:     layout_grid_maze, serial_shops, kennysheep_mini_moat
+D:11:     layout_rooms, minmay_lair_entry_grove, david_orc_4
+

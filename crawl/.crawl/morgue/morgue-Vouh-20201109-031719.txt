@@ -1,0 +1,150 @@
+ Dungeon Crawl Stone Soup version 0.24.0 (tiles) character file.
+
+Game seed: 8483638066395039648, levelgen mode: deterministic
+
+16 Vouh the Chopper (level 2, 0/27 HPs)
+             Began as a Minotaur Berserker on Nov 9, 2020.
+             Was a Follower of Trog.
+             Succumbed to a kobold's poison
+             ... on level 2 of the Dungeon.
+             The game lasted 00:02:04 (846 turns).
+
+Vouh the Chopper (Minotaur Berserker)                Turns: 846, Time: 00:02:05
+
+Health: 0/27       AC:  5    Str: 21    XL:     2   Next: 37%
+Magic:  1/1        EV: 11    Int:  4    God:    Trog [*.....]
+Gold:   72         SH:  0    Dex:  9    Spells: 1/1 levels left
+
+rFire    . . .     SeeInvis .   a - +0 hand axe
+rCold    . . .     Gourm    .   (no shield)
+rNeg     . . .     Faith    .   f - +0 ring mail (curse)
+rPois    .         Spirit   .   (helmet restricted)
+rElec    .         Reflect  .   (no cloak)
+rCorr    .         Harm     .   (no gloves)
+MR       .....                  (no boots)
+Stlth    ..........             (no amulet)
+HPRegen  0.09/turn              (no ring)
+MPRegen  0.07/turn              (no ring)
+
+@: lethally poisoned (0 -> -9)
+A: retaliatory headbutt, horns 2
+a: Berserk, Renounce Religion
+
+
+You were on level 2 of the Dungeon.
+You worshipped Trog.
+Trog was aware of your devotion.
+You were not hungry.
+
+You visited 1 branch of the dungeon, and saw 2 of its levels.
+
+You collected 72 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ a - a +0 hand axe (weapon)
+Missiles
+ g - 8 boomerangs of dispersal (quivered)
+Armour
+ b - a +0 animal skin
+ f - a cursed +0 ring mail (worn)
+Jewellery
+ e - an uncursed ring of protection from magic {unknown}
+Scrolls
+ h - a scroll of immolation {unknown}
+Comestibles
+ c - 3 rations
+ d - a chunk of flesh
+
+
+   Skills:
+ + Level 4.0 Fighting
+ + Level 4.0 Axes
+ + Level 2.6 Armour
+ + Level 2.3 Dodging
+
+
+You had one spell level left.
+You didn't know any spells.
+Your spell library was empty.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (2/15)            
+
+Altars:
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+There is a lethal amount of poison in your body!
+There is a lethal amount of poison in your body!
+There is a lethal amount of poison in your body!
+* * * LOW HITPOINT WARNING * * *
+You feel sick.
+* * * LOW HITPOINT WARNING * * *
+You feel sick.
+You see here 10 gold pieces.
+* * * LOW HITPOINT WARNING * * *
+You feel sick.
+* * * LOW HITPOINT WARNING * * *
+You feel sick.
+* * * LOW HITPOINT WARNING * * *
+You feel sick.
+Found 11 stones.
+* * * LOW HITPOINT WARNING * * *
+You feel sick.
+Unknown command.
+Unknown command.
+You die...
+
+                  #...
+                 ##.##
+              ####...#
+              #.......
+              #.##...#
+              #.###.##
+###       #.###.##...#
+.(#       #..........#
+#.#       #####.##...#
+#.#           #.######
+#.#           #.#
+#.#       #####.#
+#@#########.....#
+#....$..)...#####
+#############
+
+
+There were no monsters in sight!
+
+Vanquished Creatures
+  5 bats
+  A hobgoblin (D:2)
+  5 kobolds
+  A frilled lizard (D:1)
+  5 rats (D:1)
+17 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Vouh the Minotaur Berserker began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   365 | D:1      | Reached XP level 2. HP: 27/27 MP: 1/1
+   845 | D:2      | HP: 1/27 [poisoned by a kobold]
+   846 | D:2      | Succumbed to a kobold's poison
+
+Levels and vault maps discovered:
+D:1:      lightli_arrival_statuegarden, layout_loops_ring, grunt_decor_clamped,
+          corner_web_ring
+D:2:      layout_loops_ring, nicolae_overflow_hidden_temple,
+          minmay_misc_feat_cross, uniq_crazy_yiuf_cottage, uniq_jessica
+

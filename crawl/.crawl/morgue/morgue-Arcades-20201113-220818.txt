@@ -1,0 +1,714 @@
+ Seeded DCSS version 0.24.0 (tiles) character file.
+
+Game seed: 20201113, levelgen mode: deterministic
+
+169664 Arcades the Warrior (level 17, 0/163 HPs)
+             Began as a Minotaur Berserker on Nov 13, 2020.
+             Was the Champion of Trog.
+             Succumbed to Aizul's bolt of poison
+             ... on level 1 of the Vaults.
+             The game lasted 00:59:09 (25316 turns).
+
+Arcades the Warrior (Minotaur Berserker)           Turns: 25316, Time: 00:59:10
+
+Health: 0/163      AC: 45    Str: 36    XL:     17   Next: 10%
+Magic:  6/16       EV: 21    Int:  8    God:    Trog [******]
+Gold:   1796       SH:  0    Dex: 17    Spells: 16/16 levels left
+
+rFire    + . .     SeeInvis +   Q - +14 obsidian axe {chop, +Fly SInv *Curse}
+rCold    . . .     Gourm    +   (no shield)
+rNeg     . . .     Faith    .   B - +27 Lear's hauberk
+rPois    .         Spirit   .   (helmet currently unavailable)
+rElec    .         Reflect  .   C - +0 cloak of Umma Higile {Str+6}
+rCorr    .         Harm     .   (gloves currently unavailable)
+MR       +....                  (boots currently unavailable)
+Stlth    ..........             Z - amulet of the gourmand
+HPRegen  0.00/turn              b - +5 ring of dexterity
+MPRegen  0.15/turn              g - ring of the Furies {rF+ Str+4 Int+3}
+
+@: lethally poisoned (0 -> -24), marked, mesmerised
+A: retaliatory headbutt, hooves 1, horns 2, thin metallic scales 1, screaming 1,
+inhibited regeneration
+}: 1/15 runes: decaying
+a: Berserk, Trog's Hand, Brothers in Arms, Renounce Religion, Evoke Flight
+
+
+You were on level 1 of the Vaults.
+You worshipped Trog.
+Trog was exalted by your worship.
+You were very full.
+
+You visited 5 branches of the dungeon, and saw 28 of its levels.
+You also visited: Volcano.
+
+You collected 3169 gold pieces.
+You spent 1373 gold pieces at shops.
+
+Inventory:
+
+Hand Weapons
+ Q - the +14 obsidian axe (weapon) {chop, +Fly SInv *Curse}
+   (You found it on level 10 of the Dungeon)   
+   
+   It inflicts extra damage upon your enemies.
+   
+   It lets you see invisible.
+   It lets you fly.
+   It curses itself when equipped.
+Missiles
+ f - 7 silver boomerangs
+ m - 33 javelins (quivered)
+ I - 37 boomerangs
+ S - 10 boomerangs of dispersal
+Armour
+ B - the +27 Lear's hauberk (worn)
+   (You found it on level 5 of the Dungeon)
+ C - the +0 cloak of Umma Higile (worn) {Str+6}
+   (You bought it in a shop on level 8 of the Dungeon)   
+   
+   It affects your strength (+6).
+Jewellery
+ b - a +5 ring of dexterity (left hand)
+ g - the ring of the Furies (right hand) {rF+ Str+4 Int+3}
+   (You bought it in a shop on level 2 of the Orcish Mines)   
+   
+   [ring of protection from fire]
+   
+   It affects your strength (+4).
+   It affects your intelligence (+3).
+   It protects you from fire.
+ l - an uncursed ring of resist corrosion {unknown}
+ q - a cursed ring of attention {unknown}
+ x - an uncursed ring of ice
+ y - an uncursed amulet of guardian spirit
+ L - an uncursed ring of see invisible
+ Z - an amulet of the gourmand (around neck)
+Scrolls
+ a - 2 scrolls of summoning
+ d - 3 scrolls of fog
+ e - 6 scrolls of blinking
+ i - 7 scrolls of identify
+ k - 4 scrolls of fear
+ o - 5 scrolls of enchant armour
+ p - 6 scrolls of enchant weapon
+ s - 2 scrolls of silence
+ u - 11 scrolls of remove curse
+ H - 20 scrolls of teleportation
+ J - 5 scrolls of magic mapping
+Potions
+ j - 17 potions of curing
+ n - 4 potions of haste {unknown}
+ t - a potion of magic {unknown}
+ v - 2 potions of flight {unknown}
+ w - 6 potions of brilliance {unknown}
+ z - 4 potions of might {unknown}
+ A - 2 potions of ambrosia {unknown}
+ D - 10 potions of heal wounds {unknown}
+ E - 9 potions of agility {unknown}
+ F - 2 potions of berserk rage {unknown}
+ K - 2 potions of lignification {unknown}
+ R - 2 potions of invisibility {unknown}
+Comestibles
+ c - 42 rations
+
+
+   Skills:
+ + Level 18.1 Fighting
+ - Level 18.0 Axes
+ + Level 17.9 Armour
+ + Level 16.7 Dodging
+
+
+You had 16 spell levels left.
+You didn't know any spells.
+Your spell library contained the following spells:
+
+ Spells                   Type           Power        Failure   Level  Hunger
+ Leda's Liquefaction      Hex/Erth       #.........   100%        4    #####..
+ Bolt of Magma            Conj/Fire/Erth #.........   100%        5    ######.
+ Iron Shot                Conj/Erth      #.........   100%        6    #######
+ Statue Form              Tmut/Erth      #........    100%        6    #######
+ Shatter                  Erth           #.........   100%        9    #######
+
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (15/15)            Temple (0/1) D:6            Lair (6/6) D:10
+  Swamp (4/4) Lair:2        Snake (0/4) Lair:3        Slime (0/5) Lair:5
+    Orc (2/2) D:10            Elf (0/3) Orc:2        Vaults (1/5) D:13
+ Depths (0/5) D:15        Volcano (visited)         
+
+Altars:
+Ashenzari
+Fedhas
+Gozag
+Makhleb
+Qazlal
+Ru
+Sif Muna
+Trog
+Vehumet
+Xom
+Beogh
+Jiyva
+
+Shops:
+D:8 [   D:9 [   D:14 (::(   D:15 *   Orc:2 (*=:
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+You have large cloven feet.
+You are partially covered in thin metallic scales. (AC +2)
+You occasionally shout uncontrollably at your foes.
+You do not regenerate when monsters are visible.
+
+
+Message History
+
+Aizul is almost dead.
+* * * LOW HITPOINT WARNING * * *
+You feel sick. Your soul eater hits Aizul. Aizul hits you but does no damage.
+Your sun demon hits the great orb of eyes!
+The great orb of eyes is engulfed in flames!
+You miss Aizul. Your kick misses Aizul.
+Aizul is almost dead.
+* * * LOW HITPOINT WARNING * * *
+You feel sick.
+A deep troll shaman comes into view.
+Aizul closely misses you. You furiously retaliate! You headbutt Aizul. Your
+soul eater hits Aizul.
+The ironheart preserver closely misses your sun demon.
+You strike the helpless Aizul from behind!
+You slash Aizul! You open a gate to Pandemonium! A demon appears!
+You are no longer entranced.
+You kill Aizul!
+Trog accepts your kill.
+Trog appreciates your killing of a magic user.
+Visions of slaying the great orb of eyes flood into your mind.
+You die...
+
+        ..$...........#
+        ..............#
+    #.................#
+    #..................
+#####..................
+.......................
+...............3....3pT
+...............@....G.#
+.........)....).......#
+.......)).)....3......#
+........).............#
+##+####'##########....#
+ #............#   ....#
+ #............#    ...#
+ #............#    ...#
+ #.....∩......#     ..#
+ #............#
+ #.....†......#
+ ##############
+
+
+You could see an ironheart preserver, a great orb of eyes, a deep troll shaman,
+a friendly soul eater and 2 friendly sun demons.
+
+Vanquished Creatures
+  Asterion (Vaults:1)
+  Kirke (Swamp:2)
+  Donald (Swamp:4)
+  A frost giant (D:15)
+  An orc warlord (Orc:1)
+  A deep elf sorcerer (Vaults:1)
+  Aizul (Vaults:1)
+  A very ugly thing (Swamp:4)
+  An ironheart preserver (Vaults:1)
+  A vampire knight (D:13)
+  Nessos (D:14)
+  A deep elf annihilator (Vaults:1)
+  2 deep elf demonologists (Vaults:1)
+  A minotaur (Lair:1)
+  Snorg (Orc:2)
+  2 fire dragons
+  Josephine (Lair:4)
+  Fannar (Lair:3)
+  2 ogre magi (Orc:2)
+  2 ghost crabs (Swamp:2)
+  3 vault guards (D:13)
+  A death knight (D:12)
+  11 hydras
+  2 shambling mangroves
+  3 ice dragons (Swamp:4)
+  6 centaur warriors
+  2 death yaks (Lair:4)
+  5 alligators
+  18 two-headed ogres
+  A tengu warrior (D:13)
+  Urug (D:11)
+  7 spriggans
+  A skeletal warrior (D:12)
+  The ghost of Caczuus the Covert, a novice SpEE of Ashenzari (Lair:1)
+  3 unseen horrors
+  A lindwurm (Volcano)
+  5 swamp dragons
+  2 phantasmal warriors (D:14)
+  A wolf spider (Vaults:1)
+  A wolf spider (shapeshifter) (D:13)
+  A human zombie (Vaults:1)
+  4 cyclopes
+  A necromancer (Vaults:1)
+  7 ugly things
+  2 deep elf magi
+  2 manticores (D:15)
+  11 elephants
+  A cyclops (shapeshifter) (Vaults:1)
+  A frost giant skeleton (Vaults:1)
+  3 centaur zombies
+  6 black mambas
+  A black mamba (shapeshifter) (D:14)
+  19 spiny frogs
+  A vault sentinel (Vaults:1)
+  6 centaur skeletons
+  5 torpor snails
+  A gargoyle (D:12)
+  7 freezing wraiths
+  A yaktaur (D:15)
+  7 rime drakes
+  5 komodo dragons
+  2 polar bears
+  5 trolls
+  19 hornets
+  7 tyrant leeches
+  6 bog bodies
+  17 slime creatures
+  16 blink frogs
+  4 dream sheep (Lair:5)
+  Sigmund (D:4)
+  13 hippogriffs
+  A shadow (Swamp:1)
+  3 wyverns
+  5 wraiths
+  32 yaks
+  Eustachio (D:5)
+  A basilisk (Lair:3)
+  3 hogs (Swamp:2)
+  4 steam dragons
+  3 swamp worm simulacra (Swamp:4)
+  2 hungry ghosts
+  Menkaure (D:5)
+  29 vampire mosquitoes
+  11 swamp worms
+  5 wargs
+  A naga (Lair:3)
+  10 insubstantial wisps
+  2 acid dragons
+  A hell hound (Volcano)
+  9 water moccasins
+  Duvessa (D:7)
+  An ogre skeleton (Vaults:1)
+  16 hydra simulacra (Swamp:4)
+  2 porcupines (Lair:4)
+  8 ice beasts
+  6 sky beasts
+  19 orc warriors
+  3 swamp drakes
+  A black bear (D:8)
+  An eye of draining (D:8)
+  20 ogres
+  6 phantoms
+  A necrophage (D:11)
+  2 wolves (Lair:5)
+  5 boggarts (D:12)
+  15 crocodiles
+  11 centaurs
+  3 big kobolds
+  10 bullfrogs
+  4 wyvern zombies
+  A gnoll sergeant (D:8)
+  2 wyvern skeletons
+  Dowan (D:7)
+  2 scorpions
+  7 wights
+  7 killer bees
+  An electric eel (Lair:2)
+  2 howler monkeys (D:6)
+  6 crimson imps
+  A bullfrog zombie (D:10)
+  A quasit (D:11)
+  A wyvern simulacrum (D:14)
+  5 hounds
+  4 jellies
+  13 orc priests
+  24 orc wizards
+  5 bullfrog skeletons
+  5 iguanas
+  Ijyb (D:3)
+  2 hell rats (Lair:4)
+  11 worker ants
+  A hound skeleton (D:5)
+  4 worker ant zombies
+  8 gnolls
+  18 adders
+  5 shadow imps
+  3 swamp drake simulacra (Swamp:4)
+  An ooze (D:4)
+  3 adder skeletons
+  An adder zombie (D:5)
+  3 worms
+  3 dart slugs
+  9 leopard geckos
+  73 orcs
+  9 bats
+  8 giant cockroaches
+  7 hobgoblins
+  13 jackals
+  26 kobolds
+  2 quokkas
+  8 frilled lizards
+  7 goblins
+  A jackal zombie (D:5)
+  A quokka skeleton (D:6)
+  5 rats
+  6 briar patches (Swamp:2)
+  2 bushes (D:3)
+  11 plants
+880 creatures vanquished.
+
+Vanquished Creatures (collateral kills)
+  A thorn hunter (Swamp:2)
+  A tengu reaver (D:13)
+  Roxanne (Swamp:2)
+  A fire dragon (Lair:6)
+  A rakshasa (D:14)
+  A vault guard (D:13)
+  2 hydras
+  A two-headed ogre (Orc:2)
+  A death yak (Lair:4)
+  A death knight (D:14)
+  2 ogre magi (Orc:2)
+  An unseen horror (D:13)
+  2 lindwurms (Lair:6)
+  A swamp dragon (Lair:6)
+  An orc knight (D:15)
+  A black mamba (Lair:4)
+  A centaur zombie (D:13)
+  A torpor snail (Lair:6)
+  A spiny frog (Lair:6)
+  3 komodo dragons
+  A rime drake (Lair:6)
+  3 tyrant leeches
+  6 slime creatures
+  4 hornets (Lair:6)
+  A polar bear (shapeshifter) (D:13)
+  2 blink frogs (Lair:5)
+  A hippogriff (D:12)
+  A meliai zombie (D:13)
+  A wyvern (D:15)
+  7 yaks
+  A basilisk (Lair:6)
+  3 vampire mosquitoes
+  A naga (Lair:3)
+  A swamp worm simulacrum (Swamp:4)
+  3 swamp worms (Swamp:2)
+  2 insubstantial wisps (Swamp:3)
+  2 water moccasins
+  2 porcupines
+  An eye of draining (D:13)
+  7 orc warriors
+  3 ogres
+  3 wolves (Lair:5)
+  A crocodile (Lair:6)
+  A wight (D:10)
+  An orc priest (Orc:2)
+  An orc wizard (Orc:1)
+  2 hell rats (Lair:4)
+  A swamp drake simulacrum (Swamp:4)
+  8 orcs
+  3 jackals (D:11)
+  2 kobolds (D:11)
+  A briar patch (Swamp:2)
+  A fungus (Lair:5)
+  A plant (Lair:6)
+104 creatures vanquished.
+
+Vanquished Creatures (others)
+  A thorn hunter (Swamp:4)
+  2 swamp worms
+  4 fungi
+  6 plants
+13 creatures vanquished.
+
+Grand Total: 997 creatures vanquished
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Arcades the Minotaur Berserker began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   384 | D:1      | Reached XP level 2. HP: 18/27 MP: 1/1
+   830 | D:1      | You fall into a shaft and drop 1 floor!
+   837 | D:2      | Reached XP level 3. HP: 27/33 MP: 2/2
+   903 | D:2      | Reached ** piety under Trog
+   922 | D:2      | Found a faded altar of an unknown god.
+  1006 | D:2      | Reached XP level 4. HP: 38/41 MP: 3/3
+  1831 | D:3      | Reached XP level 5. HP: 47/47 MP: 4/4
+  1881 | D:3      | Reached *** piety under Trog
+  2043 | D:3      | Noticed Ijyb
+  2052 | D:3      | Killed Ijyb
+  2439 | D:4      | Noticed Sigmund
+  2447 | D:4      | Killed Sigmund
+  2447 | D:4      | Reached skill level 5 in Fighting
+  2447 | D:4      | Reached skill level 5 in Axes
+  2447 | D:4      | Reached XP level 6. HP: 56/56 MP: 5/5
+  3128 | D:5      | Entered Level 5 of the Dungeon
+  3137 | D:5      | Noticed Eustachio
+  3153 | D:5      | Killed Eustachio
+  3153 | D:5      | Reached skill level 5 in Armour
+  3153 | D:5      | Reached XP level 7. HP: 62/62 MP: 6/6
+  3201 | D:5      | Found the +27 Lear's hauberk
+  3259 | D:5      | Noticed Menkaure
+  3271 | D:5      | Killed Menkaure
+  3271 | D:5      | Reached skill level 5 in Dodging
+  3608 | D:5      | Found a sacrificial altar of Ru.
+  3686 | D:5      | Reached XP level 8. HP: 71/71 MP: 7/7
+  3807 | D:5      | Found a bloodstained altar of Trog.
+  3953 | D:5      | Reached **** piety under Trog
+  3992 | D:5      | You fall into a shaft and drop 2 floors!
+  4040 | D:7      | Noticed Duvessa
+  4040 | D:7      | Noticed a hippogriff
+  4046 | D:7      | Noticed Dowan
+  4048 | D:7      | Killed a hippogriff
+  4056 | D:7      | Killed Dowan
+  4070 | D:7      | Killed Duvessa
+  4293 | D:7      | Reached XP level 9. HP: 81/81 MP: 8/8
+  4341 | D:7      | You fall into a shaft and drop 1 floor!
+  4447 | D:8      | Found a stormy altar of Qazlal.
+  4565 | D:8      | Reached ***** piety under Trog
+  4657 | D:8      | Received a gift from Trog
+  4758 | D:8      | Killed an unseen horror
+  4778 | D:8      | Reached XP level 10. HP: 61/91 MP: 1/9
+  4797 | D:8      | Found the +2 ratskin cloak {+Rats rPois rN+ Str-1 Int-1
+                  | Dex+1}
+  4853 | D:8      | Found a blossoming altar of Fedhas.
+  5089 | D:8      | Found Miaqahuv's Armour Boutique.
+  5094 | D:8      | Bought the cursed +0 cloak of Umma Higile {Str+6} for 337
+                  | gold pieces
+  5519 | D:9      | Found Xibidublo's Armour Shoppe.
+  5531 | D:9      | Bought a +1 hat for 121 gold pieces
+  5891 | D:7      | Found a burning altar of Makhleb.
+  5891 | D:7      | Found a shimmering altar of Xom.
+  6097 | D:6      | Reached skill level 10 in Axes
+  6150 | D:6      | Found a radiant altar of Vehumet.
+  6199 | D:6      | Reached skill level 10 in Fighting
+  6264 | D:6      | Found a staircase to the Ecumenical Temple.
+  6349 | D:6      | Found a bloodstained altar of Trog.
+  6349 | D:6      | Found an opulent altar of Gozag.
+  6349 | D:6      | Found a shattered altar of Ashenzari.
+  6356 | D:6      | Found a shimmering blue altar of Sif Muna.
+  6920 | D:10     | Entered Level 10 of the Dungeon
+  7011 | D:10     | Found the cursed +14 obsidian axe {chop, +Fly SInv *Curse}
+  7086 | D:10     | Noticed a cyan ugly thing
+  7093 | D:10     | Killed a cyan ugly thing
+  7093 | D:10     | Reached skill level 10 in Armour
+  7100 | D:10     | Found a staircase to the Orcish Mines.
+  7482 | D:10     | Found a staircase to the Lair.
+  7633 | Lair:1   | Entered Level 1 of the Lair of Beasts
+  7641 | Lair:1   | Noticed a minotaur
+  7641 | Lair:1   | Noticed a spiny frog
+  7641 | Lair:1   | Noticed Caczuus's ghost (novice SpEE)
+  7657 | Lair:1   | Reached XP level 11. HP: 90/101 MP: 10/10
+  7906 | Lair:1   | Found a runed translucent gate.
+  7909 | Lair:1   | Found a runed translucent gate.
+  7910 | Lair:1   | Found a runed translucent gate.
+  8243 | Lair:1   | Killed Caczuus's ghost
+  8243 | Lair:1   | Reached skill level 10 in Dodging
+  8245 | Lair:1   | Killed a minotaur
+  8382 | Lair:2   | Found a staircase to the Swamp.
+  8456 | Lair:2   | Received a gift from Trog
+  8597 | Lair:2   | Noticed an eight-headed hydra
+  8602 | Lair:2   | Killed a nine-headed hydra
+  9011 | Lair:3   | Reached XP level 12. HP: 108/112 MP: 11/11
+  9040 | Lair:3   | Noticed Fannar
+  9049 | Lair:3   | Killed Fannar
+  9064 | Lair:3   | Found a staircase to the Snake Pit.
+  9243 | Lair:3   | Noticed a six-headed hydra
+  9245 | Lair:3   | Reached ****** piety under Trog
+  9248 | Lair:3   | Killed a seven-headed hydra
+  9870 | Lair:4   | Noticed a death yak
+  9870 | Lair:4   | Noticed a death yak
+  9870 | Lair:4   | Noticed a death yak
+  9876 | Lair:4   | Killed a death yak
+  9878 | Lair:4   | Killed a death yak
+  9880 | Lair:4   | Killed a death yak
+  9979 | Lair:4   | Found a gate leading to a gauntlet.
+ 10123 | Lair:4   | Found a dark tunnel.
+ 10128 | Volcano  | Entered a volcano
+ 10222 | Volcano  | Noticed a fire dragon
+ 10228 | Volcano  | Killed a fire dragon
+ 10339 | Lair:4   | Noticed an eight-headed hydra
+ 10341 | Lair:4   | Gained mutation: Your spells are a little easier to cast,
+                  | but a little less powerful. [a neqoxec]
+ 10345 | Lair:4   | Gained mutation: You tend to lose your temper in combat. [a
+                  | neqoxec]
+ 10350 | Lair:4   | Killed a 12-headed hydra
+ 10897 | Lair:4   | Reached XP level 13. HP: 122/122 MP: 12/12
+ 11148 | Lair:4   | Noticed Josephine
+ 11159 | Lair:4   | Killed Josephine
+ 11327 | Lair:5   | Found a staircase to the Slime Pits.
+ 11328 | Lair:5   | Found a viscous altar of Jiyva.
+ 12033 | Lair:6   | Entered Level 6 of the Lair of Beasts
+ 12349 | Lair:6   | Received a gift from Trog
+ 12367 | Lair:6   | Noticed a fire dragon
+ 12376 | Lair:6   | Killed a fire dragon
+ 12655 | Lair:6   | Found a runed translucent door.
+ 12656 | Lair:6   | Noticed a fire dragon
+ 12665 | Lair:6   | Killed a fire dragon
+ 12734 | Lair:6   | Received a gift from Trog
+ 12734 | Lair:6   | Paralysed by a hornet for 3 turns
+ 13409 | Lair:6   | Reached XP level 14. HP: 133/133 MP: 13/13
+ 13542 | D:11     | Noticed Urug
+ 13550 | D:11     | Killed Urug
+ 13579 | D:11     | Found a stormy altar of Qazlal.
+ 14628 | D:12     | Got a twitching marble ring
+ 14714 | D:12     | Reached skill level 15 in Axes
+ 15270 | D:12     | Reached skill level 15 in Fighting
+ 15315 | D:12     | Received a gift from Trog
+ 15603 | D:13     | Found a gate to the Vaults.
+ 15618 | D:13     | Reached skill level 15 in Armour
+ 15649 | D:13     | Paralysed by a hornet for 3 turns
+ 15901 | D:13     | Noticed a vampire knight
+ 15902 | D:13     | Noticed a tengu reaver
+ 15903 | D:13     | Found the +8 demon blade "Bloodbane" {slice, *Rage +Rage
+                  | Stlth-}
+ 15907 | D:13     | Killed a vampire knight
+ 15912 | D:13     | Killed a tengu reaver
+ 16700 | D:14     | Identified the ring "Zunk" {Fire Stlth+} (You found it on
+                  | level 12 of the Dungeon)
+ 16851 | D:14     | Found Sitoz's Book Boutique.
+ 16927 | D:14     | Found Oqieckud's Book Boutique.
+ 16946 | D:14     | Found Fafyja's Antique Weapon Emporium.
+ 16966 | D:14     | Found the +0 pair of fencer's gloves {Riposte Dex+3}
+ 17065 | D:14     | Reached XP level 15. HP: 138/143 MP: 14/14
+ 17555 | D:14     | Found Yhyomuja's Antique Weapon Emporium.
+ 17575 | D:14     | Noticed Nessos
+ 17589 | D:14     | Killed Nessos
+ 17732 | D:15     | Entered Level 15 of the Dungeon
+ 17825 | D:15     | Found Sefruron's General Store.
+ 18190 | D:15     | Found a staircase to the Depths.
+ 18190 | D:15     | Noticed a frost giant
+ 18197 | D:15     | Killed a frost giant
+ 18480 | Orc:1    | Entered Level 1 of the Orcish Mines
+ 18569 | Orc:1    | Found a roughly hewn altar of Beogh.
+ 18715 | Orc:2    | Entered Level 2 of the Orcish Mines
+ 18715 | Orc:2    | Noticed Snorg
+ 18716 | Orc:2    | Found a staircase to the Elven Halls.
+ 18730 | Orc:2    | Killed Snorg
+ 18730 | Orc:2    | Received a gift from Trog
+ 18730 | Orc:2    | Reached skill level 15 in Dodging
+ 19028 | Orc:2    | Found Ivebirr's Jewellery Shop.
+ 19028 | Orc:2    | Found Ujuak Ypta's Antique Weapon Emporium.
+ 19034 | Orc:2    | Found Anetebb's Book Shoppe.
+ 19034 | Orc:2    | Found Runuyfot's General Store.
+ 19409 | Orc:2    | Bought the ring of the Furies {rF+ Str+4 Int+3} for 840
+                  | gold pieces
+ 19411 | Orc:2    | Bought a scroll of identify for 30 gold pieces
+ 19411 | Orc:2    | Bought a potion of curing for 45 gold pieces
+ 19500 | Orc:2    | Found a roughly hewn altar of Beogh.
+ 19751 | Orc:1    | Noticed an orc warlord
+ 19777 | Orc:1    | Killed an orc warlord
+ 20241 | Swamp:1  | Entered Level 1 of the Swamp
+ 20314 | Swamp:1  | Received a gift from Trog
+ 20706 | Swamp:1  | Reached XP level 16. HP: 154/154 MP: 15/15
+ 21270 | Swamp:2  | Noticed Roxanne
+ 21272 | Swamp:2  | Noticed Kirke
+ 21288 | Swamp:2  | Killed Kirke
+ 21293 | Swamp:2  | Killed Roxanne
+ 21369 | Swamp:2  | Noticed a thorn hunter
+ 21379 | Swamp:2  | Killed a thorn hunter
+ 21806 | Swamp:2  | Received a gift from Trog
+ 21882 | Swamp:2  | Paralysed by a hornet for 3 turns
+ 23504 | Swamp:4  | Entered Level 4 of the Swamp
+ 23593 | Swamp:4  | Killed a thorn hunter
+ 23718 | Swamp:4  | Noticed Donald
+ 23729 | Swamp:4  | Killed Donald
+ 24326 | Swamp:4  | Received a gift from Trog
+ 24448 | Swamp:4  | Got a decaying rune of Zot
+ 25043 | Swamp:4  | Lost mutation: Your spells are a little easier to cast, but
+                  | a little less powerful. [potion of mutation]
+ 25043 | Swamp:4  | Lost mutation: You tend to lose your temper in combat.
+                  | [potion of mutation]
+ 25043 | Swamp:4  | Gained mutation: You have large cloven feet. [potion of
+                  | mutation]
+ 25043 | Swamp:4  | Gained mutation: You occasionally shout uncontrollably at
+                  | your foes. [potion of mutation]
+ 25043 | Swamp:4  | Gained mutation: You do not regenerate when monsters are
+                  | visible. [potion of mutation]
+ 25043 | Swamp:4  | Gained mutation: You are partially covered in thin metallic
+                  | scales. (AC +2) [potion of mutation]
+ 25255 | Vaults:1 | Entered Level 1 of the Vaults
+ 25262 | Vaults:1 | Noticed Asterion
+ 25277 | Vaults:1 | Killed Asterion
+ 25277 | Vaults:1 | Reached XP level 17. HP: 92/163 MP: 2/16
+ 25303 | Vaults:1 | Noticed Aizul
+ 25310 | Vaults:1 | HP: 7/163 [poisoned by Aizul (bolt of poison)]
+ 25313 | Vaults:1 | HP: 3/163 [poisoned by Aizul (bolt of poison)]
+ 25315 | Vaults:1 | HP: 1/163 [poisoned by Aizul (bolt of poison)]
+ 25316 | Vaults:1 | Killed Aizul
+ 25316 | Vaults:1 | Succumbed to Aizul's bolt of poison
+
+Levels and vault maps discovered:
+D:1:      dpeg_arrival_arbitrary_a, layout_basic, minmay_misc_feat_enclosed
+D:2:      minmay_skewed_foursquare, layout_basic,
+          chequers_ecumenical_altar_simple
+D:3:      layout_loops_cross, first_ration, lexackson_kobold_supper, uniq_ijyb
+D:4:      layout_loops_corners, uniq_sigmund
+D:5:      layout_gridville, kennysheep_little_box, trog_hazing_becter,
+          uniq_menkaure, uniq_eustachio
+D:6:      layout_cave_pools, chequers_temple_overflow_statue_of_worship,
+          nicolae_overflow_hidden_temple, minmay_temple_entry_junction,
+          basic_altar, kennysheep_generic_room_2
+D:7:      layout_loops_ring, grunt_temple_overflow_champion_of_chaos,
+          grunt_ogre_cave, minmay_misc_feat_encased, uniq_duvessa
+D:8:      minmay_the_grid_triangle_9x9_recursive_2
+          [minmay_the_grid_triangle_9x9_prize_top_heavy,
+          minmay_the_grid_triangle_9x9_limited_checkers,
+          minmay_the_grid_triangle_9x9_flanged_cone,
+          minmay_the_grid_triangle_9x9_shrine], layout_loops_ring,
+          nicolae_qazlal_style_of_elements, serial_shops, nicolae_shop_crystal,
+          minivault_24
+D:9:      layout_basic, serial_shops, shop, corexii_leaking_fountain
+D:10:     layout_irregular_city, david_lair_shrubbed, david_orc_2
+D:11:     hangedman_cross_stitches, layout_loops_cross, basic_altar, uniq_urug
+D:12:     layout_basic
+D:13:     layout_grid_maze, lightli_vaults_fourway_checkpoint, minmay_radiant
+D:14:     minmay_distorted_concentric_squares, layout_basic,
+          serial_bayou_pond_e, serial_shops, shop, nicolae_shop_trees, shop,
+          shop, uniq_nessos
+D:15:     grunt_enter_depths_snipers, layout_rooms, hangedman_decor_riveting,
+          serial_shops, shop_statue, minivault_19
+Lair:1:   layout_gridlike, maelrawn_ghost_gauntlet_escape, patterned_corridor
+Lair:2:   layout_layer_cave, minmay_swamp_entry_swarm
+Lair:3:   layout_cave_pods, guppyfry_snake_entry_island, serial_bayou,
+          serial_bayou_ford_a, serial_bayou_pond_c, serial_bayou_pond_d,
+          serial_bayou_shore_a, uniq_fannar
+Lair:4:   layout_long_grid, enter_volcano_4, gauntlet_entry_generic,
+          minmay_lair_drake_nest, serial_bayou_shore_b, uniq_josephine
+Lair:5:   layout_regular_city, slime_altar_1, mumra_transporter_accident,
+          infiniplex_staircase_pool, grunt_megastairs_4
+Lair:6:   wormcave, layout_long_grid, guppyfry_lair_end_dragon,
+          chequers_serial_rivers_micro_d
+Swamp:1:  layout_basic_swamp, hangedman_swamp_pad, infiniplex_staircase_pool_2
+Swamp:2:  layout_basic_swamp, evilmike_swamp_ruin_rubble_1, swamp_pool1,
+          nicolae_swamp_treefoil, uniq_kirke, uniq_roxanne
+Swamp:3:  layout_falls_marsh, serial_swamp_ruin, evilmike_swamp_ruin_house_3,
+          evilmike_swamp_ruin_house_4
+Swamp:4:  swamp_icy, layout_basic_swamp, uniq_donald
+Orc:1:    layout_caves, mines1_david
+Orc:2:    st_orc_ogre_mass, layout_caves, basic_altar, uniq_snorg
+Vaults:1: vaults_room_stairs_pillars, vaults_standard_mumra_enter_the_diamond,
+          v_misc_15, ontoclasm_vaults_gateway, nicolae_vaults_ring_of_whatevers,
+          nicolae_vaults_theta, layout_vaults_omnigrid, uniq_asterion,
+          uniq_aizul
+

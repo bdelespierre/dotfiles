@@ -1,0 +1,351 @@
+ Dungeon Crawl Stone Soup version 0.24.0 (tiles) character file.
+
+Game seed: 16807857012590706097, levelgen mode: deterministic
+
+6457 Ynaamitz the Fighter (level 10, -1/141 HPs)
+             Began as a Minotaur Berserker on Nov 8, 2020.
+             Was an Elder of Trog.
+             Impaled on a porcupine's spines (19 damage)
+             ... on level 10 of the Dungeon.
+             The game lasted 00:22:11 (7905 turns).
+
+Ynaamitz the Fighter (Minotaur Berserker)           Turns: 7905, Time: 00:22:12
+
+Health: -1/141     AC: 16    Str: 30    XL:     10   Next: 67%
+Magic:  9/9        EV: 13    Int:  4    God:    Trog [****..]
+Gold:   518        SH:  0    Dex: 10    Spells: 9/9 levels left
+
+rFire    . . .     SeeInvis .   g - +0 battleaxe
+rCold    + . .     Gourm    .   (shield currently unavailable)
+rNeg     . . .     Faith    .   r - +0 chain mail
+rPois    .         Spirit   .   (helmet restricted)
+rElec    .         Reflect  .   u - +1 cloak "Pariugoc" {*Drain rF+ rCorr}
+rCorr    +         Harm     .   o - +1 pair of gloves
+MR       ++...                  (no boots)
+Stlth    ..........             b - amulet of rage
+HPRegen  1.33/turn              f - ring of ice
+MPRegen  0.11/turn              n - ring of resist corrosion
+
+@: berserking (expiring), regenerating, very quick
+A: retaliatory headbutt, horns 2
+a: Berserk, Trog's Hand, Brothers in Arms, Renounce Religion, Evoke Berserk Rage
+
+
+You were on level 10 of the Dungeon.
+You worshipped Trog.
+Trog was greatly pleased with you.
+You were very hungry.
+
+You visited 1 branch of the dungeon, and saw 10 of its levels.
+
+You collected 518 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ g - a +0 battleaxe (weapon)
+Missiles
+ d - 57 poisoned darts (quivered)
+Armour
+ o - a +1 pair of gloves (worn)
+ r - a +0 chain mail (worn)
+ u - the +1 cloak "Pariugoc" (worn) {*Drain rF+ rCorr}
+   (You found it on level 8 of the Dungeon)   
+   
+   It protects you from fire.
+   It provides partial protection from all sources of acid and corrosion.
+   It causes draining when unequipped.
+Jewellery
+ b - an amulet of rage (around neck)
+ f - a ring of ice (left hand)
+ n - a ring of resist corrosion (right hand)
+ z - a cursed amulet of regeneration {unknown}
+Wands
+ i - a wand of paralysis (3)
+ t - a wand of random effects (15)
+ x - a wand of disintegration (16)
+ y - a wand of clouds (3)
+Scrolls
+ h - a scroll of fog
+ j - 2 scrolls of amnesia
+ k - 9 scrolls of identify
+ m - 3 scrolls of remove curse
+ q - 2 scrolls of enchant armour
+ w - a scroll of vulnerability {unknown}
+Potions
+ a - a potion of agility
+ e - 2 potions of magic
+ l - 6 potions of curing
+ p - a potion of flight
+ s - 2 potions of degeneration
+ v - 2 potions of berserk rage
+ A - 2 potions of haste
+Comestibles
+ c - 8 rations
+
+
+   Skills:
+ + Level 10.5 Fighting
+ * Level 10.0 Axes
+ + Level 10.2 Armour
+ + Level 9.3 Dodging
+
+
+You had 9 spell levels left.
+You didn't know any spells.
+Your spell library was empty.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (10/15)            Temple (0/1) D:7            Lair (0/6) D:10
+   Orc: D:9-12      
+
+Altars:
+Cheibriados
+Dithmenos
+Gozag
+Hepliaklqana
+Kikubaaqudgha
+Makhleb
+Okawaru
+Qazlal
+Ru
+Sif Muna
+Wu Jian
+Yredelemnul
+
+Shops:
+D:4 ?
+
+Portals:
+Sewer: D:6
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+You open the yak like a pillowcase!!!
+You kill the yak!
+Trog accepts your kill.
+You slash the crocodile! You hit the porcupine but do no damage. You slice the
+yak!! The yak gores the plant.
+The crocodile bites you but does no damage.
+The porcupine bites you.
+* * * LOW HITPOINT WARNING * * *
+You are feeling very hungry.
+You are struck by the porcupine's spines.
+* * * LOW HITPOINT WARNING * * *
+You barely miss the porcupine. You hit the yak. You slice the crocodile!!
+You kill the crocodile!
+Trog accepts your kill.
+Your Axes skill increases to level 10!
+The yak gores you!
+* * * LOW HITPOINT WARNING * * *
+The porcupine bites you!
+* * * LOW HITPOINT WARNING * * *
+You are struck by the porcupine's spines.
+You die...
+
+             ###################
+             ..................#
+              ######.#########.#
+                   #.#       #.#
+                   #.#       #.#
+                   #.#       #.#
+...P.##            #.#       #.#
+....... ##         #.#       #.#
+....P.. ..         #.#       #.#
+....... .#      # ##.#       #.#
+....P.. .########.##.#########.#
+.P.♣... .......................#
+>.....Y♣..........##.####.###..#
+.P...Pr@###...#...........÷<....
+......Y.......+.............#..#
+........###...#.#.##.#.##.###..#
+........# #...#.#..............#
+...P..#.# #...#.####.#.#######.#
+...PP.... +...'..###.#.#     #.#
+..P.###.# #...#........#     #.#
+#...  #.# #...#..###.###     #.#
+ ..   #.  #...#..#           #.#
+          #...#..#           #.#
+          #####..#           #.#
+              #..#           #.#
+              #..#############.#
+              #................#
+              ##################
+
+
+You could see 2 yaks and a porcupine.
+
+Vanquished Creatures
+  Erica (D:8)
+  Pikel (D:5)
+  Joseph (D:8)
+  Psyche (D:9)
+  Grinder (D:5)
+  A hornet (D:8)
+  A troll (D:9)
+  Sigmund (D:3)
+  2 yaks (D:10)
+  Eustachio (D:6)
+  Edmund (D:4)
+  A basilisk (D:10)
+  A hungry ghost (D:8)
+  A water moccasin (D:9)
+  2 porcupines (D:10)
+  A black bear (D:9)
+  3 ice beasts
+  2 orc warriors
+  A sky beast (D:5)
+  8 ogres
+  A centaur (D:8)
+  2 crocodiles (D:10)
+  3 bullfrogs
+  A water moccasin zombie (D:5)
+  A scorpion (D:9)
+  A crimson imp (D:10)
+  A howler monkey (D:10)
+  2 centaur zombies
+  3 jellies
+  2 hounds
+  4 orc priests
+  4 orc wizards
+  An iguana (D:4)
+  A bullfrog skeleton (D:5)
+  Natasha (thrice) (D:3)
+  4 worker ants
+  A hound zombie (D:7)
+  A hound skeleton (D:9)
+  A howler monkey zombie (D:3)
+  3 worker ant zombies
+  7 adders
+  3 gnolls (D:3)
+  A river rat (D:6)
+  A shadow imp (D:6)
+  An ooze (D:4)
+  An adder skeleton (D:5)
+  2 worms
+  A dart slug (D:4)
+  4 leopard geckos
+  15 orcs
+  2 ball pythons
+  3 bats
+  4 bat skeletons (D:9)
+  2 bat zombies (D:9)
+  6 giant cockroaches
+  6 goblins
+  9 hobgoblins
+  9 jackals
+  5 kobolds
+  3 quokkas
+  7 frilled lizards
+  A leopard gecko skeleton (D:5)
+  7 rats
+172 creatures vanquished.
+
+Vanquished Creatures (others)
+  A slave (D:5)
+  A worker ant (D:5)
+  A hound skeleton (D:5)
+  A giant cockroach (D:5)
+  A bush (D:10)
+  A fungus (D:10)
+  A plant (D:10)
+7 creatures vanquished.
+
+Grand Total: 179 creatures vanquished
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Ynaamitz the Minotaur Berserker began the quest for the
+                  | Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   194 | D:1      | Reached XP level 2. HP: 26/27 MP: 1/1
+   674 | D:2      | Reached ** piety under Trog
+   674 | D:2      | Reached XP level 3. HP: 21/33 MP: 2/2
+  1291 | D:2      | Reached XP level 4. HP: 40/41 MP: 3/3
+  1733 | D:3      | Noticed Natasha
+  1738 | D:3      | Killed Natasha
+  1771 | D:3      | Noticed Natasha
+  1777 | D:3      | Killed Natasha
+  1777 | D:3      | Reached XP level 5. HP: 44/47 MP: 4/4
+  1885 | D:3      | Noticed Natasha
+  1891 | D:3      | Killed Natasha
+  1891 | D:3      | Reached skill level 5 in Axes
+  1942 | D:3      | Found a hazy altar of Hepliaklqana.
+  1972 | D:3      | Noticed Sigmund
+  1982 | D:3      | Killed Sigmund
+  1982 | D:3      | Reached skill level 5 in Fighting
+  1982 | D:3      | Reached XP level 6. HP: 48/56 MP: 5/5
+  2302 | D:3      | Found an iron altar of Okawaru.
+  2605 | D:4      | Reached *** piety under Trog
+  2614 | D:4      | Reached skill level 5 in Armour
+  2614 | D:4      | Reached XP level 7. HP: 62/62 MP: 6/6
+  2663 | D:4      | Found Koiletz's Magic Scroll Shoppe.
+  3208 | D:4      | Noticed Edmund
+  3239 | D:4      | Killed Edmund
+  3240 | D:4      | Found a basalt altar of Yredelemnul.
+  3478 | D:4      | Found a snail-covered altar of Cheibriados.
+  3482 | D:4      | Found an ornate altar of the Wu Jian Council.
+  3484 | D:4      | Found a shadowy altar of Dithmenos.
+  3486 | D:4      | Found a sacrificial altar of Ru.
+  3488 | D:4      | Found a stormy altar of Qazlal.
+  3503 | D:5      | Entered Level 5 of the Dungeon
+  3557 | D:5      | Reached skill level 5 in Dodging
+  3592 | D:5      | Noticed Pikel
+  3606 | D:5      | Killed Pikel
+  3606 | D:5      | Reached XP level 8. HP: 73/73 MP: 7/7
+  3703 | D:5      | Noticed Grinder
+  3712 | D:5      | Killed Grinder
+  4021 | D:5      | Reached XP level 9. HP: 74/82 MP: 8/8
+  4612 | D:6      | Noticed Eustachio
+  4614 | D:6      | Found a glowing drain.
+  4646 | D:6      | Killed Eustachio
+  4989 | D:6      | Found a shimmering blue altar of Sif Muna.
+  5264 | D:7      | Found a staircase to the Ecumenical Temple.
+  5770 | D:8      | Found a burning altar of Makhleb.
+  5776 | D:8      | Reached **** piety under Trog
+  6016 | D:8      | Got an ichor-stained cloak
+  6022 | D:8      | Identified the +1 cloak "Pariugoc" {*Drain rF+ rCorr} (You
+                  | found it on level 8 of the Dungeon)
+  6029 | D:8      | Noticed Joseph
+  6044 | D:8      | Killed Joseph
+  6075 | D:8      | Found an opulent altar of Gozag.
+  6088 | D:8      | Noticed Erica
+  6104 | D:8      | Killed Erica
+  6104 | D:8      | Reached XP level 10. HP: 74/93 MP: 9/9
+  6444 | D:8      | Paralysed by a hornet for 3 turns
+  6450 | D:8      | Reached skill level 10 in Fighting
+  6963 | D:9      | Noticed Psyche
+  6965 | D:9      | Killed Psyche
+  7314 | D:9      | Found an ancient bone altar of Kikubaaqudgha.
+  7787 | D:10     | Entered Level 10 of the Dungeon
+  7886 | D:10     | Reached skill level 10 in Armour
+  7893 | D:10     | Found a staircase to the Lair.
+  7904 | D:10     | Reached skill level 10 in Axes
+  7905 | D:10     | Impaled on a porcupine's spines
+
+Levels and vault maps discovered:
+D:1:      eino_arrival_cavern_d, layout_loops_cross
+D:2:      layout_loops_cross, first_ration, minmay_pentomino_u2
+D:3:      layout_loops_ring, lemuel_coloured_pillars_altar,
+          okawaru_ov_weapons_minmay, uniq_sigmund, uniq_natasha
+D:4:      layout_loops_ring, minitemple, serial_shops, nicolae_shop_waterfront,
+          uniq_edmund
+D:5:      layout_gridville, uniq_pikel, uniq_grinder
+D:6:      layout_rooms, led_sif_book, portal_sewer_entry_b, uniq_eustachio
+D:7:      layout_rooms, minmay_temple_entry_wispy, minmay_microvault
+D:8:      layout_rooms, old_standard_altar, lemuel_round_altar, uniq_joseph,
+          uniq_erica
+D:9:      layout_gridville, kennysheep_vampire_church, uniq_psyche
+D:10:     layout_basic, minmay_lair_entry_grove, st_stairs_3, grunt_pizzeria,
+          lemuel_tele_altar, uniq_harold
+

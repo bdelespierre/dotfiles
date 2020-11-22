@@ -1,0 +1,306 @@
+ Dungeon Crawl Stone Soup version 0.24.0 (tiles) character file.
+
+Game seed: 16024472241756842341, levelgen mode: deterministic
+
+37 Arcades the Chopper (level 3, 0/33 HPs)
+             Began as a Minotaur Berserker on Nov 15, 2020.
+             Was a Follower of Trog.
+             Succumbed to an adder's poison
+             ... on level 2 of the Dungeon.
+             The game lasted 00:01:59 (1598 turns).
+
+Arcades the Chopper (Minotaur Berserker)            Turns: 1598, Time: 00:02:00
+
+Health: 0/33       AC:  2    Str: 22    XL:     3   Next: 21%
+Magic:  2/2        EV: 12    Int:  4    God:    Trog [*.....]
+Gold:   89         SH:  0    Dex:  9    Spells: 2/2 levels left
+
+rFire    . . .     SeeInvis .   a - +0 hand axe
+rCold    . . .     Gourm    .   (no shield)
+rNeg     . . .     Faith    .   b - +0 animal skin
+rPois    .         Spirit   .   (helmet restricted)
+rElec    .         Reflect  .   (no cloak)
+rCorr    .         Harm     .   (no gloves)
+MR       .....                  (no boots)
+Stlth    +.........             (no amulet)
+HPRegen  0.11/turn              (no ring)
+MPRegen  0.08/turn              (no ring)
+
+@: lethally poisoned (0 -> -4)
+A: retaliatory headbutt, horns 2
+a: Berserk, Renounce Religion
+
+
+You were on level 2 of the Dungeon.
+You worshipped Trog.
+Trog was aware of your devotion.
+You were not hungry.
+
+You visited 1 branch of the dungeon, and saw 2 of its levels.
+
+You collected 89 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ a - a +0 hand axe (weapon)
+Armour
+ b - a +0 animal skin (worn)
+Jewellery
+ g - an uncursed ring of protection from fire {unknown}
+   (You found it on level 1 of the Dungeon)
+ l - an uncursed ring of protection from fire {unknown}
+   (You found it on level 2 of the Dungeon)
+Scrolls
+ f - a scroll of blinking {unknown}
+ i - 3 scrolls of identify {unknown}
+Potions
+ d - 2 potions of haste {unknown}
+ e - 2 potions of agility {unknown}
+ h - 2 potions of curing {unknown}
+ j - a potion of might {unknown}
+ k - a potion of flight {unknown}
+ m - a potion of heal wounds {unknown}
+Comestibles
+ c - a ration
+
+
+   Skills:
+ + Level 4.1 Fighting
+ + Level 4.1 Axes
+ + Level 3.0 Armour
+ + Level 2.7 Dodging
+
+
+You had 2 spell levels left.
+You didn't know any spells.
+Your spell library was empty.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (2/15)            
+
+Altars:
+Dithmenos
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+Okay, then.
+No target in view!
+No target in view!
+No target in view!
+Autoeating ration.
+You eat one of the 2 rations. That ration really hit the spot!
+l - a copper ring
+You now have 89 gold pieces (gained 19).
+There is a stone staircase leading down here.
+A kobold comes into view.
+The kobold shouts!
+You hit the kobold. Your headbutt misses the kobold. The kobold misses you.
+You slash the kobold!
+You kill the kobold!
+Trog accepts your kill.
+No target in view!
+No target in view!
+You open the door.
+There is an open door here.
+m - a brown potion
+No target in view!
+No target in view!
+No target in view!
+No target in view!
+You open the door.
+There is an open door here.
+A hobgoblin comes into view.
+The hobgoblin shouts!
+Found a shadowy altar of Dithmenos.
+The hobgoblin barely misses you.
+You hit the hobgoblin.
+The hobgoblin hits you but does no damage.
+You hit the hobgoblin. You headbutt the hobgoblin.
+You kill the hobgoblin!
+Trog accepts your kill.
+No target in view!
+No target in view!
+You open the door.
+A giant cockroach comes into view.
+There is an open door here.
+You hit the giant cockroach. You headbutt the giant cockroach.
+You kill the giant cockroach!
+Trog accepts your kill.
+No target in view!
+No target in view!
+You open the door.
+There is an open door here.
+An adder comes into view.
+The adder hisses angrily.
+You miss the adder. Your headbutt misses the adder. The adder bites you. x2
+You take 6 damage, and have 21/27 hp.
+MASSIVE DAMAGE!!
+You closely miss the adder. The adder bites you.
+You take 3 damage, and have 18/27 hp.
+You closely miss the adder. The adder bites you but does no damage. The adder
+bites you.
+You are poisoned.
+The adder poisons you!
+You take 2 damage, and have 16/27 hp.
+You barely miss the adder. Your headbutt misses the adder. You feel sick. The
+adder barely misses you.
+You take 1 damage, and have 15/27 hp.
+You hit the adder but do no damage. The adder closely misses you.
+You miss the adder. You headbutt the adder. You feel sick. The adder barely
+misses you. The adder bites you but does no damage.
+You take 1 damage, and have 14/27 hp.
+You hit the adder. The adder bites you.
+You are more poisoned.
+The adder poisons you!
+You take 4 damage, and have 10/27 hp.
+You hit the adder. You headbutt the adder. The adder bites you.
+* * * LOW HITPOINT WARNING * * *
+The adder bites you.
+* * * LOW HITPOINT WARNING * * *
+You are more poisoned.
+The adder poisons you!
+You take 6 damage, and have 4/27 hp.
+MASSIVE DAMAGE!!
+You hit the adder.
+You kill the adder!
+Trog accepts your kill.
+Your Armour skill increases to level 3!
+You have reached level 3!
+Your experience leads to an increase in your attributes!
+Increase (S)trength, (I)ntelligence, or (D)exterity? 
+You feel stronger.
+* * * LOW HITPOINT WARNING * * *
+You feel sick.
+MP restored: 2
+There is a lethal amount of poison in your body!
+There is a lethal amount of poison in your body!
+* * * LOW HITPOINT WARNING * * *
+You feel sick.
+You take 1 damage, and have 3/33 hp.
+* * * LOW HITPOINT WARNING * * *
+You feel sick.
+* * * LOW HITPOINT WARNING * * *
+You feel sick.
+You take 1 damage, and have 2/33 hp.
+* * * LOW HITPOINT WARNING * * *
+You feel sick.
+You take 1 damage, and have 1/33 hp.
+You die...
+
+      §§§§§§§..########
+      §#§#§#§§.........
+      #§§.#§§§.########
+     ..#.#.....#
+     #...##...##
+     #.......##
+     #######.#
+           #.#
+          ##'##
+         ##...## ..
+        ##.....##..
+.#.    ##..†.......
+#....###.........#.
+.......'...@.....+
+#....###..[......#
+##..............##
+#....###.#.....##   .
+#........##...###....
+#.######......†......
+       #.###.##.##..#
+       #.# #.# .#
+       #.# #.#
+       ... ..!
+       #.. ...
+       #.......
+       #####.##
+
+
+There were no monsters in sight!
+
+Vanquished Creatures
+  An adder (D:2)
+  2 dart slugs (D:1)
+  2 giant cockroaches (D:2)
+  3 goblins
+  7 hobgoblins
+  3 bats (D:1)
+  A jackal skeleton (D:2)
+  3 kobolds
+  A rat (D:1)
+23 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Arcades the Minotaur Berserker began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+    40 | D:1      | HP: 4/20 [kobold/+2 vampiric short sword (6)]
+   528 | D:1      | Reached XP level 2. HP: 22/27 MP: 1/1
+   874 | D:1      | Reached skill level 4 in Axes
+  1256 | D:2      | Reached skill level 4 in Fighting
+  1549 | D:2      | Found a shadowy altar of Dithmenos.
+  1589 | D:2      | HP: 5/27 [adder (5)]
+  1590 | D:2      | Reached skill level 3 in Armour
+  1590 | D:2      | Reached XP level 3. HP: 5/33 MP: 2/2
+  1594 | D:2      | HP: 2/33 [poisoned by an adder]
+  1598 | D:2      | Succumbed to an adder's poison
+
+Levels and vault maps discovered:
+D:1:      mainiacjoe_arrival_reflecting_pool, layout_basic
+D:2:      layout_loops_corners, nicolae_ashenzari_panopticon,
+          grunt_dithmenos_smoke_and_mirrors
+
+Levels and vault maps discovered:
+D:1:      mainiacjoe_arrival_reflecting_pool, layout_basic
+D:2:      layout_loops_corners, nicolae_ashenzari_panopticon,
+          grunt_dithmenos_smoke_and_mirrors
+
+Table legend:
+ A = Turns spent in this place as a percentage of turns spent in the
+     entire game.
+ B = Non-inter-level travel turns spent in this place as a percentage of
+     non-inter-level travel turns spent in the entire game.
+ C = Inter-level travel turns spent in this place as a percentage of
+     turns spent in this place.
+ D = Turns resting spent in this place as a percentage of non-inter-level
+     travel turns spent in this place.
+ E = Turns spent auto-exploring this place as a percentage of
+     non-inter-level travel turns spent in this place.
+ F = Non-inter-level travel turns spent in this place divided by the
+     number of levels of this place that you've seen.
+
+                   A       B       C       D       E               F
+               +-------+-------+-------+-------+-------+----------------------
+         Total | 100.0 | 100.0 |   2.4 |  30.5 |  59.5 |         780.0
+       Dungeon | 100.0 | 100.0 |   2.4 |  30.5 |  59.5 |         780.0
+               +-------+-------+-------+-------+-------+----------------------
+
+Table legend:
+ A = Kills in this place as a percentage of kills in entire the game.
+ B = Kills by you in this place as a percentage of kills by you in
+     the entire game.
+ C = Kills by friends in this place as a percentage of kills by
+     friends in the entire game.
+ D = Other kills in this place as a percentage of other kills in the
+     entire game.
+ E = Experience gained in this place as a percentage of experience
+     gained in the entire game.
+ F = Experience gained in this place divided by the number of levels of
+     this place that you have seen.
+
+                   A       B       C       D       E               F
+               +-------+-------+-------+-------+-------+----------------------
+         Total | 100.0 | 100.0 |  N/A  |  N/A  | 100.0 |          26.5
+       Dungeon | 100.0 | 100.0 |  N/A  |  N/A  | 100.0 |          26.5
+               +-------+-------+-------+-------+-------+----------------------
+

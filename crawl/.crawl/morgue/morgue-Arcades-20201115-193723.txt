@@ -1,0 +1,582 @@
+ Dungeon Crawl Stone Soup version 0.24.0 (tiles) character file.
+
+Game seed: 989271378095421377, levelgen mode: deterministic
+
+14187 Arcades the Fighter (level 11, -1/160 HPs)
+             Began as a Minotaur Berserker on Nov 15, 2020.
+             Was a High Priest of Trog.
+             Slain by a porcupine (10 damage)
+             ... on level 2 of the Lair of Beasts.
+             The game lasted 00:37:18 (12219 turns).
+
+Arcades the Fighter (Minotaur Berserker)           Turns: 12219, Time: 00:37:18
+
+Health: -1/160     AC: 22    Str: 35    XL:     11   Next: 85%
+Magic:  10/10      EV: 16    Int:  4    God:    Trog [*****.]
+Gold:   599        SH:  0    Dex: 15    Spells: 10/10 levels left
+
+rFire    . . .     SeeInvis .   C - +7 dire flail {protect, Str+5}
+rCold    + . .     Gourm    .   (shield currently unavailable)
+rNeg     . . .     Faith    .   o - +0 plate armour
+rPois    .         Spirit   .   (helmet restricted)
+rElec    .         Reflect  .   (no cloak)
+rCorr    .         Harm     .   (no gloves)
+MR       ++...                  (no boots)
+Stlth    ..........             (no amulet)
+HPRegen  1.36/turn              r - +5 ring of dexterity
+MPRegen  0.12/turn              t - ring of protection from cold {rC+, !d}
+
+@: berserking, protection aura, regenerating, very quick
+A: retaliatory headbutt, horns 2
+a: Berserk, Trog's Hand, Brothers in Arms, Renounce Religion
+
+
+You were on level 2 of the Lair of Beasts.
+You worshipped Trog.
+Trog was extremely pleased with you.
+You were near starving.
+
+You visited 2 branches of the dungeon, and saw 12 of its levels.
+
+You collected 900 gold pieces.
+You spent 301 gold pieces at shops.
+
+Inventory:
+
+Hand Weapons
+ C - the +7 dire flail of Zodishroi (weapon) {protect, Str+5}
+   (You bought it in a shop on level 5 of the Dungeon)   
+   
+   It grants its wielder temporary protection when it strikes (+7 to AC).
+   
+   It affects your strength (+5).
+ G - a +4 fustibalus of flaming
+   (Trog gifted it to you on level 10 of the Dungeon)
+Missiles
+ k - 337 stones (quivered)
+ m - 8 javelins
+ w - 20 boomerangs
+ y - 2 throwing nets {=f, !d}
+Armour
+ o - a +0 plate armour (worn)
+   (You found it on level 2 of the Dungeon)
+Jewellery
+ g - a cursed amulet of inaccuracy {unknown}
+   (You found it on level 5 of the Dungeon)
+ r - a +5 ring of dexterity (left hand)
+   (You took it off an orc on level 3 of the Dungeon)
+ t - a ring of protection from cold (right hand) {rC+, !d}
+   (You found it on level 3 of the Dungeon)
+ u - an uncursed ring of ice {unknown}
+   (You found it on level 7 of the Dungeon)
+ D - an uncursed ring of protection from fire {rF+, !d}
+   (You found it on level 4 of the Dungeon)
+ E - an uncursed ring of poison resistance {rPois, !d}
+   (You took it off an orc warrior on level 10 of the Dungeon)
+ L - a cursed amulet of inaccuracy {unknown}
+   (You found it on level 2 of the Lair of Beasts)
+ M - an uncursed ring of protection from magic {unknown}
+   (You found it on level 2 of the Lair of Beasts)
+Wands
+ h - a wand of random effects (16)
+   (You found it on level 5 of the Dungeon)
+ H - a wand of scattershot (5)
+   (You found it on level 11 of the Dungeon)
+Scrolls
+ a - 2 scrolls of blinking {unknown}
+ b - 5 scrolls of fog
+ e - 4 scrolls of enchant armour
+ i - a scroll of enchant weapon
+ n - 5 scrolls of teleportation
+ v - 2 scrolls of remove curse
+ z - 2 scrolls of magic mapping {!r}
+ F - 8 scrolls of identify
+ I - a scroll of brand weapon {unknown}
+ J - a scroll of fear {unknown}
+Potions
+ d - 5 potions of ambrosia {unknown}
+ f - 2 potions of agility {unknown}
+ j - 4 potions of might {unknown}
+ l - 8 potions of flight {unknown}
+ p - 2 potions of heal wounds
+ q - a potion of degeneration {unknown}
+ s - 2 potions of brilliance {unknown}
+ x - 2 potions of mutation {unknown}
+ A - 3 potions of curing
+ B - 2 potions of haste {unknown}
+ K - a potion of lignification {unknown}
+Comestibles
+ c - 21 rations
+ N - 4 chunks of flesh {@w0}
+
+
+   Skills:
+ + Level 13.0 Fighting
+   Level 7.1 Axes
+ + Level 12.7 Armour
+ + Level 11.8 Dodging
+
+
+You had 10 spell levels left.
+You didn't know any spells.
+Your spell library was empty.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (11/15)            Temple (0/1) D:5            Lair (2/6) D:11
+ Swamp: Lair:2-4    Shoals: Lair:2-4     Snake: Lair:2-4    Spider: Lair:2-4
+   Orc: D:9-12      
+
+Altars:
+Cheibriados
+Elyvilon
+Fedhas
+Vehumet
+Xom
+The Shining One
+
+Shops:
+D:5 ((   D:6 %?(*(   D:7 }
+
+Annotations:
+Lair:2 exclusion: ice statue
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+You throw a stone.
+The stone hits the ice beast but does no damage.
+You hear a splash.
+You puncture the ice beast!
+Your weapon exudes an aura of protection.
+You headbutt the ice beast.
+The ice beast hits you but does no damage.
+You puncture the ice beast!
+You kill the ice beast!
+Trog accepts your kill.
+No target in view!
+Found a runed ring mail.
+An ice dragon and an ice statue come into view.
+The ice dragon roars deafeningly!
+Something shouts, "Capitulate, thou artless fool-headed giglet!"
+An ice dragon is nearby!
+A white imp comes into view.
+An ice beast comes into view.
+Throwing (i - inventory. (/) - cycle) k - 338 stones (quivered)
+Aim: an ice dragon
+You throw a stone.
+The stone hits the ice dragon but does no damage.
+The ice dragon breathes frost at you.
+The blast of cold hits you!! You resist.
+You hear an angry growl. x2
+You take 23 damage, and have 83/106 hp.
+MASSIVE DAMAGE!!
+Unknown command.
+The ice dragon breathes frost at you.
+The blast of cold hits you! You resist.
+You hear an angry growl.
+Something shouts, "Accept thy failure, thou fawning sow-suckled pissant!"
+You hear an angry growl.
+You take 11 damage, and have 73/106 hp.
+A porcupine comes into view.
+You hit the ice beast.
+Your weapon exudes an aura of protection.
+Your headbutt misses the ice beast. The ice beast hits you. The ice beast
+freezes you. You resist.
+You take 8 damage, and have 66/106 hp.
+You hit the ice beast. Your headbutt misses the ice beast.
+You closely miss the ice dragon. The ice beast hits something. The ice beast
+freezes something!
+The ice dragon breathes frost at you.
+The blast of cold hits you! You resist.
+You take 16 damage, and have 51/106 hp.
+You are too injured to fight recklessly!
+You are too injured to fight recklessly!
+Unknown command.
+You impale the ice dragon!! You headbutt the ice dragon. The porcupine bites
+you!
+The ice dragon bites you but does no damage.
+The ice dragon closely misses you. The ice dragon tramples you.
+You stumble backwards!
+You take 10 damage, and have 41/106 hp.
+You closely miss the ice dragon.
+You headbutt the ice dragon, but do no damage.
+The porcupine closely misses you. The ice dragon misses you.
+The ice dragon claws you but does no damage.
+The ice dragon tramples you.
+You stumble backwards!
+You take 3 damage, and have 38/106 hp.
+You bludgeon the ice dragon!!
+The ice dragon bites you but does no damage.
+The ice dragon closely misses you. The ice dragon completely misses you.
+Your skin crawls.
+You feel resistant to hostile enchantments.
+You are feeling hungry.
+The porcupine bites you but does no damage.
+The ice dragon breathes frost at you.
+The blast of cold hits you! You resist.
+* * * LOW HITPOINT WARNING * * *
+The porcupine bites you!
+* * * LOW HITPOINT WARNING * * *
+Something shouts, "Take thy face hence, thou weedy swag-bellied calf-wit!"
+You hear an angry hiss.
+You take 22 damage, and have 16/106 hp.
+MASSIVE DAMAGE!!
+Unknown command.
+A red film seems to cover your vision as you go berserk!
+You feel yourself moving faster! You feel mighty!
+You are near starving!
+The ice dragon breathes frost at you.
+The blast of cold hits you!! You resist.
+* * * LOW HITPOINT WARNING * * *
+The porcupine misses you.
+You hear an angry growl.
+You now have 7/159 hp.
+Eat one of 4 chunks of flesh {@w0}? (ye/n/q)
+Okay, then.
+You puncture the ice dragon! The ice beast closely misses you.
+The porcupine bites you but does no damage.
+The ice dragon bites you but does no damage.
+The ice dragon claws you but does no damage.
+The ice dragon closely misses you.
+You bludgeon the ice dragon!! You headbutt the ice dragon!
+You feel the power of Trog in you as your rage grows.
+You kill the ice dragon!
+Trog accepts your kill.
+The ice dragon scales are intact enough to wear.
+Your Fighting skill increases to level 13!
+The ice beast closely misses you. You furiously retaliate! You headbutt the ice
+beast! The porcupine bites you!
+You die...
+
+       ##..P
+########...##
+.........#..#
+.P...P.....##  #   # #...#
+.##..#...#.###.### .#....#
+.##...#..#........ ......# ##
+..##...........### #.....##.#
+......P....#########..[..#.##
+..#P.....#.##  #.>..........#
+..###.#.....####.P.........P#
+   ##.#.......#)...........#
+  ##..#..........P##.....#P#
+  P.......≈≈≈.⌠######[rY##
+  .......(≈≈≈≈.#    #.@.#
+ ≈≈≈..≈≈≈≈.≈≈≈≈#    #..##
+  ≈≈≈≈≈≈≈≈≈.≈≈≈..  ....#
+  ≈≈≈≈≈≈≈≈..(≈≈≈#####..#
+  ≈≈≈≈≈≈≈≈≈.≈..##   .#>#
+  5≈≈≈≈≈≈≈≈≈≈≈.#   ##..#
+  ≈[)?=≈≈≈≈≈≈...#    #.#
+  ≈[.8|≈≈≈≈≈.$..#    #?P
+
+
+You could see an ice beast and a porcupine.
+
+Vanquished Creatures
+  An ice dragon (Lair:2)
+  A two-headed ogre (D:11)
+  Urug (D:11)
+  A deep elf mage (D:10)
+  An ugly thing (D:10)
+  A cyclops (D:11)
+  2 black mambas (Lair:1)
+  A gargoyle (D:10)
+  A centaur skeleton (D:10)
+  A rime drake (Lair:1)
+  2 komodo dragons
+  5 polar bears
+  Prince Ribbit (D:7)
+  2 hippogriffs
+  A wraith (D:11)
+  4 yaks (Lair:1)
+  Eustachio (D:4)
+  A basilisk (D:11)
+  Menkaure (D:7)
+  Duvessa (D:7)
+  3 water moccasins
+  3 orc warriors
+  2 porcupines
+  8 ice beasts
+  3 black bears (Lair:1)
+  2 sky beasts
+  4 phantoms
+  4 ogres
+  7 centaurs
+  3 crocodiles
+  2 big kobolds (D:10)
+  12 bullfrogs
+  Blork the orc (D:4)
+  Dowan (D:7)
+  A wyvern skeleton (D:10)
+  A scorpion (D:10)
+  5 killer bees (D:10)
+  5 wights (D:6)
+  2 electric eels (Lair:1)
+  4 howler monkeys
+  2 bullfrog zombies
+  2 crimson imps
+  2 jellies
+  A quasit (D:7)
+  5 hounds
+  4 orc priests
+  A gnoll shaman (D:7)
+  6 orc wizards
+  4 worker ants
+  Natasha (thrice) (D:2)
+  An iguana (D:10)
+  3 hound skeletons
+  A howler monkey zombie (D:5)
+  2 worker ant zombies
+  5 gnolls
+  16 adders
+  3 shadow imps
+  An ooze (D:2)
+  An adder zombie (D:3)
+  2 adder skeletons
+  2 worms (D:2)
+  A dart slug (D:4)
+  4 leopard geckos
+  32 orcs
+  A ball python (D:2)
+  8 giant cockroaches
+  6 goblins
+  9 hobgoblins
+  6 jackals
+  6 quokkas
+  4 bats
+  2 frilled lizards
+  A jackal zombie (D:6)
+  17 kobolds
+  5 rats
+272 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Arcades the Minotaur Berserker began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   176 | D:1      | Reached XP level 2. HP: 27/27 MP: 1/1
+   925 | D:2      | Reached skill level 4 in Fighting
+   925 | D:2      | Reached skill level 4 in Axes
+   989 | D:2      | Reached skill level 3 in Armour
+   994 | D:2      | Reached XP level 3. HP: 33/33 MP: 2/2
+  1059 | D:2      | Reached skill level 3 in Dodging
+  1065 | D:2      | Reached XP level 4. HP: 37/41 MP: 3/3
+  1257 | D:2      | Reached ** piety under Trog
+  1539 | D:2      | Noticed Natasha
+  1566 | D:2      | Killed Natasha
+  1566 | D:2      | Reached XP level 5. HP: 30/47 MP: 4/4
+  1719 | D:2      | Noticed Natasha
+  1725 | D:2      | Killed Natasha
+  1786 | D:2      | Noticed Natasha
+  1943 | D:2      | Killed Natasha
+  1943 | D:2      | Reached skill level 4 in Armour
+  2101 | D:3      | Reached skill level 5 in Fighting
+  2143 | D:3      | Reached skill level 5 in Axes
+  2249 | D:3      | Reached XP level 6. HP: 56/56 MP: 5/5
+  2534 | D:3      | Reached *** piety under Trog
+  2565 | D:3      | Reached skill level 4 in Dodging
+  3104 | D:4      | Noticed Eustachio
+  3122 | D:4      | Killed Eustachio
+  3255 | D:4      | Noticed an orc warrior
+  3269 | D:4      | Killed an orc warrior
+  3269 | D:4      | Reached skill level 5 in Armour
+  3269 | D:4      | Reached XP level 7. HP: 52/62 MP: 6/6
+  3437 | D:4      | You fall into a shaft and drop 2 floors!
+  3442 | D:6      | Reached skill level 6 in Fighting
+  3473 | D:6      | Found Keall's Food Boutique.
+  3585 | D:6      | Reached skill level 6 in Axes
+  3591 | D:6      | Found Cahafu Pocy's Magic Scroll Emporium.
+  3605 | D:6      | Reached skill level 5 in Dodging
+  3612 | D:6      | Bought a scroll of identify for 22 gold pieces
+  3691 | D:6      | Found Torr's Assorted Antiques.
+  3806 | D:6      | Reached skill level 6 in Armour
+  3806 | D:6      | Reached XP level 8. HP: 68/71 MP: 7/7
+  3929 | D:6      | Found a snail-covered altar of Cheibriados.
+  3986 | D:6      | Found a glowing golden altar of the Shining One.
+  3990 | D:6      | Found Deagho's Weapon Boutique.
+  4021 | D:5      | Entered Level 5 of the Dungeon
+  4027 | D:5      | Reached **** piety under Trog
+  4052 | D:5      | Found Womotou's Antique Weapon Shop.
+  4058 | D:5      | Bought a brightly glowing dire flail for 279 gold pieces
+  4137 | D:5      | Found a shimmering altar of Xom.
+  4185 | D:4      | Noticed Blork the orc
+  4205 | D:4      | Killed Blork the orc
+  4205 | D:4      | Reached skill level 7 in Fighting
+  4252 | D:4      | Found a blossoming altar of Fedhas.
+  4581 | D:4      | Reached skill level 7 in Axes
+  4878 | D:4      | Reached skill level 6 in Dodging
+  5001 | D:4      | Identified the +7 dire flail of Zodishroi {protect, Str+5}
+                  | (You bought it in a shop on level 5 of the Dungeon)
+  5097 | D:5      | Found a staircase to the Ecumenical Temple.
+  5272 | D:5      | Reached skill level 7 in Armour
+  5501 | D:5      | Found Jayvar Venal's Antique Weapon Emporium.
+  5630 | D:5      | Found a white marble altar of Elyvilon.
+  6041 | D:6      | Found a radiant altar of Vehumet.
+  6075 | D:6      | Found Qyesmuak's Antique Weapon Shop.
+  6392 | D:7      | Found Geran's Gadget Emporium.
+  6392 | D:7      | Noticed Prince Ribbit
+  6394 | D:7      | Reached skill level 8 in Fighting
+  6404 | D:7      | Killed Prince Ribbit
+  6404 | D:7      | Reached skill level 7 in Dodging
+  6406 | D:7      | Reached XP level 9. HP: 81/81 MP: 8/8
+  6481 | D:7      | Reached skill level 8 in Armour
+  6756 | D:7      | Reached skill level 9 in Fighting
+  6885 | D:7      | Noticed Dowan
+  6885 | D:7      | Noticed Duvessa
+  6898 | D:7      | Killed Dowan
+  6901 | D:7      | Killed Duvessa
+  7072 | D:7      | Noticed Menkaure
+  7075 | D:7      | Killed Menkaure
+  7075 | D:7      | Reached skill level 8 in Dodging
+  7341 | D:7      | Reached skill level 9 in Armour
+  7804 | D:8      | You fall into a shaft and drop 2 floors!
+  7804 | D:10     | Entered Level 10 of the Dungeon
+  7805 | D:10     | Reached ***** piety under Trog
+  8017 | D:10     | Reached skill level 10 in Fighting
+  8090 | D:10     | Noticed a deep elf mage
+  8094 | D:10     | Noticed an orange demon
+  8095 | D:10     | Noticed a gargoyle
+  8096 | D:10     | Reached XP level 10. HP: 93/93 MP: 9/9
+  8109 | D:10     | Killed a gargoyle
+  8112 | D:10     | Noticed a smoke demon
+  8112 | D:10     | Killed a deep elf mage
+  8112 | D:10     | Reached skill level 10 in Armour
+  8112 | D:10     | Reached skill level 9 in Dodging
+  8119 | D:10     | HP: 23/94 [poisoned by a redback]
+  8124 | D:10     | HP: 16/94 [poisoned by a redback]
+  8129 | D:10     | HP: 12/94 [poisoned by a redback]
+  8131 | D:10     | HP: 5/94 [phantom (7)]
+  8136 | D:10     | HP: 21/94 [poisoned by a redback]
+  8141 | D:10     | HP: 21/94 [poisoned by a redback]
+  8600 | D:10     | Noticed a green ugly thing
+  8613 | D:10     | Killed a green ugly thing
+  8873 | D:10     | Received a gift from Trog
+  9119 | D:11     | Noticed Urug
+  9131 | D:11     | HP: 22/94 [Urug/+0 battleaxe of chopping (19)]
+  9133 | D:11     | Killed Urug
+  9133 | D:11     | Reached skill level 11 in Fighting
+  9368 | D:11     | Noticed a cyclops
+  9382 | D:11     | Killed a cyclops
+  9382 | D:11     | Reached skill level 11 in Armour
+  9382 | D:11     | Reached skill level 10 in Dodging
+  9488 | D:11     | Noticed a two-headed ogre
+  9495 | D:11     | Killed a two-headed ogre
+  9708 | D:11     | Reached XP level 11. HP: 101/103 MP: 10/10
+  9860 | D:11     | Found a staircase to the Lair.
+ 10255 | Lair:1   | Entered Level 1 of the Lair of Beasts
+ 10674 | Lair:1   | Reached skill level 12 in Fighting
+ 10834 | Lair:1   | Reached skill level 11 in Dodging
+ 10909 | Lair:1   | Reached skill level 12 in Armour
+ 11203 | Lair:1   | HP: 22/104 [electric eel/bolt of electricity (6)]
+ 12062 | Lair:2   | Received a gift from Trog
+ 12193 | Lair:2   | Found the ring of Phasing {EV+8}
+ 12193 | Lair:2   | Noticed an ice dragon
+ 12216 | Lair:2   | HP: 23/106 [ice dragon/blast of cold (16)]
+ 12217 | Lair:2   | HP: 7/159 [ice dragon/blast of cold (19)]
+ 12219 | Lair:2   | Killed an ice dragon
+ 12219 | Lair:2   | Reached skill level 13 in Fighting
+ 12219 | Lair:2   | Slain by a porcupine
+
+Levels and vault maps discovered:
+D:1:      sevenhm_arrival_forest_fort_small_4, layout_loops_ring, serial_rivers,
+          chequers_serial_rivers_micro_b, chequers_serial_rivers_room_b,
+          chequers_serial_rivers_large_b, chequers_serial_rivers_marsh,
+          chequers_serial_rivers_large_a
+D:2:      layout_rooms, minmay_crystal_room, uniq_natasha
+D:3:      layout_basic, guppyfry_early_orc_mine
+D:4:      layout_cave_pods, nicolae_overflow_crystal_walls, uniq_eustachio,
+          uniq_blork_the_orc
+D:5:      layout_basic, xom_butterflies, old_standard_altar,
+          minmay_temple_entry_poolview, first_ration, serial_shops, shop,
+          nicolae_shop_stone
+D:6:      layout_basic, vehumet_crystals, kennysheep_mini_moat, basic_altar,
+          serial_shops, shop, nicolae_shop_trees,
+          nicolae_shop_temple_entry_statues_fountains, shop_coins, shop_statue
+D:7:      layout_gridville, serial_shops, shop, uniq_menkaure,
+          uniq_prince_ribbit1, uniq_duvessa
+D:8:      layout_basic, serial_shops, shop
+D:10:     layout_loops_cross, minmay_checkerbox
+D:11:     layout_loops_ring, lair_entry_dummy, wad_floor_pattern_untrapped,
+          uniq_urug
+Lair:1:   beast_lair_carwin_large_2, layout_gridlike, guppyfry_lair_drakes,
+          serial_bayou_shore_a
+Lair:2:   layout_loops_ring, minmay_swamp_entry_eels,
+          cheibrodos_lair_caveside_slide, ice2_lemuel
+
+Levels and vault maps discovered:
+D:1:      sevenhm_arrival_forest_fort_small_4, layout_loops_ring, serial_rivers,
+          chequers_serial_rivers_micro_b, chequers_serial_rivers_room_b,
+          chequers_serial_rivers_large_b, chequers_serial_rivers_marsh,
+          chequers_serial_rivers_large_a
+D:2:      layout_rooms, minmay_crystal_room, uniq_natasha
+D:3:      layout_basic, guppyfry_early_orc_mine
+D:4:      layout_cave_pods, nicolae_overflow_crystal_walls, uniq_eustachio,
+          uniq_blork_the_orc
+D:5:      layout_basic, xom_butterflies, old_standard_altar,
+          minmay_temple_entry_poolview, first_ration, serial_shops, shop,
+          nicolae_shop_stone
+D:6:      layout_basic, vehumet_crystals, kennysheep_mini_moat, basic_altar,
+          serial_shops, shop, nicolae_shop_trees,
+          nicolae_shop_temple_entry_statues_fountains, shop_coins, shop_statue
+D:7:      layout_gridville, serial_shops, shop, uniq_menkaure,
+          uniq_prince_ribbit1, uniq_duvessa
+D:8:      layout_basic, serial_shops, shop
+D:10:     layout_loops_cross, minmay_checkerbox
+D:11:     layout_loops_ring, lair_entry_dummy, wad_floor_pattern_untrapped,
+          uniq_urug
+Lair:1:   beast_lair_carwin_large_2, layout_gridlike, guppyfry_lair_drakes,
+          serial_bayou_shore_a
+Lair:2:   layout_loops_ring, minmay_swamp_entry_eels,
+          cheibrodos_lair_caveside_slide, ice2_lemuel
+
+Table legend:
+ A = Turns spent in this place as a percentage of turns spent in the
+     entire game.
+ B = Non-inter-level travel turns spent in this place as a percentage of
+     non-inter-level travel turns spent in the entire game.
+ C = Inter-level travel turns spent in this place as a percentage of
+     turns spent in this place.
+ D = Turns resting spent in this place as a percentage of non-inter-level
+     travel turns spent in this place.
+ E = Turns spent auto-exploring this place as a percentage of
+     non-inter-level travel turns spent in this place.
+ F = Non-inter-level travel turns spent in this place divided by the
+     number of levels of this place that you've seen.
+
+                   A       B       C       D       E               F
+               +-------+-------+-------+-------+-------+----------------------
+         Total | 100.0 | 100.0 |   3.1 |  27.1 |  55.5 |         986.7
+       Dungeon |  83.9 |  83.6 |   3.4 |  23.9 |  58.4 |         990.4
+          Lair |  16.1 |  16.4 |   1.4 |  43.4 |  40.8 |         968.0
+               +-------+-------+-------+-------+-------+----------------------
+
+Table legend:
+ A = Kills in this place as a percentage of kills in entire the game.
+ B = Kills by you in this place as a percentage of kills by you in
+     the entire game.
+ C = Kills by friends in this place as a percentage of kills by
+     friends in the entire game.
+ D = Other kills in this place as a percentage of other kills in the
+     entire game.
+ E = Experience gained in this place as a percentage of experience
+     gained in the entire game.
+ F = Experience gained in this place divided by the number of levels of
+     this place that you have seen.
+
+                   A       B       C       D       E               F
+               +-------+-------+-------+-------+-------+----------------------
+         Total | 100.0 | 100.0 |  N/A  |  N/A  | 100.0 |        1689.0
+       Dungeon |  85.3 |  85.3 |  N/A  |  N/A  |  60.1 |        1217.8
+          Lair |  14.7 |  14.7 |  N/A  |  N/A  |  39.9 |        4045.0
+               +-------+-------+-------+-------+-------+----------------------
+

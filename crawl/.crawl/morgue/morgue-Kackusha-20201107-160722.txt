@@ -1,0 +1,267 @@
+ Dungeon Crawl Stone Soup version 0.24.0 (tiles) character file.
+
+Game seed: 11025710682617552581, levelgen mode: deterministic
+
+779 Kackusha the Chopper (level 7, -5/63 HPs)
+             Began as a Minotaur Berserker on Nov 7, 2020.
+             Was a Priest of Trog.
+             Killed by nerve-wracking pain
+             ... invoked by an orc priest
+              (6 damage)
+             ... on level 7 of the Dungeon.
+             The game lasted 00:25:38 (3866 turns).
+
+Kackusha the Chopper (Minotaur Berserker)           Turns: 3866, Time: 00:25:39
+
+Health: -5/63      AC: 10    Str: 23    XL:     7   Next: 54%
+Magic:  6/6        EV: 10    Int:  4    God:    Trog [***...]
+Gold:   119        SH:  0    Dex: 10    Spells: 6/6 levels left
+
+rFire    . . .     SeeInvis .   a - +0 hand axe
+rCold    + . .     Gourm    .   (no shield)
+rNeg     . . .     Faith    .   D - +0 chain mail
+rPois    .         Spirit   .   (helmet restricted)
+rElec    .         Reflect  .   (no cloak)
+rCorr    .         Harm     .   (no gloves)
+MR       .....                  (no boots)
+Stlth    ..........             (no amulet)
+HPRegen  0.20/turn              k - ring of protection from cold
+MPRegen  0.10/turn              (no ring)
+
+@: lethally poisoned (-5 -> -8)
+A: retaliatory headbutt, horns 2
+a: Berserk, Trog's Hand, Renounce Religion
+
+
+You were on level 7 of the Dungeon.
+You worshipped Trog.
+Trog was most pleased with you.
+You were hungry.
+
+You visited 2 branches of the dungeon, and saw 6 of its levels.
+
+You collected 119 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ a - a +0 hand axe (weapon)
+ b - a cursed -1 hand axe
+ d - a +0 flail
+ m - a +0 mace
+ q - a +0 mace
+ s - a +0 hand axe
+ w - a +0 hunting sling
+ y - a +0 hand axe
+ C - a +0 short sword
+ E - a +0 short sword
+ O - a +0 hunting sling
+ R - a +0 hand axe
+ T - a +0 mace
+ V - a +0 flail
+ X - a +0 flail
+Missiles
+ e - 181 stones
+ p - 37 poisoned darts (quivered)
+ x - 35 arrows
+Armour
+ h - a +0 chain mail
+ D - a +0 chain mail (worn)
+ K - a +0 scale mail
+ Y - a +0 ring mail
+Jewellery
+ k - a ring of protection from cold (left hand)
+ n - a cursed ring of attention {unknown}
+Wands
+ u - a wand of polymorph (11)
+Scrolls
+ g - a scroll of fear {unknown}
+ j - 2 scrolls of noise {unknown}
+ l - 5 scrolls of remove curse {unknown}
+ t - a scroll of magic mapping {unknown}
+ F - a scroll of teleportation {unknown}
+ I - 2 scrolls of enchant armour {unknown}
+ N - a scroll of amnesia {unknown}
+ W - 4 scrolls of identify {unknown}
+Potions
+ i - 3 potions of haste {unknown}
+ o - 2 potions of resistance {unknown}
+ z - 2 potions of brilliance {unknown}
+ L - 2 potions of magic {unknown}
+Comestibles
+ c - 9 rations
+ f - 3 chunks of flesh
+
+
+   Skills:
+ + Level 6.2 Fighting
+ + Level 6.3 Axes
+ + Level 5.5 Armour
+ + Level 5.0 Dodging
+
+
+You had 6 spell levels left.
+You didn't know any spells.
+Your spell library was empty.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (7/15)             Temple (1/1) D:7         
+
+Altars:
+Ashenzari
+Cheibriados
+Dithmenos
+Elyvilon
+Fedhas
+Gozag
+Hepliaklqana
+Kikubaaqudgha
+Makhleb
+Nemelex Xobeh
+Qazlal
+Ru
+Trog
+Uskayaw
+Vehumet
+Wu Jian
+Yredelemnul
+Zin
+The Shining One
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+The adder poisons you!
+You feel sick.
+The orc priest shouts!
+The adder bites you.
+* * * LOW HITPOINT WARNING * * *
+The adder bites you.
+* * * LOW HITPOINT WARNING * * *
+You are lethally poisoned!
+The adder poisons you!
+* * * LOW HITPOINT WARNING * * *
+You feel sick.
+An orc wizard comes into view. It is wielding a +0 dagger of venom.
+The orc wizard hits you with a +4 dagger.
+* * * LOW HITPOINT WARNING * * *
+The adder bites you but does no damage.
+* * * LOW HITPOINT WARNING * * *
+You feel sick.
+The orc priest mumbles some strange prayers to Beogh against you.
+Pain shoots through your body!
+You die...
+
+                 #.     ###
+   #####...   !. ...    ..#
+#.##......#####.##.#    #.#
+#.#........  ....#.#    #.#
+ .........#   #..#.######.#
+###....o..#   #..#........#  #
+..........#   #.....###...##..
+  #.o..%..#####.....'.........
+  #...#))....##.#...###...###.
+  #..........##.#...###...#...
+  ###..S.o........÷.÷.......#
+    ##...@...#.##....#.#.#..#
+     #.####..#.)..##.#.#.#..#
+     #.#  #....#...........##
+     #..  #....#.##.#.##.#.#
+     ##.  ##........#....#.#
+       .   #.##.#.#...#....#
+       ..  #....#.#.>.#.##.#
+           #..#............#
+           #..#....#.#.#...#
+           #....##.#.#.#.#.#
+            .#...........#.#
+             #.#.#.##.#...÷##
+             $.#.#....#.##÷.#
+
+
+You could see an orc priest, 2 orc wizards and an adder.
+
+Vanquished Creatures
+  Grinder (D:3)
+  A phantom (D:4)
+  An ogre (D:7)
+  A centaur zombie (D:4)
+  A bullfrog zombie (D:4)
+  Jessica (D:2)
+  An orc wizard (D:4)
+  2 worker ants
+  2 hound zombies (D:4)
+  4 worker ant zombies (D:4)
+  7 adders
+  2 worms (D:4)
+  A dart slug (D:2)
+  5 leopard geckos
+  12 orcs
+  4 giant cockroaches
+  8 goblins
+  8 hobgoblins
+  12 jackals
+  10 kobolds
+  3 quokkas
+  A ball python (D:2)
+  A ball python skeleton (D:4)
+  7 bats
+  5 frilled lizards
+  A leopard gecko skeleton (D:4)
+  A quokka zombie (D:4)
+  8 rats
+  A withered plant (D:4)
+112 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Kackusha the Minotaur Berserker began the quest for the
+                  | Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   244 | D:1      | Reached XP level 2. HP: 27/27 MP: 1/1
+   872 | D:2      | Reached XP level 3. HP: 20/33 MP: 2/2
+  1043 | D:2      | Reached ** piety under Trog
+  1086 | D:2      | Reached XP level 4. HP: 41/41 MP: 3/3
+  1246 | D:2      | Noticed Jessica
+  1251 | D:2      | Killed Jessica
+  1428 | D:2      | Found a glowing silver altar of Zin.
+  1637 | D:2      | Reached XP level 5. HP: 47/47 MP: 4/4
+  2215 | D:3      | Found a burning altar of Makhleb.
+  2219 | D:3      | Found a stormy altar of Qazlal.
+  2550 | D:3      | Noticed Grinder
+  2555 | D:3      | Paralysed by Grinder for 4 turns
+  2583 | D:3      | Paralysed by Grinder for 7 turns
+  2595 | D:3      | Killed Grinder
+  2595 | D:3      | Reached skill level 5 in Fighting
+  2595 | D:3      | Reached skill level 5 in Axes
+  2595 | D:3      | Reached XP level 6. HP: 28/56 MP: 5/5
+  2959 | D:4      | Reached *** piety under Trog
+  3254 | D:4      | Reached skill level 5 in Armour
+  3254 | D:4      | Reached XP level 7. HP: 51/62 MP: 6/6
+  3379 | D:4      | You fall into a shaft and drop 3 floors!
+  3427 | D:7      | Found a staircase to the Ecumenical Temple.
+  3450 | Temple   | Entered the Ecumenical Temple
+  3860 | D:7      | Reached skill level 5 in Dodging
+  3865 | D:7      | HP: 2/63 [orc wizard/+4 dagger (2)]
+  3866 | D:7      | Killed from afar by an orc priest
+
+Levels and vault maps discovered:
+D:1:      minmay_arrival_doors, layout_loops_ring, minmay_tromino_v2
+D:2:      layout_loops_corners, lemuel_crystal_altar, dk_noncrumbling_2,
+          minmay_diced_spiral, uniq_jessica
+D:3:      layout_basic, nicolae_overflow_hidden_temple, uniq_grinder
+D:4:      cheibrodos_thug_alley, layout_gridville,
+          nicolae_overflow_crystal_walls,
+          chequers_temple_overflow_statue_of_worship, serial_undead,
+          serial_undead_e, serial_undead_a, serial_undead_f, serial_undead_e
+D:7:      layout_basic, minmay_temple_entry_ruins
+Temple:   eino_temple_rhombus
+

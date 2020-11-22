@@ -1,0 +1,172 @@
+ Dungeon Crawl Stone Soup version 0.24.0 (tiles) character file.
+
+Game seed: 17852119403215115906, levelgen mode: deterministic
+
+25 Arcades the Skirmisher (level 2, -11/40 HPs)
+             Began as a Minotaur Berserker on Nov 11, 2020.
+             Was a Follower of Trog.
+             Mangled by an ogre
+             ... wielding a cursed -2 giant spiked club
+              (19 damage)
+             ... on level 2 of the Dungeon.
+             The game lasted 00:01:33 (572 turns).
+
+Arcades the Skirmisher (Minotaur Berserker)          Turns: 572, Time: 00:01:34
+
+Health: -11/40     AC:  5    Str: 26    XL:     2   Next: 82%
+Magic:  1/1        EV: 12    Int:  4    God:    Trog [*.....]
+Gold:   103        SH:  0    Dex:  9    Spells: 1/1 levels left
+
+rFire    . . .     SeeInvis .   a - +0 hand axe
+rCold    . . .     Gourm    .   (no shield)
+rNeg     . . .     Faith    .   m - +0 ring mail
+rPois    .         Spirit   .   (helmet restricted)
+rElec    .         Reflect  .   (no cloak)
+rCorr    .         Harm     .   (no gloves)
+MR       .....                  (no boots)
+Stlth    ..........             (no amulet)
+HPRegen  0.13/turn              (no ring)
+MPRegen  0.07/turn              (no ring)
+
+@: berserking, very quick
+A: retaliatory headbutt, horns 2
+a: Berserk, Renounce Religion
+
+
+You were on level 2 of the Dungeon.
+You worshipped Trog.
+Trog was aware of your devotion.
+You were not hungry.
+
+You visited 1 branch of the dungeon, and saw 2 of its levels.
+
+You collected 103 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ a - a +0 hand axe (weapon)
+Missiles
+ n - 4 curare-tipped darts (quivered)
+Armour
+ b - a +0 animal skin
+ m - a +0 ring mail (worn)
+Scrolls
+ g - a scroll of enchant armour {unknown}
+ h - 2 scrolls of identify {unknown}
+Potions
+ e - a potion of might {unknown}
+ f - a potion of magic {unknown}
+ i - a potion of berserk rage {unknown}
+ j - a potion of flight {unknown}
+ k - a potion of curing {unknown}
+ l - a potion of brilliance {unknown}
+Comestibles
+ c - 4 rations
+
+
+   Skills:
+ + Level 4.0 Fighting
+ + Level 4.0 Axes
+ + Level 2.9 Armour
+ + Level 2.6 Dodging
+
+
+You had one spell level left.
+You didn't know any spells.
+Your spell library was empty.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (2/15)            
+
+Altars:
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+The ogre is almost dead.
+You hit the hobgoblin.
+The hobgoblin hits you but does no damage.
+You hit the ogre.
+The ogre is almost dead.
+You barely miss the hobgoblin.
+The ogre hits you with a cursed -2 giant spiked club!!
+Ouch! That really hurt!
+* * * LOW HITPOINT WARNING * * *
+The hobgoblin misses you. You furiously retaliate! You headbutt the hobgoblin!
+You kill the hobgoblin!
+Trog accepts your kill.
+You are too injured to fight recklessly!
+You are too injured to fight recklessly!
+You are too injured to fight recklessly!
+You are too injured to fight recklessly!
+A red film seems to cover your vision as you go berserk!
+You feel yourself moving faster! You feel mighty! You feel a lot more hungry.
+The ogre hits you with a cursed -2 giant spiked club!!
+You die...
+
+                .......<....#
+               ###......#...#
+                .....#......#
+         #.########..#......#
+         #..............#...#
+          ######.#...#.##...#
+             #.#.#.#.#......#
+      ..### ##...###.#.#....#
+       .... #..........##...#
+       ...# #..#####........#
+        ..# #..##########..##
+     #  ..#.###............#
+  #..#.##.#.#.#.#####.##.#.#
+  #.....†Ol...#.##...<...#.#
+  #.    #@# #.#.##.#####.#.#
+  ..    #.# #..............#
+  #. ####.#.###.##.############
+  #. #....#...................#
+  #. #.########.##.##########.#
+  #.##.###### #.##........  #.#
+  #...........#.##########  #.#
+  #..#........#..           #.#
+  #..########################.#
+  #...............)...........#
+  ##..#########################
+#........#
+#####.##.#
+    ...  .#
+    #.##  #
+
+
+You could see an ogre and a leopard gecko.
+
+Vanquished Creatures
+  3 leopard geckos (D:1)
+  A bat (D:1)
+  5 hobgoblins
+  2 kobolds (D:1)
+  2 quokkas (D:2)
+  A frilled lizard (D:1)
+  2 goblins
+  4 rats (D:1)
+20 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Arcades the Minotaur Berserker began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+    73 | D:1      | Reached XP level 2. HP: 22/27 MP: 1/1
+   565 | D:2      | Noticed an ogre
+   572 | D:2      | Mangled by an ogre
+
+Levels and vault maps discovered:
+D:1:      minmay_arrival_plants_in_alcoves, layout_rooms
+D:2:      layout_basic, chequers_ecumenical_altar_simple
+

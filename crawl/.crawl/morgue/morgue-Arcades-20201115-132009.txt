@@ -1,0 +1,291 @@
+ Dungeon Crawl Stone Soup version 0.24.0 (tiles) character file.
+
+Game seed: 8138642961225859556, levelgen mode: deterministic
+
+17 Arcades the Skirmisher (level 2, -9/27 HPs)
+             Began as a Minotaur Berserker on Nov 15, 2020.
+             Was a Follower of Trog.
+             Mangled by a gnoll
+             ... wielding a +0 halberd
+              (17 damage)
+             ... on level 1 of the Dungeon.
+             The game lasted 00:00:34 (454 turns).
+
+Arcades the Skirmisher (Minotaur Berserker)          Turns: 454, Time: 00:00:34
+
+Health: -9/27      AC:  2    Str: 21    XL:     2   Next: 44%
+Magic:  1/1        EV: 12    Int:  4    God:    Trog [*.....]
+Gold:   55         SH:  0    Dex:  9    Spells: 1/1 levels left
+
+rFire    . . .     SeeInvis .   a - +0 hand axe
+rCold    . . .     Gourm    .   (no shield)
+rNeg     . . .     Faith    .   b - +0 animal skin
+rPois    .         Spirit   .   (helmet restricted)
+rElec    .         Reflect  .   (no cloak)
+rCorr    .         Harm     .   (no gloves)
+MR       .....                  (no boots)
+Stlth    +.........             (no amulet)
+HPRegen  0.09/turn              (no ring)
+MPRegen  0.07/turn              (no ring)
+
+@: no status effects
+A: retaliatory headbutt, horns 2
+a: Berserk, Renounce Religion
+
+
+You were on level 1 of the Dungeon.
+You worshipped Trog.
+Trog was aware of your devotion.
+You were not hungry.
+
+You visited 1 branch of the dungeon, and saw 1 of its levels.
+
+You collected 55 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ a - a +0 hand axe (weapon)
+Armour
+ b - a +0 animal skin (worn)
+Jewellery
+ f - a cursed -3 ring of slaying {unknown}
+   (You found it on level 1 of the Dungeon)
+Scrolls
+ d - a scroll of blinking {unknown}
+ e - a scroll of enchant armour {unknown}
+ g - a scroll of teleportation {unknown}
+ h - a scroll of fog {unknown}
+Comestibles
+ c - 2 rations
+
+
+   Skills:
+ + Level 3.9 Fighting
+ + Level 3.9 Axes
+ + Level 2.8 Armour
+ + Level 2.5 Dodging
+
+
+You had one spell level left.
+You didn't know any spells.
+Your spell library was empty.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (1/15)            
+
+Altars:
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+Health restored: 27
+No target in view!
+No target in view!
+No target in view!
+You now have 40 gold pieces (gained 13).
+You now have 45 gold pieces (gained 5).
+A kobold comes into view.
+The kobold barely misses you.
+You miss the kobold. The kobold closely misses you.
+You hit the kobold. The kobold barely misses you.
+You barely miss the kobold. The kobold misses you. The kobold barely misses
+you.
+You barely miss the kobold. The kobold hits you but does no damage.
+You hit the kobold but do no damage. The kobold barely misses you.
+You slash the kobold!
+You kill the kobold!
+Trog accepts your kill.
+c - 2 rations (gained 1)
+A kobold comes into view.
+The kobold shouts!
+You hit the kobold but do no damage. The kobold hits you but does no damage.
+You completely miss the kobold. Your headbutt misses the kobold. The kobold
+barely misses you. You furiously retaliate! You headbutt the kobold!
+You kill the kobold!
+Trog accepts your kill.
+No target in view!
+No target in view!
+You see here a kobold corpse.
+A frilled lizard comes into view.
+A bat and a hobgoblin come into view.
+The hobgoblin shouts!
+The frilled lizard hisses angrily.
+The frilled lizard bites you but does no damage.
+You hit the frilled lizard.
+You kill the frilled lizard!
+Trog accepts your kill.
+The bat misses you.
+The bat hits you.
+The hobgoblin hits you but does no damage.
+You take 1 damage, and have 26/27 hp.
+You closely miss the hobgoblin. You headbutt the hobgoblin.
+You kill the hobgoblin!
+Trog accepts your kill.
+You hit the bat. The bat misses you.
+You closely miss the bat. The bat hits you but does no damage.
+The bat barely misses you. You furiously retaliate! You headbutt the bat.
+You kill the bat!
+Trog accepts your kill.
+No target in view!
+Things that are here:
+a +0 club; a hobgoblin corpse
+A frilled lizard comes into view.
+A frilled lizard is nearby!
+The frilled lizard hisses angrily.
+You hit the frilled lizard.
+You kill the frilled lizard!
+Trog accepts your kill.
+Health restored: 27
+No target in view!
+No target in view!
+g - a scroll labeled BACVEAR OXKOQY
+You see here a bat corpse.
+Found a stone staircase leading down.
+No target in view!
+No target in view!
+No target in view!
+A kobold comes into view.
+The kobold shouts!
+The kobold throws a stone. The stone hits you but does no damage.
+You see here a stone.
+You closely miss the kobold. Your headbutt misses the kobold. The kobold barely
+misses you.
+You closely miss the kobold. The kobold barely misses you.
+You hit the kobold. The kobold closely misses you. You furiously retaliate! You
+headbutt the kobold!
+You kill the kobold!
+Trog accepts your kill.
+No target in view!
+No target in view!
+h - a scroll labeled QEONKU GUMO
+No target in view!
+No target in view!
+No target in view!
+You now have 55 gold pieces (gained 10).
+A goblin comes into view. It is wielding a +0 club.
+The goblin shouts!
+Found a stone staircase leading down.
+A gnoll comes into view. It is wielding a +0 halberd.
+The goblin closely misses you.
+You hit the goblin. Your headbutt misses the goblin. The goblin hits you with a
++0 club.
+You take 4 damage, and have 23/27 hp.
+You slash the goblin!
+You kill the goblin!
+Trog accepts your kill.
+The gnoll hits you with a +0 halberd!
+Ouch! That really hurt!
+* * * LOW HITPOINT WARNING * * *
+Things that are here:
+a +0 club; a goblin corpse
+You take 15 damage, and have 8/27 hp.
+MASSIVE DAMAGE!!
+You closely miss the gnoll. The gnoll hits you with a +0 halberd!
+Ouch! That really hurt!
+You die...
+
+         #..#.#..##..#  #.....
+         ##..###..#..## ##.##.
+          #...........####.#.#
+          ###.)##.#.#.......##
+            ##.##.#.######.##
+             #......#   #.##
+             ###...##   ##.###
+.##            #...#     #...)
+ ...           #...#     #.#..
+  #..          #...#  ####.#..
+###..##        #...#  #.......
+#.....>#########...####.#.....
+  #...g.##.................#..
+      #@................)..>..
+........##................#...
+######.#########...####.#.#...
+     #.       ##.#.## #.......
+     #.       #.###.# #####.##
+     ..       ##.#.##     #.##
+     ##        #...# ######.#.
+     ###########...# #........
+     #............## #.#..####
+     #.##(##.##.######.#.##  #
+     #.##.##.##.##.§.....#
+     #.##...........§....##  #
+     #.##.##.##.##..≈§≈≈..####
+     #....##.##.##§≈§§≈≈≈.....
+
+
+You could see a gnoll.
+
+Vanquished Creatures
+  A leopard gecko (D:1)
+  2 goblins (D:1)
+  3 hobgoblins (D:1)
+  3 kobolds (D:1)
+  3 bats (D:1)
+  2 frilled lizards (D:1)
+  A rat (D:1)
+15 creatures vanquished.
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Arcades the Minotaur Berserker began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+    75 | D:1      | Reached XP level 2. HP: 25/27 MP: 1/1
+   454 | D:1      | Mangled by a gnoll
+
+Levels and vault maps discovered:
+D:1:      dpeg_arrival_pits, layout_loops_cross, nrook_mini_backslash,
+          minmay_tetromino_t2
+
+Levels and vault maps discovered:
+D:1:      dpeg_arrival_pits, layout_loops_cross, nrook_mini_backslash,
+          minmay_tetromino_t2
+
+Table legend:
+ A = Turns spent in this place as a percentage of turns spent in the
+     entire game.
+ B = Non-inter-level travel turns spent in this place as a percentage of
+     non-inter-level travel turns spent in the entire game.
+ C = Inter-level travel turns spent in this place as a percentage of
+     turns spent in this place.
+ D = Turns resting spent in this place as a percentage of non-inter-level
+     travel turns spent in this place.
+ E = Turns spent auto-exploring this place as a percentage of
+     non-inter-level travel turns spent in this place.
+ F = Non-inter-level travel turns spent in this place divided by the
+     number of levels of this place that you've seen.
+
+                   A       B       C       D       E               F
+               +-------+-------+-------+-------+-------+----------------------
+         Total | 100.0 | 100.0 |   0.0 |   0.0 |  83.3 |         454.0
+       Dungeon | 100.0 | 100.0 |   0.0 |   0.0 |  83.3 |         454.0
+               +-------+-------+-------+-------+-------+----------------------
+
+Table legend:
+ A = Kills in this place as a percentage of kills in entire the game.
+ B = Kills by you in this place as a percentage of kills by you in
+     the entire game.
+ C = Kills by friends in this place as a percentage of kills by
+     friends in the entire game.
+ D = Other kills in this place as a percentage of other kills in the
+     entire game.
+ E = Experience gained in this place as a percentage of experience
+     gained in the entire game.
+ F = Experience gained in this place divided by the number of levels of
+     this place that you have seen.
+
+                   A       B       C       D       E               F
+               +-------+-------+-------+-------+-------+----------------------
+         Total | 100.0 | 100.0 |  N/A  |  N/A  | 100.0 |          25.0
+       Dungeon | 100.0 | 100.0 |  N/A  |  N/A  | 100.0 |          25.0
+               +-------+-------+-------+-------+-------+----------------------
+

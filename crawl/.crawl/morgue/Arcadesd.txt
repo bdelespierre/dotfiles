@@ -1,0 +1,726 @@
+ Seeded DCSS version 0.24.0 (tiles) character file.
+
+Game seed: 20201113, levelgen mode: deterministic
+
+Arcadesd the Warrior (Minotaur Berserker)          Turns: 20164, Time: 00:56:10
+
+Health: 136/136    AC: 42    Str: 33    XL:     14   Next: 92%
+Magic:  13/13      EV: 16    Int:  4    God:    Trog [******]
+Gold:   1721       SH:  0    Dex: 10    Spells: 13/13 levels left
+
+rFire    . . .     SeeInvis +   X - +14 obsidian axe {chop, +Fly SInv *Curse} (curse)
+rCold    . . .     Gourm    .   (no shield)
+rNeg     . . .     Faith    .   B - +27 Lear's hauberk
+rPois    .         Spirit   +   (helmet currently unavailable)
+rElec    .         Reflect  .   O - +0 cloak of Umma Higile {Str+6}
+rCorr    .         Harm     .   (gloves currently unavailable)
+MR       +....                  (boots currently unavailable)
+Stlth    ..........             V - amulet of guardian spirit {Spirit}
+HPRegen  0.32/turn              (no ring)
+MPRegen  0.13/turn              (no ring)
+
+@: no status effects
+A: retaliatory headbutt, horns 2
+a: Berserk, Trog's Hand, Brothers in Arms, Renounce Religion, Evoke Flight
+
+
+You are on level 14 of the Dungeon.
+You worship Trog.
+Trog is exalted by your worship.
+You are not hungry.
+
+You have visited 2 branches of the dungeon, and seen 20 of its levels.
+You have also visited: Volcano.
+
+You have collected 2058 gold pieces.
+You have spent 337 gold pieces at shops.
+
+Inventory:
+
+Hand Weapons
+ X - the cursed +14 obsidian axe (weapon) {chop, +Fly SInv *Curse}
+   (You found it on level 10 of the Dungeon)   
+   
+   It inflicts extra damage upon your enemies.
+   
+   It lets you see invisible.
+   It lets you fly.
+   It curses itself when equipped.
+   It has a curse placed upon it.
+Missiles
+ h - 23 javelins (quivered)
+ w - 41 poisoned darts
+ K - 4 throwing nets {=f, !d}
+ T - 9 boomerangs
+ Z - 7 boomerangs of dispersal {=f}
+Armour
+ B - the +27 Lear's hauberk (worn)
+   (You found it on level 5 of the Dungeon)
+ O - the +0 cloak of Umma Higile (worn) {Str+6}
+   (You bought it in a shop on level 8 of the Dungeon)   
+   
+   It affects your strength (+6).
+ W - an ichor-stained shield
+   (You found it on level 13 of the Dungeon)
+Jewellery
+ e - a glowing bone ring
+   (You found it on level 1 of the Lair of Beasts)
+ k - a notched ruby ring
+   (You found it on level 2 of the Dungeon)
+ o - a dented fluorescent amulet
+   (You found it on level 3 of the Lair of Beasts)
+ r - an uncursed ring of ice {rC+, rF-}
+   (You took it off Fannar on level 3 of the Lair of Beasts)
+ t - a dented beryl amulet
+   (You found it on level 4 of the Lair of Beasts)
+ y - a runed filigree amulet
+   (You found it on level 4 of the Lair of Beasts)
+ z - a runed steel ring
+   (You found it on level 5 of the Lair of Beasts)
+ C - a peridot ring
+   (You found it on level 4 of the Dungeon)
+ F - a runed steel ring
+   (You found it on level 5 of the Dungeon)
+ R - a dented beryl amulet
+   (You found it on level 13 of the Dungeon)
+ S - a twitching marble ring
+   (You found it on level 12 of the Dungeon)
+ U - a knobbly opal ring
+   (You found it on level 13 of the Dungeon)
+ V - an amulet of guardian spirit (around neck) {Spirit}
+   (You found it on level 10 of the Dungeon)
+ Y - a bone ring
+   (You found it on level 14 of the Dungeon)
+Scrolls
+ a - 3 scrolls of identify
+ d - 5 scrolls labeled QUGGONK IXKEMA
+ f - 3 scrolls labeled YRPHEA YRESELICW
+ i - 3 scrolls labeled TUUCZO COLI
+ m - 5 scrolls of enchant weapon
+ n - 4 scrolls labeled XOIMEH TOXUO
+ p - 5 scrolls labeled TOKHUTILUR
+ q - 9 scrolls of remove curse
+ x - a scroll labeled ASHIZIA QUCUA
+ J - a scroll labeled SEYLOVV JEEPS
+ L - 5 scrolls labeled OHIJUO ROCEONA
+ M - 2 scrolls labeled USTAIT GULOLUF
+ N - 14 scrolls labeled ZICIUBO OCSA
+ P - 4 scrolls labeled WEDI NYPANTAERR
+Potions
+ b - 2 green potions
+ g - 3 pink potions
+ j - 12 orange potions
+ l - 4 yellow potions
+ s - a glowing coppery potion
+ u - an emerald potion
+ v - 3 fuming pink potions
+ A - 3 inky potions
+ D - 5 potions of heal wounds
+ E - 2 fizzy yellow potions
+ G - a metallic orange potion
+ H - 8 sapphire potions
+ I - 2 purple potions
+ Q - 2 bubbling amethyst potions
+Comestibles
+ c - 26 rations
+
+
+   Skills:
+ + Level 15.6 Fighting
+ + Level 15.6 Axes
+ + Level 15.5 Armour
+ + Level 14.4 Dodging
+
+
+You have 13 spell levels left.
+You don't know any spells.
+Your spell library contains the following spells:
+
+ Spells                   Type           Power        Failure   Level  Hunger
+ Confusing Touch          Hex            #.....       85%         1    ##.....
+ Corona                   Hex            #......      85%         1    ##.....
+ Magic Dart               Conj           #...         85%         1    ##.....
+ Ensorcelled Hibernation  Hex/Ice        #.....       94%         2    ###....
+ Searing Ray              Conj           #.....       94%         2    ###....
+ Confuse                  Hex            #.......     99%         3    ####...
+ Dazzling Spray           Conj/Hex       #.....       99%         3    ####...
+ Gell's Gravitas          Tloc           #.........   99%         3    ####...
+ Tukima's Dance           Hex            #.......     99%         3    ####...
+ Force Lance              Conj/Tloc      #.......     100%        4    #####..
+ Fulminant Prism          Conj/Hex       #.........   100%        4    #####..
+ Iskenderun's Mystic Bla  Conj           #.......     100%        4    #####..
+ Petrify                  Tmut/Erth      #.......     100%        4    #####..
+ Metabolic Englaciation   Hex/Ice        #.........   100%        5    ######.
+ Yara's Violent Unravell  Hex/Tmut       #.........   100%        5    ######.
+
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (14/15)            Temple (0/1) D:6            Lair (6/6) D:10
+  Swamp (0/4) Lair:2        Snake (0/4) Lair:3        Slime (0/5) Lair:5
+    Orc (0/2) D:10         Vaults (0/5) D:13        Volcano (visited)
+
+Altars:
+Ashenzari
+Fedhas
+Gozag
+Makhleb
+Qazlal
+Ru
+Sif Muna
+Trog
+Vehumet
+Xom
+Jiyva
+
+Shops:
+D:8 [   D:9 [   D:14 (
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+You chop the ice beast into pieces!!!
+You break out of your daze!
+You kill the ice beast!
+Trog accepts your kill.
+Y - a bone ring
+You see here 27 stones.
+You swap places.
+You swap places.
+Found Yhyomuja's Antique Weapon Emporium.
+There is an entrance to Yhyomuja's Antique Weapon Emporium here.
+You start resting.
+A centaur and a centaur warrior come into view.
+Visions of slaying the centaur warrior flood into your mind.
+The centaur warrior shouts! You hear a shout!
+The centaur wields a +0 shortbow. The centaur shoots an arrow. The arrow hits
+you but does no damage.
+A centaur comes into view.
+The centaur warrior wields a +0 shortbow.
+The centaur warrior shoots an arrow. The arrow hits you but does no damage.
+You see here an arrow.
+Health restored: 135
+Spoiler Alert: The centaur warrior can hit for high damage at range!
+The centaur warrior shoots an arrow. The arrow hits you. The centaur shoots an
+arrow. The arrow hits you but does no damage.
+You see here 2 arrows.
+You take 3 damage, and have 132/135 hp. You now have 12/13 mp.
+You are no longer entranced.
+Visions of slaying the centaur flood into your mind.
+The centaur shoots an arrow. The arrow barely misses you.
+Spoiler Alert: The centaur warrior can hit for high damage at range!
+An ice beast comes into view.
+Visions of slaying the centaur warrior flood into your mind.
+The centaur warrior shoots an arrow. The arrow hits you. The centaur shoots an
+arrow. The arrow hits you but does no damage.
+You see here 4 arrows.
+You take 4 damage, and have 129/135 hp.
+The centaur unwields a +0 shortbow. The centaur barely misses you. You
+furiously retaliate! You headbutt the centaur.
+Spoiler Alert: The centaur warrior can hit for high damage at range!
+You are feeling hungry.
+You slash the centaur warrior! You hit the centaur. You slice the centaur!!
+You kill the centaur!
+Trog accepts your kill.
+Visions of slaying the centaur flood into your mind.
+The centaur warrior unwields a +0 shortbow.
+The centaur warrior closely misses you. The centaur closely misses you.
+Spoiler Alert: The centaur warrior can hit for high damage at range!
+You slice the centaur warrior!! You headbutt the centaur warrior!
+You kill the centaur warrior!
+Trog accepts your kill.
+You slash the centaur! The centaur misses you. You furiously retaliate! You
+headbutt the centaur!
+You break out of your daze!
+You kill the centaur!
+Trog accepts your kill.
+You barely miss the ice beast. Your headbutt misses the ice beast.
+Visions of slaying the ice beast flood into your mind.
+Your smoke demon hits the ice beast. x3
+MP restored: 13
+You slash the ice beast! Your headbutt misses the ice beast. The ice beast
+misses you.
+Your Lear's hauberk prevents you from hitting the ice beast.
+Your headbutt misses the ice beast.
+Your smoke demon gestures at the ice beast.
+The ball of steam hits the ice beast!
+You break out of your daze!
+The ice beast dies!
+Trog accepts your kill.
+You are engulfed in a cloud of scalding steam.
+Things that are here:
+a +0 shortbow; 21 arrows; a centaur corpse
+You are engulfed in a cloud of scalding steam.
+Your smoke demon disappears in a puff of smoke!
+Health restored: 136
+You may need something to eat soon, looking for food.
+Can't find anything matching that.
+Okay, then.
+Things that are here:
+a +0 shortbow; 12 arrows; a centaur corpse
+Autochopping corpse.
+You butcher the centaur corpse.
+Your pack is full.
+Items here: % ( ) ÷
+a +0 shortbow; 12 arrows; 4 chunks of flesh {@w0}; a centaur skeleton
+Eating one of 4 chunks of flesh {@w0}.
+You eat one of the 4 chunks of flesh {@w0}.
+Your pack is full.
+Items here: % ( ) ÷
+a +0 shortbow; 12 arrows; 3 chunks of flesh {@w0}; a centaur skeleton
+Could not pick up an item here; shall I ignore it? 
+[Y]es or [N]o only, please.
+Could not pick up an item here; shall I ignore it? 
+[Y]es or [N]o only, please.
+Could not pick up an item here; shall I ignore it? 
+[Y]es or [N]o only, please.
+Could not pick up an item here; shall I ignore it? 
+Okay, then.
+Your pack is full.
+Items here: % ( ) ÷
+a +0 shortbow; 12 arrows; 3 chunks of flesh {@w0}; a centaur skeleton
+Could not pick up an item here; shall I ignore it? 
+Okay, then.
+Drop what? 52/52 slots (_ for help) (? for menu, Esc to quit)
+Okay, then.
+Unknown command.
+Saving game... please wait.
+
+........#                  ####.##
+........#                  #...∩.#
+........#                  #.#####
+###.....#                  #.#
+  #######    #.. #.#       #.#
+              ..##.###     #.#
+              #..#...  ..# #.#
+              #..#..####.# #.#
+##             #....#..#.# #.#
+...            #.>..#..#.# #.#
+##.             #...#..#.# #.#
+..              #......#.# #.#
+##  #############......#.# #.#
+    #.................@#(###.#
+    #.###########.#...).(....#
+    #.#         #.#.#.).(#####
+    #.#         #.#............#
+    #.#         #.############.#
+    #.#         #.#
+#####.#         #.#
+......#         #.#
+#######
+
+
+There are no monsters in sight!
+
+Vanquished Creatures
+  A tengu reaver (D:13)
+  A vampire knight (D:13)
+  Nessos (D:14)
+  A minotaur (Lair:1)
+  2 fire dragons
+  Fannar (Lair:3)
+  4 vault guards (D:13)
+  A death knight (D:12)
+  3 hydras
+  The ghost of Arcades the Fighter, a novice MiBe of Trog (Lair:1)
+  3 centaur warriors
+  3 two-headed ogres
+  A tengu warrior (D:13)
+  3 death yaks (Lair:4)
+  A shock serpent (shapeshifter) (D:13)
+  A skeletal warrior (D:12)
+  3 unseen horrors
+  2 lindwurms
+  2 cyclopes
+  2 ugly things
+  A deep elf mage (D:12)
+  4 centaur zombies
+  9 elephants
+  7 black mambas
+  8 spiny frogs
+  A centaur skeleton (D:14)
+  5 torpor snails (Lair:6)
+  A gargoyle (D:12)
+  5 komodo dragons
+  2 freezing wraiths (D:12)
+  7 rime drakes
+  A polar bear (Lair:6)
+  A polar bear (shapeshifter) (D:13)
+  8 hornets
+  A troll (D:13)
+  A tyrant leech (Lair:6)
+  9 blink frogs
+  4 dream sheep (Lair:5)
+  A meliai zombie (D:13)
+  Sigmund (D:4)
+  13 hippogriffs
+  2 wyverns
+  3 wraiths
+  Eustachio (D:5)
+  A basilisk (Lair:3)
+  2 steam dragons (Volcano)
+  33 yaks
+  2 hungry ghosts
+  A naga (Lair:3)
+  Menkaure (D:5)
+  2 vampire mosquitoes (Lair:2)
+  2 acid dragons
+  A hell hound (Volcano)
+  11 water moccasins
+  Duvessa (D:7)
+  4 porcupines
+  5 ice beasts
+  6 orc warriors
+  2 swamp drakes (Lair:6)
+  A black bear (D:8)
+  2 eyes of draining
+  6 sky beasts
+  4 ogres
+  5 phantoms
+  A necrophage (D:11)
+  5 boggarts (D:12)
+  4 wolves (Lair:5)
+  13 crocodiles
+  9 centaurs
+  3 big kobolds
+  6 bullfrogs
+  A gnoll sergeant (D:8)
+  2 wyvern zombies (D:8)
+  Dowan (D:7)
+  2 wyvern skeletons
+  2 scorpions
+  7 wights
+  7 killer bees
+  2 howler monkeys (D:6)
+  4 jellies
+  6 crimson imps
+  A bullfrog zombie (D:10)
+  A quasit (D:11)
+  A wyvern simulacrum (D:14)
+  4 hounds
+  2 orc priests
+  11 orc wizards
+  4 bullfrog skeletons
+  5 iguanas
+  Ijyb (D:3)
+  4 hell rats (Lair:4)
+  8 worker ants
+  A hound skeleton (D:5)
+  4 worker ant zombies
+  17 adders
+  8 gnolls
+  4 shadow imps
+  An ooze (D:4)
+  3 adder skeletons
+  An adder zombie (D:5)
+  3 worms
+  3 dart slugs
+  9 leopard geckos
+  46 orcs
+  9 bats
+  8 giant cockroaches
+  7 hobgoblins
+  16 jackals
+  2 quokkas
+  8 frilled lizards
+  7 goblins
+  28 kobolds
+  A quokka skeleton (D:6)
+  5 rats
+  5 fungi
+  4 plants
+542 creatures vanquished.
+
+Vanquished Creatures (collateral kills)
+  A fire dragon (Lair:6)
+  Josephine (Lair:4)
+  A hydra (Lair:6)
+  A two-headed ogre (D:13)
+  Urug (D:11)
+  A lindwurm (Lair:6)
+  A swamp dragon (Lair:6)
+  2 elephants
+  A torpor snail (Lair:5)
+  2 spiny frogs
+  A rime drake (Lair:4)
+  2 komodo dragons
+  A polar bear (Lair:5)
+  2 tyrant leeches (Lair:6)
+  A troll (D:11)
+  A hornet (D:13)
+  6 blink frogs
+  6 yaks
+  2 wraiths (Lair:4)
+  A basilisk (Lair:6)
+  A vampire mosquito (Lair:2)
+  2 steam dragons (Lair:6)
+  A naga (Lair:3)
+  An ice beast (D:14)
+  An orc warrior (D:13)
+  An ogre (D:10)
+  A wolf (Lair:5)
+  3 crocodiles
+  A bullfrog (Lair:4)
+  An electric eel (Lair:2)
+  A bullfrog skeleton (D:13)
+  An adder (D:10)
+  A shadow imp (D:13)
+  4 fungi
+  10 plants
+65 creatures vanquished.
+
+Vanquished Creatures (others)
+  7 plants
+7 creatures vanquished.
+
+Grand Total: 614 creatures vanquished
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Arcadesd the Minotaur Berserker began the quest for the
+                  | Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   279 | D:1      | Reached XP level 2. HP: 27/27 MP: 1/1
+   760 | D:2      | Found a faded altar of an unknown god.
+   763 | D:2      | Reached skill level 4 in Fighting
+   763 | D:2      | Reached skill level 4 in Axes
+   763 | D:2      | Reached skill level 3 in Armour
+   763 | D:2      | Reached XP level 3. HP: 33/33 MP: 2/2
+   823 | D:2      | Reached skill level 3 in Dodging
+   823 | D:2      | Reached XP level 4. HP: 38/41 MP: 3/3
+   899 | D:2      | Reached ** piety under Trog
+  1711 | D:3      | Reached XP level 5. HP: 47/47 MP: 4/4
+  1884 | D:3      | Reached *** piety under Trog
+  1990 | D:3      | Noticed Ijyb
+  2001 | D:3      | Killed Ijyb
+  2358 | D:4      | Noticed Sigmund
+  2385 | D:4      | Killed Sigmund
+  2385 | D:4      | Reached skill level 5 in Fighting
+  2385 | D:4      | Reached skill level 5 in Axes
+  2385 | D:4      | Reached skill level 4 in Armour
+  2385 | D:4      | Reached skill level 4 in Dodging
+  2385 | D:4      | Reached XP level 6. HP: 49/56 MP: 5/5
+  3084 | D:5      | Entered Level 5 of the Dungeon
+  3089 | D:5      | Reached skill level 5 in Armour
+  3097 | D:5      | Reached XP level 7. HP: 58/62 MP: 6/6
+  3147 | D:5      | Noticed Menkaure
+  3153 | D:5      | Killed Menkaure
+  3153 | D:5      | Reached skill level 6 in Fighting
+  3153 | D:5      | Reached skill level 6 in Axes
+  3335 | D:5      | Reached skill level 5 in Dodging
+  3531 | D:5      | Found the +27 Lear's hauberk
+  3608 | D:5      | Noticed Eustachio
+  3636 | D:5      | Killed Eustachio
+  3745 | D:5      | Reached skill level 6 in Armour
+  3745 | D:5      | Reached XP level 8. HP: 59/71 MP: 7/7
+  3753 | D:5      | Found a bloodstained altar of Trog.
+  3880 | D:5      | Reached **** piety under Trog
+  4024 | D:5      | Found a sacrificial altar of Ru.
+  4031 | D:5      | Reached skill level 7 in Fighting
+  4031 | D:5      | Reached skill level 7 in Axes
+  4256 | D:6      | Found a staircase to the Ecumenical Temple.
+  4274 | D:6      | Found a radiant altar of Vehumet.
+  4280 | D:6      | Found a shimmering blue altar of Sif Muna.
+  4339 | D:6      | Found a shattered altar of Ashenzari.
+  4341 | D:6      | Found an opulent altar of Gozag.
+  4341 | D:6      | Found a bloodstained altar of Trog.
+  4384 | D:6      | Reached skill level 6 in Dodging
+  4701 | D:6      | Reached skill level 7 in Armour
+  4963 | D:7      | Noticed Duvessa
+  4964 | D:7      | Noticed Dowan
+  4968 | D:7      | Killed Duvessa
+  4968 | D:7      | Noticed a hippogriff
+  4970 | D:7      | Killed Dowan
+  4981 | D:7      | Killed a hippogriff
+  4981 | D:7      | Reached XP level 9. HP: 64/81 MP: 8/8
+  5137 | D:7      | Reached skill level 8 in Fighting
+  5137 | D:7      | Reached skill level 8 in Axes
+  5428 | D:7      | Reached skill level 7 in Dodging
+  5502 | D:7      | HP: 16/82 [orc priest/nerve-wracking pain (14)]
+  5840 | D:7      | Found a shimmering altar of Xom.
+  5854 | D:7      | Reached skill level 8 in Armour
+  5858 | D:7      | Found a burning altar of Makhleb.
+  6237 | D:8      | Reached ***** piety under Trog
+  6548 | D:8      | Reached skill level 9 in Fighting
+  6548 | D:8      | Reached skill level 9 in Axes
+  6644 | D:8      | Reached skill level 8 in Dodging
+  6653 | D:8      | Killed an unseen horror
+  6653 | D:8      | Reached skill level 9 in Armour
+  6653 | D:8      | Reached XP level 10. HP: 72/91 MP: 0/9
+  6684 | D:8      | Received a gift from Trog
+  6779 | D:8      | Found the +2 ratskin cloak {+Rats rPois rN+ Str-1 Int-1
+                  | Dex+1}
+  6913 | D:8      | Found Miaqahuv's Armour Boutique.
+  6918 | D:8      | Bought the cursed +0 cloak of Umma Higile {Str+6} for 337
+                  | gold pieces
+  7199 | D:8      | Found a blossoming altar of Fedhas.
+  7309 | D:8      | Found a stormy altar of Qazlal.
+  7467 | D:9      | Found Xibidublo's Armour Shoppe.
+  7588 | D:9      | Reached skill level 10 in Axes
+  7592 | D:9      | Reached skill level 10 in Fighting
+  7829 | D:10     | Entered Level 10 of the Dungeon
+  7854 | D:10     | Reached skill level 9 in Dodging
+  7927 | D:10     | Found the cursed +14 obsidian axe {chop, +Fly SInv *Curse}
+  8270 | D:10     | Reached skill level 10 in Armour
+  8307 | D:10     | Noticed a cyan ugly thing
+  8312 | D:10     | Killed a cyan ugly thing
+  8435 | D:10     | Found a staircase to the Lair.
+  8469 | D:10     | Found a staircase to the Orcish Mines.
+  8819 | Lair:1   | Entered Level 1 of the Lair of Beasts
+  8888 | Lair:1   | Noticed a minotaur
+  8888 | Lair:1   | Noticed a spiny frog
+  8888 | Lair:1   | Noticed Arcades's ghost (novice MiBe)
+  8898 | Lair:1   | Reached XP level 11. HP: 101/101 MP: 10/10
+  9318 | Lair:1   | Found a runed translucent gate.
+  9319 | Lair:1   | Found a runed translucent gate.
+  9320 | Lair:1   | Found a runed translucent gate.
+  9616 | Lair:1   | Reached skill level 11 in Fighting
+  9616 | Lair:1   | Reached skill level 11 in Axes
+  9620 | Lair:1   | HP: 26/153 [minotaur/javelin (20)]
+  9626 | Lair:1   | Killed a minotaur
+  9626 | Lair:1   | Reached skill level 10 in Dodging
+  9630 | Lair:1   | Killed Arcades's ghost
+  9630 | Lair:1   | Reached skill level 11 in Armour
+ 10180 | Lair:2   | Noticed an eight-headed hydra
+ 10185 | Lair:2   | Killed an 11-headed hydra
+ 10505 | Lair:2   | Found a staircase to the Swamp.
+ 10949 | Lair:3   | Found a staircase to the Snake Pit.
+ 10982 | Lair:3   | Noticed Fannar
+ 10993 | Lair:3   | Killed Fannar
+ 10993 | Lair:3   | Reached skill level 12 in Fighting
+ 10993 | Lair:3   | Reached skill level 12 in Axes
+ 11018 | Lair:3   | Reached XP level 12. HP: 96/112 MP: 11/11
+ 11024 | Lair:3   | Reached skill level 11 in Dodging
+ 11052 | Lair:3   | Reached skill level 12 in Armour
+ 11105 | Lair:3   | Got an iridescent morningstar
+ 11106 | Lair:3   | Identified the +4 morningstar of Darov {flame, Str+2} (You
+                  | found it on level 3 of the Lair of Beasts)
+ 11523 | Lair:3   | Noticed a six-headed hydra
+ 11532 | Lair:3   | Killed an eight-headed hydra
+ 11935 | Lair:4   | Noticed a death yak
+ 11937 | Lair:4   | Noticed a death yak
+ 11937 | Lair:4   | Noticed a death yak
+ 11943 | Lair:4   | Killed a death yak
+ 11947 | Lair:4   | Killed a death yak
+ 11947 | Lair:4   | Killed a death yak
+ 11982 | Lair:4   | Found a gate leading to a gauntlet.
+ 12067 | Lair:4   | Found a dark tunnel.
+ 12072 | Volcano  | Entered a volcano
+ 12137 | Volcano  | Reached skill level 13 in Fighting
+ 12138 | Volcano  | Reached skill level 13 in Axes
+ 12142 | Volcano  | Reached ****** piety under Trog
+ 12180 | Volcano  | Noticed a fire dragon
+ 12186 | Volcano  | Killed a fire dragon
+ 12231 | Lair:4   | Noticed an eight-headed hydra
+ 12240 | Lair:4   | Received a gift from Trog
+ 12240 | Lair:4   | Reached skill level 12 in Dodging
+ 12242 | Lair:4   | Killed a 13-headed hydra
+ 12242 | Lair:4   | Reached skill level 13 in Armour
+ 12415 | Lair:4   | Noticed Josephine
+ 12423 | Lair:4   | Killed Josephine
+ 12625 | Lair:4   | Reached XP level 13. HP: 122/122 MP: 12/12
+ 12847 | Lair:4   | Got an ancient hunting sling
+ 12848 | Lair:4   | Identified the +11 hunting sling of Experimentation
+                  | {velocity, *Corrode +Blink rN+} (You found it on level 4 of
+                  | the Lair of Beasts)
+ 13227 | Lair:4   | Got a slimy arbalest
+ 13229 | Lair:4   | Identified the cursed +2 arbalest "Ronnex" {velocity, rC+
+                  | Dex+3} (You found it on level 4 of the Lair of Beasts)
+ 13368 | Lair:5   | Found a staircase to the Slime Pits.
+ 13369 | Lair:5   | Found a viscous altar of Jiyva.
+ 14132 | Lair:6   | Entered Level 6 of the Lair of Beasts
+ 14354 | Lair:6   | Reached skill level 14 in Fighting
+ 14371 | Lair:6   | Reached skill level 14 in Axes
+ 14732 | Lair:6   | Noticed a fire dragon
+ 14740 | Lair:6   | Killed a fire dragon
+ 14740 | Lair:6   | Reached skill level 14 in Armour
+ 14742 | Lair:6   | Received a gift from Trog
+ 14752 | Lair:6   | Reached skill level 13 in Dodging
+ 14760 | Lair:6   | HP: 30/124 [poisoned by a swamp dragon (poison gas)]
+ 14765 | Lair:6   | HP: 21/124 [poisoned by a swamp dragon (poison gas)]
+ 14770 | Lair:6   | HP: 16/124 [poisoned by a swamp dragon (poison gas)]
+ 14776 | Lair:6   | HP: 13/124 [poisoned by a swamp dragon (poison gas)]
+ 14781 | Lair:6   | HP: 10/124 [poisoned by a swamp dragon (poison gas)]
+ 14786 | Lair:6   | HP: 10/124 [poisoned by a swamp dragon (poison gas)]
+ 14791 | Lair:6   | HP: 9/124 [poisoned by a swamp dragon (poison gas)]
+ 14799 | Lair:6   | HP: 10/124 [poisoned by a swamp dragon (poison gas)]
+ 15308 | Lair:6   | Found a runed translucent door.
+ 15308 | Lair:6   | Noticed a fire dragon
+ 16096 | Lair:6   | Killed a fire dragon
+ 16096 | Lair:6   | Reached XP level 14. HP: 97/133 MP: 8/13
+ 16253 | D:11     | Noticed Urug
+ 16257 | D:11     | Killed Urug
+ 16343 | D:11     | Found a stormy altar of Qazlal.
+ 16714 | D:11     | Received a gift from Trog
+ 17194 | D:12     | Got a twitching marble ring
+ 17225 | D:12     | HP: 24/133 [mirror damage (41)]
+ 17231 | D:12     | Reached skill level 15 in Fighting
+ 17232 | D:12     | Reached skill level 15 in Axes
+ 18787 | D:13     | Found a gate to the Vaults.
+ 18793 | D:13     | Reached skill level 15 in Armour
+ 18799 | D:13     | Received a gift from Trog
+ 18810 | D:13     | Reached skill level 14 in Dodging
+ 19111 | D:13     | Noticed a vampire knight
+ 19111 | D:13     | Noticed a tengu reaver
+ 19113 | D:13     | Found the +8 demon blade "Bloodbane" {slice, *Rage +Rage
+                  | Stlth-}
+ 19114 | D:13     | Found the +10 zealot's sword {holy, *Rage rN+ EV+3}
+ 19124 | D:13     | Killed a tengu reaver
+ 19127 | D:13     | HP: 30/135 [vampire knight/+3 great mace (8)]
+ 19129 | D:13     | Killed a vampire knight
+ 19673 | D:13     | Got an ichor-stained shield
+ 19875 | D:14     | Noticed Nessos
+ 19912 | D:14     | Killed Nessos
+ 19985 | D:14     | Found Yhyomuja's Antique Weapon Emporium.
+
+Table legend:
+ A = Turns spent in this place as a percentage of turns spent in the
+     entire game.
+ B = Non-inter-level travel turns spent in this place as a percentage of
+     non-inter-level travel turns spent in the entire game.
+ C = Inter-level travel turns spent in this place as a percentage of
+     turns spent in this place.
+ D = Turns resting spent in this place as a percentage of non-inter-level
+     travel turns spent in this place.
+ E = Turns spent auto-exploring this place as a percentage of
+     non-inter-level travel turns spent in this place.
+ F = Non-inter-level travel turns spent in this place divided by the
+     number of levels of this place that you've seen.
+
+                   A       B       C       D       E               F
+               +-------+-------+-------+-------+-------+----------------------
+         Total | 100.0 | 100.0 |   3.5 |  18.5 |  60.3 |         926.5
+       Dungeon |  63.3 |  63.6 |   3.0 |  17.5 |  60.9 |         883.9
+          Lair |  36.0 |  35.7 |   4.5 |  20.6 |  60.1 |        1156.7
+       Volcano |   0.7 |   0.7 |   0.0 |   0.0 |  13.5 |         141.0
+               +-------+-------+-------+-------+-------+----------------------
+
+Table legend:
+ A = Kills in this place as a percentage of kills in entire the game.
+ B = Kills by you in this place as a percentage of kills by you in
+     the entire game.
+ C = Kills by friends in this place as a percentage of kills by
+     friends in the entire game.
+ D = Other kills in this place as a percentage of other kills in the
+     entire game.
+ E = Experience gained in this place as a percentage of experience
+     gained in the entire game.
+ F = Experience gained in this place divided by the number of levels of
+     this place that you have seen.
+
+                   A       B       C       D       E               F
+               +-------+-------+-------+-------+-------+----------------------
+         Total | 100.0 | 100.0 | 100.0 |  N/A  | 100.0 |        4761.0
+       Dungeon |  67.0 |  70.9 |  25.5 |  N/A  |  44.9 |        3204.0
+          Lair |  32.2 |  28.1 |  74.5 |  N/A  |  53.0 |        8827.5
+       Volcano |   0.9 |   0.9 |   0.0 |  N/A  |   2.2 |        2160.0
+               +-------+-------+-------+-------+-------+----------------------
+

@@ -1,0 +1,658 @@
+ Dungeon Crawl Stone Soup version 0.24.0 (tiles) character file.
+
+Game seed: 1136601490044103628, levelgen mode: deterministic
+
+185601 Arcades the Warrior (level 17, -17/166 HPs)
+             Began as a Minotaur Berserker on Nov 10, 2020.
+             Was a High Priest of Trog.
+             Blown up by an orb spider (52 damage)
+             ... with an orb of destruction
+             ... on level 1 of the Spider Nest on Nov 11, 2020.
+             The game lasted 02:44:20 (35071 turns).
+
+Arcades the Warrior (Minotaur Berserker)           Turns: 35071, Time: 02:44:20
+
+Health: -17/166    AC: 35    Str: 34    XL:     17   Next: 41%
+Magic:  4/4        EV: 32    Int:  4    God:    Trog [*****.]
+Gold:   1486       SH:  0    Dex: 10    Spells: 16/16 levels left
+
+rFire    . . .     SeeInvis .   I - +9 battleaxe (antimagic)
+rCold    + . .     Gourm    .   (shield currently unavailable)
+rNeg     . . .     Faith    .   P - +6 plate armour {rC+}
+rPois    .         Spirit   .   (helmet restricted)
+rElec    .         Reflect  .   N - +2 cloak
+rCorr    .         Harm     .   F - +2 pair of gloves {archery}
+MR       +....                  k - +0 pair of boots {Fly}
+Stlth    ..........             B - amulet of the acrobat
+HPRegen  0.37/turn              J - +1 ring of evasion
+MPRegen  0.09/turn              e - +5 ring of strength
+
+@: lethally poisoned (-17 -> -17), acrobat, flying
+A: retaliatory headbutt, horns 2, iridescent scales 1, low mp 1, subdued magic 1
+}: 1/15 runes: barnacled
+a: Berserk, Trog's Hand, Brothers in Arms, Renounce Religion, Stop Flying
+
+
+You were on level 1 of the Spider Nest.
+You worshipped Trog.
+Trog was extremely pleased with you.
+You were hungry.
+
+You visited 5 branches of the dungeon, and saw 28 of its levels.
+
+You collected 2602 gold pieces.
+You spent 1116 gold pieces at shops.
+
+Inventory:
+
+Hand Weapons
+ v - a +7 executioner's axe of venom
+ I - a +9 antimagic battleaxe (weapon)
+Missiles
+ w - 56 poisoned darts
+ D - 18 silver javelins (quivered)
+Armour
+ k - a +0 pair of boots of flying (worn)
+ p - a +2 pair of boots
+ F - a +2 pair of gloves of archery (worn)
+ M - +0 ice dragon scales
+ N - a +2 cloak (worn)
+ P - a +6 plate armour of cold resistance (worn)
+Jewellery
+ b - an uncursed ring of ice
+ e - a +5 ring of strength (right hand)
+ x - an uncursed ring of protection from cold
+ B - an amulet of the acrobat (around neck)
+ J - a +1 ring of evasion (left hand)
+Wands
+ g - a wand of random effects (25)
+ m - a wand of iceblast (20)
+ T - a wand of enslavement (26)
+Scrolls
+ d - 8 scrolls of identify
+ i - a scroll of brand weapon
+ j - 5 scrolls of magic mapping
+ l - a scroll of enchant armour
+ n - 13 scrolls of teleportation
+ r - 16 scrolls of remove curse
+ t - 4 scrolls of immolation
+ G - a scroll of torment
+Potions
+ a - 3 potions of mutation
+ o - a potion of ambrosia
+ q - 3 potions of haste
+ s - 3 potions of curing
+ u - 2 potions of heal wounds
+ A - 2 potions of resistance
+ C - 4 potions of might
+ E - a potion of berserk rage
+ L - a potion of magic
+ Q - a potion of cancellation
+ V - a potion of flight
+Miscellaneous
+ f - a lamp of fire
+ h - a lamp of fire
+ z - a lightning rod (4/4)
+Comestibles
+ c - 51 rations
+
+
+   Skills:
+ + Level 18.4 Fighting
+ + Level 18.4 Axes
+ + Level 18.2 Armour
+ + Level 16.9 Dodging
+
+
+You had 16 spell levels left.
+You didn't know any spells.
+Your spell library contained the following spells:
+
+ Spells                   Type           Power        Failure   Level  Hunger
+ Flame Tongue             Conj/Fire      #....        89%         1    ##.....
+ Magic Dart               Conj           #...         89%         1    ##.....
+ Blink                    Tloc           N/A          96%         2    ###....
+ Call Imp                 Summ           #.......     96%         2    ###....
+ Slow                     Hex            #.......     96%         2    ###....
+ Throw Flame              Conj/Fire      #.....       96%         2    ###....
+ Conjure Flame            Conj/Fire      #.......     99%         3    ####...
+ Inner Flame              Hex/Fire       #.......     99%         3    ####...
+ Mephitic Cloud           Conj/Pois/Air  #.......     99%         3    ####...
+ Sticky Flame             Conj/Fire      #.......     100%        4    #####..
+ Fireball                 Conj/Fire      #.........   100%        5    ######.
+ Poison Arrow             Conj/Pois      #.........   100%        6    #######
+ Chain Lightning          Conj/Air       #.........   100%        8    #######
+ Lehudib's Crystal Spear  Conj/Erth      #.........   100%        8    #######
+ Fire Storm               Conj/Fire      #.........   100%        9    #######
+ Glaciate                 Conj/Ice       #.........   100%        9    #######
+
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (15/15)            Temple (0/1) D:4            Lair (6/6) D:9
+ Shoals (4/4) Lair:3       Spider (1/4) Lair:4        Slime (0/5) Lair:5
+    Orc (2/2) D:12            Elf (0/3) Orc:2        Vaults (0/5) D:13
+ Depths (0/5) D:15        
+
+Altars:
+Cheibriados
+Dithmenos
+Fedhas
+Nemelex Xobeh
+Qazlal
+Ru
+Sif Muna
+Trog
+Uskayaw
+Wu Jian
+Xom
+Zin
+The Shining One
+Beogh
+
+Shops:
+D:8 (   D:10 ?   Orc:2 ?(?[
+
+Annotations:
+Lair:5 3 runed translucent doors, Caath's ghost, journeyman DrFi
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+You are partially covered in iridescent scales. (AC +2)
+Your magical capacity is low. (-10% MP)
+Your spells are a little easier to cast, but a little less powerful.
+
+
+Message History
+
+Trog accepts your kill.
+You feel sick.
+You feel sick. The orb of destruction hits you!!!
+* * * LOW HITPOINT WARNING * * *
+You see here a jumping spider corpse.
+You are feeling hungry.
+You feel sick.
+You feel sick.
+The orb spider pulsates with a strange energy.
+You feel sick.
+The orb spider weaves a glowing orb of energy.
+An orb of destruction comes into view.
+You feel sick.
+The orb of destruction hits a rock wall.
+The orb spider pulsates with a strange energy.
+You feel sick.
+The orb spider weaves a glowing orb of energy.
+An orb of destruction comes into view.
+You feel sick. The orb of destruction hits you!!!
+You die...
+
+           ####.........
+          ##.........(..^##
+         ##..............>#   ####   ##
+    ##  ##.#..#......#...#    #..    .#
+    #.###.........#......#    #^### #.##
+    #...#...............#######.#.##≈≈≈#
+    ##..##..............#...^#.°○s.#≈≈≈#
+   ##....#.......<.....##...°○○#...†#
+ ###.....#...##.)#:.....@○☼○..###.#.#
+ #.......##......#........#...# ####†≈≈#
+ #..........##.......#........#     ≈≈≈#
+ #..........##......##..#.#.###     #≈#.#
+ #.................##...######       ≈# ..
+##..##....#......^##.........#       ≈≈  ..
+#^........#........#........##        ≈#  #
+#.^................#.......##         ##
+#.#................#.....###
+###.#....#.#.^...........^...
+  ##.##.....##...............
+  ####....^...........?.......
+  #........##.....#.#.#.......
+ #>...#.....##...####....#....
+ ##...###.#..#...#  ....#....
+
+
+There were no monsters in sight!
+
+Vanquished Creatures
+  Nikola (Shoals:1)
+  Jorgrun (D:13)
+  Rupert (D:14)
+  Polyphemus (Shoals:4)
+  An orc warlord (Orc:1)
+  An entropy weaver (Spider:1)
+  4 dire elephants (Lair:6)
+  2 merfolk javelineers
+  6 merfolk impalers
+  A fire dragon (D:13)
+  Josephine (D:13)
+  2 yaktaur captains
+  Harold (D:7)
+  Fannar (Lair:1)
+  2 hydras
+  3 merfolk avatars
+  A death knight (D:14)
+  5 ogre magi
+  An anaconda (Lair:6)
+  The ghost of Vouh the Cleaver, a novice MiBe of Trog (Orc:1)
+  4 merfolk aquamancers (Shoals:4)
+  4 satyrs
+  A queen ant (Lair:1)
+  2 centaur warriors
+  20 two-headed ogres
+  2 tengu warriors
+  3 orc high priests
+  A death yak (Shoals:4)
+  Nergalle (D:11)
+  A fire crab (shapeshifter) (D:13)
+  10 sea snakes
+  A deep troll (D:15)
+  A kraken simulacrum (Shoals:4)
+  An unseen horror (D:14)
+  A wizard (D:14)
+  2 phantasmal warriors (D:14)
+  2 deep elf archers
+  A lindwurm (Lair:5)
+  A harpy (shapeshifter) (D:13)
+  8 harpies
+  7 orc knights
+  5 orb spiders (Spider:1)
+  3 ugly things
+  7 wolf spiders
+  22 fauns
+  A wolf spider zombie (D:14)
+  4 orc sorcerers (Orc:1)
+  5 cyclopes
+  14 manticores
+  Maurice (D:10)
+  A guardian serpent (shapeshifter) (D:14)
+  5 elephants
+  4 black mambas
+  7 merfolk sirens
+  5 water nymphs
+  Joseph (D:8)
+  A centaur zombie (D:14)
+  11 spiny frogs
+  8 centaur skeletons
+  A rime drake (Lair:4)
+  A kobold demonologist (D:11)
+  6 demonic crawlers (Spider:1)
+  4 freezing wraiths
+  An efreet (D:13)
+  2 yaktaurs (D:13)
+  10 komodo dragons
+  5 trolls
+  A tengu conjurer (D:15)
+  13 merfolk
+  A troll (shapeshifter) (D:13)
+  7 wind drakes
+  9 jumping spiders (Spider:1)
+  A polar bear (Lair:5)
+  2 hornets
+  11 slime creatures (D:15)
+  14 blink frogs
+  11 hippogriffs
+  4 dream sheep (Lair:6)
+  12 snapping turtles
+  5 tarantellas (Spider:1)
+  28 yaks
+  19 redbacks (Spider:1)
+  A spriggan (D:8)
+  2 wyverns
+  5 wraiths
+  A hungry ghost (D:15)
+  5 basilisks
+  2 vampire mosquitoes (D:15)
+  A steam dragon (Lair:3)
+  Menkaure (D:5)
+  4 wargs
+  19 soldier ants
+  3 acid dragons
+  9 porcupines
+  11 water moccasins
+  A hornet zombie (D:11)
+  Duvessa (D:4)
+  An eye of draining (D:13)
+  28 orc warriors
+  7 sky beasts
+  2 black bears
+  3 phantoms
+  3 ice beasts
+  A necrophage (D:8)
+  33 ogres
+  9 centaurs
+  14 wolves
+  10 crocodiles
+  15 bullfrogs
+  2 big kobolds
+  Dowan (D:4)
+  A wyvern zombie (D:10)
+  4 scorpions
+  7 killer bees
+  5 howler monkeys
+  2 electric eels (Lair:3)
+  3 wights (D:10)
+  10 crimson imps
+  2 quasits
+  A bullfrog zombie (D:10)
+  10 hounds
+  21 orc priests
+  5 jellies
+  4 bullfrog skeletons
+  29 orc wizards
+  4 iguanas
+  28 worker ants
+  11 gnolls
+  A howler monkey skeleton (D:5)
+  9 adders
+  3 shadow imps
+  2 oozes (D:1)
+  A worm (D:3)
+  3 dart slugs
+  6 leopard geckos
+  99 orcs
+  5 bats
+  5 giant cockroaches
+  13 goblins
+  9 hobgoblins
+  9 jackals
+  6 quokkas
+  A ball python (D:3)
+  4 frilled lizards
+  A jackal zombie (D:9)
+  16 kobolds
+  A quokka skeleton (D:4)
+  A quokka zombie (D:8)
+  8 rats
+  7 fungi
+  26 plants
+962 creatures vanquished.
+
+Vanquished Creatures (collateral kills)
+  A merfolk javelineer (Shoals:4)
+  2 merfolk impalers
+  3 hydras
+  A catoblepas (Shoals:4)
+  A merfolk aquamancer (Shoals:3)
+  2 death yaks (Shoals:4)
+  3 satyrs (Shoals:3)
+  5 fauns (Shoals:3)
+  A manticore (Shoals:3)
+  A merfolk siren (Shoals:3)
+  A spiny frog (Lair:1)
+  5 merfolk
+  A dream sheep (Lair:6)
+  12 yaks
+  A water elemental (Shoals:3)
+  A water moccasin (Lair:1)
+  A soldier ant (Lair:1)
+42 creatures vanquished.
+
+Vanquished Creatures (others)
+  A crimson imp (D:10)
+  An orc (Orc:2)
+  12 fungi
+  17 plants
+  12 tentacles (Shoals:4)
+43 creatures vanquished.
+
+Grand Total: 1047 creatures vanquished
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Arcades the Minotaur Berserker began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+   119 | D:1      | Reached XP level 2. HP: 18/27 MP: 1/1
+   304 | D:1      | Reached XP level 3. HP: 21/33 MP: 2/2
+   506 | D:1      | Reached ** piety under Trog
+  1210 | D:2      | Reached XP level 4. HP: 40/41 MP: 3/3
+  1629 | D:3      | Found a glowing silver altar of Zin.
+  1673 | D:3      | Reached *** piety under Trog
+  1673 | D:3      | Reached XP level 5. HP: 32/47 MP: 4/4
+  1721 | D:3      | Found a stormy altar of Qazlal.
+  2278 | D:3      | Gained mutation: You have a pair of large horns on your
+                  | head. [potion of mutation]
+  2278 | D:3      | Gained mutation: You expend magic power (3 MP) to
+                  | strengthen your wands. [potion of mutation]
+  2278 | D:3      | Gained mutation: You are partially covered in slimy green
+                  | scales. (AC +2) [potion of mutation]
+  2298 | D:3      | Lost mutation: You expend magic power (3 MP) to strengthen
+                  | your wands. [potion of mutation]
+  2298 | D:3      | Lost mutation: You have a pair of large horns on your head.
+                  | [potion of mutation]
+  2298 | D:3      | Lost mutation: You are partially covered in slimy green
+                  | scales. (AC +2) [potion of mutation]
+  2298 | D:3      | Gained mutation: Your magical capacity is low. (-10% MP)
+                  | [potion of mutation]
+  2298 | D:3      | Gained mutation: You possess an exceptional clarity of
+                  | mind. [potion of mutation]
+  2335 | D:4      | Noticed an ogre
+  2357 | D:3      | Killed an ogre
+  2357 | D:3      | Reached skill level 5 in Fighting
+  2357 | D:3      | Reached skill level 5 in Axes
+  2357 | D:3      | Reached XP level 6. HP: 47/56 MP: 4/4
+  2518 | D:4      | Found a snail-covered altar of Cheibriados.
+  2529 | D:4      | Found a hide-covered altar of Uskayaw.
+  2529 | D:4      | Found an ornate altar of the Wu Jian Council.
+  2531 | D:4      | Found a glowing silver altar of Zin.
+  2531 | D:4      | Found a sparkling altar of Nemelex Xobeh.
+  2531 | D:4      | Found a shimmering altar of Xom.
+  2610 | D:4      | Reached skill level 5 in Armour
+  2614 | D:4      | Reached XP level 7. HP: 41/62 MP: 5/5
+  2780 | D:4      | Found a staircase to the Ecumenical Temple.
+  2846 | D:4      | Noticed Duvessa
+  2846 | D:4      | Noticed Dowan
+  2865 | D:4      | Killed Duvessa
+  2868 | D:4      | Killed Dowan
+  2868 | D:4      | Reached skill level 5 in Dodging
+  3228 | D:5      | Entered Level 5 of the Dungeon
+  3240 | D:5      | Reached **** piety under Trog
+  3275 | D:5      | Reached XP level 8. HP: 52/71 MP: 6/6
+  3309 | D:5      | Noticed Menkaure
+  3317 | D:5      | Killed Menkaure
+  4536 | D:6      | Found a blossoming altar of Fedhas.
+  4576 | D:6      | Reached XP level 9. HP: 79/81 MP: 7/7
+  4693 | D:6      | Found a shimmering blue altar of Sif Muna.
+  5335 | D:6      | Lost mutation: Your magical capacity is low. (-10% MP)
+                  | [potion of mutation]
+  5335 | D:6      | Lost mutation: You possess an exceptional clarity of mind.
+                  | [potion of mutation]
+  5335 | D:6      | Gained mutation: You are frail. (-10% HP) [potion of
+                  | mutation]
+  5335 | D:6      | Gained mutation: You tend to lose your temper in combat.
+                  | [potion of mutation]
+  5335 | D:6      | Lost mutation: You are frail. (-10% HP) [potion of
+                  | mutation]
+  5430 | D:7      | Noticed Harold
+  5457 | D:7      | Killed Harold
+  5903 | D:7      | Reached XP level 10. HP: 91/91 MP: 9/9
+  6408 | D:8      | Reached ***** piety under Trog
+  6419 | D:8      | Found a hide-covered altar of Uskayaw.
+  6463 | D:8      | Noticed Joseph
+  6473 | D:8      | Killed Joseph
+  6884 | D:8      | Found Huzog's Antique Weapon Shoppe.
+  6987 | D:8      | Found a sacrificial altar of Ru.
+  7355 | D:9      | Found a bloodstained altar of Trog.
+  7423 | D:9      | Found a staircase to the Lair.
+  7423 | D:9      | Noticed an elephant
+  7454 | D:10     | Entered Level 10 of the Dungeon
+  7461 | D:10     | Killed an elephant
+  7461 | D:10     | Reached skill level 10 in Fighting
+  7461 | D:10     | Reached skill level 10 in Axes
+  7602 | D:9      | Noticed a two-headed ogre
+  7633 | D:9      | Killed a two-headed ogre
+  7633 | D:9      | Reached skill level 10 in Armour
+  7997 | D:9      | Found a glowing golden altar of the Shining One.
+  8199 | D:9      | Got a bloodstained trident
+  8200 | D:9      | Identified the cursed +1 trident "Ennoded" {pain, Fragile
+                  | rC+ Str+2} (You found it on level 9 of the Dungeon)
+  8216 | Lair:1   | Entered Level 1 of the Lair of Beasts
+  8634 | Lair:1   | Lost mutation: You tend to lose your temper in combat.
+                  | [potion of mutation]
+  8634 | Lair:1   | Gained mutation: Your magical capacity is low. (-10% MP)
+                  | [potion of mutation]
+  8634 | Lair:1   | Gained mutation: Your spells are a little easier to cast,
+                  | but a little less powerful. [potion of mutation]
+  8634 | Lair:1   | Gained mutation: You are partially covered in iridescent
+                  | scales. (AC +2) [potion of mutation]
+  8650 | Lair:1   | Noticed Fannar
+  8678 | Lair:1   | Reached XP level 11. HP: 86/101 MP: 8/8
+  8722 | Lair:1   | Killed Fannar
+  8994 | Lair:1   | Got a crude robe
+  9150 | Lair:1   | Reached skill level 10 in Dodging
+  9576 | Lair:1   | Received a gift from Trog
+  9589 | Lair:1   | Got an ichor-stained longbow {god gift}
+ 10396 | Lair:2   | Noticed a queen ant
+ 10426 | Lair:1   | Killed a queen ant
+ 11103 | Lair:1   | Reached XP level 12. HP: 104/112 MP: 9/9
+ 11265 | Lair:2   | Received a gift from Trog
+ 11367 | Lair:2   | Noticed a five-headed hydra
+ 12696 | Lair:2   | Identified the +6 longbow "Yvanecoa" {speed, rF+ Dex+2
+                  | Stlth+} (Trog gifted it to you on level 1 of the Lair of
+                  | Beasts)
+ 12697 | Lair:2   | Identified the +1 robe of Qazlal's Displeasure {rC- Str+6
+                  | Stlth+} (You found it on level 1 of the Lair of Beasts)
+ 13601 | Lair:3   | Found a staircase to the Shoals.
+ 14393 | Lair:4   | Found a hole to the Spider Nest.
+ 14533 | Lair:4   | Noticed a five-headed hydra
+ 14547 | Lair:4   | Killed a five-headed hydra
+ 15159 | Lair:5   | Reached XP level 13. HP: 111/122 MP: 3/10
+ 15362 | Lair:5   | Found a runed translucent gate.
+ 15363 | Lair:5   | Found a runed translucent gate.
+ 15364 | Lair:5   | Found a runed translucent gate.
+ 15814 | Lair:5   | Noticed Caath's ghost (journeyman DrFi)
+ 15882 | Lair:5   | Found a staircase to the Slime Pits.
+ 16171 | Lair:6   | Entered Level 6 of the Lair of Beasts
+ 17095 | Lair:6   | Noticed a dire elephant
+ 17095 | Lair:6   | Noticed a dire elephant
+ 17109 | Lair:6   | Killed a dire elephant
+ 17114 | Lair:6   | Killed a dire elephant
+ 17161 | Lair:6   | Got a bloodstained shortbow
+ 17191 | Lair:6   | Noticed a dire elephant
+ 17205 | Lair:6   | Killed a dire elephant
+ 17206 | Lair:6   | Identified the cursed +0 shortbow of Debt {velocity, -Tele
+                  | rElec rPois rF+} (You found it on level 6 of the Lair of
+                  | Beasts)
+ 17249 | Lair:6   | Noticed a dire elephant
+ 17264 | Lair:6   | Killed a dire elephant
+ 17264 | Lair:6   | Received a gift from Trog
+ 17604 | D:10     | Noticed Maurice
+ 17615 | D:10     | Killed Maurice
+ 18027 | D:10     | Found Vodgh's Magic Scroll Shop.
+ 18289 | D:11     | Noticed Nergalle
+ 18300 | D:11     | Killed Nergalle
+ 19111 | D:12     | Found a staircase to the Orcish Mines.
+ 19124 | D:12     | Found a roughly hewn altar of Beogh.
+ 19594 | D:13     | Reached XP level 14. HP: 110/133 MP: 0/11
+ 19644 | D:13     | Noticed Jorgrun
+ 19647 | D:13     | Received a gift from Trog
+ 19659 | D:13     | Killed Jorgrun
+ 19941 | D:13     | Found a gate to the Vaults.
+ 20119 | D:13     | Noticed Josephine
+ 20126 | D:13     | Killed Josephine
+ 20571 | D:13     | Reached skill level 15 in Fighting
+ 20571 | D:13     | Reached skill level 15 in Axes
+ 21332 | D:14     | Reached skill level 15 in Armour
+ 21726 | D:14     | Found a shadowy altar of Dithmenos.
+ 21779 | D:14     | Noticed Rupert
+ 21786 | D:14     | Paralysed by Rupert for 3 turns
+ 21825 | D:14     | Paralysed by Rupert for 6 turns
+ 21833 | D:14     | Killed Rupert
+ 22138 | D:15     | Entered Level 15 of the Dungeon
+ 22580 | D:15     | Received a gift from Trog
+ 22690 | D:15     | Found a staircase to the Depths.
+ 22736 | D:15     | Reached XP level 15. HP: 143/143 MP: 4/12
+ 23397 | Orc:1    | Entered Level 1 of the Orcish Mines
+ 23534 | Shoals:1 | Entered Level 1 of the Shoals
+ 23667 | Shoals:1 | Noticed Nikola
+ 24039 | Shoals:1 | Killed Nikola
+ 25318 | Shoals:2 | Reached skill level 15 in Dodging
+ 25846 | Shoals:2 | Got a jewelled ring mail
+ 25847 | Shoals:2 | Identified the +4 ring mail of the Apprentice {-Tele Str+3}
+                  | (You found it on level 2 of the Shoals)
+ 26560 | Shoals:2 | Got a faintly glowing ring mail
+ 26561 | Shoals:2 | Identified the +1 ring mail "Dihu" {Str+5} (You found it on
+                  | level 2 of the Shoals)
+ 27874 | Shoals:3 | Received a gift from Trog
+ 29497 | Shoals:3 | Reached XP level 16. HP: 111/154 MP: 4/13
+ 29895 | Shoals:4 | Entered Level 4 of the Shoals
+ 30315 | Shoals:4 | Received a gift from Trog
+ 31092 | Shoals:4 | Got a barnacled rune of Zot
+ 31135 | Shoals:4 | Noticed Polyphemus
+ 31154 | Shoals:4 | Killed Polyphemus
+ 32357 | Orc:1    | Noticed Vouh's ghost (novice MiBe)
+ 32359 | Orc:1    | Found a runed translucent gate.
+ 32362 | Orc:1    | Found a runed translucent gate.
+ 32363 | Orc:1    | Found a runed translucent gate.
+ 32371 | Orc:1    | Found a roughly hewn altar of Beogh.
+ 32393 | Orc:1    | Killed Vouh's ghost
+ 32622 | Orc:2    | Entered Level 2 of the Orcish Mines
+ 32901 | Orc:2    | Found Fiwit's Antique Armour Shop.
+ 32908 | Orc:2    | Found Jennotor's Magic Scroll Emporium.
+ 32909 | Orc:2    | Reached XP level 17. HP: 158/163 MP: 4/14
+ 32935 | Orc:2    | Found Cinim's Magic Scroll Boutique.
+ 32935 | Orc:2    | Found Axkoyps's Antique Weapon Emporium.
+ 33069 | Orc:2    | Found a staircase to the Elven Halls.
+ 33859 | Orc:2    | Bought a scroll of enchant weapon for 120 gold pieces
+ 33859 | Orc:2    | Bought a scroll of identify for 32 gold pieces
+ 33859 | Orc:2    | Bought a scroll of identify for 32 gold pieces
+ 33859 | Orc:2    | Bought a scroll of enchant weapon for 120 gold pieces
+ 33862 | Orc:2    | Bought a scroll of remove curse for 48 gold pieces
+ 33862 | Orc:2    | Bought a scroll of brand weapon for 320 gold pieces
+ 33862 | Orc:2    | Bought a scroll of identify for 32 gold pieces
+ 33862 | Orc:2    | Bought a scroll of identify for 32 gold pieces
+ 33862 | Orc:2    | Bought a scroll of identify for 32 gold pieces
+ 33980 | D:10     | Bought a scroll of identify for 34 gold pieces
+ 33980 | D:10     | Bought a scroll of teleportation for 51 gold pieces
+ 33980 | D:10     | Bought a scroll of identify for 34 gold pieces
+ 33980 | D:10     | Bought a scroll of enchant armour for 127 gold pieces
+ 33980 | D:10     | Bought a scroll of teleportation for 51 gold pieces
+ 33980 | D:10     | Bought a scroll of teleportation for 51 gold pieces
+ 34094 | Spider:1 | Entered Level 1 of the Spider Nest
+ 34104 | Spider:1 | Received a gift from Trog
+ 35071 | Spider:1 | Blown up by an orb spider
+
+Levels and vault maps discovered:
+D:1:      dpeg_arrival_three_same_balls, layout_basic
+D:2:      layout_rooms, minmay_hexomino_c4
+D:3:      layout_basic, nicolae_qazlal_general_emergency, old_standard_altar
+D:4:      layout_rooms, minmay_temple_entry_antechambers,
+          kennysheep_pointless_box, doesnt_xom_only_xom, uniq_duvessa
+D:5:      wander_river, layout_basic, first_ration, minmay_circle_x,
+          uniq_menkaure
+D:6:      layout_layer_cave, nicolae_overflow_crystal_walls, fedhas_altar_2
+D:7:      layout_basic, the_bakery, uniq_harold
+D:8:      layout_loops_corners, overflow_temple_1_default, serial_shops,
+          shop_statue, nicolae_ru_the_path_less_chosen, uniq_joseph
+D:9:      layout_basic, david_lair_generic, basic_altar,
+          trog_three_pillars_becter
+D:10:     layout_loops_ring, serial_shops, shop, hangedman_decor_lopped,
+          uniq_maurice
+D:11:     layout_loops_ring, uniq_nergalle
+D:12:     layout_basic, minmay_orc_entry_temple_small
+D:13:     layout_irregular_city, david_vaults_2, kennysheep_small_spiral,
+          uniq_josephine, uniq_jorgrun
+D:14:     minmay_ambush_box, layout_small_grid, grunt_dithmenos_smoke,
+          lightli_bailey_entry_fortress, kennysheep_kite_vault, uniq_rupert
+D:15:     hangedman_depths_entry_civil_slaughter, layout_rooms,
+          chequers_hall_statues_y
+Lair:1:   layout_misc_corridors, uniq_fannar
+Lair:2:   layout_chaotic_city, portal_ice_cave_entry_pillars_1, minivault_29,
+          grunt_megastairs_4, lemuel_fruit_fields
+Lair:3:   layout_gridlike, elwin_shoals_entry_rocks, beast_lair_carwin_8,
+          lemuel_fruit_tree
+Lair:4:   layout_long_grid, spider_nest_entry_a
+Lair:5:   layout_layer_cave, dpeg_slime_entry_corner, gammafunk_ghost_necromancy
+Lair:6:   due_jungle_book, layout_gridlike, grunt_megastairs_2
+Shoals:1: layout_shoals, nicolae_shoals_seven_spires, uniq_nikola
+Shoals:2: layout_shoals
+Shoals:3: layout_shoals
+Shoals:4: shoals_end_grunt_ice, layout_shoals, uniq_polyphemus
+Spider:1: layout_spider_delve, guppyfry_spider_mini_2
+Orc:1:    layout_caves, biasface_ghost_orc_armoury
+Orc:2:    st_orc_ogre_mass, layout_diamond_mine
+

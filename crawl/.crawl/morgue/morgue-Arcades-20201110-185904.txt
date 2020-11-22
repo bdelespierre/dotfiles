@@ -1,0 +1,212 @@
+ Dungeon Crawl Stone Soup version 0.24.0 (tiles) character file.
+
+Game seed: 634492059963811032, levelgen mode: deterministic
+
+157 Arcades the Chopper (level 5, 0/47 HPs)
+             Began as a Minotaur Berserker on Nov 10, 2020.
+             Was a Priest of Trog.
+             Killed from afar by Ijyb (14 damage)
+             ... with a bolt of acid
+             ... on level 3 of the Dungeon.
+             The game lasted 00:04:44 (2262 turns).
+
+Arcades the Chopper (Minotaur Berserker)            Turns: 2262, Time: 00:04:44
+
+Health: 0/47       AC:  7    Str: 23    XL:     5   Next: 15%
+Magic:  4/4        EV:  7    Int:  4    God:    Trog [***...]
+Gold:   155        SH:  0    Dex:  9    Spells: 4/4 levels left
+
+rFire    . . .     SeeInvis .   a - +0 hand axe
+rCold    . . .     Gourm    .   (no shield)
+rNeg     . . .     Faith    .   f - +0 plate armour
+rPois    .         Spirit   .   (helmet restricted)
+rElec    .         Reflect  .   (no cloak)
+rCorr    .         Harm     .   (no gloves)
+MR       .....                  (no boots)
+Stlth    ..........             (no amulet)
+HPRegen  0.15/turn              (no ring)
+MPRegen  0.09/turn              (no ring)
+
+@: corroded
+A: retaliatory headbutt, horns 2
+a: Berserk, Trog's Hand, Renounce Religion
+
+
+You were on level 3 of the Dungeon.
+You worshipped Trog.
+Trog was most pleased with you.
+You were not hungry.
+
+You visited 1 branch of the dungeon, and saw 3 of its levels.
+
+You collected 155 gold pieces.
+
+Inventory:
+
+Hand Weapons
+ a - a +0 hand axe (weapon)
+Missiles
+ r - 2 poisoned darts (quivered)
+Armour
+ b - a +0 animal skin
+ f - a +0 plate armour (worn)
+Jewellery
+ n - an uncursed amulet of the acrobat {unknown}
+Wands
+ s - a wand of digging (5)
+Scrolls
+ e - a scroll of blinking {unknown}
+ h - 2 scrolls of identify {unknown}
+ i - a scroll of noise {unknown}
+ k - a scroll of fog {unknown}
+ m - a scroll of amnesia {unknown}
+ o - a scroll of remove curse {unknown}
+Potions
+ d - a potion of haste {unknown}
+ g - a potion of curing {unknown}
+ j - 2 potions of flight {unknown}
+ l - a potion of berserk rage {unknown}
+ p - a potion of degeneration {unknown}
+Comestibles
+ c - 4 rations
+ q - 2 chunks of flesh
+
+
+   Skills:
+ + Level 4.7 Fighting
+ + Level 4.7 Axes
+ + Level 3.9 Armour
+ + Level 3.5 Dodging
+
+
+You had 4 spell levels left.
+You didn't know any spells.
+Your spell library was empty.
+
+Dungeon Overview and Level Annotations
+
+Branches:
+Dungeon (3/15)            
+
+Altars:
+
+Annotations:
+D:3 Ijyb
+
+
+Innate Abilities, Weirdness & Mutations
+
+You reflexively headbutt those who attack you in melee.
+You have a pair of horns on your head.
+
+
+Message History
+
+You throw a poisoned dart. The poisoned dart barely misses Ijyb.
+Throwing (i - inventory) r - 6 poisoned darts (quivered)
+Press: ? - help, Shift-Dir - straight line, f/p - Ijyb
+Aim: Ijyb, wearing a +0 ring mail and carrying a wand of acid (6)
+You throw a poisoned dart. The poisoned dart closely misses Ijyb.
+Throwing (i - inventory) r - 5 poisoned darts (quivered)
+Press: ? - help, Shift-Dir - straight line, f/p - Ijyb
+Aim: Ijyb, wearing a +0 ring mail and carrying a wand of acid (6)
+You throw a poisoned dart. The poisoned dart closely misses Ijyb. Ijyb zaps a
+wand. The bolt of acid hits you! You are splashed with acid!
+Throwing (i - inventory) r - 4 poisoned darts (quivered)
+Press: ? - help, Shift-Dir - straight line, f/p - Ijyb
+Aim: Ijyb, wearing a +0 ring mail and carrying a wand of acid (5)
+You throw a poisoned dart. The poisoned dart barely misses Ijyb.
+Throwing (i - inventory) r - 3 poisoned darts (quivered)
+Press: ? - help, Shift-Dir - straight line, f/p - Ijyb
+Aim: Ijyb, wearing a +0 ring mail and carrying a wand of acid (5)
+You throw a poisoned dart. The poisoned dart hits Ijyb. Ijyb zaps a wand. The
+bolt of acid hits you. The acid corrodes you! You are splashed with acid!
+* * * LOW HITPOINT WARNING * * *
+Ijyb zaps a wand. The bolt of acid hits you!
+You die...
+
+   ################
+   #..............#######
+   #....#########.......#
+   ###..#       #######.########
+     #..#       ...............#
+     #<.#######.#######.######.######
+   ###..[.....#.#     #............).
+   #............#     ########.######
+   ####.#####.###            #.#
+      #.#   #.#              #.#
+ ######.#####.#              #.#
+...........##.#              #.#
+##########.#..#              #.#
+         #.#@##              #.#
+         #.#.#               #.#
+         #.#.#
+         #.#.#
+         #.#g#
+         #.#.#
+         #.#(#
+         #.#.#
+         #.#.#
+   #######.#.#                  #####
+   #...)...#(#                  #....
+   #.#######                    #.###
+   #.#                          #.#
+   #.#                          #.#
+   #.#                          #.#
+
+
+You could see Ijyb.
+
+Vanquished Creatures
+  Jessica (D:3)
+  Terence (D:2)
+  An adder (D:2)
+  An ooze (D:2)
+  A worm (D:2)
+  6 dart slugs
+  4 leopard geckos
+  3 orcs (D:3)
+  A ball python (D:1)
+  5 giant cockroaches
+  7 goblins
+  5 hobgoblins
+  4 jackals (D:2)
+  9 kobolds
+  2 quokkas (D:3)
+  7 bats
+  2 frilled lizards
+  8 rats
+  3 bushes (D:1)
+  2 plants (D:1)
+73 creatures vanquished.
+
+Vanquished Creatures (others)
+  A plant (D:1)
+1 creature vanquished.
+
+Grand Total: 74 creatures vanquished
+
+Notes
+Turn   | Place    | Note
+-------+----------+-------------------------------------------
+     0 | D:1      | Arcades the Minotaur Berserker began the quest for the Orb.
+     0 | D:1      | Reached XP level 1. HP: 19/19 MP: 0/0
+    45 | D:1      | Reached XP level 2. HP: 25/27 MP: 1/1
+   436 | D:1      | Reached XP level 3. HP: 33/33 MP: 2/2
+   484 | D:1      | Reached ** piety under Trog
+  1225 | D:2      | Reached XP level 4. HP: 40/40 MP: 3/3
+  1768 | D:2      | Noticed Terence
+  1779 | D:2      | Killed Terence
+  2042 | D:3      | Noticed Jessica
+  2054 | D:3      | Killed Jessica
+  2054 | D:3      | Reached XP level 5. HP: 47/47 MP: 4/4
+  2092 | D:3      | Reached *** piety under Trog
+  2254 | D:3      | Noticed Ijyb
+  2262 | D:3      | Killed from afar by Ijyb
+
+Levels and vault maps discovered:
+D:1:      minmay_arrival_cross, layout_basic, lexackson_kobold_supper
+D:2:      layout_basic, uniq_terence
+D:3:      layout_loops_ring, first_ration, gup_sewer_entry_spiral,
+          okawaru_ov_weapons_minmay, uniq_ijyb, uniq_grinder, uniq_jessica
+
