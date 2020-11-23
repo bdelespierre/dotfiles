@@ -21,7 +21,7 @@
 # - M:O
 # - A:===HDAtravel
 #
-include += ./.crawl/conf.d/HilariousDeathArtist/DCSSConfigFile/HilariousDeathArtist.rc
+include += ./.crawl/conf.d/hda/HilariousDeathArtist.rc
 
 #
 # My Config

@@ -1,3 +1,0 @@
-[submodule "crawl/.crawl/conf.d/HilariousDeathArtist/DCSSConfigFile"]
-	path = crawl/.crawl/conf.d/HilariousDeathArtist/DCSSConfigFile
-	url = git@github.com:bdelespierre/DCSSConfigFile.git
