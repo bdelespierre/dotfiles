@@ -22,8 +22,13 @@ beogh_autopickup = you.god():find("Beogh")
 
 <
   function ready()
-    AnnounceDamage()
-    SpoilerAlert()
+    if AnnounceDamage~=nil then
+      AnnounceDamage()
+    end
+
+    if SpoilerAlert~=nil then
+      SpoilerAlert()
+    end
   end
 >
 
@@ -31,24 +36,20 @@ beogh_autopickup = you.god():find("Beogh")
 # Included RcFiles #
 ####################
 
-# Just Message colors
-# include += HDAMessageColors.rc
+# Message colors
+include += HDAMessageColors.rc
 
-# Just Item colors
-# include += HDAItemColors.rc
+# Item colors
+include += HDAItemColors.rc
 
 # Monster warning messages -- disabled by default
-# Uncomment the next line and the call to SpoilerAlert() in the ready function to use it
-include += SpoilerAlerts.rc
+#include += SpoilerAlerts.rc
 
 # The damage announcement messages
-include += HDamage.rc
+#include += HDamage.rc
 
 # Force More prompts
-include += HDAForceMore.rc
-
-# Message and Item colors
-include += HDAColors.rc
+#include += HDAForceMore.rc
 
 # The ===HDAtravel autotravel replacement macro
 include += HDAtravel.rc
