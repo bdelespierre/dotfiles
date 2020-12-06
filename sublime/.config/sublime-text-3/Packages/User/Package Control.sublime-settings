@@ -28,6 +28,7 @@
 		"SublimeLinter-php",
 		"SublimeLinter-phpcs",
 		"TailwindCSSAutocomplete",
-		"Theme - Monokai Pro"
+		"Theme - Monokai Pro",
+		"Vue Syntax Highlight"
 	]
 }

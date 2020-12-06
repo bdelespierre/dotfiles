@@ -1,5 +1,4 @@
 {
-	"theme": "ayu-dark.sublime-theme",
 	"color_scheme": "Packages/ayu/ayu-dark.sublime-color-scheme",
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
@@ -51,6 +50,7 @@
 	"scroll_speed": 0,
 	"show_encoding": true,
 	"show_line_endings": true,
+	"theme": "ayu-dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
