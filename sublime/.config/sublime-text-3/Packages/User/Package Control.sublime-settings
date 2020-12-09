@@ -27,7 +27,7 @@
 		"SublimeLinter-json",
 		"SublimeLinter-php",
 		"SublimeLinter-phpcs",
-		"TailwindCSSAutocomplete",
+		"SublimeLinter-pycodestyle",
 		"Theme - Monokai Pro",
 		"Vue Syntax Highlight"
 	]
