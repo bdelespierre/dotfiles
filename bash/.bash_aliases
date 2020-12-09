@@ -45,7 +45,7 @@ alias tequila='tmux ls | grep : | cut -d: -f1 | xargs tmux kill-session -t'
 #
 alias lint='find . -path ./vendor -prune -o -name "*.php" -print0 | xargs -0 -n1 -P8  php -l > /dev/null'
 alias pa='php artisan'
-alias pu='vendor/bin/phpunit --stop-on-error --stop-on-failure'
+alias pu='vendor/bin/phpunit --stop-on-error --stop-on-failure --colors'
 alias puf='pu --filter'
 alias tinker='php artisan tinker'
 alias serve='php artisan serve >/dev/null 2>&1 &'

@@ -26,15 +26,19 @@ if [ -d "$HOME/.composer/vendor/bin" ] ; then
     PATH="$PATH:$HOME/.composer/vendor/bin"
 fi
 
+# Composer 2 installs its binbaries into .config
+if [ -d "$HOME/.config/composer/vendor/bin" ] ; then
+    PATH="$PATH:$HOME/.config/composer/vendor/bin/"
+fi
+
 # Add RVM to PATH for scripting
 if [ -d "$HOME/.rvm/bin" ]; then
     PATH="$PATH:$HOME/.rvm/bin"
 fi
 
+# Add .local/bin to PATH for python modules
+if [ -d "$HOME/.local/bin" ]; then
+    PATH="$PATH:$HOME/.local/bin"
+fi
+
 export PATH
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/home/benjamin/Downloads/google-cloud-sdk/path.bash.inc' ]; then . '/home/benjamin/Downloads/google-cloud-sdk/path.bash.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/home/benjamin/Downloads/google-cloud-sdk/completion.bash.inc' ]; then . '/home/benjamin/Downloads/google-cloud-sdk/completion.bash.inc'; fi
