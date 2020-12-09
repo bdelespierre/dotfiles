@@ -9,11 +9,10 @@ alias g='git'
 alias h='history | tail -n 10'
 alias j='jobs'
 alias l='ll'
-alias m='mysql -h localhost -p'
 alias p='/usr/bin/env php'
 alias t='tmux'
-alias y='yokadi --'
 alias v='vim'
+alias ?='aliases'
 
 # -----------------------------------------------------------------------------
 # LS
@@ -82,19 +81,12 @@ alias col5="awk '{print \$5}'"
 # MISC
 # -----------------------------------------------------------------------------
 #
-alias ..='cd ..'
-alias -- -='cd -'
+alias aliases='cat ~/.bash_aliases | grep -vE "^#" | sed -e "s/alias //" -e "/^\s*$/d" | sort'
 alias less='less -r'
 alias path='echo $PATH | sed -e "s/:/\n/g" -e "s|${HOME}|~|g"'
 alias lurk-more='history -c && clear && printf "\e[3J"'
-alias python-server='python -m SimpleHTTPServer 8080'
-alias wclone='wget --random-wait -H -r -p -b -S -k -e robots=off -U mozilla -a /tmp/wclone.log --limit-rate=100k'
-alias download='wget -rkpN -e robots=off'
+alias py-serve='python2 -m SimpleHTTPServer 8080'
 alias clock='while sleep 0.5;do tput sc;tput cup 0 $(($(tput cols)-10)); tput setaf 7; date +"[%T]";tput rc;done &'
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
-alias clipboard='xse l--clipboard'
 alias tree='ls -R | grep ":$" |sed -e "s/:$//" -e "s/[^-][^\/]*\//--/g" -e "s/^/   /" -e "s/-/|/"'
 alias favs='history | awk '\''{a[$2]++}END{for(i in a){print a[i] " " i}}'\'' | sort -rn | head'
-alias killall-php-servers='killall $(realpath $(which php))'
-alias clickmad='xdotool click --delay 25 --repeat 2000000 1'
-alias recolor='. ~/.bash_ps1'
