@@ -53,6 +53,7 @@
 	manifest = !git log --name-only --format=format: --diff-filter=A | sort -u | tail -n +2
 	oops = !git status --short && git add -A && git commit --amend --no-edit --no-verify && git push --force --no-verify
 	wip = !git ada && git commit --no-verify -m "wip" && git push
+	pubg= !git push -u origin `git b`
 [merge]
 	tool = meld
 [mergetool]
