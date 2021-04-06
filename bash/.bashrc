@@ -103,6 +103,9 @@ fi
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
+# disable cowsay for ansible
+export ANSIBLE_NOCOWS=1
+
 # -----------------------------------------------------------------------------
 # WELCOME
 # -----------------------------------------------------------------------------
@@ -119,3 +122,7 @@ fi
 if __is_available git && [ -d $HOME/.dotfiles ] && [[ $- == *i* ]]; then
     (cd $HOME/.dotfiles && git pull >/dev/null 2>&1 &)
 fi
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

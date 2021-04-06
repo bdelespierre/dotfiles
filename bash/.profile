@@ -28,7 +28,7 @@ fi
 
 # Composer 2 installs its binbaries into .config
 if [ -d "$HOME/.config/composer/vendor/bin" ] ; then
-    PATH="$PATH:$HOME/.config/composer/vendor/bin/"
+    PATH="$PATH:$HOME/.config/composer/vendor/bin"
 fi
 
 # Add RVM to PATH for scripting
@@ -41,4 +41,32 @@ if [ -d "$HOME/.local/bin" ]; then
     PATH="$PATH:$HOME/.local/bin"
 fi
 
+# Add Android Studio path
+if [ -d "/opt/android-studio/bin" ]; then
+    PATH="$PATH:/opt/android-studio/bin"
+fi
+
+# Add Flutter path
+if [ -d "$HOME/snap/flutter/common/flutter/bin" ]; then
+    PATH="$PATH:/snap/flutter/common/flutter/bin"
+fi
+
+# install NVM
+# wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+# see https://github.com/nvm-sh/nvm
+
+# Add NVM path
+export NVM_DIR="$HOME/.nvm"
+
+# load NVM
+if [ -s "$NVM_DIR/nvm.sh" ]; then
+    source "$NVM_DIR/nvm.sh"
+fi
+
+# load NVM bash completion
+if [ -s "$NVM_DIR/bash_completion" ]; then
+    source "$NVM_DIR/bash_completion"
+fi
+
+# Path built, export it
 export PATH

@@ -39,6 +39,23 @@ alias tls='tmux ls'
 alias tequila='tmux ls | grep : | cut -d: -f1 | xargs tmux kill-session -t'
 
 # -----------------------------------------------------------------------------
+# APACHE
+# -----------------------------------------------------------------------------
+#
+alias a2='sudo systemctl status apache2'
+alias a2start='sudo systemctl start apache2'
+alias a2reload='sudo systemctl reload apache2'
+alias a2restart='sudo systemctl restart apache2'
+alias a2stop='sudo systemctl stop apache2'
+alias a2log='tail -F /var/log/apache2/*.log'
+
+# -----------------------------------------------------------------------------
+# MYSQL
+# -----------------------------------------------------------------------------
+#
+alias my='mysql'
+
+# -----------------------------------------------------------------------------
 # PHP
 # -----------------------------------------------------------------------------
 #
@@ -49,6 +66,14 @@ alias puf='pu --filter'
 alias tinker='php artisan tinker'
 alias serve='php artisan serve >/dev/null 2>&1 &'
 alias logs='tail -F storage/logs/laravel.log'
+# sudo update-alternatives --config php
+# sudo composer --self-update --1
+
+# -----------------------------------------------------------------------------
+# PYTHON
+# -----------------------------------------------------------------------------
+#
+alias py='python3'
 
 # -----------------------------------------------------------------------------
 # DOCKER
@@ -85,7 +110,7 @@ alias aliases='cat ~/.bash_aliases | grep -vE "^#" | sed -e "s/alias //" -e "/^\
 alias less='less -r'
 alias path='echo $PATH | sed -e "s/:/\n/g" -e "s|${HOME}|~|g"'
 alias lurk-more='history -c && clear && printf "\e[3J"'
-alias py-serve='python2 -m SimpleHTTPServer 8080'
+alias py-serve='python3 -m http.server 8080'
 alias clock='while sleep 0.5;do tput sc;tput cup 0 $(($(tput cols)-10)); tput setaf 7; date +"[%T]";tput rc;done &'
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 alias tree='ls -R | grep ":$" |sed -e "s/:$//" -e "s/[^-][^\/]*\//--/g" -e "s/^/   /" -e "s/-/|/"'
