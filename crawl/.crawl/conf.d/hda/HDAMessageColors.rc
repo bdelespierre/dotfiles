@@ -22,19 +22,19 @@ $godaction := magenta
 $mp := lightcyan
 
 #Channels
-#channel.plain = 
+#channel.plain =
 channel.prompt = $interface
 channel.god = $godaction
-channel.pray = $godaction
+#channel.pray = $godaction
 channel.duration = $warning
 channel.danger = $danger
-channel.food = $warning
+#channel.food = $warning
 channel.warning = $danger
 channel.recovery = $verypositive
 channel.talk = $warning
 channel.talk_visual = $boring
 channel.timed_portal = $warning
-#channel.sound = 
+#channel.sound =
 channel.intrinsic_gain = $awesome
 #channel.mutation = --either danger/warning/awesome
 channel.monster_spell = $takesaction
@@ -45,22 +45,22 @@ channel.friend_action = $takesaction
 channel.monster_damage = mute
 #monster_target = --currently unused by the game
 #channel.banishment = --either positive or danger
-channel.rotten_meat = $boring
+#channel.rotten_meat = $boring
 channel.equipment = $interface
-#channel.floor = 
+#channel.floor =
 channel.multiturn = $boring
-#channel.examine = 
-#channel.examine_filter = 
-#channel.diagnostics = 
-#channel.error = 
-#channel.tutorial = 
+#channel.examine =
+#channel.examine_filter =
+#channel.diagnostics =
+#channel.error =
+#channel.tutorial =
 channel.orb = $awesome
 #channel.hell_effect = -either danger/warning/boring
 
 # Set Alias
 msc := message_colour
 # Clear defaults
-msc = 
+msc =
 
 msc += $mp:You feel your power returning
 
@@ -1552,7 +1552,7 @@ msc += $positive:You grow two more
 msc += $positive:You draw.*blood
 msc += $positive:You feel.*less thirsty
 msc += $positive:You feel a lot less hungry
-msc += $positive:You.*devour 
+msc += $positive:You.*devour
 msc += $positive:You pounce on
 msc += $positive:but is stunned by your will
 msc += $positive:Your rust devil corrodes

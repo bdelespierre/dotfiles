@@ -96,9 +96,9 @@ automagic_fight = true
 # \ = rods
 # | = staves
 : if (you.god():find("Trog")) then
-  autopickup += $?!:"/%}\
+  autopickup += $?!:"/}\
 : else
-  autopickup += $?!:"/%}\|
+  autopickup += $?!:"/}\|
 : end
 
 # Unused
