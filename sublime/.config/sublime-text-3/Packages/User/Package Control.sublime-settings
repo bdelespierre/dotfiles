@@ -23,6 +23,7 @@
 		"Sass",
 		"SublimeLinter",
 		"SublimeLinter-contrib-jslint",
+		"SublimeLinter-contrib-yamllint",
 		"SublimeLinter-jsl",
 		"SublimeLinter-json",
 		"SublimeLinter-php",

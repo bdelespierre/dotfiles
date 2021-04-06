@@ -31,9 +31,11 @@
 		".svn",
 		".git",
 		".hg",
-		"CVS"
+		"CVS",
+		".pytest_cache",
+		"__pycache__"
 	],
-	"font_size": 13,
+	"font_size": 12,
 	"highlight_line": true,
 	"hot_exit": false,
 	"ignored_packages":

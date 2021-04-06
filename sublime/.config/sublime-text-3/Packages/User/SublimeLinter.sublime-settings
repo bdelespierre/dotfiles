@@ -3,7 +3,7 @@
     "linters": {
         "phpcs": {
             "excludes": "*.blade.php",
-            "args": "--standard=PSR2"
+            "args": "--standard=PSR12"
         }
     }
 }
