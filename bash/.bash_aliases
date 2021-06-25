@@ -106,6 +106,7 @@ alias col5="awk '{print \$5}'"
 # MISC
 # -----------------------------------------------------------------------------
 #
+alias bat='batcat --theme ansi-dark'
 alias aliases='cat ~/.bash_aliases | grep -vE "^#" | sed -e "s/alias //" -e "/^\s*$/d" | sort'
 alias less='less -r'
 alias path='echo $PATH | sed -e "s/:/\n/g" -e "s|${HOME}|~|g"'

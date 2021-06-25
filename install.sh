@@ -4,7 +4,7 @@
 # Sotfware
 # -----------------------------------------------------------------------------
 #
-sudo apt-get install -y apparix stow php python3 git vim tmux
+sudo apt-get install -y apparix stow php python3 git vim tmux bat at
 
 if [ $1 = "--recommend" ]; then
     sudo apt-get install -y meld guake crawl crawl-tiles
@@ -45,3 +45,5 @@ if ! __is_available pip; then
     python3 get-pip.py
     rm get-pip.py
 fi
+
+pip install yamllint

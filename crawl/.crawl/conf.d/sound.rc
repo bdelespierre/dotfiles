@@ -1,0 +1,182 @@
+force_more_message += You have reached level, skill increases to level
+
+#one_SDL_sound_channel = false
+
+# -----------------------------------------------------------------------------
+# Combat
+# -----------------------------------------------------------------------------
+
+sound ^= FIRE_PROMPT_SOUND:attack1.wav
+
+sound ^= (You|Your) (hit|kick|thump|sock|bite|tail-slap|scratch|slash|slice|headbutt|puncture):bash.wav
+sound ^= (hits|kicks|thumps|socks|bites|tail-slaps|scratches|slashes|slices|headbutts|punctures):oof.wav
+
+sound ^= The helpless.*fails to defend itself:smash.wav
+sound ^= You pounce on the unaware.*:smash.wav
+sound ^= You open.*like a pillowcase
+
+sound ^= .* but do no damage:dodge.wav
+sound ^= miss:miss.wav
+sound ^= is repelled:reflect1.wav
+
+sound ^= You (kill|destroy):enemydie.wav
+sound ^= (dies|is destroyed|falls from the air|vapourises):enemydie.wav
+sound ^= (crumbles into dust|disappears in a puff of smoke):enemydie.wav
+
+sound ^= explodes:storm2.wav
+
+sound ^= LOW HITPOINT WARNING:wound.wav
+sound ^= That really hurt:smaaash.wav
+sound ^= You die:falling.wav
+
+# -----------------------------------------------------------------------------
+# Items
+# -----------------------------------------------------------------------------
+
+# Misplaced item thing just because this one is
+# so hard to get right
+
+# Override any item noises for targetting prompt
+sound ^= PICKUP:itemget1.wav
+sound ^= [a-zA-Z] - (the|The):itemget2.wav
+sound ^= You now have [0-9]* gold pieces:getitem.wav
+sound ^= You drop:phonehangup.wav
+
+## Food
+#sound ^= You eat:belch.wav
+#sound ^= You eat.*tastes terrible:burp.wav
+
+## Equipment
+
+# Don't let ring-equip prompt play sounds
+#sound ^= or [a-zA-Z] - :
+sound ^= Really put on a [a-zA-Z] - (a|an|the|The) :mysterious.wav
+sound ^= Oops, that.*feels deathly cold:eb_creepy.wav
+
+#sound ^= You finish (taking off|putting on):equip.wav
+#sount ^= You remove your :equip.wav
+#sound ^= [a-zA-Z] - .* \([a-zA-Z]*\):equip.wav
+#sound ^= Quivering [a-zA-Z] - :equip.wav
+#sound ^= Reset throwing quiver to default:equip.wav
+#sound ^= You are now empty-handed:equip.wav
+
+sound ^= (WIELD_WEAPON|WIELD_NOTHING):equip.wav
+sound ^= (EQUIP_ARMOUR|DEQUIP_ARMOUR):equip.wav
+sound ^= (WEAR_JEWELLERY|REMOVE_JEWELLERY):equip.wav
+sound ^= CHANGE_QUIVER:equip.wav
+
+## Shopping
+sound ^= Thank you for shopping at:buy2.wav
+
+## Huge objectives
+sound ^= you pick up the.*rune and feel its power:eb_winboss.wav
+sound ^= You pick up the Orb of Zot:eb_boss.wav
+
+# -----------------------------------------------------------------------------
+# Stats
+# -----------------------------------------------------------------------------
+
+# Stat changes
+sound ^= You have reached level:eb_win.wav
+sound ^= skill increases to level:eb_fanfare.wav
+
+sound ^= better:heal 1.wav
+sound ^= much better:heal 1.wav
+sound ^= HP restored:heal 1.wav
+sound ^= Magic restored:heal 2.wav
+
+# Statuses
+sound ^= You are (more poisoned|poisoned):ailment.wav
+sound ^= (The|You) (constricts|constrict):ailment.wav
+sound ^= You are no longer poisoned:psi3.wav
+
+sound ^= speed up:statsup.wav
+sound ^= slow down:statsdown.wav
+
+sound ^= are exhausted:ailment.wav
+sound ^= less exhausted:psi3.wav
+
+sound ^= The acid corrodes you:ailment.wav
+sound ^= You are no longer corroded:psi3.wav
+
+sound ^= You have turned to stone:ailment.wav
+sound ^= You turn to flesh and can move again:psi3.wav
+
+sound ^= (suddenly stops moving|lose the ability to move):paralysis1.wav
+
+sound ^= you.*(go|goes) berserk:flash1.wav
+
+# -----------------------------------------------------------------------------
+# Spells
+# -----------------------------------------------------------------------------
+
+# Spells
+sound ^= Casting:
+sound ^= (resist |resists |appears unharmed):miss.wav
+sound ^= MEMORISE_SPELL:psilearn.wav
+sound ^= You miscast:strangepsi.wav
+
+## Translocations
+sound ^= You blink:window.wav
+
+## Attacks
+sound ^= The magic dart hits:enemyhit.wav
+
+## Protective
+sound ^= A film of ice covers your body:freeze4.wav
+
+sound ^= protected from missiles:shield2.wav
+sound ^= less protected from missiles:
+
+sound ^= Space distorts slightly along a thin shroud:shield1.wav
+sound ^= shroud bends:reflect2.wav
+
+## Summoning
+sound ^= A beastly little devil appears:help.wav
+sound ^= A.*apparition takes form in the air:help.wav
+sound ^= A chill wind blows around you:help.wav
+
+## Freezing
+sound ^= (freeze|puff of frost hits):freeze1.wav
+sound ^= (freeze|puff of frost hits).*!+:freeze2.wav
+
+## Necromancy
+sound ^= (Pain shoots through your body|writhes in agony):breath.wav
+sound ^= You feel life coursing into your body:breath.wav
+sound ^= You attempt to give life to the dead:possess.wav
+sound ^= You call on the dead to rise:possess.wav
+sound ^= submits to your will:hypno.wav
+
+# -----------------------------------------------------------------------------
+# Religion
+# -----------------------------------------------------------------------------
+
+# Generic actions
+sound ^= welcomes you:eb_newchar.wav
+sound ^= You over a prayer to:pray.wav
+
+sound ^= Beogh smites (you|your):fire1.wav
+
+# Renouncing and wrath
+sound ^= You have lost your religion:ambush.wav
+
+sound ^= Elyvilon blocks your attack:reflect1.wav
+sound ^= Elyvilon heals the:heal 1.wav
+
+sound ^= .* seems mollified:eb_winboss.wav
+
+# -----------------------------------------------------------------------------
+# Other
+# -----------------------------------------------------------------------------
+
+sound ^= (open|opens) .* (door|gate):dooropen1.wav
+sound ^= (close|closes) .* (door|gate):doorclose.wav
+sound ^= (it creaks loudly):yell.wav
+
+sound ^= A mysterious force pulls you upwards:bubble.wav
+sound ^= You slide downwards:fall.wav
+sound ^= You climb (up|down)wards:steps.wav
+
+sound ^= burst.*into flames:flame.wav
+
+sound ^= You rejoin the land of the living:mbutterfly.wav

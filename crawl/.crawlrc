@@ -2,6 +2,9 @@
 # Hilarious Death Artist
 # ======================
 #
+# -- NOTE -- as of v0.25 food mechanism was dropped in DCSS hence
+# HDA scripts won't work anymore...
+#
 # To initialise:
 #
 # - mkdir -p ~/.crawl/conf.d/HilariousDeathArtist/DCSSConfigFile
@@ -21,37 +24,45 @@
 # - M:O
 # - A:===HDAtravel
 #
-include += ./.crawl/conf.d/hda/HilariousDeathArtist.rc
+#include += ./.crawl/conf.d/hda/HilariousDeathArtist.rc
+
+# See https://github.com/crawl/crawl/blob/master/crawl-ref/docs/options_guide.txt
 
 #
 # My Config
 # =========
-#
-# Food & Hunger
-#auto_butcher=true
-#confirm_butcher=never
-#auto_eat_chunks=true
-#easy_eat_chunks=true
 
-# Training
-#default_manual_training=true
+name = Arcades
+remember_name = true
+species += Minotaur
+background += Berserker
+weapon = hand axe
 
-# Travel
+default_manual_training = true
+autopickup_starting_ammo = true
+#game_seed = 20201113
+
+# include
+autopickup_exceptions += <dart, <stone, <shield, <cloak, <javelin, <gloves, <boots, <boomerangs
+
+# exclude
+autopickup_exceptions += >inaccuracy, >immolation, >uselessness, >noise, >torment
+
+# travel
 show_travel_trail = true
 travel_delay = 1
-explore_stop -= stairs
+travel_avoid_terrain = (shallow water | deep water)
+explore_stop -= stairs, altars, items
+explore_stop += artefacts
 
-# Ignore most food interruptions
-interrupt_travel -= hungry
-interrupt_rest -= interrupt_run
-interrupt_rest += hp_loss, monster_attack, monster, mimic, teleport, stat, hit_monster, sense_monster
-runrest_stop_message += starving
+# autofight
+autofight_throw = true
+autofight_throw_nomove = true
+autofight_stop = 75
 
-# Misc
-allow_self_target = no
-#show_more=false
-tile_display_mode=hybrid
-#tile_display_mode=glyphs
+# sound
+sound_file_path = /home/benjamin/.crawl/sounds/
+include = ./.crawl/conf.d/sound.rc
 
 #
 # Wonderful Seeds
