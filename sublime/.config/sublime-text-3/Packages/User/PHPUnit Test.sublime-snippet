@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+namespace Tests\Unit${1};
+
+use PHPUnit\Framework\TestCase;
+
+/**
+ * @coversDefaultClass \\${2}
+ */
+class ${3:Test} extends TestCase
+{
+    /**
+     * @covers ::${4:__construct}
+     */
+    public function test${5:Construct}()
+    {
+        ${5://}
+    }
+}
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>phpunit.test</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+if (! Schema::hasColumn('${1:table}', '${2:column}')) {
+    Schema::table('${1:table}', function (Blueprint \$table) {
+        \$table->${3:string}('${2:column}')->nullable();
+    });
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>laravel-migration-safe-add</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>
