@@ -4,6 +4,9 @@
         "phpcs": {
             "excludes": "*.blade.php",
             "args": "--standard=PSR12"
+        },
+        "yamllint": {
+            "excludes": "*.md"
         }
     }
 }

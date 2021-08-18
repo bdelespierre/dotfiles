@@ -30,6 +30,13 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
 # -----------------------------------------------------------------------------
+# GROUPS
+# -----------------------------------------------------------------------------
+#
+alias add-user-to-group="sudo usermod -aG" #<group> <user>
+alias remove-user-from-group="sudo gpasswd -d" #<user> <group>
+
+# -----------------------------------------------------------------------------
 # TMUX
 # -----------------------------------------------------------------------------
 #
@@ -48,6 +55,7 @@ alias a2reload='sudo systemctl reload apache2'
 alias a2restart='sudo systemctl restart apache2'
 alias a2stop='sudo systemctl stop apache2'
 alias a2log='tail -F /var/log/apache2/*.log'
+alias a2do="sudo runuser -u www-data --"
 
 # -----------------------------------------------------------------------------
 # MYSQL
@@ -63,11 +71,13 @@ alias lint='find . -path ./vendor -prune -o -name "*.php" -print0 | xargs -0 -n1
 alias pa='php artisan'
 alias pu='vendor/bin/phpunit --stop-on-error --stop-on-failure --colors'
 alias puf='pu --filter'
-alias tinker='php artisan tinker'
+alias tinker='php artisan tinker --ansi'
 alias serve='php artisan serve >/dev/null 2>&1 &'
-alias logs='tail -F storage/logs/laravel.log'
-# sudo update-alternatives --config php
-# sudo composer --self-update --1
+alias logs='tail storage/logs/laravel.log'
+alias change-php-version='sudo update-alternatives --config php'
+alias fix='phpcbf --standard=psr12'
+alias check='phpcs --standard=psr12'
+alias fpm-restart='sudo systemctl restart php8.0-fpm.service'
 
 # -----------------------------------------------------------------------------
 # PYTHON
@@ -107,6 +117,7 @@ alias col5="awk '{print \$5}'"
 # -----------------------------------------------------------------------------
 #
 alias bat='batcat --theme ansi-dark'
+alias mt='multitail'
 alias aliases='cat ~/.bash_aliases | grep -vE "^#" | sed -e "s/alias //" -e "/^\s*$/d" | sort'
 alias less='less -r'
 alias path='echo $PATH | sed -e "s/:/\n/g" -e "s|${HOME}|~|g"'

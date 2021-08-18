@@ -4,7 +4,7 @@
 # Sotfware
 # -----------------------------------------------------------------------------
 #
-sudo apt-get install -y apparix stow php python3 git vim tmux bat at
+sudo apt-get install -y apparix stow php python3 git vim tmux bat at grcat multitail
 
 if [ $1 = "--recommend" ]; then
     sudo apt-get install -y meld guake crawl crawl-tiles

@@ -80,6 +80,12 @@ if [ -s /usr/share/bash-completion/completions/git ]; then
     complete -o default -o nospace -F _git g
 fi
 
+# Load MySQL bash completion and make them complete the 'my' alias
+if [ -s /usr/share/bash-completion/completions/mysql ]; then
+    . /usr/share/bash-completion/completions/mysql
+    complete -o default -o nospace -F _mysql my
+fi
+
 # -----------------------------------------------------------------------------
 # APPARIX
 # -----------------------------------------------------------------------------

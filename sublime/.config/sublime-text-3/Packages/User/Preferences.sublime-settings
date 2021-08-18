@@ -40,8 +40,9 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
 	],
+	"index_exclude_gitignore": false,
 	"predawn_sidebar_medium": true,
 	"remember_full_screen": true,
 	"rulers":
@@ -54,5 +55,7 @@
 	"show_line_endings": true,
 	"theme": "ayu-dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"caret_style": "smooth",
+	"draw_white_space": ["all"],
 }

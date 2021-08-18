@@ -43,6 +43,11 @@ if [ -d "$HOME/.local/bin" ]; then
     PATH="$PATH:$HOME/.local/bin"
 fi
 
+# Add .config/gridky/bin to PATH
+if [ -d "$HOME/.config/gridky/bin" ]; then
+    PATH="$PATH:$HOME/.config/gridky/bin"
+fi
+
 # Add Android Studio path
 if [ -d "/opt/android-studio/bin" ]; then
     PATH="$PATH:/opt/android-studio/bin"
