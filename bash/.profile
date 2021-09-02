@@ -33,6 +33,11 @@ if [ -d "$HOME/.config/composer/vendor/bin" ] ; then
     PATH="$PATH:$HOME/.config/composer/vendor/bin"
 fi
 
+# Symfony
+if [ -d "$HOME/.symfony/bin" ]; then
+    PATH="$PATH:$HOME/.symfony/bin"
+fi
+
 # Add RVM to PATH for scripting
 if [ -d "$HOME/.rvm/bin" ]; then
     PATH="$PATH:$HOME/.rvm/bin"
