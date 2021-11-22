@@ -16,7 +16,7 @@ fi
 # set PATH so it includes current directory
 # and vendor/bin (for PHP projects)
 # and ./node_modules/.bin/ (for NPM projects)
-PATH="$PATH:./:vendor/bin:./node_modules/.bin/"
+PATH="$PATH:./:vendor/bin:./node_modules/.bin"
 
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/.bin" ] ; then
@@ -82,3 +82,8 @@ fi
 
 # Path built, export it
 export PATH
+
+# PostgreSQL passwords
+if [ -f "$HOME/.pgpass" ]; then
+    export PGPASSFILE="$HOME/.pgpass"
+fi

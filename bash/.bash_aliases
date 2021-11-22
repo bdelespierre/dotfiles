@@ -4,6 +4,7 @@
 # -----------------------------------------------------------------------------
 #
 alias c='composer'
+alias d='docker'
 alias e='echo -e'
 alias g='git'
 alias h='history | tail -n 10'

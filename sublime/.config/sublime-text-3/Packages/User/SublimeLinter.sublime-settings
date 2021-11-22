@@ -7,6 +7,11 @@
         },
         "yamllint": {
             "excludes": "*.md"
+        },
+        "phpstan": {
+            "level": 8
+            //"args": "--configuration='${folder}/phpstan.neon'",
+            //"executable": "${folder}/bin/phpstan"
         }
     }
 }

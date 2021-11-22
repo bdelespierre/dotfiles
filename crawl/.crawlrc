@@ -64,6 +64,8 @@ autofight_stop = 75
 sound_file_path = /home/benjamin/.crawl/sounds/
 include = ./.crawl/conf.d/sound.rc
 
+tile_show_threat_levels += trivial, easy, tough, nasty
+
 #
 # Wonderful Seeds
 # ===============

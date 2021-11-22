@@ -24,7 +24,8 @@
 		"*.class",
 		"*.psd",
 		"*.db",
-		"*.sublime-workspace"
+		"*.sublime-workspace",
+		"__CG__*"
 	],
 	"folder_exclude_patterns":
 	[
@@ -57,4 +58,7 @@
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"caret_style": "smooth",
+	"index_exclude_patterns": [
+		"*.log", "storage/"
+	],
 }

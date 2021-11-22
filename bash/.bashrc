@@ -86,6 +86,12 @@ if [ -s /usr/share/bash-completion/completions/mysql ]; then
     complete -o default -o nospace -F _mysql my
 fi
 
+# Load Docker bash completion and make them complete the 'd' alias
+if [ -s /usr/share/bash-completion/completions/docker ]; then
+    . /usr/share/bash-completion/completions/docker
+    complete -o default -o nospace -F _docker d
+fi
+
 # -----------------------------------------------------------------------------
 # APPARIX
 # -----------------------------------------------------------------------------
