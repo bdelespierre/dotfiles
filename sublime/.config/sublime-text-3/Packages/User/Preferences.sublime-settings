@@ -1,6 +1,4 @@
 {
-	"color_scheme": "Packages/ayu/ayu-dark.sublime-color-scheme",
-	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
 		"*.phar",
@@ -25,7 +23,7 @@
 		"*.psd",
 		"*.db",
 		"*.sublime-workspace",
-		"__CG__*"
+		"__CG__*",
 	],
 	"folder_exclude_patterns":
 	[
@@ -34,31 +32,31 @@
 		".hg",
 		"CVS",
 		".pytest_cache",
-		"__pycache__"
+		"__pycache__",
 	],
-	"font_size": 12,
+	"index_exclude_patterns": [
+		"*.log",
+		"storage/",
+	],
+
+	// Editor Settings
+	"caret_style": "smooth",
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 11,
 	"highlight_line": true,
-	"hot_exit": false,
-	"ignored_packages":
-	[
-		"Vintage",
+	"hot_exit": "disabled",
+	"ignored_packages": ["Vintage",
 	],
 	"index_exclude_gitignore": false,
 	"predawn_sidebar_medium": true,
 	"remember_full_screen": true,
-	"rulers":
-	[
-		80,
-		120
-	],
+	"rulers": [80, 120],
 	"scroll_speed": 0,
 	"show_encoding": true,
 	"show_line_endings": true,
-	"theme": "ayu-dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"caret_style": "smooth",
-	"index_exclude_patterns": [
-		"*.log", "storage/"
-	],
+	"debug": true,
+	"color_scheme": "ayu-mirage.sublime-color-scheme",
+	"theme": "ayu-mirage.sublime-theme",
 }
