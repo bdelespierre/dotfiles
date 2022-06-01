@@ -1,6 +1,27 @@
 [core]
 	editor = vim
-	pager = diff-so-fancy | less --tabs=4 -RFX
+	#pager = diff-so-fancy | less --tabs=4 -RFX
+	pager = delta
+
+[interactive]
+	diffFilter = delta --color-only --features=interactive
+
+[delta]
+	features = decorations
+    side-by-side = true
+	line-numbers = true
+
+[delta "interactive"]
+	keep-plus-minus-markers = false
+
+[delta "decorations"]
+	commit-decoration-style = blue ol
+	commit-style = raw
+	file-style = omit
+	hunk-header-decoration-style = blue box
+	hunk-header-file-style = red
+	hunk-header-line-number-style = "#067a00"
+	hunk-header-style = file line-number syntax
 
 [user]
 	email = benjamin.delespierre@gmail.com
@@ -42,7 +63,7 @@
 	dfw = diff -w
 	ada = add -A
 	adaci = !git add -A && git commit
-	adame = !git add -A && git commit --amend
+	adame = !git add -A && git commit --amend --no-edit
 	addw = !git diff -w --no-color \"$@\" | git apply --cached --ignore-whitespace
 	fclean = !git clean -df && git submodule update --recursive
 	hreset = reset --hard
@@ -55,6 +76,7 @@
 	wip = !git ada && git commit --no-verify -m "wip" && git push
 	pubg= !git push -u origin `git b`
 	remove-orig= !git status --short | grep '.orig$' | awk '{ print $2 }' | xargs rm -v
+	authors = shortlog --summary --numbered --email
 
 [merge]
 	tool = meld
