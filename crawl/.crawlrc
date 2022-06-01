@@ -1,52 +1,19 @@
-#
-# Hilarious Death Artist
-# ======================
-#
-# -- NOTE -- as of v0.25 food mechanism was dropped in DCSS hence
-# HDA scripts won't work anymore...
-#
-# To initialise:
-#
-# - mkdir -p ~/.crawl/conf.d/HilariousDeathArtist/DCSSConfigFile
-# - cd !$
-# - git clone git@github.com:HilariousDeathArtist/DCSSConfigFile.git .
-# - find . -name '*.txt' -exec sh -c 'cp "$1" "${1%.txt}.rc"' _ {} \;
-# - cd -
-#
-# To use HDA auto-travel you need to create a macro:
-#
-# - CTRL+D then (m) to create a new macro
-# - Input macro trigger key: o
-# - Input macro action: ===HDAtravel
-#
-# Or create a ~/.crawl/macro.txt with the following:
-#
-# - M:O
-# - A:===HDAtravel
-#
-#include += ./.crawl/conf.d/hda/HilariousDeathArtist.rc
-
-# See https://github.com/crawl/crawl/blob/master/crawl-ref/docs/options_guide.txt
-
-#
-# My Config
-# =========
-
-name = Arcades
+name = 4rkd35
 remember_name = true
 species += Minotaur
 background += Berserker
 weapon = hand axe
+game_seed = 4rkd3
 
 default_manual_training = true
 autopickup_starting_ammo = true
-#game_seed = 20201113
+tile_show_threat_levels += trivial, easy, tough, nasty
 
 # include
-autopickup_exceptions += <dart, <stone, <shield, <cloak, <javelin, <gloves, <boots, <boomerangs
+autopickup_exceptions += <dart, <shield, <cloak, <javelin, <gloves, <boots, <boomerangs
 
 # exclude
-autopickup_exceptions += >inaccuracy, >immolation, >uselessness, >noise, >torment
+autopickup_exceptions += >inaccuracy, >immolation, >uselessness, >noise, >torment, >stone, >wand
 
 # travel
 show_travel_trail = true
@@ -60,73 +27,7 @@ autofight_throw = true
 autofight_throw_nomove = true
 autofight_stop = 75
 
-# sound
-sound_file_path = /home/benjamin/.crawl/sounds/
-include = ./.crawl/conf.d/sound.rc
-
-tile_show_threat_levels += trivial, easy, tough, nasty
-
-#
-# Wonderful Seeds
-# ===============
-#
-# Version:0.24
-# Seed: 20201113
-# + D3    +Ijyb
-# + D4    +Sigmund
-# + D5    +Menkaure, +Eustachio
-# + D5    the +27 Lear's hauberk
-# + D7    +Dowan, +Duvessa
-# + D8    the +2 ratskin cloak {+Rats rPois rN+ Str-1 Int-1 Dex+1}
-# + D8    the cursed +0 cloak of Humma Higile {Str+6}
-# + D8    the +1 robe of Tenacity {Dex+5}
-# + D9    the cursed +1 plate armour "Qerum" {rC+ Stlth+}
-# + D9    the cursed +0 scale mail of Elitism {rPois rF- Str-4 Dex+10}
-# + D9    the +1 ring mail of the Ant {rC+}
-# + D10   the cursed +14 obsidian axe {chop, +Fly SInv *Curse}
-# + L1    *Unknown Entrance
-# + L1    the +3 falchion of Optimality {elec, +Rage Int-4 Dex+4}
-# + L3    +Fannar
-# + L3    the +4 morningstar of Darov {flame, Str+2}
-# + L4    *Volcano
-# + L4    +Josephine
-# + L4    the +11 hunting sling of Experimentation {velocity, *Corrode +Blink rN+}
-# + L4    the cursed +2 arbalest "Ronnex" {velocity, rC+ Dex+3}
-# + O2    the ring of the Furies {rF+ Str+4 Int+3}
-# + O2    the +3 broad axe of Blood-Lust {drain, rElec Int+4 SInv}
-# + D11   +Urug
-# + D12   the ring "Zunk" {Fire Stlth+}
-# + D13   the +8 demon blade "Bloodbane" {slic, *Rage +Rage Stlth-rr}
-# + D13   the +0 shield of Absence {-Cast Str+4 Dex+2}
-# + D13   the +10 zealot's sword {holy, *Rage rN+ EV+3}
-# + D14   +Nessos
-# + D14   a manual of Stealth
-# + D14   the +0 pair of fencer's gloves {Riposte Dex+3}
-# + D15   the cursed +0 ring mail of Submission {MR+ Int+3}
-# + SN1   a ring of the Octopus King {rC+ AC+1 EV+1 Str+1 Int+1 Dex+1}
-# + SW1   the +0 ring mail of Hyukkene {*Slow MR++ rCorr Slay+5}
-# + SW2   +Roxanne, +Kirke
-# + SW4   +Donald
-# + E2    +Louise
-# + E2    the +1 cloak "Deonuv" {Dex+3}
-# + E3    the +8 crossbow "Gegavum" {freeze, Str+5}
-# + E3    the ring "Rouc" {Wiz Str+4}
-# + E3    the +6 armour of the swamp {Regen+ rCorr Str-5 Int+6}
-# + E3    the +7 hunting sling of Thoughtfulness {venom, rPos rN+}
-# + E3    the ring of Moodiness {+Blink +Fly rF+ Str+6 Dex-4}
-# + E3    the +7 shortbow "Sintoo" {velocity, Str+2 Int+6}
-# + E3    Books of {Flames, Air, Dreams, Conjurations, Maledictions}
-# + E3    Necronomicon,
-# + E3    the Compendium of Conjuration and Enhancements
-# + E3    the cursed +1 broad axe "Xelees Fiph" {chop, rPois rC+ Int-3 Stlth+}
-# + E3    the +7 rapier of Ru's Dipleasure {elec, *Slow +Inv rElec Dex+3}
-# + E3    the ring of Sochip {rF+ rC+ Dex+4}
-# + E3    the +3 dagger of Compound Interest {pierce, -Tele rC+ MP+9}
-# + E3    the +6 glaive of Xom's Favour {venom, rElec rF+ Sr+3}
-# + V1    +Aizul
-# + V2    the +8 demon trident "Rift" {distort, reach+}
-# + V2    a jewelled spear
-# + V2    the cursed +1 robe of Free Will {rElec Slay+2 Stlth-}
-# + V3    the cursed +1 quarterstaff oft the Spectre {flame, Mr+ Stlth+}
-# + V4    #Bazar
-#
+# inscriptions
+autoinscribe += of identify:@r1
+autoinscribe += of teleportation:@r2
+autoinscribe += of blinking:@r3
