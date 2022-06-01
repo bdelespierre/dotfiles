@@ -10,9 +10,11 @@ alias g='git'
 alias h='history | tail -n 10'
 alias j='jobs'
 alias l='ll'
+alias n='npm'
 alias p='/usr/bin/env php'
 alias t='tmux'
 alias v='vim'
+alias y='yarn'
 alias ?='aliases'
 
 # -----------------------------------------------------------------------------
@@ -81,6 +83,14 @@ alias check='phpcs --standard=psr12'
 alias fpm-restart='sudo systemctl restart php8.0-fpm.service'
 
 # -----------------------------------------------------------------------------
+# JavaScript
+# -----------------------------------------------------------------------------
+#
+alias npm-build='npm run build'
+alias npm-install-defaults='npm install --global jslint rollup'
+alias change-node-version='nvm list' # then nvm use <version>
+
+# -----------------------------------------------------------------------------
 # PYTHON
 # -----------------------------------------------------------------------------
 #
@@ -118,7 +128,6 @@ alias col5="awk '{print \$5}'"
 # -----------------------------------------------------------------------------
 #
 alias bat='batcat --theme ansi-dark'
-alias mt='multitail'
 alias aliases='cat ~/.bash_aliases | grep -vE "^#" | sed -e "s/alias //" -e "/^\s*$/d" | sort'
 alias less='less -r'
 alias path='echo $PATH | sed -e "s/:/\n/g" -e "s|${HOME}|~|g"'
