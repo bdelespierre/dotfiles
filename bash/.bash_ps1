@@ -63,15 +63,22 @@ function __ps1_git_branch
 {
     local BRANCH=$(git rev-parse --abbrev-ref HEAD 2>/dev/null)
 
+    if [[ -z "${BRANCH}" ]]; then
+        return 0
+    fi
+
     if git diff --exit-code >/dev/null 2>&1; then
         local COLOR=$C_OK
     else
         local COLOR=$C_NOK
     fi
 
-    if [[ ! -z "${BRANCH}" ]]; then
-        echo "${C_MUTED}git:${COLOR}${BRANCH}${C_RESET}"
-    fi
+    local CHA_REGEX="s/ [0-9]+ files? changed,//"
+    local INS_REGEX="s/ ([0-9]+) insertions?\(\+\),?/\x1B[32m+\1\x1B[0m/"
+    local DEL_REGEX="s/ ([0-9]+) deletions?\(-\),?/\x1B[31m-\1\x1B[0m/"
+
+    echo -n "${C_MUTED}git:${COLOR}${BRANCH}${C_RESET}"
+    git diff --stat | tail -n 1 | sed -r "${CHA_REGEX}; ${INS_REGEX}; ${DEL_REGEX}"
 }
 
 function __ps1_jobs
@@ -113,7 +120,7 @@ function __ps1_prompt #(time, exit_status)
     )
 
     # remove all formatting from $RIGHT
-    local RIGHT_TEXT=$(echo $RIGHT | sed -e 's/\\\[\\e\[[0-9;]*[mGKHF]\\\]//g')
+    local RIGHT_TEXT=$(echo $RIGHT | sed -e 's/\\\[\\e\[[0-9;]*[mGKHF]\\\]//g; s/\x1b\[[0-9;]*[mGKHF]//g')
 
     # determine the lenght of the horizontal padding
     local PAD=$(($COLUMNS - ${#RIGHT_TEXT}))
