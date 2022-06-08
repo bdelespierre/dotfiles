@@ -77,7 +77,7 @@ fi
 # Load Git bash completion and make them complete the 'g' alias
 if [ -s /usr/share/bash-completion/completions/git ]; then
     . /usr/share/bash-completion/completions/git
-    ___git_complete g __git_main
+    __git_complete g __git_main
 fi
 
 # Load MySQL bash completion and make them complete the 'my' alias
