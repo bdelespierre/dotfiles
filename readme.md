@@ -11,9 +11,7 @@ Then you may stow:
 
 ```BASH
 cd .dotfiles
-stow bash
-stow git
-stow vim
+stow bash git vim
 ```
 
 To use Sublime Text 3 configuration files:
