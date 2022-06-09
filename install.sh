@@ -22,10 +22,12 @@ if [[ $* == *"--games"* ]]; then
 fi
 
 if [[ $* == *"--php"* ]]; then
-    sudo apt install -y php
+    sudo apt install -y php php-xml php-mbstring php-curl
 
     wget -O get-composer.php https://getcomposer.org/installer \
-        && php get-composer.php --quiet \
+        && php get-composer.php \
+        && chmod +x composer.phar \
+        && sudo mv composer.phar /usr/local/bin/composer \
         && rm get-composer.php
 
     wget -O phive.phar https://phar.io/releases/phive.phar \
