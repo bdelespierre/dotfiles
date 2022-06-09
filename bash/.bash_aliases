@@ -127,13 +127,14 @@ alias col5="awk '{print \$5}'"
 # MISC
 # -----------------------------------------------------------------------------
 #
-alias bat='batcat --theme ansi-dark'
-alias aliases='cat ~/.bash_aliases | grep -vE "^#" | sed -e "s/alias //" -e "/^\s*$/d" | sort'
-alias less='less -r'
-alias path='echo $PATH | sed -e "s/:/\n/g" -e "s|${HOME}|~|g"'
-alias lurk-more='history -c && clear && printf "\e[3J"'
-alias py-serve='python3 -m http.server 8080'
-alias clock='while sleep 0.5;do tput sc;tput cup 0 $(($(tput cols)-10)); tput setaf 7; date +"[%T]";tput rc;done &'
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
-alias tree='ls -R | grep ":$" |sed -e "s/:$//" -e "s/[^-][^\/]*\//--/g" -e "s/^/   /" -e "s/-/|/"'
+alias aliases='cat ~/.bash_aliases | grep -vE "^#" | sed -e "s/alias //" -e "/^\s*$/d" | sort'
+alias bat='batcat --theme ansi-dark'
+alias clock='while sleep 0.5;do tput sc;tput cup 0 $(($(tput cols)-10)); tput setaf 7; date +"[%T]";tput rc;done &'
 alias favs='history | awk '\''{a[$2]++}END{for(i in a){print a[i] " " i}}'\'' | sort -rn | head'
+alias less='less -r'
+alias lurk-more='history -c && clear && printf "\e[3J"'
+alias path='echo $PATH | sed -e "s/:/\n/g" -e "s|${HOME}|~|g"'
+alias py-serve='python3 -m http.server 8080'
+alias rm='rm -v'
+alias tree='ls -R | grep ":$" |sed -e "s/:$//" -e "s/[^-][^\/]*\//--/g" -e "s/^/   /" -e "s/-/|/"'

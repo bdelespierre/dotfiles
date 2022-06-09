@@ -10,7 +10,7 @@ if [[ $* == *"--all"* ]]; then
 fi
 
 if [[ $* == *"--recommend"* ]]; then
-    sudo apt install -y ncdu bat at
+    sudo apt install -y ncdu bat at htop
 fi
 
 if [[ $* == *"--gui"* ]]; then
@@ -18,7 +18,7 @@ if [[ $* == *"--gui"* ]]; then
 fi
 
 if [[ $* == *"--games"* ]]; then
-    sudo apt install -y crawl crawl-tiles lolcat cowsay
+    sudo apt install -y crawl crawl-tiles lolcat cowsay cmatrix
 fi
 
 if [[ $* == *"--php"* ]]; then
