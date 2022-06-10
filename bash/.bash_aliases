@@ -176,6 +176,10 @@ alias col5="awk '{print \$5}'"
 # MISC
 # -----------------------------------------------------------------------------
 #
+function default {
+    local output=$(eval "$@" 2>&1)
+    echo -e "${output:-\e[90mNo output\e[0m}"
+}
 alias bat='batcat'
 alias clock='while sleep 0.5;do tput sc;tput cup 0 $(($(tput cols)-10)); tput setaf 7; date +"[%T]";tput rc;done &'
 alias favs='history | awk '\''{a[$2]++}END{for(i in a){print a[i] " " i}}'\'' | sort -rn | head'
