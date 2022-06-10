@@ -78,7 +78,7 @@ function __ps1_git_branch
     local DEL_REGEX="s/ ([0-9]+) deletions?\(-\),?/\x1B[31m-\1\x1B[0m/"
 
     echo -n "${C_MUTED}git:${COLOR}${BRANCH}${C_RESET}"
-    git diff --stat | tail -n 1 | sed -r "${CHA_REGEX}; ${INS_REGEX}; ${DEL_REGEX}"
+    git diff --shortstat | sed -r "${CHA_REGEX}; ${INS_REGEX}; ${DEL_REGEX}"
 }
 
 function __ps1_jobs

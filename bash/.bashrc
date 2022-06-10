@@ -50,6 +50,31 @@ export EDITOR='vim'
 export VISUAL='vim'
 
 # -----------------------------------------------------------------------------
+# LESS
+# -----------------------------------------------------------------------------
+#
+# set options
+# see https://www.topbug.net/blog/2016/09/27/make-gnu-less-more-powerful/
+export LESS='--quit-if-one-screen --ignore-case --LONG-PROMPT --RAW-CONTROL-CHARS --tabs=4 --no-init --window=-4'
+# or the short version
+# export LESS='-F -i -J -M -R -W -x4 -X -z-4'
+
+# set colors
+# see https://wiki.archlinux.org/index.php/Color_output_in_console#less
+export LESS_TERMCAP_mb=$'\E[1;31m'     # begin bold
+export LESS_TERMCAP_md=$'\E[1;36m'     # begin blink
+export LESS_TERMCAP_me=$'\E[0m'        # reset bold/blink
+export LESS_TERMCAP_so=$'\E[01;44;33m' # begin reverse video
+export LESS_TERMCAP_se=$'\E[0m'        # reset reverse video
+export LESS_TERMCAP_us=$'\E[1;32m'     # begin underline
+export LESS_TERMCAP_ue=$'\E[0m'        # reset underline
+
+# make less more friendly for non-text input files, see lesspipe(1)
+if [ -x /usr/bin/lesspipe ]; then
+    eval "$(SHELL=/bin/sh lesspipe)"
+fi
+
+# -----------------------------------------------------------------------------
 # PS1
 # -----------------------------------------------------------------------------
 #
@@ -109,32 +134,49 @@ if [ -f $HOME/.bash_aliases ]; then
 fi
 
 # -----------------------------------------------------------------------------
-# RANDOM STUFF
+# LS COLORS
 # -----------------------------------------------------------------------------
 #
-# make less more friendly for non-text input files, see lesspipe(1)
-[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+if [ -f $HOME/.lscolors ]; then
+    . $HOME/.lscolors
+fi
 
+# -----------------------------------------------------------------------------
+# ANSIBLE
+# -----------------------------------------------------------------------------
+#
 # disable cowsay for ansible
 export ANSIBLE_NOCOWS=1
+
+# -----------------------------------------------------------------------------
+# KEY BINDINGS
+# -----------------------------------------------------------------------------
+#
+bind -x '"\C-g": git status --short'
+bind -x '"\C-gl": (git log --decorate --oneline --color | head -n 5)'
+bind -x '"\C-gd": git diff --color=always'
+bind -x '"\C-j": jobs'
+bind -x '"\C-l\C-l": ls'
+bind -x '"\C-h": (history | tail -n 10)'
 
 # -----------------------------------------------------------------------------
 # WELCOME
 # -----------------------------------------------------------------------------
 #
-function __is_available {
-    type "$1" &> /dev/null
+function available {
+    type "$1" &>/dev/null
 }
 
-if __is_available fortune && __is_available cowsay && __is_available lolcat; then
+if available fortune && available cowsay && available lolcat; then
     fortune | cowsay -f unipony-smaller | lolcat
 fi
 
 # silently update the dotfiles in background
-if __is_available git && [ -d $HOME/.dotfiles ] && [[ $- == *i* ]]; then
+if available git && [ -d $HOME/.dotfiles ] && [[ $- == *i* ]]; then
     (cd $HOME/.dotfiles && git pull >/dev/null 2>&1 &)
 fi
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# -----------------------------------------------------------------------------
+# ANYTHING BELOW THAT LINE WAS ADDED BY A SCRIPT
+# -----------------------------------------------------------------------------
+#

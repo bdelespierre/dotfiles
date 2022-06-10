@@ -15,13 +15,23 @@ alias p='/usr/bin/env php'
 alias t='tmux'
 alias v='vim'
 alias y='yarn'
-alias ?='aliases'
 
 # -----------------------------------------------------------------------------
 # LS
 # -----------------------------------------------------------------------------
 #
-alias ll='ls -lhF --color --group-directories-first'
+export COLUMNS  # Remember columns for subprocesses.
+function ls {
+    command ls \
+        -Fhv \
+        --color \
+        --group-directories-first \
+        --time-style=long-iso \
+        -C "$@" \
+    | less -RXF
+}
+
+alias ll='ls -l'
 alias la='ll -A'
 
 # -----------------------------------------------------------------------------
@@ -33,11 +43,40 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
 # -----------------------------------------------------------------------------
+# RM
+# -----------------------------------------------------------------------------
+#
+function rm {
+    command rm -v "$@" | less -RXF
+}
+
+# -----------------------------------------------------------------------------
+# NOTIFY
+# -----------------------------------------------------------------------------
+#
+function notify {
+    $@
+
+    if [[ $? == 0 ]]; then
+        local icon="terminal"
+    else
+        local icon="error"
+    fi
+
+    notify-send -i $icon "$1" "${2:-No message}"
+}
+
+# -----------------------------------------------------------------------------
 # GROUPS
 # -----------------------------------------------------------------------------
 #
-alias add-user-to-group="sudo usermod -aG" #<group> <user>
-alias remove-user-from-group="sudo gpasswd -d" #<user> <group>
+function add-user-to-group { #(user, group)
+    sudo usermod -aG "$2" "$1"
+}
+
+function remove-user-from-group { #(user, group)
+    sudo gpasswd -d "$1" "$2"
+}
 
 # -----------------------------------------------------------------------------
 # TMUX
@@ -70,6 +109,16 @@ alias my='mysql'
 # PHP
 # -----------------------------------------------------------------------------
 #
+function find-usage {
+    git grep -C2 -p -E "(-[>]|::)$1\("
+}
+
+function composer-query {
+    jq ".$1" "composer.json"
+}
+
+alias fu='find-usage'
+alias cq='composer-query'
 alias lint='find . -path ./vendor -prune -o -name "*.php" -print0 | xargs -0 -n1 -P8  php -l > /dev/null'
 alias pa='php artisan'
 alias pu='vendor/bin/phpunit --stop-on-error --stop-on-failure --colors'
@@ -127,14 +176,9 @@ alias col5="awk '{print \$5}'"
 # MISC
 # -----------------------------------------------------------------------------
 #
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
-alias aliases='cat ~/.bash_aliases | grep -vE "^#" | sed -e "s/alias //" -e "/^\s*$/d" | sort'
-alias bat='batcat --theme ansi-dark'
+alias bat='batcat'
 alias clock='while sleep 0.5;do tput sc;tput cup 0 $(($(tput cols)-10)); tput setaf 7; date +"[%T]";tput rc;done &'
 alias favs='history | awk '\''{a[$2]++}END{for(i in a){print a[i] " " i}}'\'' | sort -rn | head'
-alias less='less -r'
 alias lurk-more='history -c && clear && printf "\e[3J"'
 alias path='echo $PATH | sed -e "s/:/\n/g" -e "s|${HOME}|~|g"'
 alias py-serve='python3 -m http.server 8080'
-alias rm='rm -v'
-alias tree='ls -R | grep ":$" |sed -e "s/:$//" -e "s/[^-][^\/]*\//--/g" -e "s/^/   /" -e "s/-/|/"'

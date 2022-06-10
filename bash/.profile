@@ -18,11 +18,6 @@ fi
 # and ./node_modules/.bin/ (for NPM projects)
 PATH="$PATH:./:vendor/bin:./node_modules/.bin"
 
-# set PATH so it includes user's private bin if it exists
-if [ -d "$HOME/.bin" ] ; then
-    PATH="$PATH:$HOME/.bin"
-fi
-
 # set PATH so it includes composer's global binaries if it exists
 if [ -d "$HOME/.composer/vendor/bin" ] ; then
     PATH="$PATH:$HOME/.composer/vendor/bin"
