@@ -117,6 +117,12 @@ function composer-query {
     jq ".$1" "composer.json"
 }
 
+function php-execute {
+    # check if docker
+    # run
+    false
+}
+
 alias fu='find-usage'
 alias cq='composer-query'
 alias lint='find . -path ./vendor -prune -o -name "*.php" -print0 | xargs -0 -n1 -P8  php -l > /dev/null'
@@ -130,6 +136,7 @@ alias change-php-version='sudo update-alternatives --config php'
 alias fix='phpcbf --standard=psr12'
 alias check='phpcs --standard=psr12'
 alias fpm-restart='sudo systemctl restart php8.0-fpm.service'
+alias px='php-execute'
 
 # -----------------------------------------------------------------------------
 # JavaScript

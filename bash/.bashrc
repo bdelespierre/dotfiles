@@ -156,7 +156,6 @@ bind -x '"\C-g": default git status --short'
 bind -x '"\C-gl": (default git log --decorate --oneline --color | head -n 5)'
 bind -x '"\C-gd": default git diff --color=always'
 bind -x '"\C-j": default jobs'
-bind -x '"\C-l\C-l": ls'
 bind -x '"\C-h": (default history | tail -n 10)'
 
 # -----------------------------------------------------------------------------

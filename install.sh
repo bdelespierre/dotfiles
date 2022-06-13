@@ -10,7 +10,7 @@ if [[ $* == *"--all"* ]]; then
 fi
 
 if [[ $* == *"--recommend"* ]]; then
-    sudo apt install -y ncdu bat at htop httpie jq
+    sudo apt install -y ncdu bat at htop httpie jq exa
 fi
 
 if [[ $* == *"--gui"* ]]; then

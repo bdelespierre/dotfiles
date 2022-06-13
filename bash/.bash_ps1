@@ -50,6 +50,10 @@ C_NOK="${C_RED}"
 
 function __ps1_exit_status #(time, exit_status)
 {
+    if [[ "${PS1_TIMER}" == "off" ]]; then
+        return 0
+    fi
+
     if [[ 0 == "$2" || 130 == "$2" ]]; then
         local COLOR=$C_OK
     else
@@ -61,6 +65,10 @@ function __ps1_exit_status #(time, exit_status)
 
 function __ps1_git_branch
 {
+    if [[ "${PS1_GIT}" == "off" ]]; then
+        return 0
+    fi
+
     local BRANCH=$(git rev-parse --abbrev-ref HEAD 2>/dev/null)
 
     if [[ -z "${BRANCH}" ]]; then
@@ -83,6 +91,10 @@ function __ps1_git_branch
 
 function __ps1_jobs
 {
+    if [[ "${PS1_JOBS}" == "off" ]]; then
+        return 0
+    fi
+
     local STOPPED_COUNT=$(jobs -sp | wc -l)
     local RUNNING_COUNT=$(jobs -rp | wc -l)
 
@@ -119,6 +131,11 @@ function __ps1_prompt #(time, exit_status)
         $(__ps1_exit_status $@) \
     )
 
+    if [[ "${PS1_RIGHT}" == "off" ]]; then
+        PS1=$(printf "%s %s \\\$ " "${LEFT}" "${RIGHT}")
+        return 0
+    fi
+
     # remove all formatting from $RIGHT
     local RIGHT_TEXT=$(echo $RIGHT | sed -e 's/\\\[\\e\[[0-9;]*[mGKHF]\\\]//g; s/\x1b\[[0-9;]*[mGKHF]//g')
 
@@ -140,5 +157,9 @@ function __ps1_timer_stop
     unset PROMPT_TIMER
 }
 
-trap '__ps1_timer_start' DEBUG
-PROMPT_COMMAND=__ps1_timer_stop
+if [[ "${PS1_TIMER}" != "off" ]]; then
+    trap '__ps1_timer_start' DEBUG
+    PROMPT_COMMAND=__ps1_timer_stop
+else
+    PROMPT_COMMAND=__ps1_prompt
+fi
