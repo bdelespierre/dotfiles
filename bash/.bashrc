@@ -148,6 +148,12 @@ fi
 # disable cowsay for ansible
 export ANSIBLE_NOCOWS=1
 
+# autostart SSH agent on WSL environments
+if [ -z "$SSH_AUTH_SOCK" ]; then
+    eval `ssh-agent -s`
+    ssh-add
+fi
+
 # -----------------------------------------------------------------------------
 # KEY BINDINGS
 # -----------------------------------------------------------------------------

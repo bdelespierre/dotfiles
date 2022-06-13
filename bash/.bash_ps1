@@ -85,8 +85,14 @@ function __ps1_git_branch
     local INS_REGEX="s/ ([0-9]+) insertions?\(\+\),?/\x1B[32m+\1\x1B[0m/"
     local DEL_REGEX="s/ ([0-9]+) deletions?\(-\),?/\x1B[31m-\1\x1B[0m/"
 
-    echo -n "${C_MUTED}git:${COLOR}${BRANCH}${C_RESET}"
-    git diff --shortstat | sed -r "${CHA_REGEX}; ${INS_REGEX}; ${DEL_REGEX}"
+    if $(pwd -P | grep -q "^\/mnt\/c\/*"); then
+        local COMMAND="${C_MUTED}git${C_SECONDARY}.exe${C_MUTED}:${C_RESET}"
+    else
+        local COMMAND="${C_MUTED}git:${C_RESET}"
+    fi
+
+    echo -n "${COMMAND}${COLOR}${BRANCH}${C_RESET}"
+    git diff --stat | tail -n 1 | sed -r "${CHA_REGEX}; ${INS_REGEX}; ${DEL_REGEX}"
 }
 
 function __ps1_jobs

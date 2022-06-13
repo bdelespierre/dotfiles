@@ -1,0 +1,58 @@
+Sessions
+    Create          $ tmux new {-s <name>}
+                    : new {-s <name>}
+    Delete          $ tmux kill-session -t <name>
+    Rename          ^b $
+    Detach          ^b d
+    Attach to last  $ tmux a
+    Attach to       $ tmux a -t <name>
+    List            $ tmux ls
+                    ^b s
+    Preview         ^b w
+    Previous        ^b (
+    Next            ^b )
+
+Windows
+    Create          ^b c
+    Rename          ^b ,
+    Close           ^b &
+    Previous        ^b p
+    Next            ^b n
+    Switch          ^b [0-9]
+    Toggle last     ^b 1
+
+Panes
+    Toggle last     ^b ;
+    Split horz      ^b %
+    Split vert      ^b "
+    Move left       ^b {
+    Move right      ^b }
+    Switch          ^b [Arrow]
+    Sync panes      : setw synchronize-panes
+    Toggle layout   ^b [Spacebar]
+    Next pane       ^b o
+    Switch to       ^b q [0-9]
+    Zoom            ^b z
+    Convert to win  ^b !
+    Resize          ^b [Ctrl] [Arrow]
+    Close           ^b x
+
+Copy mode
+    Start           ^b
+    Quit            q
+    Go to top       g
+    Go to bottom    G
+    Search          /
+    Search back     ?
+    Select          [Spacebar]
+    Clear           [Escape]
+    Copy            [Enter]
+    Paste           : paste
+
+Buffers
+    List            : list-buffers
+    Show            : show-buffer
+    Copy pane       : capture-pane
+    Paste           : choose-buffer
+    Save            : save-buffer <file.txt>
+    Delete          : delete-buffer -b [0-9]
