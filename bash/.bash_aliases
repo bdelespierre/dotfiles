@@ -1,4 +1,3 @@
-
 # -----------------------------------------------------------------------------
 # ONE CHAR
 # -----------------------------------------------------------------------------
@@ -196,10 +195,19 @@ function for-each-dir {
         cd ..
     done
 }
+
+function generate-plantuml-diagram {
+    http --form POST localhost:8080/form text=@$1 --headers \
+        | grep Location: \
+        | sed 's/Location: //; s#/uml/#/png/#' \
+        | xargs wget -O "${1%.puml}.png"
+}
+
 alias bat='batcat'
 alias clock='while sleep 0.5;do tput sc;tput cup 0 $(($(tput cols)-10)); tput setaf 7; date +"[%T]";tput rc;done &'
 alias favs='history | awk '\''{a[$2]++}END{for(i in a){print a[i] " " i}}'\'' | sort -rn | head'
 alias fed='for-each-dir'
 alias lurk-more='history -c && clear && printf "\e[3J"'
 alias path='echo $PATH | sed -e "s/:/\n/g" -e "s|${HOME}|~|g"'
+alias puml='generate-plantuml-diagram'
 alias py-serve='python3 -m http.server 8080'
