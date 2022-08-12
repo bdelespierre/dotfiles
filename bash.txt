@@ -1,0 +1,31 @@
+Bash
+----
+
+[ctrl+k]:Cut to the end of line (kill)
+[ctrl+u]:Cut to the begining of line
+[ctrl+y]:Yank (paste)
+[ctrl+c]:Kill process (cancel)
+[ctrl+z]:Pause process
+[ctrl+s]:Pause output
+[ctrl+q]:Resume output
+[ctrl+x]>[ctrl+e]:Edit command
+[ctrl+r]:Search history
+[ctrl+d]:Hangup
+[alt+t]:Swap the last two words
+[alt+u]:Uppercase next word
+[alt+l]:Lowercase next word
+[ctrl+e]:Move cursor to end of line
+[ctrl+a]:Move cursor to begining of line
+[ctrl+g]:Leave the history search mode
+[ctrl+l]:Clear
+[ctrl+w]:Cut previous word
+
+Tmux
+----
+
+[ctrl+b]>[%]:Split pane horizontally
+[ctrl+b]>["]:Split pane vertically
+[ctrl+b]>[{]:Move pane left
+[ctrl+b]>[}]:Move pane right
+[ctrl+b]>[z]:Toggle pane zoom
+[ctrl+b]>[[]:Enter copy mode
