@@ -20,7 +20,7 @@ alias y='yarn'
 # -----------------------------------------------------------------------------
 #
 export COLUMNS  # Remember columns for subprocesses.
-function ls {
+function custom-ls {
     command ls \
         -Fhv \
         --color \
@@ -30,6 +30,7 @@ function ls {
     | less -RXF
 }
 
+alias ls='custom-ls'
 alias ll='ls -l'
 alias la='ll -A'
 
