@@ -53,6 +53,24 @@ export VISUAL='vim'
 # LESS
 # -----------------------------------------------------------------------------
 #
+# lessfile is a nice incantation that lets less open up tar and gz files
+# and so on and show you what's inside.
+if command -v lessfile &>/dev/null; then
+    eval "$(SHELL=/bin/sh lessfile)"
+    # this sets LESSOPEN and will pick up on ~/.lessfilter.
+else
+    # fall back to do the best we can.
+    export LESSOPEN="| ~/.lessfilter %s"
+fi
+
+# if any syntax highlighters are available, use them.
+# pygmentize does more, but source-highlight is still good.
+if command -v pygmentize &>/dev/null; then
+    export LESSCOLOURIZER="pygmentize -f terminal"
+elif command -v source-highlight &>/dev/null; then
+    export LESSCOLOURIZER="source-highlight --failsafe --infer-lang -f esc --style-file=esc.style -i"
+fi
+
 # set options
 # see https://www.topbug.net/blog/2016/09/27/make-gnu-less-more-powerful/
 export LESS='--quit-if-one-screen --ignore-case --LONG-PROMPT --RAW-CONTROL-CHARS --tabs=4 --no-init --window=-4'
@@ -70,9 +88,9 @@ export LESS_TERMCAP_us=$'\E[1;32m'     # begin underline
 export LESS_TERMCAP_ue=$'\E[0m'        # reset underline
 
 # make less more friendly for non-text input files, see lesspipe(1)
-if [ -x /usr/bin/lesspipe ]; then
-    eval "$(SHELL=/bin/sh lesspipe)"
-fi
+#if [ -x /usr/bin/lesspipe ]; then
+#    eval "$(SHELL=/bin/sh lesspipe)"
+#fi
 
 # -----------------------------------------------------------------------------
 # COMPLETION

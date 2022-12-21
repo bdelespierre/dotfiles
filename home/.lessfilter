@@ -1,31 +1,31 @@
 #!/bin/sh
-# see https://superuser.com/a/337640
 
 case "$1" in
     *.awk|*.groff|*.java|*.js|*.m4|*.php|*.pl|*.pm|*.pod|*.sh|\
     *.ad[asb]|*.asm|*.inc|*.[ch]|*.[ch]pp|*.[ch]xx|*.cc|*.hh|\
     *.lsp|*.l|*.pas|*.p|*.xml|*.xps|*.xsl|*.axp|*.ppd|*.pov|\
     *.diff|*.patch|*.py|*.rb|*.sql|*.ebuild|*.eclass|*.md|*.y[a]ml|\
-    *.neon|*.json)
-        pygmentize "$1";;
+    *.neon|*.json|Makefile|Dockerfile|*.dockerfile)
+        $LESSCOLOURIZER "$1" ;;
+
+    *.pdf)
+	    if command -v pdftotext &>/dev/null; then pdftotext -layout "$1" -;
+	    else echo "No pdftotext available; try installing poppler-utils"; fi ;;
 
     # colorize *.xml.dist as XML
     *.*.dist)
-        pygmentize -l $(echo "$1" | sed -r 's/.*\.([^.]+)\.dist$/\1/') "$1";;
+        pygmentize -l $(echo "$1" | sed -r 's/.*\.([^.]+)\.dist$/\1/') "$1" ;;
 
     *composer.lock)
-        pygmentize -l json "$1";;
+        pygmentize -l json "$1" ;;
 
     # .bashrc .inputrc .crawlrc etc.
     *.bash*|*.*rc|*.env|*.env.*)
-        pygmentize -l sh "$1";;
+        pygmentize -l sh "$1" ;;
 
     *)
-        if grep -q "#\!/bin/bash" "$1" 2> /dev/null; then
-            pygmentize -l sh "$1"
-        else
-            exit 1
-        fi
+        if grep -q "#\!/bin/bash" "$1" &>/dev/null; then pygmentize -l sh "$1";
+        else exit 1; fi
 esac
 
 exit 0

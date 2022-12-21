@@ -27,7 +27,7 @@ ls () {
         --group-directories-first \
         --time-style=long-iso \
         -C "$@" \
-    | less -RXF
+    | less
 }
 
 alias ll='ls -l'
@@ -46,7 +46,7 @@ alias egrep='egrep --color=auto'
 # -----------------------------------------------------------------------------
 #
 rm () {
-    command rm -v "$@" | less -RXF
+    command rm -v "$@" | less
 }
 
 # -----------------------------------------------------------------------------
@@ -213,3 +213,4 @@ alias fed='for-each-dir'
 alias lurk-more='history -c && clear && printf "\e[3J"'
 alias path='echo $PATH | sed -e "s/:/\n/g" -e "s|${HOME}|~|g"'
 alias py-serve='python3 -m http.server 8080'
+alias more='less' # less is more

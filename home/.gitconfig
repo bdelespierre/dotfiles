@@ -23,7 +23,7 @@
 	hunk-header-style = file line-number syntax
 
 [user]
-	email = benjamin.delespierre@kleegroup.co
+	email = benjamin.delespierre@kleegroup.com
 	name = Benjamin Delespierre
 
 [push]
@@ -32,9 +32,7 @@
 [alias]
 	graph = !git log --graph --decorate --oneline --color=always | less -R
 	gr = !git graph
-	gra = !git log --graph --decorate --oneline --all --color=always | less -R
 	co = checkout
-	com = checkout master
 	ci = commit
 	rb = rebase
 	rbi = rebase -i
@@ -42,45 +40,27 @@
 	ru = remote update
 	br = branch -vv
 	b = rev-parse --abbrev-ref HEAD
-	nb = checkout -b
-	db = branch -D
-	su = submodule update
-	sui = submodule update --init
 	st = status --short
-	stu = !git status --short | grep U
 	ls = !git ls-files | less -RFX
 	lc = !git ls-files | xargs wc -l
-	ls-grep = !git ls-files | grep -P -i --colour=always \"$1\" | less -RFX; fi
 	ame = commit --amend
 	p = push
 	fp = push -f
 	smecta = push -f #trololo
 	pp = pull
-	df = diff
-	dno = diff --name-only
-	dfc = diff --cached
-	dfw = diff -w
 	ada = add -A
 	adaci = !git add -A && git commit
 	adame = !git add -A && git commit --amend --no-edit
-	addw = !git diff -w --no-color \"$@\" | git apply --cached --ignore-whitespace
-	fclean = !git clean -df && git submodule update --recursive
-	hreset = reset --hard
-	merge-master = "!sh -c 'ultra-merge origin master'"
 	update-master = !git checkout master && git pull && git checkout -
+	update-main = !git checkout main && git pull && git checkout -
 	update-develop = !git checkout develop && git pull && git checkout -
 	g = grep -C2 -p
 	manifest = !git log --name-only --format=format: --diff-filter=A | sort -u | tail -n +2
 	oops = !git status --short && git add -A && git commit --amend --no-edit --no-verify && git push --force --no-verify
 	wip = !git ada && git commit --no-verify -m "wip" && git push
-	pubg= !git push -u origin `git b`
+	pubg= !git push -u origin $(git b)
 	remove-orig= !git status --short | grep '.orig$' | awk '{ print $2 }' | xargs rm -v
 	authors = shortlog --summary --numbered --email
 
-[merge]
-	tool = meld
-
-[mergetool]
-	prompt = false
 [credential]
 	helper = cache --timeout=86400
