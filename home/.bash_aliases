@@ -138,17 +138,17 @@ phpunit () {
     )
 }
 
-alias fu='find-usage'
+alias change-php-version='sudo update-alternatives --config php'
+alias check='phpcs --standard=psr12'
+alias fix='phpcbf --standard=psr12'
+alias fpm-restart='sudo systemctl restart php8.0-fpm.service'
+alias fu='php-find-usage'
 alias lint='find . -path ./vendor -prune -o -name "*.php" -print0 | xargs -0 -n1 -P8  php -l > /dev/null'
 alias pa='php artisan'
 alias pu='phpunit --stop-on-error --stop-on-failure --colors'
 alias puf='pu --filter'
-alias tinker='pa tinker --ansi'
 alias serve='pa serve &>/dev/null &'
-alias change-php-version='sudo update-alternatives --config php'
-alias fix='phpcbf --standard=psr12'
-alias check='phpcs --standard=psr12'
-alias fpm-restart='sudo systemctl restart php8.0-fpm.service'
+alias tinker='pa tinker --ansi'
 
 # -----------------------------------------------------------------------------
 # PYTHON
@@ -161,9 +161,9 @@ alias py='python3'
 # -----------------------------------------------------------------------------
 #
 alias dc='docker-compose'
-alias dcu='docker-compose up -d'
-alias dcd='docker-compose down -v'
-alias dce='docker-compose exec -it'
+alias dcu='dc up -d'
+alias dcd='dc down -v'
+alias dce='dc exec -it'
 
 # -----------------------------------------------------------------------------
 # HEROKU
