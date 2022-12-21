@@ -1,3 +1,0 @@
-[submodule "ls-colors"]
-	path = ls-colors
-	url = git@github.com:trapd00r/LS_COLORS.git

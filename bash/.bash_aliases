@@ -20,7 +20,7 @@ alias y='yarn'
 # -----------------------------------------------------------------------------
 #
 export COLUMNS  # Remember columns for subprocesses.
-function custom-ls {
+ls () {
     command ls \
         -Fhv \
         --color \
@@ -30,7 +30,6 @@ function custom-ls {
     | less -RXF
 }
 
-alias ls='custom-ls'
 alias ll='ls -l'
 alias la='ll -A'
 
@@ -46,7 +45,7 @@ alias egrep='egrep --color=auto'
 # RM
 # -----------------------------------------------------------------------------
 #
-function rm {
+rm () {
     command rm -v "$@" | less -RXF
 }
 
@@ -54,7 +53,7 @@ function rm {
 # NOTIFY
 # -----------------------------------------------------------------------------
 #
-function notify {
+notify () {
     $@
 
     if [[ $? == 0 ]]; then
@@ -70,11 +69,11 @@ function notify {
 # GROUPS
 # -----------------------------------------------------------------------------
 #
-function add-user-to-group { #(user, group)
+add-user-to-group () { #(user, group)
     sudo usermod -aG "$2" "$1"
 }
 
-function remove-user-from-group { #(user, group)
+remove-user-from-group () { #(user, group)
     sudo gpasswd -d "$1" "$2"
 }
 
@@ -109,42 +108,48 @@ alias my='mysql'
 # PHP
 # -----------------------------------------------------------------------------
 #
-function find-usage {
+php-find-usage () {
     git grep -C2 -p -E "(-[>]|::)$1\("
 }
 
-function composer-query {
-    jq ".$1" "composer.json"
-}
+phpunit () {
+    (
+        while [[ "$PWD" != "/" ]]; do
+            if [[ -x "$PWD/tools/phpunit" ]]; then
+                CMD="$PWD/tools/phpunit"
+                break
+            elif [[ -f "$PWD/tools/phpunit.phar" ]]; then
+                CMD="/usr/bin/env php $PWD/tools/phpunit.phar"
+                break
+            elif [[ -x "$PWD/vendor/bin/phpunit" ]]; then
+                CMD="$PWD/vendor/bin/phpunit"
+                break
+            fi
+            cd ..
+        done
 
-function php-execute {
-    # check if docker
-    # run
-    false
+        if [[ -z "$CMD" ]]; then
+            echo "PHPUnit executable not found"
+            return 1
+        fi
+
+        >&2 echo "Using $CMD"
+        eval "$CMD $@"
+    )
 }
 
 alias fu='find-usage'
 alias cq='composer-query'
 alias lint='find . -path ./vendor -prune -o -name "*.php" -print0 | xargs -0 -n1 -P8  php -l > /dev/null'
 alias pa='php artisan'
-alias pu='vendor/bin/phpunit --stop-on-error --stop-on-failure --colors'
+alias pu='phpunit --stop-on-error --stop-on-failure --colors'
 alias puf='pu --filter'
-alias tinker='php artisan tinker --ansi'
-alias serve='php artisan serve >/dev/null 2>&1 &'
-alias logs='tail storage/logs/laravel.log'
+alias tinker='pa tinker --ansi'
+alias serve='pa serve &>/dev/null &'
 alias change-php-version='sudo update-alternatives --config php'
 alias fix='phpcbf --standard=psr12'
 alias check='phpcs --standard=psr12'
 alias fpm-restart='sudo systemctl restart php8.0-fpm.service'
-alias px='php-execute'
-
-# -----------------------------------------------------------------------------
-# JavaScript
-# -----------------------------------------------------------------------------
-#
-alias npm-build='npm run build'
-alias npm-install-defaults='npm install --global jslint rollup'
-alias change-node-version='nvm list' # then nvm use <version>
 
 # -----------------------------------------------------------------------------
 # PYTHON
@@ -157,15 +162,15 @@ alias py='python3'
 # -----------------------------------------------------------------------------
 #
 alias dc='docker-compose'
-alias dcu='docker-compose up'
-alias dcb='docker-compose build'
-alias dcd='docker-compose up --build -d'
+alias dcu='docker-compose up -d'
+alias dcd='docker-compose down -v'
+alias dce='docker-compose exec -it'
 
 # -----------------------------------------------------------------------------
 # HEROKU
 # -----------------------------------------------------------------------------
 #
-alias hlog='heroku logs'
+alias hlog='heroku logs -f'
 alias hrun='heroku run'
 alias hbuild='heroky buildpacks'
 
@@ -180,24 +185,29 @@ alias col4="awk '{print \$4}'"
 alias col5="awk '{print \$5}'"
 
 # -----------------------------------------------------------------------------
+# MSYS
+# -----------------------------------------------------------------------------
+#
+disable-path-conversion () {
+    MSYS_NO_PATHCONV=1 MSYS2_ARG_CONV_EXCL="*" eval "$@"
+}
+
+# -----------------------------------------------------------------------------
 # MISC
 # -----------------------------------------------------------------------------
 #
-function default {
+default () {
     local output=$(eval "$@" 2>&1)
     echo -e "${output:-\e[90mNo output\e[0m}"
 }
 
-function for-each-dir {
+for-each-dir () {
     for dir in */; do
-        cd $dir
-        echo -e "\n\e[0;33m$(pwd)\e[0m"
-        $@
-        cd ..
+        ( cd $dir && echo -e "\n\e[0;33m$PWD\e[0m" && eval "$@" )
     done
 }
 
-function generate-plantuml-diagram {
+generate-plantuml-diagram () {
     http --form POST localhost:8080/form text=@$1 --headers \
         | grep Location: \
         | sed 's/Location: //; s#/uml/#/png/#' \

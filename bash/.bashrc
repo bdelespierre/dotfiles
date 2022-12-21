@@ -36,11 +36,11 @@ shopt -s globstar
 #
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
-HISTCONTROL=ignoreboth:erasedups
+export HISTCONTROL=ignoreboth:erasedups
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000
-HISTFILESIZE=2000
+export HISTSIZE=1000
+export HISTFILESIZE=2000
 
 # -----------------------------------------------------------------------------
 # EDITOR
@@ -72,16 +72,6 @@ export LESS_TERMCAP_ue=$'\E[0m'        # reset underline
 # make less more friendly for non-text input files, see lesspipe(1)
 if [ -x /usr/bin/lesspipe ]; then
     eval "$(SHELL=/bin/sh lesspipe)"
-fi
-
-# -----------------------------------------------------------------------------
-# PS1
-# -----------------------------------------------------------------------------
-#
-PS1='\u@\h:\w\$ '
-
-if [ -f "$HOME/.bash_ps1" ]; then
-    source $HOME/.bash_ps1
 fi
 
 # -----------------------------------------------------------------------------
@@ -118,11 +108,19 @@ if [ -s /usr/share/bash-completion/completions/docker ]; then
 fi
 
 # -----------------------------------------------------------------------------
+# PS1
+# -----------------------------------------------------------------------------
+#
+if [ -f $HOME/.bash_ps1 ]; then
+    . $HOME/.bash_ps1
+fi
+
+# -----------------------------------------------------------------------------
 # APPARIX
 # -----------------------------------------------------------------------------
 #
-if [ -f $HOME/.bash_apparix ]; then
-    . $HOME/.bash_apparix
+if [ -f $HOME/.bourne_apparix ]; then
+    . $HOME/.bourne_apparix &> /dev/null
 fi
 
 # -----------------------------------------------------------------------------
@@ -134,52 +132,17 @@ if [ -f $HOME/.bash_aliases ]; then
 fi
 
 # -----------------------------------------------------------------------------
-# LS COLORS
-# -----------------------------------------------------------------------------
-#
-if [ -f $HOME/.lscolors ]; then
-    . $HOME/.lscolors
-fi
-
-# -----------------------------------------------------------------------------
 # ANSIBLE
 # -----------------------------------------------------------------------------
 #
 # disable cowsay for ansible
 export ANSIBLE_NOCOWS=1
 
-# autostart SSH agent on WSL environments
-if [ -z "$SSH_AUTH_SOCK" ]; then
-    eval `ssh-agent -s`
-    ssh-add
-fi
-
 # -----------------------------------------------------------------------------
 # KEY BINDINGS
 # -----------------------------------------------------------------------------
 #
-bind -x '"\eg": default git status --short'
-bind -x '"\ej": default jobs'
+bind -x '"\eg": default git -c color.status=always status --short'
 bind -x '"\eh": (default history | tail -n 10)'
-
-# -----------------------------------------------------------------------------
-# WELCOME
-# -----------------------------------------------------------------------------
-#
-function available {
-    type "$1" &>/dev/null
-}
-
-if available fortune && available cowsay && available lolcat; then
-    fortune | cowsay -f unipony-smaller | lolcat
-fi
-
-# silently update the dotfiles in background
-if available git && [ -d $HOME/.dotfiles ] && [[ $- == *i* ]]; then
-    (cd $HOME/.dotfiles && git pull >/dev/null 2>&1 &)
-fi
-
-# -----------------------------------------------------------------------------
-# ANYTHING BELOW THAT LINE WAS ADDED BY A SCRIPT
-# -----------------------------------------------------------------------------
-#
+bind -x '"\ej": default jobs'
+bind -x '"\el": default ls'

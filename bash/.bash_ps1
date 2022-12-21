@@ -14,14 +14,14 @@
 #  CONFIGURATION VARIABLES
 #  ----------------------------------------------------------------------------
 #
-#  PS1_USER     string     Set to force username   (default \u)
-#  PS1_HOST     string     Set to force hostname   (default \h)
-#  PS1_SHELL    string     Set to force shell      (default \s)
-#  PS1_TERM     string     Set to force terminal   (default \l)
-#  PS1_RIGHT    boolean    Enable right side       (default true)
-#  PS1_GIT      boolean    Enable git status       (default true)
-#  PS1_JOBS     boolean    Enable jobs summary     (default true)
-#  PS1_TIMER    boolean    Enable stopwatch        (default true)
+#  PS1_USER     string     Set to force username   (default:"\u")
+#  PS1_HOST     string     Set to force hostname   (default:"\h")
+#  PS1_SHELL    string     Set to force shell      (default:"\s")
+#  PS1_TERM     string     Set to force terminal   (default:"\l")
+#  PS1_RIGHT    string     Enable right side       (default:"true")
+#  PS1_GIT      string     Enable git status       (default:"true")
+#  PS1_JOBS     string     Enable jobs summary     (default:"true")
+#  PS1_TIMER    string     Enable stopwatch        (default:"true")
 #
 #
 #  ----------------------------------------------------------------------------
@@ -64,7 +64,7 @@ C_MAGENTA='\[\e[35m\]';    C_CYAN='\[\e[36m\]';          C_LIGHT_GRAY='\[\e[37m\
 C_DARK_GRAY='\[\e[90m\]';  C_LIGHT_RED='\[\e[91m\]';     C_LIGHT_GREEN='\[\e[92m\]'; C_LIGHT_YELLOW='\[\e[93m\]'
 C_LIGHT_BLUE='\[\e[94m\]'; C_LIGHT_MAGENTA='\[\e[95m\]'; C_LIGHT_CYAN='\[\e[96m\]';  C_WHITE='\[\e[97m\]'
 
-__fast_git_branch() {
+__fast_git_branch () {
     local _head_file _head _dir="$PWD"
 
     while [[ -n "$_dir" ]]; do
@@ -90,7 +90,7 @@ __fast_git_branch() {
     return 1
 }
 
-__ps1_git() {
+__ps1_git () {
     # $1: (out) The function output
 
     local branch=$(__fast_git_branch)
@@ -118,7 +118,7 @@ __ps1_git() {
     output="${C_DARK_GRAY}git:${C_RESET}${color}${branch}${C_RESET}${diff}"
 }
 
-__ps1_jobs() {
+__ps1_jobs () {
     # $1: The result of 'jobs' command
     # $2: (out) The function output
 
@@ -134,7 +134,7 @@ __ps1_jobs() {
     done <<< "$1"
 }
 
-__ps1_timer() {
+__ps1_timer () {
     # $1: The elapsed time since the last command (see __ps1_start_timer)
     # $2: The exit code of the last command ($?)
     # $3: (out) The function output
@@ -145,7 +145,7 @@ __ps1_timer() {
     output="${C_DARK_GRAY}time:${color}${1:-0}s${C_RESET}"
 }
 
-__ps1_prompt() {
+__ps1_prompt () {
     # $1: The result of 'jobs' command (for parsing by __ps1_jobs)
     # $2: The exit code of the last command ($?)
 
@@ -164,16 +164,16 @@ __ps1_prompt() {
     # pwd
     left+="${C_YELLOW}\w${C_RESET}"
 
-    # left-side is built!
+    # left-side built!
     PS1="$left\n${C_DARK_GRAY}\\\$${C_RESET} "
 
-    if [[ "$PS1_RIGHT" == false ]]; then
+    if [[ "${PS1_RIGHT:-true}" == "false" || "${PS1_GIT}${PS1_JOBS}${PS1_TIMER}" == "falsefalsefalse" ]]; then
         return 0
     fi
 
-    [[ "$PS1_GIT" != false ]] && __ps1_git git_output
-    [[ "$PS1_JOBS" != false ]] && __ps1_jobs "$2" jobs_output
-    [[ "$PS1_TIMER" != false ]] && __ps1_timer $(($SECONDS - $PROMPT_TIMER)) "$1" timer_output
+    [[ "${PS1_GIT:-true}" == "true" ]] && __ps1_git git_output
+    [[ "${PS1_JOBS:-true}" == "true" ]] && __ps1_jobs "$2" jobs_output
+    [[ "${PS1_TIMER:-true}" == "true" ]] && __ps1_timer $(($SECONDS - ${PROMPT_TIMER:-$SECONDS})) "$1" timer_output
 
     local right="$timer_output"
     [[ ! -z "$jobs_output" ]] && right="$jobs_output $right"
@@ -188,10 +188,10 @@ __ps1_prompt() {
     # print right-side, then return, then print left
     PS1=$(printf "%${pad}s%s\r%s" " " "$right" "$PS1")
 
-    unset PROMPT_TIMER
+    unset PROMPT_TIMER git_output jobs_output timer_output
 }
 
-__ps1_start_timer() {
+__ps1_start_timer () {
     PROMPT_TIMER=${PROMPT_TIMER:-$SECONDS}
 }
 
