@@ -87,11 +87,6 @@ export LESS_TERMCAP_se=$'\E[0m'        # reset reverse video
 export LESS_TERMCAP_us=$'\E[1;32m'     # begin underline
 export LESS_TERMCAP_ue=$'\E[0m'        # reset underline
 
-# make less more friendly for non-text input files, see lesspipe(1)
-#if [ -x /usr/bin/lesspipe ]; then
-#    eval "$(SHELL=/bin/sh lesspipe)"
-#fi
-
 # -----------------------------------------------------------------------------
 # COMPLETION
 # -----------------------------------------------------------------------------
@@ -123,6 +118,16 @@ fi
 if [ -s /usr/share/bash-completion/completions/docker ]; then
     . /usr/share/bash-completion/completions/docker
     complete -o default -o nospace -F _docker d
+fi
+
+# -----------------------------------------------------------------------------
+# ENVIRONMENT VARIABLES
+# -----------------------------------------------------------------------------
+#
+if [ -f $HOME/.env ]; then
+    . $HOME/.env
+elif [ -f $HOME/.env.dist ]; then
+    . $HOME/.env.dist
 fi
 
 # -----------------------------------------------------------------------------

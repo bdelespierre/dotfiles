@@ -14,14 +14,14 @@
 #  CONFIGURATION VARIABLES
 #  ----------------------------------------------------------------------------
 #
-#  PS1_USER     string     Set to force username   (default:"\u")
-#  PS1_HOST     string     Set to force hostname   (default:"\h")
-#  PS1_SHELL    string     Set to force shell      (default:"\s")
-#  PS1_TERM     string     Set to force terminal   (default:"\l")
-#  PS1_RIGHT    string     Enable right side       (default:"true")
-#  PS1_GIT      string     Enable git status       (default:"true")
-#  PS1_JOBS     string     Enable jobs summary     (default:"true")
-#  PS1_TIMER    string     Enable stopwatch        (default:"true")
+#  PS1_USER     Set to force username   (default:"\u")
+#  PS1_HOST     Set to force hostname   (default:"\h")
+#  PS1_SHELL    Set to force shell      (default:"\s")
+#  PS1_TERM     Set to force terminal   (default:"\l")
+#  PS1_RIGHT    Enable right side       (default:"true")
+#  PS1_GIT      Enable git status       (default:"true")
+#  PS1_JOBS     Enable jobs summary     (default:"true")
+#  PS1_TIMER    Enable stopwatch        (default:"true")
 #
 #
 #  ----------------------------------------------------------------------------
@@ -56,33 +56,42 @@
 #  See: https://gist.github.com/bingzhangdai/dd4e283a14290c079a76c4ba17f19d69
 #  See: https://github.com/dylanaraps/pure-bash-bible
 #  See: https://github.com/dylanaraps/pure-sh-bible
+#  See: https://stackoverflow.com/a/3467959/17403258
 #
 #
-C_RESET='\[\e[0m\]';       C_BLINK='\[\e[5m\]';          C_BOLD='\[\e[1m\]';         C_BLACK='\[\e[30m\]'
-C_RED='\[\e[31m\]';        C_GREEN='\[\e[32m\]';         C_YELLOW='\[\e[33m\]';      C_BLUE='\[\e[34m\]'
-C_MAGENTA='\[\e[35m\]';    C_CYAN='\[\e[36m\]';          C_LIGHT_GRAY='\[\e[37m\]';  C_DEFAULT='\[\e[39m\]'
-C_DARK_GRAY='\[\e[90m\]';  C_LIGHT_RED='\[\e[91m\]';     C_LIGHT_GREEN='\[\e[92m\]'; C_LIGHT_YELLOW='\[\e[93m\]'
-C_LIGHT_BLUE='\[\e[94m\]'; C_LIGHT_MAGENTA='\[\e[95m\]'; C_LIGHT_CYAN='\[\e[96m\]';  C_WHITE='\[\e[97m\]'
+declare -A colors
+colors=(
+    ["reset"]='\[\e[0m\]'        ["red"]='\[\e[31m\]'         ["light_red"]='\[\e[91m\]'
+    ["bold"]='\[\e[1m\]'         ["green"]='\[\e[32m\]'       ["light_green"]='\[\e[92m\]'
+    ["blink"]='\[\e[5m\]'        ["yellow"]='\[\e[33m\]'      ["light_yellow"]='\[\e[93m\]'
+    ["white"]='\[\e[97m\]'       ["blue"]='\[\e[34m\]'        ["light_blue"]='\[\e[94m\]'
+    ["light_gray"]='\[\e[37m\]'  ["magenta"]='\[\e[35m\]'     ["light_magenta"]='\[\e[95m\]'
+    ["dark_gray"]='\[\e[90m\]'   ["cyan"]='\[\e[36m\]'        ["light_cyan"]='\[\e[96m\]'
+    ["black"]='\[\e[30m\]'       ["default"]='\[\e[39m\]'
+)
 
 __fast_git_branch () {
-    local _head_file _head _dir="$PWD"
+    # $1: (out) the function output
 
-    while [[ -n "$_dir" ]]; do
-        _head_file="$_dir/.git/HEAD"
-        if [[ -f "$_dir/.git" ]]; then
-            read -r _head_file < "$_dir/.git" && _head_file="$_dir/${_head_file#gitdir: }/HEAD"
+    local head_file head dir="$PWD"
+    local -n output="$1"; output=""
+
+    while [[ -n "$dir" ]]; do
+        head_file="$dir/.git/HEAD"
+        if [[ -f "$dir/.git" ]]; then
+            read -r head_file < "$dir/.git" && head_file="$dir/${head_file#gitdir: }/HEAD"
         fi
-        [[ -e "$_head_file" ]] && break
-        _dir="${_dir%/*}"
+        [[ -e "$head_file" ]] && break
+        dir="${dir%/*}"
     done
 
-    if [[ -e "$_head_file" ]]; then
-        read -r _head < "$_head_file" || return
-        case "$_head" in
-            ref:*) printf "${_head#ref: refs/heads/}" ;;
+    if [[ -e "$head_file" ]]; then
+        read -r head < "$head_file" || return
+        case "$head" in
+            ref:*) output="${head#ref: refs/heads/}" ;;
             "") ;;
             # HEAD detached
-            *) printf "${_head:0:9}" ;;
+            *) output="${head:0:9}" ;;
         esac
         return 0
     fi
@@ -93,8 +102,8 @@ __fast_git_branch () {
 __ps1_git () {
     # $1: (out) The function output
 
-    local branch=$(__fast_git_branch)
     local -n output="$1"; output=""
+    __fast_git_branch branch
 
     if [[ -z "${branch}" ]]; then
         return 0
@@ -107,15 +116,15 @@ __ps1_git () {
         prev="$n"
     done
 
-    local color="${C_GREEN}" diff=""
+    local color="${colors[green]}" diff=""
     if [[ ! -z "$ins" || ! -z "$del" ]]; then
-        color="${C_RED}"
-        [[ ! -z "$ins" ]] && diff="${C_DARK_GRAY}/${C_RESET}${C_GREEN}+${ins}${C_RESET}"
-        [[ ! -z "$ins" &&  ! -z "$del" ]] && diff+="${C_DARK_GRAY}/${C_RESET}"
-        [[ ! -z "$del" ]] && diff+="${C_RED}-${del}${C_RESET}"
+        color="${colors[red]}"
+        [[ ! -z "$ins" ]] && diff="${colors[dark_gray]}/${colors[reset]}${colors[green]}+${ins}${colors[reset]}"
+        [[ ! -z "$ins" &&  ! -z "$del" ]] && diff+="${colors[dark_gray]}/${colors[reset]}"
+        [[ ! -z "$del" ]] && diff+="${colors[red]}-${del}${colors[reset]}"
     fi
 
-    output="${C_DARK_GRAY}git:${C_RESET}${color}${branch}${C_RESET}${diff}"
+    output="${colors[dark_gray]}git:${colors[reset]}${color}${branch}${colors[reset]}${diff}"
 }
 
 __ps1_jobs () {
@@ -128,9 +137,9 @@ __ps1_jobs () {
     while IFS="\n" read -r -a job; do
         IFS=" " set -- $job
         [[ -z $3 ]] && continue
-        [[ "$2" == "Running" ]] && color="$C_GREEN" || color="$C_YELLOW"
+        [[ "$2" == "Running" ]] && color="${colors[green]}" || color="${colors[yellow]}"
         [[ ! -z "$output" ]] && output+=" "
-        output+="${C_DARK_GRAY}$1${color}$3${C_RESET}"
+        output+="${colors[dark_gray]}$1${color}$3${colors[reset]}"
     done <<< "$1"
 }
 
@@ -141,31 +150,31 @@ __ps1_timer () {
 
     local color
     local -n output="$3"; output=""
-    [[ 0 == "$2" || 130 == "$2" ]] && color="$C_GREEN" || color="$C_RED"
-    output="${C_DARK_GRAY}time:${color}${1:-0}s${C_RESET}"
+    [[ 0 == "$2" || 130 == "$2" ]] && color="${colors[green]}" || color="${colors[red]}"
+    output="${colors[dark_gray]}time:${color}${1:-0}s${colors[reset]}"
 }
 
 __ps1_prompt () {
-    # $1: The result of 'jobs' command (for parsing by __ps1_jobs)
+    # $1: The result of 'jobs' command
     # $2: The exit code of the last command ($?)
 
     # newline (does not appear after clear)
     echo
 
     # user@hostname
-    left="${C_GREEN}${PS1_USER:-\u}${C_DARK_GRAY}@${C_GREEN}${PS1_HOST:-\h}${C_RESET} "
+    left="${colors[green]}${PS1_USER:-\u}${colors[dark_gray]}@${colors[green]}${PS1_HOST:-\h}${colors[reset]} "
 
     # time h:i:s
-    left+="${C_MAGENTA}\\t${C_RESET} "
+    left+="${colors[yellow]}\\t${colors[reset]} "
 
     # shell#term!cmd
-    left+="${C_DARK_GRAY}${PS1_SHELL:-\s}#${C_DARK_GRAY}${PS1_TERM:-\l}!${C_MAGENTA}\\!${C_RESET} "
+    left+="${colors[dark_gray]}#${colors[magenta]}${PS1_TERM:-\l}${colors[dark_gray]}!${colors[magenta]}\\!${colors[reset]} "
 
     # pwd
-    left+="${C_YELLOW}\w${C_RESET}"
+    left+="${colors[yellow]}\w${colors[reset]}"
 
     # left-side built!
-    PS1="$left\n${C_DARK_GRAY}\\\$${C_RESET} "
+    PS1="$left\n${colors[dark_gray]}\\\$${colors[reset]} "
 
     if [[ "${PS1_RIGHT:-true}" == "false" || "${PS1_GIT}${PS1_JOBS}${PS1_TIMER}" == "falsefalsefalse" ]]; then
         return 0
