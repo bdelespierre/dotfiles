@@ -70,6 +70,14 @@ colors=(
     ["black"]='\[\e[30m\]'       ["default"]='\[\e[39m\]'
 )
 
+__ps1_env_windows () {
+    if [[ "$MSYSTEM" == "MSYS" || "$MSYSTEM" == "MINGW64" ]]; then
+        return 0
+    fi
+
+    return 1
+}
+
 __fast_git_branch () {
     # $1: (out) the function output
 
@@ -103,16 +111,34 @@ __ps1_git () {
     # $1: (out) The function output
 
     local -n output="$1"; output=""
+    local prefix="${colors[dark_gray]}git:${colors[reset]}"
+
+    # Git Bash on Windows has its own PS1 function
+    # (see /mingw64/share/git/completion/git-prompt.sh)
+    if __ps1_env_windows && declare -F __git_ps1 &>/dev/null; then
+        git_ps1="$(__git_ps1)"
+        output="${prefix}${colors[blue]}${git_ps1#"${git_ps1%%[![:space:]]*}"}${colors[reset]}"
+        return 0
+    fi
+
     __fast_git_branch branch
 
     if [[ -z "${branch}" ]]; then
         return 0
     fi
 
+    # do NOT allow shortstat to run for mor than 100ms
+    # (on big projects, loading the Git index alone can take seconds!)
+    local shortstat
+    if ! shortstat=$(timeout 0.1 git diff --shortstat --no-color ); then
+        output="${prefix}${colors[blue]}${branch}${colors[reset]}${colors[dark_gray]}:${colors[red]}T/O${colors[reset]}"
+        return 0
+    fi
+
     local prev="" ins="" del=""
-    for n in $(git diff --shortstat | tr ',' ' '); do
-        [[ "$n" == 'insertions(+)' || "$n" == 'insertion(+)' ]] && ins="$prev"
-        [[ "$n" == 'deletions(-)'  || "$n" == 'deletion(-)'  ]] && del="$prev"
+    for n in $shortstat; do
+        [[ "${n:0:3}" == 'ins' ]] && ins="$prev"
+        [[ "${n:0:3}" == 'del' ]] && del="$prev"
         prev="$n"
     done
 
@@ -124,11 +150,11 @@ __ps1_git () {
         [[ ! -z "$del" ]] && diff+="${colors[red]}-${del}${colors[reset]}"
     fi
 
-    output="${colors[dark_gray]}git:${colors[reset]}${color}${branch}${colors[reset]}${diff}"
+    output="${prefix}${color}${branch}${colors[reset]}${diff}"
 }
 
 __ps1_jobs () {
-    # $1: The result of 'jobs' command
+    # $1: The output of 'jobs' command
     # $2: (out) The function output
 
     local color
@@ -157,6 +183,8 @@ __ps1_timer () {
 __ps1_prompt () {
     # $1: The result of 'jobs' command
     # $2: The exit code of the last command ($?)
+
+    local git_output jobs_output timer_output
 
     # newline (does not appear after clear)
     echo
@@ -197,7 +225,7 @@ __ps1_prompt () {
     # print right-side, then return, then print left
     PS1=$(printf "%${pad}s%s\r%s" " " "$right" "$PS1")
 
-    unset PROMPT_TIMER git_output jobs_output timer_output
+    unset PROMPT_TIMER
 }
 
 __ps1_start_timer () {
