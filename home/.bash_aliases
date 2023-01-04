@@ -20,7 +20,7 @@ alias y='yarn'
 # -----------------------------------------------------------------------------
 #
 export COLUMNS  # Remember columns for subprocesses.
-ls () {
+__ls () {
     command ls \
         -Fhv \
         --color \
@@ -30,6 +30,7 @@ ls () {
     | less
 }
 
+alias ls='__ls'
 alias ll='ls -l'
 alias la='ll -A'
 
