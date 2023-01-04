@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 #  An elegant, convenient PS1 written ~almost~ entirely in Bash.
-#  Relies on the following commands: git, sed.
+#  Relies on the following commands: git, readlink, and timeout.
 #
 #  ----------------------------------------------------------------------------
 #  USAGE
@@ -17,7 +17,7 @@
 #  PS1_USER     Set to force username   (default:"\u")
 #  PS1_HOST     Set to force hostname   (default:"\h")
 #  PS1_SHELL    Set to force shell      (default:"\s")
-#  PS1_TERM     Set to force terminal   (default:"\l")
+#  PS1_TERM     Set to force term       (default:"\l")
 #  PS1_RIGHT    Enable right side       (default:"true")
 #  PS1_GIT      Enable git status       (default:"true")
 #  PS1_JOBS     Enable jobs summary     (default:"true")
@@ -57,6 +57,7 @@
 #  See: https://github.com/dylanaraps/pure-bash-bible
 #  See: https://github.com/dylanaraps/pure-sh-bible
 #  See: https://stackoverflow.com/a/3467959/17403258
+#  See: https://stackoverflow.com/a/41940626/17403258
 #
 #
 declare -A colors
@@ -131,7 +132,7 @@ __ps1_git () {
     # (on big projects, loading the Git index alone can take seconds!)
     local shortstat
     if ! shortstat=$(timeout 0.1 git diff --shortstat --no-color ); then
-        output="${prefix}${colors[blue]}${branch}${colors[reset]}${colors[dark_gray]}:${colors[red]}T/O${colors[reset]}"
+        output="${prefix}${colors[blue]}${branch}${colors[reset]}${colors[dark_gray]}:t/o${colors[reset]}"
         return 0
     fi
 
@@ -180,6 +181,15 @@ __ps1_timer () {
     output="${colors[dark_gray]}time:${color}${1:-0}s${colors[reset]}"
 }
 
+__remove_escape () {
+    # $1: The string to clean
+    # $2: (out) The function output
+
+    local -n output="$2"; output=""
+    local str="$1"
+    declare local max=100
+}
+
 __ps1_prompt () {
     # $1: The result of 'jobs' command
     # $2: The exit code of the last command ($?)
@@ -187,19 +197,32 @@ __ps1_prompt () {
     local git_output jobs_output timer_output
 
     # newline (does not appear after clear)
-    echo
+    echo >&2
 
-    # user@hostname
-    left="${colors[green]}${PS1_USER:-\u}${colors[dark_gray]}@${colors[green]}${PS1_HOST:-\h}${colors[reset]} "
+    # %user%@%hostname%
+    local left="${colors[green]}${PS1_USER:-\u}${colors[dark_gray]}@${colors[green]}${PS1_HOST:-\h}${colors[reset]} "
 
-    # time h:i:s
+    # %h:i:s%
     left+="${colors[yellow]}\\t${colors[reset]} "
 
-    # shell#term!cmd
-    left+="${colors[dark_gray]}#${colors[magenta]}${PS1_TERM:-\l}${colors[dark_gray]}!${colors[magenta]}\\!${colors[reset]} "
+    # #%tty%#%term%!%histnum%
+    if [[ "$PS1_TTY" == "auto" ]]; then
+        PS1_TTY="\\l"
+        PS1_TTY="${PS1_TTY@P}"
+        if [[ "${PS1_TTY:0:3}" != "tty" ]]; then
+            PS1_TTY=$(readlink /dev/fd/0)
+            PS1_TTY=${PS1_TTY#/dev/}
+        fi
+    fi
 
-    # pwd
-    left+="${colors[yellow]}\w${colors[reset]}"
+    left+="${colors[dark_gray]}#${colors[blue]}${PS1_TTY:-\\l}"
+    left+="${colors[dark_gray]}#${colors[blue]}${PS1_SHELL:-\\s}"
+    left+="${colors[dark_gray]}!${colors[magenta]}\\!${colors[reset]} "
+
+    # %pwd% or ../%dir%
+    local pwd="\w"
+    [[ "${#PWD}" > 40 ]] && pwd="../\\W"
+    left+="${colors[yellow]}${pwd}${colors[reset]}"
 
     # left-side built!
     PS1="$left\n${colors[dark_gray]}\\\$${colors[reset]} "
@@ -217,13 +240,18 @@ __ps1_prompt () {
     [[ ! -z "$git_output" ]] && right="$git_output $right"
 
     # remove all formatting from $right
-    local right_text=$(echo "$right" | sed -e 's/\\\[\\e\[[0-9;]*[mGKHF]\\\]//g')
+    shopt -s extglob
+    local right_text="${right//\\\[\\e\[*([^m])m\\\]/}"
+    local right_len=${#right_text}
 
     # determine the lenght of the horizontal padding
-    local pad=$(($COLUMNS - ${#right_text}))
+    local pad
+    for ((i=0; i<COLUMNS-right_len; i++)); do
+        pad+=" "
+    done
 
     # print right-side, then return, then print left
-    PS1=$(printf "%${pad}s%s\r%s" " " "$right" "$PS1")
+    PS1="${pad}${right}\r${PS1}"
 
     unset PROMPT_TIMER
 }
