@@ -31,3 +31,12 @@ autofight_stop = 75
 autoinscribe += of identify:@r1
 autoinscribe += of teleportation:@r2
 autoinscribe += of blinking:@r3
+
+# interface
+view_max_width = 81
+view_max_height = 71
+char_set = default
+allow_extended_colours = true
+background_colour = black
+foreground_colour = lightgrey
+
