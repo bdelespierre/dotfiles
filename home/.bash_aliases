@@ -197,13 +197,21 @@ disable-path-conversion () {
 # -----------------------------------------------------------------------------
 #
 default () {
-    local output=$(eval "$@" 2>&1)
+    local output=$("$@" 2>&1)
     echo -e "${output:-\e[90mNo output\e[0m}"
 }
 
 for-each-dir () {
     for dir in */; do
-        ( cd $dir && echo -e "\n\e[0;33m$PWD\e[0m" && eval "$@" )
+        (cd $dir && echo -e "\n\e[0;33m$PWD\e[0m" && eval "$@")
+    done
+}
+
+loop () {
+    while true; do
+        ($@)
+        read -n 1 -s -r -p $'\e[0;32mPress any key to continue\e[0m';
+        echo -e "\n\n\e[90m$ $@\e[0m"
     done
 }
 

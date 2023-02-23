@@ -1,6 +1,5 @@
 [core]
 	editor = vim
-	pager = delta
 
 [interactive]
 	diffFilter = delta --color-only --features=interactive
