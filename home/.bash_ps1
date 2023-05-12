@@ -1,7 +1,6 @@
 #!/bin/bash
 #
 #  An elegant, convenient PS1 written ~almost~ entirely in Bash.
-#  Relies on the following commands: git, readlink, and timeout.
 #
 #  ----------------------------------------------------------------------------
 #  USAGE
@@ -12,17 +11,12 @@
 #  ----------------------------------------------------------------------------
 #  CONFIGURATION VARIABLES
 #  ----------------------------------------------------------------------------
-#  PS1_USER        Set to force username                   (default:"\u")
-#  PS1_HOST        Set to force hostname                   (default:"\h")
-#  PS1_TTY         Set to force the TTY name               (default: "auto")
-#  PS1_SHELL       Set to force shell                      (default:"\s")
-#  PS1_SHOW_GIT    Show Git status                         (default: "true")
-#  PS1_SHOW_JOBS   Show current jobs                       (default: "true")
-#  PS1_SHOW_PWD    Show current directory                  (default: "true")
-#  PS1_SHOW_TIME   Show current time                       (default: "true")
-#  PS1_SHOW_TIMER  Show last command duration              (default: "true")
-#  PS1_SHOW_TTY    Show show current shell, term, and TTY  (default: "true")
-#  PS1_SHOW_USER   Show current user and hostname          (default: "true")
+#  PS1_USER   Set to force username      (default:"\u")
+#  PS1_HOST   Set to force hostname      (default:"\h")
+#  PS1_TTY    Set to force the TTY name  (default: "auto")
+#  PS1_SHELL  Set to force shell         (default:"\s")
+#  PS1_LEFT   Modules on the left side   (default:"user_host" "time" "tty_term_histnum" "pwd")
+#  PS1_RIGHT  Modules on the right side  (default:"jobs" "git" "timer")
 #
 
 #  ----------------------------------------------------------------------------
@@ -59,10 +53,13 @@
 #  See: https://stackoverflow.com/a/41940626/17403258
 #
 
-#  ----------------------------------------------------------------------------
-#  CONSTANTS
-#  ----------------------------------------------------------------------------
-#
+declare -A apparix
+while IFS= read -r -a line; do
+    parts=(${line//,/ })
+    apparix["${parts[2]}"]="${parts[1]}"
+    unset parts
+done < "$HOME/.apparixrc"
+
 declare -A colors
 colors=(
     ["reset"]='\[\e[0m\]'        ["red"]='\[\e[31m\]'         ["light_red"]='\[\e[91m\]'
@@ -74,31 +71,77 @@ colors=(
     ["black"]='\[\e[30m\]'       ["default"]='\[\e[39m\]'
 )
 
-declare -A apparix
-while IFS= read -r -a line; do
-    parts=(${line//,/ })
-    apparix["${parts[2]}"]="${parts[1]}"
-    unset parts
-done < "$HOME/.apparixrc"
+declare -A prefixes
+prefixes=(
+    ["time"]="${colors[dark_gray]}at${colors[reset]} "
+    ["git"]="${colors[dark_gray]}on${colors[reset]} "
+    ["timer"]="${colors[dark_gray]}took${colors[reset]} "
+    ["jobs"]="${colors[dark_gray]}jobs${colors[reset]} "
+    ["pwd"]="${colors[dark_gray]}in${colors[reset]} "
+)
 
-__ps1_start_timer () {
+__ps1_trap () {
     PROMPT_TIMER=${PROMPT_TIMER:-$SECONDS}
 }
 
-declare -A prefixes
-prefixes=(
-    ["git"]="${colors[dark_gray]}g:${colors[reset]}"
-    ["timer"]="${colors[dark_gray]}t:${colors[reset]}"
-)
+trap '__ps1_trap' DEBUG
+PROMPT_COMMAND='PS1_EXIT_CODE=$? __ps1_prompt'
+PS1_LEFT=("user_host" "time" "tty_term_histnum" "pwd")
+PS1_RIGHT=("jobs" "git" "timer")
 
-trap '__ps1_start_timer' DEBUG
-PROMPT_COMMAND='__ps1_prompt "$?" "$(jobs)"'
+__ps1_prompt () {
+    local left="" right=""
 
-#  ----------------------------------------------------------------------------
-#  FAST GIT BRANCH
-#  ----------------------------------------------------------------------------
-#  $1: (out) the function output
-#
+    # newline (does not appear after clear)
+    echo >&2
+
+    for fn in "${PS1_LEFT[@]}"; do
+        "__ps1_$fn" out
+        if [[ -n $out ]]; then
+            left+="$out "
+        fi
+        unset out
+    done
+
+    # print left side
+    PS1="$left\n${colors[dark_gray]}\\\$${colors[reset]} "
+
+    for fn in "${PS1_RIGHT[@]}"; do
+        "__ps1_$fn" out
+        if [[ -n $out ]]; then
+            right+="$out "
+        fi
+        unset out
+    done
+
+    if [[ ! -z "$right" ]]; then
+        __ps1_prompt_right "$right"
+    fi
+
+    unset PROMPT_TIMER
+}
+
+__ps1_prompt_right () {
+    local right="$1"
+
+    # trim trailing spaces
+    right="${right%" "}"
+
+    # remove all formatting from $right
+    shopt -s extglob
+    local right_text="${right//\\\[\\e\[*([^m])m\\\]/}"
+    local right_len=${#right_text}
+
+    # determine the lenght of the horizontal padding
+    local pad
+    for ((i=0; i<COLUMNS-right_len; i++)); do
+        pad+=" "
+    done
+
+    # print right-side, then return, then print left
+    PS1="${pad}${right}\r${PS1}"
+}
+
 __fast_git_branch () {
     local head_file head dir="$PWD"
     local -n output="$1"; output=""
@@ -106,7 +149,8 @@ __fast_git_branch () {
     while [[ -n "$dir" ]]; do
         head_file="$dir/.git/HEAD"
         if [[ -f "$dir/.git" ]]; then
-            read -r head_file < "$dir/.git" && head_file="$dir/${head_file#gitdir: }/HEAD"
+            read -r head_file < "$dir/.git" \
+            && head_file="$dir/${head_file#gitdir: }/HEAD"
         fi
         [[ -e "$head_file" ]] && break
         dir="${dir%/*}"
@@ -126,22 +170,8 @@ __fast_git_branch () {
     return 1
 }
 
-#  ----------------------------------------------------------------------------
-#  FORMAT GIT OUTPUT
-#  ----------------------------------------------------------------------------
-#  $1: (out) The function output
-#
 __ps1_git () {
     local -n output="$1"; output=""
-
-    # Git Bash on Windows has its own PS1 function
-    # (see /mingw64/share/git/completion/git-prompt.sh)
-    # if  [[ "$MSYSTEM" == "MSYS" || "$MSYSTEM" == "MINGW64" ]] && declare -F __git_ps1 &>/dev/null; then
-    #     git_ps1="$(__git_ps1)"
-    #     branch=${git_ps1#"${git_ps1%%[![:space:]]*}"}
-    #     [[ ! -z "${branch}" ]] && output="${prefixes["git"]}${colors[blue]}${branch}${colors[reset]}"
-    #     return 0
-    # fi
 
     __fast_git_branch branch
 
@@ -153,7 +183,10 @@ __ps1_git () {
     # (on big projects, loading the Git index alone can take seconds!)
     local shortstat
     if ! shortstat=$(timeout 0.1 git diff --shortstat --no-color); then
-        output="${prefixes["git"]}${colors[blue]}${branch}${colors[reset]}${colors[dark_gray]}:t/o${colors[reset]}"
+        output+="${prefixes[git]}"
+        output+="${colors[blue]}${branch}"
+        output+="${colors[dark_gray]}:t/o"
+        output+="${colors[reset]}"
         return 0
     fi
 
@@ -167,156 +200,149 @@ __ps1_git () {
     local color="${colors[green]}" diff=""
     if [[ ! -z "$ins" || ! -z "$del" ]]; then
         color="${colors[red]}"
-        [[ ! -z "$ins" ]] && diff="${colors[dark_gray]}/${colors[reset]}${colors[green]}+${ins}${colors[reset]}"
-        [[ ! -z "$ins" &&  ! -z "$del" ]] && diff+="${colors[dark_gray]}/${colors[reset]}"
-        [[ ! -z "$del" ]] && diff+="${colors[red]}-${del}${colors[reset]}"
+
+        if [[ ! -z "$ins" ]]; then
+            diff+="${colors[dark_gray]}/"
+            diff+="${colors[green]}+${ins}"
+            diff+="${colors[reset]}"
+        fi
+
+        if [[ ! -z "$ins" &&  ! -z "$del" ]]; then
+            diff+="${colors[dark_gray]}/"
+            diff+="${colors[reset]}"
+        fi
+
+        if [[ ! -z "$del" ]]; then
+            diff+="${colors[red]}-${del}"
+            diff+="${colors[reset]}"
+        fi
     fi
 
-    output="${prefixes["git"]}${color}${branch}${colors[reset]}${diff}"
+    output+="${prefixes[git]}"
+    output+="${color}${branch}"
+    output+="${colors[reset]}"
+    output+="${diff}"
 }
 
-#  ----------------------------------------------------------------------------
-#  FORMAT JOBS OUTPUT
-#  ----------------------------------------------------------------------------
-#  $1: The output of 'jobs' command
-#  $2: (out) The function output
-#
 __ps1_jobs () {
-    local color
-    local -n output="$2"; output=""
+    local -n output="$1"; output=""
+    local color jobs=()
 
-    while IFS="\n" read -r -a job; do
-        IFS=" " set -- $job
-        [[ -z $3 ]] && continue
-        [[ "$2" == "Running" ]] && color="${colors[green]}" || color="${colors[yellow]}"
-        [[ ! -z "$output" ]] && output+=" "
-        output+="${colors[dark_gray]}$1${color}$3${colors[reset]}"
-    done <<< "$1"
+    while read -r line; do
+        IFS=" " set -- $line
+
+        if [[ -z $3 ]]; then
+            continue
+        fi
+
+        if [[ "$2" == "Running" ]]
+            then color="${colors[green]}"
+            else color="${colors[yellow]}"
+        fi
+
+        jobs+=( "${colors[dark_gray]}$1${color}$3${colors[reset]}" )
+    done < <(jobs)
+
+    if [[ -n "$jobs" ]]; then
+        output="${prefixes[jobs]}${jobs[@]}${colors[reset]}"
+    fi
 }
 
-#  ----------------------------------------------------------------------------
-#  FORMAT TIMER OUTPUT
-#  ----------------------------------------------------------------------------
-#  $1: The elapsed time since the last command (see __ps1_start_timer)
-#  $2: The exit code of the last command ($?)
-#  $3: (out) The function output
-#
 __ps1_timer () {
+    local -n output="$1"; output=""
+    local time=$(($SECONDS - ${PROMPT_TIMER:-$SECONDS}))
+    local code=${PS1_EXIT_CODE:-0}
     local color
-    local -n output="$3"; output=""
-    [[ 0 == "$2" || 130 == "$2" ]] && color="${colors[green]}" || color="${colors[red]}"
-    output="${prefixes["timer"]}${color}${1:-0}s${colors[reset]}"
+
+    if [[ "$code" == 0 || "$code" == 130 ]]
+        then color="${colors[green]}"
+        else color="${colors[red]}"
+    fi
+
+    output="${prefixes[timer]}${color}${time:-0}s${colors[reset]}"
 }
 
-#  ----------------------------------------------------------------------------
-#  FORMAT PWD OUTPUT
-#  ----------------------------------------------------------------------------
-#  $1: (out) The function output
-#
 __ps1_pwd () {
     local -n output="$1"; output=""
+    local max="0" short relative len
 
+    # look for an apparix alias matching current directory
     for key in "${!apparix[@]}"; do
         if [[ "$PWD/" = "$key/"* ]]; then
-            relative="${PWD#"$key"}"
-            output="${colors[dark_gray]}${apparix[$key]}:${colors[yellow]}${relative:-"/"}${colors[reset]}"
-            return
+            len="${#key}"
+            if [ "$len" -gt "$max" ]; then
+                short="${apparix["$key"]}"
+                relative="${PWD#"$key"}"
+                max="$len"
+            fi
         fi
     done
 
-    local pwd="\w"
-    [[ "${#PWD}" > 40 ]] && pwd="../\\W"
-    output="${colors[yellow]}${pwd}${colors[reset]}"
-}
-
-#  ----------------------------------------------------------------------------
-#  PROMPT
-#  ----------------------------------------------------------------------------
-#  $1: The result of 'jobs' command
-#  $2: The exit code of the last command ($?)
-#
-__ps1_prompt () {
-    local git_output jobs_output timer_output left=""
-
-    # newline (does not appear after clear)
-    echo >&2
-
-    # %user%@%hostname%
-    if [[ "${PS1_SHOW_USER:-true}" == "true" ]]; then
-        left+="${colors[green]}${PS1_USER:-\u}${colors[dark_gray]}@${colors[green]}${PS1_HOST:-\h}${colors[reset]} "
+    # if an alias is found, print the relative path
+    if [ "$max" -gt "0" ]; then
+        output+="${prefixes[pwd]}${colors[dark_gray]}${short}:"
+        output+="${colors[yellow]}${relative:-"/"}"
+        output+="${colors[reset]}"
+        return
     fi
 
-    # %h:i:s%
-    if [[ "${PS1_SHOW_TIME:-true}" == "true" ]]; then
-        time="\\@"
-        time="${time@P}"
-        time="${time%" PM"}"
-        time="${time%" AM"}"
-        left+="${colors[yellow]}${time}${colors[reset]} "
+    # default behavior, just print the current working directory
+    local pwd="\w"
+    [[ "${#PWD}" -gt 40 ]] && pwd="../\\W"
+    output+="${prefixes[pwd]}${colors[yellow]}${pwd}"
+    output+="${colors[reset]}"
+}
+
+__ps1_time () {
+    local -n output="$1"; output=""
+    local time="\\@"
+
+    time="${time@P}"
+    time="${time%" PM"}"
+    time="${time%" AM"}"
+    time=(${time//:/ })
+
+    # %h:i%
+    output+="${prefixes[time]}"
+    output+="${colors[yellow]}${time[0]}"
+    output+="${colors[dark_gray]}:"
+    output+="${colors[yellow]}${time[1]}"
+    output+="${colors[reset]}"
+}
+
+__ps1_user_host () {
+    local -n output="$1"; output=""
+    local user="${PS1_USER:-\\u}"
+    local host="${PS1_HOST:-\\h}"
+
+    # %user%@%hostname%
+    output+="${prefixes[user_host]}"
+    output+="${colors[green]}${user@P}"
+    output+="${colors[dark_gray]}@"
+    output+="${colors[green]}${host@P}"
+    output+="${colors[reset]}"
+}
+
+__ps1_tty_term_histnum () {
+    local -n output="$1"; output=""
+    local tty="${PS1_TTY:-\\l}"
+    local shell="${PS1_SHELL:-\\s}"
+    local histnum="\\!"
+
+    if [[ "$tty" == "auto" ]]; then
+        tty="\\l"
+        tty="${tty@P}"
+
+        if [[ "${tty:0:3}" != "tty" ]]; then
+            tty=$(readlink /dev/fd/0)
+            tty=${tty#/dev/}
+        fi
     fi
 
     # #%tty%#%term%!%histnum%
-    if [[ "$PS1_TTY" == "auto" ]]; then
-        PS1_TTY="\\l"
-        PS1_TTY="${PS1_TTY@P}"
-        if [[ "${PS1_TTY:0:3}" != "tty" ]]; then
-            PS1_TTY=$(readlink /dev/fd/0)
-            PS1_TTY=${PS1_TTY#/dev/}
-        fi
-    fi
-
-    if [[ "${PS1_SHOW_TTY:-true}" == "true" ]]; then
-        left+="${colors[dark_gray]}#${colors[blue]}${PS1_TTY:-\\l}"
-        left+="${colors[dark_gray]}#${colors[blue]}${PS1_SHELL:-\\s}"
-        left+="${colors[dark_gray]}!${colors[magenta]}\\!${colors[reset]} "
-    fi
-
-    # %apparix%:%relative% or %pwd% or ../%dir%
-    if [[ "${PS1_SHOW_PWD:-true}" == "true" ]]; then
-        __ps1_pwd pwd_output
-        left+="$pwd_output"
-    fi
-
-    # left-side built!
-    PS1="$left\n${colors[dark_gray]}\\\$${colors[reset]} "
-
-    right=""
-
-    if [[ "${PS1_SHOW_TIMER:-true}" == "true" ]]; then
-        __ps1_timer $(($SECONDS - ${PROMPT_TIMER:-$SECONDS})) "$1" timer_output
-        right="$timer_output $right"
-    fi
-
-    if [[ "${PS1_SHOW_GIT:-true}" == "true" ]]; then
-        __ps1_git git_output
-        right="$git_output $right"
-    fi
-
-    if [[ "${PS1_SHOW_JOBS:-true}" == "true" ]]; then
-        __ps1_jobs "$2" jobs_output
-        right="$jobs_output $right"
-    fi
-
-    # left-side built!
-    right="${right%" "}"
-
-    if [[ -z "$right" ]]; then
-        return 0
-    fi
-
-    # remove all formatting from $right
-    shopt -s extglob
-    local right_text="${right//\\\[\\e\[*([^m])m\\\]/}"
-    local right_len=${#right_text}
-
-    # determine the lenght of the horizontal padding
-    local pad
-    for ((i=0; i<COLUMNS-right_len; i++)); do
-        pad+=" "
-    done
-
-    # print right-side, then return, then print left
-    PS1="${pad}${right}\r${PS1}"
-
-    unset PROMPT_TIMER
+    output+="${prefixes[tty_term_histnum]}"
+    output+="${colors[dark_gray]}#${colors[blue]}${tty}"
+    output+="${colors[dark_gray]}#${colors[blue]}${shell}"
+    output+="${colors[dark_gray]}!${colors[magenta]}${histnum}"
+    output+="${colors[reset]}"
 }

@@ -203,15 +203,46 @@ default () {
 
 for-each-dir () {
     for dir in */; do
-        (cd $dir && echo -e "\n\e[0;33m$PWD\e[0m" && eval "$@")
+        (cd $dir && echo -e "\n\e[33m$PWD\e[0m" && $@)
     done
 }
 
 loop () {
     while true; do
         ($@)
-        read -n 1 -s -r -p $'\e[0;32mPress any key to continue\e[0m';
+        read -n 1 -s -r -p $'\e[0;32mPress any key to continue\e[0m'
         echo -e "\n\n\e[90m$ $@\e[0m"
+    done
+}
+
+# usage:
+#   $ when [find args] changes [command]
+#
+# e.g.
+#   $ when ./app -name *.ts changes echo "changed!"
+when () {
+    local find="" command="" mode="find"
+    for arg in "$@"; do
+        if [[ "$arg" == "changes" ]]; then
+            mode="command"
+        elif [[ "$mode" == "find" ]]; then
+            find+="$arg "
+        elif [[ "$mode" == "command" ]]; then
+            command+="$arg "
+        fi
+    done
+
+    local prev="" checksum=""
+    while true; do
+        checksum=$(echo "$find" | xargs find | xargs cat | md5sum)
+        if [[ "$checksum" != "$prev" ]]; then
+            echo -e "\e[2m$(date)\e[22m \e[33mChange detected!\e[0m" >&2
+            prev="$checksum"
+            ($command)
+            echo >&2 # newline
+        else
+            sleep 1
+        fi
     done
 }
 
