@@ -6,6 +6,9 @@
 #  USAGE
 #  ----------------------------------------------------------------------------
 #  $ source .bash_ps1
+#  $ ps1 set [var] [value]
+#  $ ps1 toggle [function]
+#  $ ps1 layout [name]
 #
 
 #  ----------------------------------------------------------------------------
@@ -80,14 +83,131 @@ prefixes=(
     ["pwd"]="${colors[dark_gray]}in${colors[reset]} "
 )
 
+declare -A layouts__left
+declare -A layouts__right
+layouts__left=(
+    ["default"]="user_host time tty_term_histnum pwd"
+    ["simple"]="git pwd jobs"
+    ["minimal"]=""
+    ["vscode"]="git pwd"
+)
+layouts__right=(
+    ["default"]="jobs git timer"
+)
+
 __ps1_trap () {
     PROMPT_TIMER=${PROMPT_TIMER:-$SECONDS}
 }
 
 trap '__ps1_trap' DEBUG
+complete -F __ps1_completions ps1
+
 PROMPT_COMMAND='PS1_EXIT_CODE=$? __ps1_prompt'
+PS1_FUNCTIONS=("user_host" "time" "tty_term_histnum" "pwd" "jobs" "git" "timer")
 PS1_LEFT=("user_host" "time" "tty_term_histnum" "pwd")
 PS1_RIGHT=("jobs" "git" "timer")
+PS1_DISABLED=()
+
+ps1 () {
+    local command="$1"
+    case "$command" in
+        "set")
+            local var="$2"
+            local val="$3"
+            local accepted=("user" "host" "tty" "shell")
+
+            if [[ -z "$var" ]]; then
+                echo "Missing argument: variable" >&2
+                return
+            fi
+
+            if [[ ! "${accepted[@]}" =~ "${var}" ]]; then
+                echo "Invalid variable name: $var" >&2
+                echo "Accepted variable names are: ${accepted[@]}" >&2
+                return
+            fi
+
+            if [[ -z "$val" ]]; then
+                read -p "${var^^}: " val
+            fi
+
+            declare -g "PS1_${var^^}"="$val"
+            ;;
+
+        "toggle")
+            local fun="$2"
+            local accepted=("${PS1_FUNCTIONS[@]}")
+
+            if [[ -z "$fun" ]]; then
+                echo "Missing argument: function" >&2
+                return
+            fi
+
+            if [[ ! "${accepted[@]}" =~ "$fun" ]]; then
+                echo "Invalid function name: $fun" >&2
+                echo "Accepted function names are: ${accepted[@]}" >&2
+                return
+            fi
+
+            if [[ ! "${PS1_DISABLED[@]}" =~ "$fun" ]]; then
+                echo "Disabling $fun" >&2
+                PS1_DISABLED+=("$fun")
+            else
+                echo "Enabling $fun" >&2
+                PS1_DISABLED=("${PS1_DISABLED[@]/$fun}")
+            fi
+            ;;
+
+        "layout")
+            local layout="$2"
+            local accepted=("${!layouts__left[@]}")
+
+            if [[ -z "$layout" ]]; then
+                echo "Missing argument: layout" &>2
+                return
+            fi
+
+            if [[ ! "${accepted[@]}" =~ "$layout" ]]; then
+                echo "Invalid layout name: $layout" >&2
+                echo "Accepted layout names are: ${accepted[@]}" >&2
+                return
+            fi
+
+            read -r -a PS1_LEFT  <<< "${layouts__left[$layout]}"
+            read -r -a PS1_RIGHT <<< "${layouts__right[$layout]}"
+            ;;
+
+        *)
+            echo "Invalid command: $command"
+            return
+            ;;
+    esac
+}
+
+__ps1_completions () {
+    if [[ "${#COMP_WORDS[@]}" == 2 ]]; then
+        COMPREPLY=($(compgen -W "set toggle layout" -- "${COMP_WORDS[1]}"))
+        return
+    fi
+
+    if [[ "${#COMP_WORDS[@]}" == 3 ]] && [[ "${COMP_WORDS[1]}" == "set" ]]; then
+        local variables="user host tty shell"
+        COMPREPLY=($(compgen -W "$variables" -- "${COMP_WORDS[2]}"))
+        return
+    fi
+
+    if [[ "${#COMP_WORDS[@]}" == 3 ]] && [[ "${COMP_WORDS[1]}" == "toggle" ]]; then
+        local functions="${PS1_FUNCTIONS[@]}"
+        COMPREPLY=($(compgen -W "$functions" -- "${COMP_WORDS[2]}"))
+        return
+    fi
+
+    if [[ "${#COMP_WORDS[@]}" == 3 ]] && [[ "${COMP_WORDS[1]}" == "layout" ]]; then
+        local layouts="${!layouts__left[@]}"
+        COMPREPLY=($(compgen -W "$layouts" -- "${COMP_WORDS[2]}"))
+        return
+    fi
+}
 
 __ps1_prompt () {
     local left="" right=""
@@ -96,6 +216,9 @@ __ps1_prompt () {
     echo >&2
 
     for fn in "${PS1_LEFT[@]}"; do
+        if [[ "${PS1_DISABLED[@]}" =~ "$fn" ]]; then
+            continue
+        fi
         "__ps1_$fn" out
         if [[ -n $out ]]; then
             left+="$out "
@@ -103,10 +226,17 @@ __ps1_prompt () {
         unset out
     done
 
+    if [[ -n "$left" ]]; then
+        left="$left\n"
+    fi
+
     # print left side
-    PS1="$left\n${colors[dark_gray]}\\\$${colors[reset]} "
+    PS1="$left${colors[dark_gray]}\\\$${colors[reset]} "
 
     for fn in "${PS1_RIGHT[@]}"; do
+        if [[ "${PS1_DISABLED[@]}" =~ "$fn" ]]; then
+            continue
+        fi
         "__ps1_$fn" out
         if [[ -n $out ]]; then
             right+="$out "

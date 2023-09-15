@@ -123,39 +123,54 @@ if [ -s /usr/share/bash-completion/completions/docker ]; then
     complete -o default -o nospace -F _docker d
 fi
 
+# This is only useful on Windows environments
+if test ~/.usr/share/bash-completion/completions/ssh; then
+    . ~/.usr/share/bash-completion/completions/ssh
+fi
+
 # -----------------------------------------------------------------------------
 # ENVIRONMENT VARIABLES
 # -----------------------------------------------------------------------------
 #
-if [ -f $HOME/.env ]; then
-    . $HOME/.env
-elif [ -f $HOME/.env.dist ]; then
-    . $HOME/.env.dist
+if [ -f "$HOME/.env" ]; then
+    . "$HOME/.env"
+elif [ -f "$HOME/.env.dist" ]; then
+    . "$HOME/.env.dist"
 fi
 
 # -----------------------------------------------------------------------------
 # PS1
 # -----------------------------------------------------------------------------
 #
-if [ -f $HOME/.bash_ps1 ]; then
-    . $HOME/.bash_ps1
-    export PS1_LEFT=(time pwd)
+if [ -f "$HOME/.bash_ps1" ]; then
+    . "$HOME/.bash_ps1"
+
+    # auto-switch layout for VSCode console
+    if [[ "$TERM_PROGRAM" == "vscode" ]]
+        then ps1 layout vscode
+        else ps1 layout default
+    fi
+
+    # change hostname on my Klee machine
+    if [[ "$HOSTNAME" = KCI-* ]]
+        then ps1 set host "klee"
+    fi
 fi
 
 # -----------------------------------------------------------------------------
 # APPARIX
 # -----------------------------------------------------------------------------
 #
-if [ -f $HOME/.bourne_apparix ]; then
-    . $HOME/.bourne_apparix &> /dev/null
+if [ -f "$HOME/.bourne_apparix" ]; then
+    . "$HOME/.bourne_apparix" &> /dev/null
 fi
 
 # -----------------------------------------------------------------------------
 # ALIASES
 # -----------------------------------------------------------------------------
 #
-if [ -f $HOME/.bash_aliases ]; then
-    . $HOME/.bash_aliases
+if [ -f "$HOME/.bash_aliases" ]; then
+    . "$HOME/.bash_aliases"
 fi
 
 # -----------------------------------------------------------------------------

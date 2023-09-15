@@ -2,7 +2,6 @@ Bash
 ----
 
 [ctrl+k]:Cut to the end of line (kill)
-[ctrl+u]:Cut to the begining of line
 [ctrl+y]:Yank (paste)
 [ctrl+c]:Kill process (cancel)
 [ctrl+z]:Pause process

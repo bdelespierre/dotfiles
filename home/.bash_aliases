@@ -57,10 +57,9 @@ rm () {
 notify () {
     $@
 
-    if [[ $? == 0 ]]; then
-        local icon="terminal"
-    else
-        local icon="error"
+    if [[ $? == 0 ]];
+        then local icon="terminal"
+        else local icon="error"
     fi
 
     notify-send -i $icon "$1" "${2:-No message}"
@@ -115,6 +114,7 @@ php-find-usage () {
 
 phpunit () {
     (
+        ORIG_PWD=$PWD
         while [[ "$PWD" != "/" ]]; do
             if [[ -x "$PWD/tools/phpunit" ]]; then
                 CMD="$PWD/tools/phpunit"
@@ -135,7 +135,8 @@ phpunit () {
         fi
 
         >&2 echo "Using $CMD"
-        eval "$CMD $@"
+        cd $ORIG_PWD
+        $CMD $@
     )
 }
 
@@ -155,7 +156,33 @@ alias tinker='pa tinker --ansi'
 # PYTHON
 # -----------------------------------------------------------------------------
 #
-alias py='python3'
+py () {
+    (
+        ORIG_PWD=$PWD
+        VENV=".venv/Scripts/python.exe"
+
+        while [[ "$PWD" != "/" ]]; do
+            if [[ -x "$PWD/$VENV" ]]; then
+                CMD="$PWD/$VENV"
+                break
+            fi
+            cd ..
+        done
+
+        # we're probably not inside a Python virtual environment...
+        # look for python or python3 executable in $PATH
+        if [[ -z "$CMD" ]]; then
+            if   type python  &>/dev/null; then CMD="python"
+            elif type python3 &>/dev/null; then CMD="python3"
+            else echo "Python executable not found"; return 1
+            fi
+        fi
+
+        >&2 echo "Using $CMD"
+        cd $ORIG_PWD
+        $CMD $@
+    )
+}
 
 # -----------------------------------------------------------------------------
 # DOCKER
@@ -175,14 +202,18 @@ alias hrun='heroku run'
 alias hbuild='heroky buildpacks'
 
 # -----------------------------------------------------------------------------
-# AWK
+# COL+ROW
 # -----------------------------------------------------------------------------
 #
-alias col1="awk '{print \$1}'"
-alias col2="awk '{print \$2}'"
-alias col3="awk '{print \$3}'"
-alias col4="awk '{print \$4}'"
-alias col5="awk '{print \$5}'"
+col () {
+    local num="$1"
+    awk "{print \$$num}"
+}
+
+row () {
+    local num="$1"
+    sed "${num}q;d"
+}
 
 # -----------------------------------------------------------------------------
 # MSYS
@@ -223,12 +254,9 @@ loop () {
 when () {
     local find="" command="" mode="find"
     for arg in "$@"; do
-        if [[ "$arg" == "changes" ]]; then
-            mode="command"
-        elif [[ "$mode" == "find" ]]; then
-            find+="$arg "
-        elif [[ "$mode" == "command" ]]; then
-            command+="$arg "
+        if   [[ "$arg"  == "changes" ]]; then mode="command"
+        elif [[ "$mode" == "find"    ]]; then find+="$arg "
+        elif [[ "$mode" == "command" ]]; then command+="$arg "
         fi
     done
 
@@ -252,5 +280,5 @@ alias favs='history | awk '\''{a[$2]++}END{for(i in a){print a[i] " " i}}'\'' | 
 alias fed='for-each-dir'
 alias lurk-more='history -c && clear && printf "\e[3J"'
 alias path='echo $PATH | sed -e "s/:/\n/g" -e "s|${HOME}|~|g"'
-alias py-serve='python3 -m http.server 8080'
+alias py-serve='python -m http.server 8080'
 alias more='less' # less is more
