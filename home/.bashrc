@@ -128,6 +128,17 @@ if test ~/.usr/share/bash-completion/completions/ssh; then
     . ~/.usr/share/bash-completion/completions/ssh
 fi
 
+# Load "home-made" bash-completion scripts
+if [ -d "$HOME/.local/share/bash-completion" ]; then
+    for COMPFILE in "$HOME/.local/share/bash-completion"/*; do
+        . "$COMPFILE"
+    done
+fi
+
+if type _ps1 &>/dev/null; then
+    complete -o default -o nospace -F _ps1 ps1
+fi
+
 # -----------------------------------------------------------------------------
 # ENVIRONMENT VARIABLES
 # -----------------------------------------------------------------------------
@@ -142,18 +153,18 @@ fi
 # PS1
 # -----------------------------------------------------------------------------
 #
-if [ -f "$HOME/.bash_ps1" ]; then
-    . "$HOME/.bash_ps1"
+if [ -f "$HOME/.local/bin/ps1.sh" ]; then
+    . "$HOME/.local/bin/ps1.sh"
 
     # auto-switch layout for VSCode console
-    if [[ "$TERM_PROGRAM" == "vscode" ]]
-        then ps1 layout vscode
-        else ps1 layout default
+    if [[ "${TERM_PROGRAM:-}" == "vscode" ]]
+        then ps1 set-theme vscode
+        else ps1 set-theme default
     fi
 
     # change hostname on my Klee machine
     if [[ "$HOSTNAME" = KCI-* ]]
-        then ps1 set host "klee"
+        then ps1 set-var host "klee"
     fi
 fi
 

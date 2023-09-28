@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+
+IFS=':' read -ra dirs <<< "$PS1_PATH"
+PS1_AVAILABLE_THEMES=()
+for dir in "${dirs[@]}"; do
+    if [[ -z "$dir" ]] || [[ ! -d "$dir/theme.d" ]]; then
+        continue
+    fi
+
+    for FILE in "$dir"/theme.d/*.sh; do
+        FILENAME=$(basename -- "$FILE")
+        PS1_AVAILABLE_THEMES+=("${FILENAME%.*}")
+    done
+done
+
+_ps1 () {
+    if [[ "${#COMP_WORDS[@]}" == 2 ]]; then
+        COMPREPLY=($(compgen -W "set-var set-theme" -- "${COMP_WORDS[1]}"))
+        return
+    fi
+
+    if [[ "${#COMP_WORDS[@]}" == 3 ]] && [[ "${COMP_WORDS[1]}" == "set-var" ]]; then
+        COMPREPLY=($(compgen -W "user host tty shell" -- "${COMP_WORDS[2]}"))
+        return
+    fi
+
+    if [[ "${#COMP_WORDS[@]}" == 3 ]] && [[ "${COMP_WORDS[1]}" == "set-theme" ]]; then
+        local options="${PS1_AVAILABLE_THEMES[@]}"
+        COMPREPLY=($(compgen -W "$options" -- "${COMP_WORDS[2]}"))
+        return
+    fi
+}
