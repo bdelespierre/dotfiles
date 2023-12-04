@@ -124,11 +124,11 @@ if [ -s /usr/share/bash-completion/completions/docker ]; then
 fi
 
 # This is only useful on Windows environments
-if test ~/.usr/share/bash-completion/completions/ssh; then
+if [ -f ~/.usr/share/bash-completion/completions/ssh ] && test ~/.usr/share/bash-completion/completions/ssh; then
     . ~/.usr/share/bash-completion/completions/ssh
 fi
 
-# Load "home-made" bash-completion scripts
+# Load bash-completion scripts
 if [ -d "$HOME/.local/share/bash-completion" ]; then
     for COMPFILE in "$HOME/.local/share/bash-completion"/*; do
         . "$COMPFILE"
@@ -157,7 +157,7 @@ if [ -f "$HOME/.local/bin/ps1.sh" ]; then
     . "$HOME/.local/bin/ps1.sh"
 
     # auto-switch layout for VSCode console
-    if [[ "${TERM_PROGRAM:-}" == "vscode" ]]
+    if [[ "$TERM_PROGRAM" = "vscode" ]]
         then ps1 set-theme vscode
         else ps1 set-theme default
     fi

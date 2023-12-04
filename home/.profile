@@ -27,7 +27,7 @@ export BASH_COLORS
 # -----------------------------------------------------------------------------
 # PS1
 
-PS1_PATH="$PS1_PATH:${XDG_DATA_HOME:-$HOME/.local/share}/bash-ps1"
+PS1_PATH="${XDG_DATA_HOME:-$HOME/.local/share}/bash-ps1"
 
 # Windows equivalent of $HOME/.local/share
 # is %LOCALAPPDATA% (e.g. C:\Users\Someone\Appdata\Local)
