@@ -5,11 +5,8 @@
 # -----------------------------------------------------------------------------
 # load modules
 
-declare -A PS1_PREFIXES PS1_SUFFIXES
-export PS1_PREFIXES PS1_SUFFIXES
-
-declare -A PS1_MODULES
-export PS1_MODULES
+declare -A PS1_PREFIXES PS1_SUFFIXES PS1_MODULES
+export     PS1_PREFIXES PS1_SUFFIXES PS1_MODULES
 
 IFS=':' read -ra dirs <<< "$PS1_PATH"
 for dir in "${dirs[@]}"; do

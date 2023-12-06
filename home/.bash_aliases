@@ -169,9 +169,9 @@ py () {
             cd ..
         done
 
-        # we're probably not inside a Python virtual environment...
-        # look for python or python3 executable in $PATH
         if [[ -z "$CMD" ]]; then
+            # we're probably not inside a Python virtual environment
+            # look for python or python3 executable in $PATH
             if   type python  &>/dev/null; then CMD="python"
             elif type python3 &>/dev/null; then CMD="python3"
             else echo "Python executable not found"; return 1
