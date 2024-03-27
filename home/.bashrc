@@ -293,6 +293,3 @@ bind -x '"\eg": default git -c color.status=always status --short'
 bind -x '"\eh": (default history | tail -n 10)'
 bind -x '"\ej": default jobs'
 bind -x '"\el": default ls'
-
-# installed by dev-env.sh
-[ -f "/home/mention/Workspace/mention/mention/dev-env/config/rc_files/bashrc" ] && { source "/home/mention/Workspace/mention/mention/dev-env/config/rc_files/bashrc"; }
