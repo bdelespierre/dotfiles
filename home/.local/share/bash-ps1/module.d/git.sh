@@ -40,9 +40,9 @@ __ps1_git () {
     # (on big projects, loading the Git index alone can take seconds!)
     local shortstat
     if ! shortstat=$(timeout 0.1 git diff --shortstat --no-color); then
-        output+="${BASH_COLORS[blue]}${branch}"
-        output+="${BASH_COLORS[dark_gray]}:t/o"
-        output+="${BASH_COLORS[reset]}"
+        output+="${PS1_COLORS[blue]}${branch}"
+        output+="${PS1_COLORS[dark_gray]}:t/o"
+        output+="${PS1_COLORS[default]}"
         return 0
     fi
 
@@ -53,24 +53,24 @@ __ps1_git () {
         prev="$n"
     done
 
-    local color="${BASH_COLORS[green]}" diff=""
+    local color="${PS1_COLORS[green]}" diff=""
     if [[ ! -z "$ins" || ! -z "$del" ]]; then
-        color="${BASH_COLORS[red]}"
+        color="${PS1_COLORS[red]}"
 
         if [[ ! -z "$ins" ]]; then
-            diff+="${BASH_COLORS[dark_gray]}/"
-            diff+="${BASH_COLORS[green]}+${ins}"
-            diff+="${BASH_COLORS[reset]}"
+            diff+="${PS1_COLORS[dark_gray]}/"
+            diff+="${PS1_COLORS[green]}+${ins}"
+            diff+="${PS1_COLORS[default]}"
         fi
 
         if [[ ! -z "$del" ]]; then
-            diff+="${BASH_COLORS[dark_gray]}/"
-            diff+="${BASH_COLORS[red]}-${del}"
-            diff+="${BASH_COLORS[reset]}"
+            diff+="${PS1_COLORS[dark_gray]}/"
+            diff+="${PS1_COLORS[red]}-${del}"
+            diff+="${PS1_COLORS[default]}"
         fi
     fi
 
     output+="${color}${branch}"
-    output+="${BASH_COLORS[reset]}"
+    output+="${PS1_COLORS[default]}"
     output+="${diff}"
 }

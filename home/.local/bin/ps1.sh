@@ -42,7 +42,7 @@ __ps1_prompt () {
     fi
 
     # print left side
-    PS1="$left${BASH_COLORS[dark_gray]}\\\$${BASH_COLORS[reset]} "
+    PS1="$left${PS1_COLORS[dark_gray]}\\\$${PS1_COLORS[default]} "
 
     __ps1_expand_modules right "${PS1_RIGHT[@]}"
 

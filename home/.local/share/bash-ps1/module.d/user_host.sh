@@ -8,8 +8,8 @@ __ps1_user_host () {
     local host="${PS1_HOST:-\\h}"
 
     # %user%@%hostname%
-    output+="${BASH_COLORS[green]}${user@P}"
-    output+="${BASH_COLORS[dark_gray]}@"
-    output+="${BASH_COLORS[green]}${host@P}"
-    output+="${BASH_COLORS[reset]}"
+    output+="${PS1_COLORS[green]}${user@P}"
+    output+="${PS1_COLORS[dark_gray]}@"
+    output+="${PS1_COLORS[green]}${host@P}"
+    output+="${PS1_COLORS[default]}"
 }

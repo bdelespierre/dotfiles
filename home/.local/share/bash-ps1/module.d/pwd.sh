@@ -27,15 +27,15 @@ __ps1_pwd () {
 
     # if an alias is found, print the relative path
     if [ "$max" -gt "0" ]; then
-        output+="${BASH_COLORS[dark_gray]}${short}:"
-        output+="${BASH_COLORS[yellow]}${relative:-"/"}"
-        output+="${BASH_COLORS[reset]}"
+        output+="${PS1_COLORS[dark_gray]}${short}:"
+        output+="${PS1_COLORS[yellow]}${relative:-"/"}"
+        output+="${PS1_COLORS[default]}"
         return
     fi
 
     # default behavior, just print the current working directory
     local pwd="\w"
     [[ "${#PWD}" -gt 40 ]] && pwd="../\\W"
-    output+="${BASH_COLORS[yellow]}${pwd}"
-    output+="${BASH_COLORS[reset]}"
+    output+="${PS1_COLORS[yellow]}${pwd}"
+    output+="${PS1_COLORS[default]}"
 }

@@ -19,8 +19,8 @@ __ps1_tty_term_histnum () {
     fi
 
     # #%tty%#%term%!%histnum%
-    output+="${BASH_COLORS[dark_gray]}#${BASH_COLORS[blue]}${tty}"
-    output+="${BASH_COLORS[dark_gray]}#${BASH_COLORS[blue]}${shell}"
-    output+="${BASH_COLORS[dark_gray]}!${BASH_COLORS[magenta]}${histnum}"
-    output+="${BASH_COLORS[reset]}"
+    output+="${PS1_COLORS[dark_gray]}#${PS1_COLORS[blue]}${tty}"
+    output+="${PS1_COLORS[dark_gray]}#${PS1_COLORS[blue]}${shell}"
+    output+="${PS1_COLORS[dark_gray]}!${PS1_COLORS[magenta]}${histnum}"
+    output+="${PS1_COLORS[default]}"
 }

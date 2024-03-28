@@ -12,8 +12,8 @@ __ps1_time () {
     time=(${time//:/ })
 
     # %h:i%
-    output+="${BASH_COLORS[yellow]}${time[0]}"
-    output+="${BASH_COLORS[dark_gray]}:"
-    output+="${BASH_COLORS[yellow]}${time[1]}"
-    output+="${BASH_COLORS[reset]}"
+    output+="${PS1_COLORS[yellow]}${time[0]}"
+    output+="${PS1_COLORS[dark_gray]}:"
+    output+="${PS1_COLORS[yellow]}${time[1]}"
+    output+="${PS1_COLORS[default]}"
 }

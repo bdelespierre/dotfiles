@@ -9,11 +9,11 @@ __ps1_timer () {
     local color
 
     if [[ "$code" == 0 || "$code" == 130 ]]
-        then color="${BASH_COLORS[green]}"
-        else color="${BASH_COLORS[red]}"
+        then color="${PS1_COLORS[green]}"
+        else color="${PS1_COLORS[red]}"
     fi
 
-    output="${color}${time:-0}s${BASH_COLORS[reset]}"
+    output="${color}${time:-0}s${PS1_COLORS[default]}"
 
     unset PROMPT_TIMER
 }

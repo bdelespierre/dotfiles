@@ -14,14 +14,14 @@ __ps1_jobs () {
         fi
 
         if [[ "$2" == "Running" ]]
-            then color="${BASH_COLORS[green]}"
-            else color="${BASH_COLORS[yellow]}"
+            then color="${PS1_COLORS[green]}"
+            else color="${PS1_COLORS[yellow]}"
         fi
 
-        jobs+=("${BASH_COLORS[dark_gray]}$1${color}$3${BASH_COLORS[reset]}")
+        jobs+=("${PS1_COLORS[dark_gray]}$1${color}$3${PS1_COLORS[default]}")
     done < <(jobs)
 
     if [[ -n "${jobs:-}" ]]; then
-        output="${jobs[@]}${BASH_COLORS[reset]}"
+        output="${jobs[@]}${PS1_COLORS[default]}"
     fi
 }

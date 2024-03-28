@@ -188,18 +188,33 @@ export PATH
 # COLORS
 # -----------------------------------------------------------------------------
 #
-declare -A BASH_COLORS
-BASH_COLORS=(
-    ["reset"]='\[\e[0m\]'        ["red"]='\[\e[31m\]'         ["light_red"]='\[\e[91m\]'
-    ["bold"]='\[\e[1m\]'         ["green"]='\[\e[32m\]'       ["light_green"]='\[\e[92m\]'
-    ["blink"]='\[\e[5m\]'        ["yellow"]='\[\e[33m\]'      ["light_yellow"]='\[\e[93m\]'
-    ["white"]='\[\e[97m\]'       ["blue"]='\[\e[34m\]'        ["light_blue"]='\[\e[94m\]'
-    ["light_gray"]='\[\e[37m\]'  ["magenta"]='\[\e[35m\]'     ["light_magenta"]='\[\e[95m\]'
-    ["dark_gray"]='\[\e[90m\]'   ["cyan"]='\[\e[36m\]'        ["light_cyan"]='\[\e[96m\]'
-    ["black"]='\[\e[30m\]'       ["default"]='\[\e[39m\]'
+declare -A PS1_COLORS
+PS1_COLORS=(
+    # Special
+    ["reset"]='\[\e[0m\]'
+    ["bold"]='\[\e[1m\]'
+    ["blink"]='\[\e[5m\]'
+
+    # Foreground
+    ["default"]='\[\e[39m\]'        ["red"]='\[\e[31m\]'            ["light_red"]='\[\e[91m\]'
+    ["white"]='\[\e[97m\]'          ["green"]='\[\e[32m\]'          ["light_green"]='\[\e[92m\]'
+    ["black"]='\[\e[30m\]'          ["yellow"]='\[\e[33m\]'         ["light_yellow"]='\[\e[93m\]'
+                                    ["blue"]='\[\e[34m\]'           ["light_blue"]='\[\e[94m\]'
+                                    ["magenta"]='\[\e[35m\]'        ["light_magenta"]='\[\e[95m\]'
+                                    ["cyan"]='\[\e[36m\]'           ["light_cyan"]='\[\e[96m\]'
+                                    ["dark_gray"]='\[\e[90m\]'      ["light_gray"]='\[\e[37m\]'
+
+    # Background
+    ["bg_default"]='\[\e[49m\]'     ["bg_red"]='\[\e[41m\]'         ["bg_light_red"]='\[\e[101m\]'
+    ["bg_white"]='\[\e[107m\]'      ["bg_green"]='\[\e[42m\]'       ["bg_light_green"]='\[\e[102m\]'
+    ["bg_black"]='\[\e[40m\]'       ["bg_yellow"]='\[\e[43m\]'      ["bg_light_yellow"]='\[\e[103m\]'
+                                    ["bg_blue"]='\[\e[44m\]'        ["bg_light_blue"]='\[\e[104m\]'
+                                    ["bg_magenta"]='\[\e[45m\]'     ["bg_light_magenta"]='\[\e[105m\]'
+                                    ["bg_cyan"]='\[\e[46m\]'        ["bg_light_cyan"]='\[\e[106m\]'
+                                    ["bg_dark gray"]='\[\e[100m\]'  ["bg_light_gray"]='\[\e[47m\]'
 )
 
-export BASH_COLORS
+export PS1_COLORS
 
 # -----------------------------------------------------------------------------
 # PS1
