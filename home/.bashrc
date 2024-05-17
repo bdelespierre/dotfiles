@@ -156,29 +156,43 @@ fi
 # PATH
 # -----------------------------------------------------------------------------
 #
-# set PATH so it includes current directory
+#
 # and ./vendor/bin (for PHP projects)
 # and ./node_modules/.bin/ (for NPM projects)
-PATH="$PATH:./:./vendor/bin:./node_modules/.bin"
+
+path-add () {
+    if [ -d "$1" ] && [[ ":$PATH:" != *":$1:"* ]]; then
+        PATH="${PATH:+"$PATH:"}$1"
+    fi
+}
+
+# set PATH so it includes current directory
+path-add "./"
+
+# set PATH so it includes current PHP project vendor/bin
+path-add "./vendor/bin"
+
+# set PATH so it includes current Node project node_modules/.bin
+path-add "./node_modules/.bin"
 
 # set PATH so it includes composer's global binaries if it exists
 if [ -d "$HOME/.composer/vendor/bin" ] ; then
-    PATH="$PATH:$HOME/.composer/vendor/bin"
+    path-add "$HOME/.composer/vendor/bin"
 fi
 
 # Composer 2 installs its binbaries into ~/.config
 if [ -d "$HOME/.config/composer/vendor/bin" ] ; then
-    PATH="$PATH:$HOME/.config/composer/vendor/bin"
+    path-add "$HOME/.config/composer/vendor/bin"
 fi
 
 # add RVM (Ruby) to PATH for scripting
 if [ -d "$HOME/.rvm/bin" ]; then
-    PATH="$PATH:$HOME/.rvm/bin"
+    path-add "$HOME/.rvm/bin"
 fi
 
 # add ~/.local/bin to PATH for python modules
 if [ -d "$HOME/.local/bin" ]; then
-    PATH="$PATH:$HOME/.local/bin"
+    path-add "$HOME/.local/bin"
 fi
 
 # path built, export it!
@@ -211,7 +225,7 @@ PS1_COLORS=(
                                     ["bg_blue"]='\[\e[44m\]'        ["bg_light_blue"]='\[\e[104m\]'
                                     ["bg_magenta"]='\[\e[45m\]'     ["bg_light_magenta"]='\[\e[105m\]'
                                     ["bg_cyan"]='\[\e[46m\]'        ["bg_light_cyan"]='\[\e[106m\]'
-                                    ["bg_dark gray"]='\[\e[100m\]'  ["bg_light_gray"]='\[\e[47m\]'
+                                    ["bg_dark_gray"]='\[\e[100m\]'  ["bg_light_gray"]='\[\e[47m\]'
 )
 
 export PS1_COLORS
@@ -236,7 +250,7 @@ if [ -f "$HOME/.local/bin/ps1.sh" ]; then
     # auto-switch layout for VSCode console
     if [[ "$TERM_PROGRAM" = "vscode" ]]
         then ps1 set-theme vscode
-        else ps1 set-theme default
+        else ps1 set-theme simple
     fi
 
     # change hostname on my Klee machine
@@ -257,7 +271,6 @@ fi
 if [ -f "$HOME/.bourne_apparix" ]; then
     . "$HOME/.bourne_apparix" &> /dev/null
 fi
-
 
 # -----------------------------------------------------------------------------
 # POSTGRESQL
@@ -287,6 +300,16 @@ if [ -d "$HOME/.nvm" ]; then
 fi
 
 # -----------------------------------------------------------------------------
+# PNPM
+# -----------------------------------------------------------------------------
+#
+export PNPM_HOME="$HOME/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+
+# -----------------------------------------------------------------------------
 # ALIASES
 # -----------------------------------------------------------------------------
 #
@@ -308,3 +331,6 @@ bind -x '"\eg": default git -c color.status=always status --short'
 bind -x '"\eh": (default history | tail -n 10)'
 bind -x '"\ej": default jobs'
 bind -x '"\el": default ls'
+
+# Gnome
+# gsettings set org.gnome.shell.app-switcher current-workspace-only true

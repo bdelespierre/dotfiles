@@ -130,25 +130,52 @@ phpunit () {
         done
 
         if [[ -z "$CMD" ]]; then
-            echo "PHPUnit executable not found"
+            >&2 echo -e "\e[31mPHPUnit executable not found\e[0m"
             return 1
         fi
 
         >&2 echo "Using $CMD"
-        cd $ORIG_PWD
         $CMD $@
     )
 }
 
+artisan () {
+    (
+        while [[ "$PWD" != "/" ]]; do
+            if [[ -x "$PWD/artisan" ]]; then
+                >&2 echo "$PWD/artisan"
+                /usr/bin/env php "$PWD/artisan" $@
+                break
+            fi
+            cd ..
+        done
+
+        if [[ "$PWD" == "/" ]]; then
+            >&2 echo -e "\e[31mArtisan executable not found\e[0m"
+            return 1
+        fi
+    )
+}
+
+fpm-restart () {
+    (
+        CMD="sudo systemctl restart php$(php-version)-fpm.service"
+        >&2 echo $CMD
+        $CMD
+    )
+}
+
+alias php-version='php -v | row 1 | col 2 | cut -d. -f1-2'
 alias change-php-version='sudo update-alternatives --config php'
 alias check='phpcs --standard=psr12'
 alias fix='phpcbf --standard=psr12'
-alias fpm-restart='sudo systemctl restart php8.0-fpm.service'
 alias fu='php-find-usage'
+#alias fpm-restart='sudo systemctl restart php$(php-version)-fpm.service'
 alias lint='find . -path ./vendor -prune -o -name "*.php" -print0 | xargs -0 -n1 -P8  php -l > /dev/null'
-alias pa='php artisan'
+alias pa='artisan'
 alias pu='phpunit --stop-on-error --stop-on-failure --colors'
 alias puf='pu --filter'
+alias pfu='php-find-usage'
 alias serve='pa serve &>/dev/null &'
 alias tinker='pa tinker --ansi'
 
@@ -183,6 +210,8 @@ py () {
         $CMD $@
     )
 }
+
+alias py-serve='python -m http.server 8080'
 
 # -----------------------------------------------------------------------------
 # DOCKER
@@ -280,5 +309,4 @@ alias favs='history | awk '\''{a[$2]++}END{for(i in a){print a[i] " " i}}'\'' | 
 alias fed='for-each-dir'
 alias lurk-more='history -c && clear && printf "\e[3J"'
 alias path='echo $PATH | sed -e "s/:/\n/g" -e "s|${HOME}|~|g"'
-alias py-serve='python -m http.server 8080'
 alias more='less' # less is more

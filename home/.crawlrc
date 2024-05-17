@@ -3,17 +3,18 @@ remember_name = true
 species += Minotaur
 background += Berserker
 weapon = hand axe
-game_seed = 4rkd3
+game_seed = 6284549309425654252
 
 default_manual_training = true
 autopickup_starting_ammo = true
 tile_show_threat_levels += trivial, easy, tough, nasty
+show_more = false
 
 # include
-autopickup_exceptions += <dart, <shield, <cloak, <javelin, <gloves, <boots, <boomerangs
+autopickup_exceptions += <javelin, <boomerangs, <stone, <wand
 
 # exclude
-autopickup_exceptions += >inaccuracy, >immolation, >uselessness, >noise, >torment, >stone, >wand
+autopickup_exceptions += >inaccuracy, >immolation, >uselessness, >noise, >torment, >throwing net
 
 # travel
 show_travel_trail = true
@@ -25,7 +26,7 @@ explore_stop += artefacts
 # autofight
 autofight_throw = true
 autofight_throw_nomove = true
-autofight_stop = 75
+autofight_stop = 95
 
 # inscriptions
 autoinscribe += of identify:@r1
@@ -39,4 +40,3 @@ char_set = default
 allow_extended_colours = true
 background_colour = black
 foreground_colour = lightgrey
-
